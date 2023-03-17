@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/blankFragment">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.GLAS.LakeDistrictNavigation.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.GLAS.LakeDistrictNavigation.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.GLAS.LakeDistrictNavigation.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/locationFragment"
+        android:name="com.GLAS.LakeDistrictNavigation.LocationFragment"
+        android:label="fragment_location"
+        tools:layout="@layout/fragment_location" >
+        <argument
+            android:name="StartLocation"
+            app:argType="string"
+            android:defaultValue="0.0,0.0" />
+        <action
+            android:id="@+id/action_locationFragment_to_wikiFragment"
+            app:destination="@id/wikiFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/wikiFragment"
+        android:name="com.GLAS.LakeDistrictNavigation.WikiFragment"
+        android:label="WikiFragment" >
+        <action
+            android:id="@+id/action_wikiFragment_to_locationFragment"
+            app:destination="@id/locationFragment"
+            app:enterAnim="@anim/nav_default_pop_enter_anim" >
+            <argument
+                android:name="StartLocation"
+                app:argType="string"
+                android:defaultValue="0.0,0.0"
+                app:popUpToInclusive="true"/>
+        </action>
+        <action
+            android:id="@+id/action_wikiFragment_to_mapBoxFragment"
+            app:destination="@id/mapBoxFragment"
+            app:popUpTo="@id/mobile_navigation">
+            <argument
+                android:name="StartLocation"
+                app:argType="string"
+                android:defaultValue="0.0,0.0"
+                app:popUpToInclusive="true"/>
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/mapBoxFragment"
+        android:name="com.GLAS.LakeDistrictNavigation.ui.MapBoxFragment"
+        android:label="MapBoxFragment" >
+        <argument
+            android:name="StartLocation"
+            app:argType="string"
+            android:defaultValue="0.0,0.0" />
+        <action
+            android:id="@+id/action_mapBoxFragment_to_wikiFragment"
+            app:destination="@id/wikiFragment" />
+        <argument
+            android:name="StartRoute"
+            app:argType="string"
+            android:defaultValue="None"
+            />
+        <action
+            android:id="@+id/action_mapBoxFragment_to_favoratesFragment"
+            app:destination="@id/favoratesFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.GLAS.LakeDistrictNavigation.ui.BlankFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_blankFragment_to_mapBoxFragment"
+            app:destination="@id/mapBoxFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoratesFragment"
+        android:name="com.GLAS.LakeDistrictNavigation.ui.FavoratesFragment"
+        android:label="fragment_favorates"
+        tools:layout="@layout/fragment_favorates" >
+        <action
+            android:id="@+id/action_favoratesFragment_to_mapBoxFragment"
+            app:destination="@id/mapBoxFragment"
+            app:popUpTo="@id/mobile_navigation"
+            >
+            <argument
+                android:name="StartLocation"
+                android:defaultValue="0.0,0.0" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/surveyFragment"
+        android:name="com.GLAS.LakeDistrictNavigation.SurveyFragment"
+        android:label="fragment_survey"
+        tools:layout="@layout/fragment_survey" />
+    <fragment
+        android:id="@+id/gamificationFragment"
+        android:name="com.GLAS.LakeDistrictNavigation.ui.GamificationFragment"
+        android:label="fragment_gamification"
+        tools:layout="@layout/fragment_gamification" />
+</navigation>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Keswick to Grasmere, Bus, 555</name>
+        <desc></desc>
+        <bounds minlat="54.4592280" minlon="-3.1417240" maxlat="54.6049030" maxlon="-3.0204300"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.6014740" lon="-3.1417240" type="start"/>
+            <os:point lat="54.4592280" lon="-3.0249920" type="end"/>
+            <os:activity>OTHER</os:activity>
+            <os:difficulty>UNKNOWN</os:difficulty>
+            <os:paths/>
+            <os:distance>20479.8716967</os:distance>
+            <os:elevation_ascent>357.9700000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.6014740" lon="-3.1417240"/>
+    <wpt lat="54.6021180" lon="-3.1402910"/>
+    <wpt lat="54.6016080" lon="-3.1387240"/>
+    <wpt lat="54.6020210" lon="-3.1374740"/>
+    <wpt lat="54.6011330" lon="-3.1344890"/>
+    <wpt lat="54.6019170" lon="-3.1299910"/>
+    <wpt lat="54.6029320" lon="-3.1269860"/>
+    <wpt lat="54.6042800" lon="-3.1243600"/>
+    <wpt lat="54.6049030" lon="-3.1222700"/>
+    <wpt lat="54.6042340" lon="-3.1187080"/>
+    <wpt lat="54.6037270" lon="-3.1168180"/>
+    <wpt lat="54.6002940" lon="-3.1177600"/>
+    <wpt lat="54.5979120" lon="-3.1179840"/>
+    <wpt lat="54.5969160" lon="-3.1106590"/>
+    <wpt lat="54.5926290" lon="-3.1007910"/>
+    <wpt lat="54.5887310" lon="-3.0991470"/>
+    <wpt lat="54.5858720" lon="-3.0925680"/>
+    <wpt lat="54.5820600" lon="-3.0880090"/>
+    <wpt lat="54.5755610" lon="-3.0841210"/>
+    <wpt lat="54.5745640" lon="-3.0756000"/>
+    <wpt lat="54.5719210" lon="-3.0672270"/>
+    <wpt lat="54.5659410" lon="-3.0596770"/>
+    <wpt lat="54.5608630" lon="-3.0571440"/>
+    <wpt lat="54.5556180" lon="-3.0578170"/>
+    <wpt lat="54.5508060" lon="-3.0575180"/>
+    <wpt lat="54.5462460" lon="-3.0589710"/>
+    <wpt lat="54.5403920" lon="-3.0599430"/>
+    <wpt lat="54.5357330" lon="-3.0577270"/>
+    <wpt lat="54.5299210" lon="-3.0522700"/>
+    <wpt lat="54.5232410" lon="-3.0488320"/>
+    <wpt lat="54.5157340" lon="-3.0453180"/>
+    <wpt lat="54.5103970" lon="-3.0446450"/>
+    <wpt lat="54.5037560" lon="-3.0434490"/>
+    <wpt lat="54.4980650" lon="-3.0410620"/>
+    <wpt lat="54.4938100" lon="-3.0380720"/>
+    <wpt lat="54.4881220" lon="-3.0347830"/>
+    <wpt lat="54.4800020" lon="-3.0294750"/>
+    <wpt lat="54.4714010" lon="-3.0256630"/>
+    <wpt lat="54.4664470" lon="-3.0219510"/>
+    <wpt lat="54.4651900" lon="-3.0204300"/>
+    <wpt lat="54.4643730" lon="-3.0219280"/>
+    <wpt lat="54.4631460" lon="-3.0227220"/>
+    <wpt lat="54.4606930" lon="-3.0231540"/>
+    <wpt lat="54.4592280" lon="-3.0249920"/>
+    <trk>
+        <name>Keswick to Grasmere, Bus, 555</name>
+        <trkseg>
+            <trkpt lat="54.6014740" lon="-3.1417240"/>
+            <trkpt lat="54.6017380" lon="-3.1410180"/>
+            <trkpt lat="54.6021180" lon="-3.1402910"/>
+            <trkpt lat="54.6016080" lon="-3.1387240"/>
+            <trkpt lat="54.6020210" lon="-3.1374740"/>
+            <trkpt lat="54.6011330" lon="-3.1344890"/>
+            <trkpt lat="54.6019170" lon="-3.1299910"/>
+            <trkpt lat="54.6029320" lon="-3.1269860"/>
+            <trkpt lat="54.6042800" lon="-3.1243600"/>
+            <trkpt lat="54.6049030" lon="-3.1222700"/>
+            <trkpt lat="54.6042340" lon="-3.1187080"/>
+            <trkpt lat="54.6037270" lon="-3.1168180"/>
+            <trkpt lat="54.6002940" lon="-3.1177600"/>
+            <trkpt lat="54.5979120" lon="-3.1179840"/>
+            <trkpt lat="54.5969160" lon="-3.1106590"/>
+            <trkpt lat="54.5926290" lon="-3.1007910"/>
+            <trkpt lat="54.5887310" lon="-3.0991470"/>
+            <trkpt lat="54.5858720" lon="-3.0925680"/>
+            <trkpt lat="54.5820600" lon="-3.0880090"/>
+            <trkpt lat="54.5755610" lon="-3.0841210"/>
+            <trkpt lat="54.5745640" lon="-3.0756000"/>
+            <trkpt lat="54.5719210" lon="-3.0672270"/>
+            <trkpt lat="54.5659410" lon="-3.0596770"/>
+            <trkpt lat="54.5608630" lon="-3.0571440"/>
+            <trkpt lat="54.5556180" lon="-3.0578170"/>
+            <trkpt lat="54.5508060" lon="-3.0575180"/>
+            <trkpt lat="54.5462460" lon="-3.0589710"/>
+            <trkpt lat="54.5403920" lon="-3.0599430"/>
+            <trkpt lat="54.5357330" lon="-3.0577270"/>
+            <trkpt lat="54.5299210" lon="-3.0522700"/>
+            <trkpt lat="54.5232410" lon="-3.0488320"/>
+            <trkpt lat="54.5157340" lon="-3.0453180"/>
+            <trkpt lat="54.5103970" lon="-3.0446450"/>
+            <trkpt lat="54.5037560" lon="-3.0434490"/>
+            <trkpt lat="54.4980650" lon="-3.0410620"/>
+            <trkpt lat="54.4938100" lon="-3.0380720"/>
+            <trkpt lat="54.4881220" lon="-3.0347830"/>
+            <trkpt lat="54.4859510" lon="-3.0332130"/>
+            <trkpt lat="54.4800020" lon="-3.0294750"/>
+            <trkpt lat="54.4749630" lon="-3.0273070"/>
+            <trkpt lat="54.4714010" lon="-3.0256630"/>
+            <trkpt lat="54.4664470" lon="-3.0219510"/>
+            <trkpt lat="54.4651900" lon="-3.0204300"/>
+            <trkpt lat="54.4643730" lon="-3.0219280"/>
+            <trkpt lat="54.4631460" lon="-3.0227220"/>
+            <trkpt lat="54.4606930" lon="-3.0231540"/>
+            <trkpt lat="54.4592280" lon="-3.0249920"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

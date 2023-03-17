@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Far Sawrey to Lakeside, Walk</name>
+        <desc></desc>
+        <bounds minlat="54.2788110" minlon="-2.9656880" maxlat="54.3503710" maxlon="-2.9435400"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.3503710" lon="-2.9568060" type="start"/>
+            <os:point lat="54.2788110" lon="-2.9569020" type="end"/>
+            <os:activity>ON_FOOT_WALKING</os:activity>
+            <os:difficulty>UNKNOWN</os:difficulty>
+            <os:paths/>
+            <os:distance>10239.9209092</os:distance>
+            <os:elevation_ascent>174.3200000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.3503710" lon="-2.9568060"/>
+    <wpt lat="54.3497230" lon="-2.9539290"/>
+    <wpt lat="54.3482170" lon="-2.9501140"/>
+    <wpt lat="54.3487290" lon="-2.9456930"/>
+    <wpt lat="54.3493940" lon="-2.9439160"/>
+    <wpt lat="54.3475330" lon="-2.9435400"/>
+    <wpt lat="54.3461690" lon="-2.9454780"/>
+    <wpt lat="54.3458990" lon="-2.9476600"/>
+    <wpt lat="54.3444000" lon="-2.9473560"/>
+    <wpt lat="54.3429890" lon="-2.9483820"/>
+    <wpt lat="54.3409930" lon="-2.9483960"/>
+    <wpt lat="54.3402600" lon="-2.9495090"/>
+    <wpt lat="54.3394630" lon="-2.9490850"/>
+    <wpt lat="54.3376100" lon="-2.9498510"/>
+    <wpt lat="54.3359420" lon="-2.9493740"/>
+    <wpt lat="54.3343920" lon="-2.9480740"/>
+    <wpt lat="54.3340300" lon="-2.9472210"/>
+    <wpt lat="54.3321510" lon="-2.9484640"/>
+    <wpt lat="54.3310310" lon="-2.9484780"/>
+    <wpt lat="54.3304320" lon="-2.9464270"/>
+    <wpt lat="54.3293710" lon="-2.9461950"/>
+    <wpt lat="54.3278800" lon="-2.9501110"/>
+    <wpt lat="54.3273030" lon="-2.9510660"/>
+    <wpt lat="54.3272100" lon="-2.9522360"/>
+    <wpt lat="54.3257190" lon="-2.9536950"/>
+    <wpt lat="54.3239070" lon="-2.9549380"/>
+    <wpt lat="54.3207640" lon="-2.9576540"/>
+    <wpt lat="54.3188990" lon="-2.9600960"/>
+    <wpt lat="54.3174740" lon="-2.9634020"/>
+    <wpt lat="54.3169890" lon="-2.9621520"/>
+    <wpt lat="54.3157650" lon="-2.9622760"/>
+    <wpt lat="54.3131910" lon="-2.9617050"/>
+    <wpt lat="54.3125870" lon="-2.9603470"/>
+    <wpt lat="54.3119300" lon="-2.9597300"/>
+    <wpt lat="54.3109130" lon="-2.9606250"/>
+    <wpt lat="54.3099340" lon="-2.9609360"/>
+    <wpt lat="54.3101140" lon="-2.9602880"/>
+    <wpt lat="54.3083590" lon="-2.9596090"/>
+    <wpt lat="54.3073500" lon="-2.9604580"/>
+    <wpt lat="54.3058020" lon="-2.9597480"/>
+    <wpt lat="54.3048300" lon="-2.9609670"/>
+    <wpt lat="54.3030020" lon="-2.9606280"/>
+    <wpt lat="54.3017990" lon="-2.9633060"/>
+    <wpt lat="54.3009440" lon="-2.9639850"/>
+    <wpt lat="54.2987650" lon="-2.9640460"/>
+    <wpt lat="54.2963250" lon="-2.9633830"/>
+    <wpt lat="54.2919070" lon="-2.9649450"/>
+    <wpt lat="54.2891870" lon="-2.9650550"/>
+    <wpt lat="54.2865030" lon="-2.9656880"/>
+    <wpt lat="54.2850440" lon="-2.9649620"/>
+    <wpt lat="54.2847200" lon="-2.9632340"/>
+    <wpt lat="54.2816550" lon="-2.9620260"/>
+    <wpt lat="54.2802050" lon="-2.9600820"/>
+    <wpt lat="54.2798800" lon="-2.9579840"/>
+    <wpt lat="54.2788110" lon="-2.9569020"/>
+    <trk>
+        <name>Far Sawrey to Lakeside, Walk</name>
+        <trkseg>
+            <trkpt lat="54.3503710" lon="-2.9568060"/>
+            <trkpt lat="54.3497230" lon="-2.9539290"/>
+            <trkpt lat="54.3490280" lon="-2.9519920"/>
+            <trkpt lat="54.3482170" lon="-2.9501140"/>
+            <trkpt lat="54.3484090" lon="-2.9481630"/>
+            <trkpt lat="54.3487290" lon="-2.9456930"/>
+            <trkpt lat="54.3493940" lon="-2.9439160"/>
+            <trkpt lat="54.3475330" lon="-2.9435400"/>
+            <trkpt lat="54.3466910" lon="-2.9445660"/>
+            <trkpt lat="54.3461690" lon="-2.9454780"/>
+            <trkpt lat="54.3458990" lon="-2.9476600"/>
+            <trkpt lat="54.3444000" lon="-2.9473560"/>
+            <trkpt lat="54.3429890" lon="-2.9483820"/>
+            <trkpt lat="54.3409930" lon="-2.9483960"/>
+            <trkpt lat="54.3402600" lon="-2.9495090"/>
+            <trkpt lat="54.3394630" lon="-2.9490850"/>
+            <trkpt lat="54.3376100" lon="-2.9498510"/>
+            <trkpt lat="54.3359420" lon="-2.9493740"/>
+            <trkpt lat="54.3343920" lon="-2.9480740"/>
+            <trkpt lat="54.3340300" lon="-2.9472210"/>
+            <trkpt lat="54.3321510" lon="-2.9484640"/>
+            <trkpt lat="54.3310310" lon="-2.9484780"/>
+            <trkpt lat="54.3304320" lon="-2.9464270"/>
+            <trkpt lat="54.3293710" lon="-2.9461950"/>
+            <trkpt lat="54.3288650" lon="-2.9476260"/>
+            <trkpt lat="54.3278800" lon="-2.9501110"/>
+            <trkpt lat="54.3273030" lon="-2.9510660"/>
+            <trkpt lat="54.3272100" lon="-2.9522360"/>
+            <trkpt lat="54.3257190" lon="-2.9536950"/>
+            <trkpt lat="54.3239070" lon="-2.9549380"/>
+            <trkpt lat="54.3207640" lon="-2.9576540"/>
+            <trkpt lat="54.3188990" lon="-2.9600960"/>
+            <trkpt lat="54.3174740" lon="-2.9634020"/>
+            <trkpt lat="54.3169890" lon="-2.9621520"/>
+            <trkpt lat="54.3157650" lon="-2.9622760"/>
+            <trkpt lat="54.3148560" lon="-2.9619210"/>
+            <trkpt lat="54.3131910" lon="-2.9617050"/>
+            <trkpt lat="54.3125870" lon="-2.9603470"/>
+            <trkpt lat="54.3119300" lon="-2.9597300"/>
+            <trkpt lat="54.3109130" lon="-2.9606250"/>
+            <trkpt lat="54.3099340" lon="-2.9609360"/>
+            <trkpt lat="54.3101140" lon="-2.9602880"/>
+            <trkpt lat="54.3083590" lon="-2.9596090"/>
+            <trkpt lat="54.3073500" lon="-2.9604580"/>
+            <trkpt lat="54.3058020" lon="-2.9597480"/>
+            <trkpt lat="54.3048300" lon="-2.9609670"/>
+            <trkpt lat="54.3030020" lon="-2.9606280"/>
+            <trkpt lat="54.3017990" lon="-2.9633060"/>
+            <trkpt lat="54.3009440" lon="-2.9639850"/>
+            <trkpt lat="54.2987650" lon="-2.9640460"/>
+            <trkpt lat="54.2963250" lon="-2.9633830"/>
+            <trkpt lat="54.2946590" lon="-2.9640160"/>
+            <trkpt lat="54.2919070" lon="-2.9649450"/>
+            <trkpt lat="54.2891870" lon="-2.9650550"/>
+            <trkpt lat="54.2865030" lon="-2.9656880"/>
+            <trkpt lat="54.2850440" lon="-2.9649620"/>
+            <trkpt lat="54.2847200" lon="-2.9632340"/>
+            <trkpt lat="54.2816550" lon="-2.9620260"/>
+            <trkpt lat="54.2802050" lon="-2.9600820"/>
+            <trkpt lat="54.2798800" lon="-2.9579840"/>
+            <trkpt lat="54.2788110" lon="-2.9569020"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

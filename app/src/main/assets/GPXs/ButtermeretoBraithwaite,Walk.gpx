@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Buttermere to Braithwaite, Walk</name>
+        <desc></desc>
+        <bounds minlat="54.5413070" minlon="-3.2766120" maxlat="54.6023990" maxlon="-3.1910400"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.5413070" lon="-3.2766120" type="start"/>
+            <os:point lat="54.6023990" lon="-3.1910400" type="end"/>
+            <os:activity>ON_FOOT_WALKING</os:activity>
+            <os:difficulty>DIFFICULT</os:difficulty>
+            <os:paths/>
+            <os:distance>9876.8105668</os:distance>
+            <os:elevation_ascent>559.2100000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.5413070" lon="-3.2766120"/>
+    <wpt lat="54.5422500" lon="-3.2760460"/>
+    <wpt lat="54.5428360" lon="-3.2739220"/>
+    <wpt lat="54.5448960" lon="-3.2727560"/>
+    <wpt lat="54.5461680" lon="-3.2679510"/>
+    <wpt lat="54.5469660" lon="-3.2638250"/>
+    <wpt lat="54.5491980" lon="-3.2596990"/>
+    <wpt lat="54.5502240" lon="-3.2592920"/>
+    <wpt lat="54.5522130" lon="-3.2577070"/>
+    <wpt lat="54.5529900" lon="-3.2601270"/>
+    <wpt lat="54.5550200" lon="-3.2578120"/>
+    <wpt lat="54.5573720" lon="-3.2563500"/>
+    <wpt lat="54.5577350" lon="-3.2572030"/>
+    <wpt lat="54.5578590" lon="-3.2587950"/>
+    <wpt lat="54.5589640" lon="-3.2560880"/>
+    <wpt lat="54.5612820" lon="-3.2523680"/>
+    <wpt lat="54.5651670" lon="-3.2452000"/>
+    <wpt lat="54.5663460" lon="-3.2447890"/>
+    <wpt lat="54.5665250" lon="-3.2393430"/>
+    <wpt lat="54.5681810" lon="-3.2358700"/>
+    <wpt lat="54.5707660" lon="-3.2342880"/>
+    <wpt lat="54.5732470" lon="-3.2321950"/>
+    <wpt lat="54.5770110" lon="-3.2295030"/>
+    <wpt lat="54.5797140" lon="-3.2229890"/>
+    <wpt lat="54.5811910" lon="-3.2174410"/>
+    <wpt lat="54.5831320" lon="-3.2139680"/>
+    <wpt lat="54.5838850" lon="-3.2094330"/>
+    <wpt lat="54.5843490" lon="-3.2050560"/>
+    <wpt lat="54.5881270" lon="-3.2039740"/>
+    <wpt lat="54.5902430" lon="-3.2027560"/>
+    <wpt lat="54.5941450" lon="-3.1970580"/>
+    <wpt lat="54.5973860" lon="-3.1952710"/>
+    <wpt lat="54.6006130" lon="-3.1928100"/>
+    <wpt lat="54.6013590" lon="-3.1913100"/>
+    <wpt lat="54.6023990" lon="-3.1910400"/>
+    <trk>
+        <name>Buttermere to Braithwaite, Walk</name>
+        <trkseg>
+            <trkpt lat="54.5413070" lon="-3.2766120"/>
+            <trkpt lat="54.5422500" lon="-3.2760460"/>
+            <trkpt lat="54.5428360" lon="-3.2739220"/>
+            <trkpt lat="54.5448960" lon="-3.2727560"/>
+            <trkpt lat="54.5461680" lon="-3.2679510"/>
+            <trkpt lat="54.5469660" lon="-3.2638250"/>
+            <trkpt lat="54.5491980" lon="-3.2596990"/>
+            <trkpt lat="54.5502240" lon="-3.2592920"/>
+            <trkpt lat="54.5522130" lon="-3.2577070"/>
+            <trkpt lat="54.5529900" lon="-3.2601270"/>
+            <trkpt lat="54.5550200" lon="-3.2578120"/>
+            <trkpt lat="54.5573720" lon="-3.2563500"/>
+            <trkpt lat="54.5577350" lon="-3.2572030"/>
+            <trkpt lat="54.5578590" lon="-3.2587950"/>
+            <trkpt lat="54.5589640" lon="-3.2560880"/>
+            <trkpt lat="54.5612820" lon="-3.2523680"/>
+            <trkpt lat="54.5639270" lon="-3.2476420"/>
+            <trkpt lat="54.5651670" lon="-3.2452000"/>
+            <trkpt lat="54.5663460" lon="-3.2447890"/>
+            <trkpt lat="54.5665250" lon="-3.2393430"/>
+            <trkpt lat="54.5681810" lon="-3.2358700"/>
+            <trkpt lat="54.5707660" lon="-3.2342880"/>
+            <trkpt lat="54.5732470" lon="-3.2321950"/>
+            <trkpt lat="54.5770110" lon="-3.2295030"/>
+            <trkpt lat="54.5797140" lon="-3.2229890"/>
+            <trkpt lat="54.5811910" lon="-3.2174410"/>
+            <trkpt lat="54.5831320" lon="-3.2139680"/>
+            <trkpt lat="54.5838850" lon="-3.2094330"/>
+            <trkpt lat="54.5843490" lon="-3.2050560"/>
+            <trkpt lat="54.5881270" lon="-3.2039740"/>
+            <trkpt lat="54.5902430" lon="-3.2027560"/>
+            <trkpt lat="54.5925540" lon="-3.1995440"/>
+            <trkpt lat="54.5941450" lon="-3.1970580"/>
+            <trkpt lat="54.5973860" lon="-3.1952710"/>
+            <trkpt lat="54.6006130" lon="-3.1928100"/>
+            <trkpt lat="54.6013590" lon="-3.1913100"/>
+            <trkpt lat="54.6023990" lon="-3.1910400"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Grasmere to Patterdale, Coast to Coast path</name>
+        <desc></desc>
+        <bounds minlat="54.4592950" minlon="-3.0312800" maxlat="54.5342210" maxlon="-2.9333930"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.4592950" lon="-3.0251510" type="start"/>
+            <os:point lat="54.5342210" lon="-2.9333930" type="end"/>
+            <os:activity>ON_FOOT_WALKING</os:activity>
+            <os:difficulty>DIFFICULT</os:difficulty>
+            <os:paths/>
+            <os:distance>12373.0289911</os:distance>
+            <os:elevation_ascent>576.6300000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.4592950" lon="-3.0251510"/>
+    <wpt lat="54.4597340" lon="-3.0242750"/>
+    <wpt lat="54.4607460" lon="-3.0256750"/>
+    <wpt lat="54.4616590" lon="-3.0263030"/>
+    <wpt lat="54.4634920" lon="-3.0299880"/>
+    <wpt lat="54.4638120" lon="-3.0312230"/>
+    <wpt lat="54.4642100" lon="-3.0306530"/>
+    <wpt lat="54.4670490" lon="-3.0312800"/>
+    <wpt lat="54.4686610" lon="-3.0310710"/>
+    <wpt lat="54.4708920" lon="-3.0297980"/>
+    <wpt lat="54.4727480" lon="-3.0296840"/>
+    <wpt lat="54.4733570" lon="-3.0289510"/>
+    <wpt lat="54.4731580" lon="-3.0284000"/>
+    <wpt lat="54.4735560" lon="-3.0262520"/>
+    <wpt lat="54.4748480" lon="-3.0247510"/>
+    <wpt lat="54.4759410" lon="-3.0239720"/>
+    <wpt lat="54.4773000" lon="-3.0237630"/>
+    <wpt lat="54.4778850" lon="-3.0225460"/>
+    <wpt lat="54.4794310" lon="-3.0207600"/>
+    <wpt lat="54.4833980" lon="-3.0193900"/>
+    <wpt lat="54.4878620" lon="-3.0167440"/>
+    <wpt lat="54.4890100" lon="-3.0162920"/>
+    <wpt lat="54.4896930" lon="-3.0153420"/>
+    <wpt lat="54.4898590" lon="-3.0128850"/>
+    <wpt lat="54.4902790" lon="-3.0101710"/>
+    <wpt lat="54.4916890" lon="-3.0075770"/>
+    <wpt lat="54.4928100" lon="-3.0064600"/>
+    <wpt lat="54.4971850" lon="-3.0060990"/>
+    <wpt lat="54.5006160" lon="-3.0026240"/>
+    <wpt lat="54.5021680" lon="-3.0024190"/>
+    <wpt lat="54.5045090" lon="-2.9995630"/>
+    <wpt lat="54.5062280" lon="-2.9996440"/>
+    <wpt lat="54.5079150" lon="-2.9985670"/>
+    <wpt lat="54.5130930" lon="-2.9971620"/>
+    <wpt lat="54.5147760" lon="-2.9938700"/>
+    <wpt lat="54.5155540" lon="-2.9915320"/>
+    <wpt lat="54.5171670" lon="-2.9894600"/>
+    <wpt lat="54.5188300" lon="-2.9879250"/>
+    <wpt lat="54.5205970" lon="-2.9843690"/>
+    <wpt lat="54.5221860" lon="-2.9802250"/>
+    <wpt lat="54.5242180" lon="-2.9759710"/>
+    <wpt lat="54.5260880" lon="-2.9735150"/>
+    <wpt lat="54.5286120" lon="-2.9668640"/>
+    <wpt lat="54.5288350" lon="-2.9656870"/>
+    <wpt lat="54.5299040" lon="-2.9623610"/>
+    <wpt lat="54.5313730" lon="-2.9592660"/>
+    <wpt lat="54.5325910" lon="-2.9554030"/>
+    <wpt lat="54.5338560" lon="-2.9496470"/>
+    <wpt lat="54.5329930" lon="-2.9490200"/>
+    <wpt lat="54.5315920" lon="-2.9464420"/>
+    <wpt lat="54.5309680" lon="-2.9445350"/>
+    <wpt lat="54.5331700" lon="-2.9400490"/>
+    <wpt lat="54.5334880" lon="-2.9368630"/>
+    <wpt lat="54.5337550" lon="-2.9361850"/>
+    <wpt lat="54.5337500" lon="-2.9335660"/>
+    <wpt lat="54.5342210" lon="-2.9333930"/>
+    <trk>
+        <name>Grasmere to Patterdale, Coast to Coast path</name>
+        <trkseg>
+            <trkpt lat="54.4592950" lon="-3.0251510"/>
+            <trkpt lat="54.4597340" lon="-3.0242750"/>
+            <trkpt lat="54.4607460" lon="-3.0256750"/>
+            <trkpt lat="54.4616590" lon="-3.0263030"/>
+            <trkpt lat="54.4621280" lon="-3.0271110"/>
+            <trkpt lat="54.4634920" lon="-3.0299880"/>
+            <trkpt lat="54.4638120" lon="-3.0312230"/>
+            <trkpt lat="54.4642100" lon="-3.0306530"/>
+            <trkpt lat="54.4658560" lon="-3.0309000"/>
+            <trkpt lat="54.4670490" lon="-3.0312800"/>
+            <trkpt lat="54.4686610" lon="-3.0310710"/>
+            <trkpt lat="54.4708920" lon="-3.0297980"/>
+            <trkpt lat="54.4727480" lon="-3.0296840"/>
+            <trkpt lat="54.4733570" lon="-3.0289510"/>
+            <trkpt lat="54.4731580" lon="-3.0284000"/>
+            <trkpt lat="54.4735560" lon="-3.0262520"/>
+            <trkpt lat="54.4748480" lon="-3.0247510"/>
+            <trkpt lat="54.4759410" lon="-3.0239720"/>
+            <trkpt lat="54.4773000" lon="-3.0237630"/>
+            <trkpt lat="54.4778850" lon="-3.0225460"/>
+            <trkpt lat="54.4794310" lon="-3.0207600"/>
+            <trkpt lat="54.4813840" lon="-3.0201140"/>
+            <trkpt lat="54.4833980" lon="-3.0193900"/>
+            <trkpt lat="54.4856290" lon="-3.0181320"/>
+            <trkpt lat="54.4878620" lon="-3.0167440"/>
+            <trkpt lat="54.4890100" lon="-3.0162920"/>
+            <trkpt lat="54.4896930" lon="-3.0153420"/>
+            <trkpt lat="54.4898590" lon="-3.0128850"/>
+            <trkpt lat="54.4902790" lon="-3.0101710"/>
+            <trkpt lat="54.4916890" lon="-3.0075770"/>
+            <trkpt lat="54.4928100" lon="-3.0064600"/>
+            <trkpt lat="54.4940790" lon="-3.0064300"/>
+            <trkpt lat="54.4954280" lon="-3.0061740"/>
+            <trkpt lat="54.4971850" lon="-3.0060990"/>
+            <trkpt lat="54.4996830" lon="-3.0034610"/>
+            <trkpt lat="54.5006160" lon="-3.0026240"/>
+            <trkpt lat="54.5021680" lon="-3.0024190"/>
+            <trkpt lat="54.5037130" lon="-3.0005780"/>
+            <trkpt lat="54.5045090" lon="-2.9995630"/>
+            <trkpt lat="54.5062280" lon="-2.9996440"/>
+            <trkpt lat="54.5079150" lon="-2.9985670"/>
+            <trkpt lat="54.5096090" lon="-2.9980210"/>
+            <trkpt lat="54.5117950" lon="-2.9974890"/>
+            <trkpt lat="54.5130930" lon="-2.9971620"/>
+            <trkpt lat="54.5147760" lon="-2.9938700"/>
+            <trkpt lat="54.5155540" lon="-2.9915320"/>
+            <trkpt lat="54.5171670" lon="-2.9894600"/>
+            <trkpt lat="54.5188300" lon="-2.9879250"/>
+            <trkpt lat="54.5205970" lon="-2.9843690"/>
+            <trkpt lat="54.5221860" lon="-2.9802250"/>
+            <trkpt lat="54.5242180" lon="-2.9759710"/>
+            <trkpt lat="54.5260880" lon="-2.9735150"/>
+            <trkpt lat="54.5273500" lon="-2.9699590"/>
+            <trkpt lat="54.5286120" lon="-2.9668640"/>
+            <trkpt lat="54.5288350" lon="-2.9656870"/>
+            <trkpt lat="54.5299040" lon="-2.9623610"/>
+            <trkpt lat="54.5313730" lon="-2.9592660"/>
+            <trkpt lat="54.5325910" lon="-2.9554030"/>
+            <trkpt lat="54.5338560" lon="-2.9496470"/>
+            <trkpt lat="54.5329930" lon="-2.9490200"/>
+            <trkpt lat="54.5315920" lon="-2.9464420"/>
+            <trkpt lat="54.5309680" lon="-2.9445350"/>
+            <trkpt lat="54.5316980" lon="-2.9432150"/>
+            <trkpt lat="54.5323220" lon="-2.9418150"/>
+            <trkpt lat="54.5327110" lon="-2.9410640"/>
+            <trkpt lat="54.5331700" lon="-2.9400490"/>
+            <trkpt lat="54.5334880" lon="-2.9368630"/>
+            <trkpt lat="54.5337550" lon="-2.9361850"/>
+            <trkpt lat="54.5337610" lon="-2.9343770"/>
+            <trkpt lat="54.5337500" lon="-2.9335660"/>
+            <trkpt lat="54.5342210" lon="-2.9333930"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

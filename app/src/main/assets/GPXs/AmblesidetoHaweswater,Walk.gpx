@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Ambleside to Haweswater, Walk</name>
+        <desc></desc>
+        <bounds minlat="54.4081070" minlon="-2.9630850" maxlat="54.4893590" maxlon="-2.7979970"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.4325660" lon="-2.9630850" type="start"/>
+            <os:point lat="54.4893590" lon="-2.8198010" type="end"/>
+            <os:activity>ON_FOOT_WALKING</os:activity>
+            <os:difficulty>DIFFICULT</os:difficulty>
+            <os:paths/>
+            <os:distance>21544.1709963</os:distance>
+            <os:elevation_ascent>1089.5000000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.4325660" lon="-2.9630850"/>
+    <wpt lat="54.4320590" lon="-2.9618690"/>
+    <wpt lat="54.4297340" lon="-2.9623310"/>
+    <wpt lat="54.4284190" lon="-2.9615310"/>
+    <wpt lat="54.4243770" lon="-2.9605320"/>
+    <wpt lat="54.4237270" lon="-2.9582380"/>
+    <wpt lat="54.4215440" lon="-2.9578220"/>
+    <wpt lat="54.4196730" lon="-2.9560090"/>
+    <wpt lat="54.4193580" lon="-2.9540250"/>
+    <wpt lat="54.4185870" lon="-2.9523610"/>
+    <wpt lat="54.4175570" lon="-2.9491680"/>
+    <wpt lat="54.4175460" lon="-2.9406300"/>
+    <wpt lat="54.4171470" lon="-2.9378540"/>
+    <wpt lat="54.4118570" lon="-2.9348470"/>
+    <wpt lat="54.4088600" lon="-2.9296950"/>
+    <wpt lat="54.4081070" lon="-2.9223300"/>
+    <wpt lat="54.4094940" lon="-2.9172810"/>
+    <wpt lat="54.4120040" lon="-2.9151420"/>
+    <wpt lat="54.4158190" lon="-2.9144250"/>
+    <wpt lat="54.4156680" lon="-2.9101040"/>
+    <wpt lat="54.4164530" lon="-2.9066780"/>
+    <wpt lat="54.4153690" lon="-2.9074680"/>
+    <wpt lat="54.4134440" lon="-2.9065620"/>
+    <wpt lat="54.4150400" lon="-2.9020330"/>
+    <wpt lat="54.4176390" lon="-2.8978520"/>
+    <wpt lat="54.4204820" lon="-2.8940890"/>
+    <wpt lat="54.4241140" lon="-2.8904400"/>
+    <wpt lat="54.4277440" lon="-2.8853420"/>
+    <wpt lat="54.4322660" lon="-2.8726950"/>
+    <wpt lat="54.4315530" lon="-2.8690200"/>
+    <wpt lat="54.4336040" lon="-2.8617060"/>
+    <wpt lat="54.4325250" lon="-2.8542740"/>
+    <wpt lat="54.4330190" lon="-2.8437250"/>
+    <wpt lat="54.4321150" lon="-2.8411700"/>
+    <wpt lat="54.4314410" lon="-2.8406350"/>
+    <wpt lat="54.4292070" lon="-2.8397320"/>
+    <wpt lat="54.4300930" lon="-2.8381510"/>
+    <wpt lat="54.4331420" lon="-2.8348850"/>
+    <wpt lat="54.4341350" lon="-2.8341470"/>
+    <wpt lat="54.4348530" lon="-2.8298620"/>
+    <wpt lat="54.4373720" lon="-2.8276090"/>
+    <wpt lat="54.4377210" lon="-2.8254170"/>
+    <wpt lat="54.4360650" lon="-2.8227330"/>
+    <wpt lat="54.4373570" lon="-2.8127720"/>
+    <wpt lat="54.4369680" lon="-2.8062100"/>
+    <wpt lat="54.4380940" lon="-2.8011830"/>
+    <wpt lat="54.4426780" lon="-2.8005460"/>
+    <wpt lat="54.4438720" lon="-2.7991540"/>
+    <wpt lat="54.4439820" lon="-2.7979970"/>
+    <wpt lat="54.4480990" lon="-2.7980920"/>
+    <wpt lat="54.4529280" lon="-2.8002160"/>
+    <wpt lat="54.4565550" lon="-2.8022660"/>
+    <wpt lat="54.4602350" lon="-2.8064410"/>
+    <wpt lat="54.4640350" lon="-2.8074090"/>
+    <wpt lat="54.4676020" lon="-2.8057930"/>
+    <wpt lat="54.4708800" lon="-2.8087430"/>
+    <wpt lat="54.4749540" lon="-2.8109200"/>
+    <wpt lat="54.4780320" lon="-2.8138580"/>
+    <wpt lat="54.4826160" lon="-2.8193170"/>
+    <wpt lat="54.4840600" lon="-2.8223870"/>
+    <wpt lat="54.4880810" lon="-2.8238580"/>
+    <wpt lat="54.4893590" lon="-2.8198010"/>
+    <trk>
+        <name>Ambleside to Haweswater, Walk</name>
+        <trkseg>
+            <trkpt lat="54.4325660" lon="-2.9630850"/>
+            <trkpt lat="54.4320590" lon="-2.9618690"/>
+            <trkpt lat="54.4297340" lon="-2.9623310"/>
+            <trkpt lat="54.4284190" lon="-2.9615310"/>
+            <trkpt lat="54.4260050" lon="-2.9608700"/>
+            <trkpt lat="54.4243770" lon="-2.9605320"/>
+            <trkpt lat="54.4237270" lon="-2.9582380"/>
+            <trkpt lat="54.4215440" lon="-2.9578220"/>
+            <trkpt lat="54.4196730" lon="-2.9560090"/>
+            <trkpt lat="54.4193580" lon="-2.9540250"/>
+            <trkpt lat="54.4185870" lon="-2.9523610"/>
+            <trkpt lat="54.4175570" lon="-2.9491680"/>
+            <trkpt lat="54.4175620" lon="-2.9441170"/>
+            <trkpt lat="54.4175460" lon="-2.9406300"/>
+            <trkpt lat="54.4171470" lon="-2.9378540"/>
+            <trkpt lat="54.4155050" lon="-2.9368270"/>
+            <trkpt lat="54.4118570" lon="-2.9348470"/>
+            <trkpt lat="54.4088600" lon="-2.9296950"/>
+            <trkpt lat="54.4081070" lon="-2.9223300"/>
+            <trkpt lat="54.4094940" lon="-2.9172810"/>
+            <trkpt lat="54.4120040" lon="-2.9151420"/>
+            <trkpt lat="54.4158190" lon="-2.9144250"/>
+            <trkpt lat="54.4156680" lon="-2.9101040"/>
+            <trkpt lat="54.4164530" lon="-2.9066780"/>
+            <trkpt lat="54.4153690" lon="-2.9074680"/>
+            <trkpt lat="54.4134440" lon="-2.9065620"/>
+            <trkpt lat="54.4150400" lon="-2.9020330"/>
+            <trkpt lat="54.4176390" lon="-2.8978520"/>
+            <trkpt lat="54.4204820" lon="-2.8940890"/>
+            <trkpt lat="54.4241140" lon="-2.8904400"/>
+            <trkpt lat="54.4277440" lon="-2.8853420"/>
+            <trkpt lat="54.4308880" lon="-2.8765110"/>
+            <trkpt lat="54.4322660" lon="-2.8726950"/>
+            <trkpt lat="54.4315530" lon="-2.8690200"/>
+            <trkpt lat="54.4336040" lon="-2.8617060"/>
+            <trkpt lat="54.4325250" lon="-2.8542740"/>
+            <trkpt lat="54.4330190" lon="-2.8437250"/>
+            <trkpt lat="54.4321150" lon="-2.8411700"/>
+            <trkpt lat="54.4314410" lon="-2.8406350"/>
+            <trkpt lat="54.4292070" lon="-2.8397320"/>
+            <trkpt lat="54.4300930" lon="-2.8381510"/>
+            <trkpt lat="54.4320110" lon="-2.8360270"/>
+            <trkpt lat="54.4331420" lon="-2.8348850"/>
+            <trkpt lat="54.4341350" lon="-2.8341470"/>
+            <trkpt lat="54.4343730" lon="-2.8323090"/>
+            <trkpt lat="54.4348530" lon="-2.8298620"/>
+            <trkpt lat="54.4373720" lon="-2.8276090"/>
+            <trkpt lat="54.4377210" lon="-2.8254170"/>
+            <trkpt lat="54.4360650" lon="-2.8227330"/>
+            <trkpt lat="54.4373570" lon="-2.8127720"/>
+            <trkpt lat="54.4369680" lon="-2.8062100"/>
+            <trkpt lat="54.4380940" lon="-2.8011830"/>
+            <trkpt lat="54.4426780" lon="-2.8005460"/>
+            <trkpt lat="54.4438720" lon="-2.7991540"/>
+            <trkpt lat="54.4439820" lon="-2.7979970"/>
+            <trkpt lat="54.4480990" lon="-2.7980920"/>
+            <trkpt lat="54.4529280" lon="-2.8002160"/>
+            <trkpt lat="54.4565550" lon="-2.8022660"/>
+            <trkpt lat="54.4602350" lon="-2.8064410"/>
+            <trkpt lat="54.4640350" lon="-2.8074090"/>
+            <trkpt lat="54.4676020" lon="-2.8057930"/>
+            <trkpt lat="54.4708800" lon="-2.8087430"/>
+            <trkpt lat="54.4749540" lon="-2.8109200"/>
+            <trkpt lat="54.4780320" lon="-2.8138580"/>
+            <trkpt lat="54.4809170" lon="-2.8174110"/>
+            <trkpt lat="54.4826160" lon="-2.8193170"/>
+            <trkpt lat="54.4840600" lon="-2.8223870"/>
+            <trkpt lat="54.4854880" lon="-2.8229910"/>
+            <trkpt lat="54.4880810" lon="-2.8238580"/>
+            <trkpt lat="54.4893590" lon="-2.8198010"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Aria Force to Pooley Bridge, Via Ullswater Way</name>
+        <desc></desc>
+        <bounds minlat="54.5711650" minlon="-2.9315040" maxlat="54.6136080" maxlon="-2.8215900"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.5711650" lon="-2.9299700" type="start"/>
+            <os:point lat="54.6120270" lon="-2.8215900" type="end"/>
+            <os:activity>ON_FOOT_WALKING</os:activity>
+            <os:difficulty>MODERATE</os:difficulty>
+            <os:paths/>
+            <os:distance>10474.0425038</os:distance>
+            <os:elevation_ascent>445.3200000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.5711650" lon="-2.9299700"/>
+    <wpt lat="54.5731560" lon="-2.9292190"/>
+    <wpt lat="54.5767340" lon="-2.9307820"/>
+    <wpt lat="54.5767780" lon="-2.9294190"/>
+    <wpt lat="54.5792920" lon="-2.9287140"/>
+    <wpt lat="54.5855500" lon="-2.9315040"/>
+    <wpt lat="54.5859030" lon="-2.9308110"/>
+    <wpt lat="54.5883120" lon="-2.9226750"/>
+    <wpt lat="54.5881030" lon="-2.9185930"/>
+    <wpt lat="54.5899180" lon="-2.9139390"/>
+    <wpt lat="54.5877830" lon="-2.9076370"/>
+    <wpt lat="54.5952330" lon="-2.8968040"/>
+    <wpt lat="54.5950990" lon="-2.8902720"/>
+    <wpt lat="54.5972310" lon="-2.8856490"/>
+    <wpt lat="54.6008690" lon="-2.8819460"/>
+    <wpt lat="54.6054130" lon="-2.8693340"/>
+    <wpt lat="54.6075620" lon="-2.8606020"/>
+    <wpt lat="54.6098740" lon="-2.8604890"/>
+    <wpt lat="54.6113710" lon="-2.8519760"/>
+    <wpt lat="54.6105840" lon="-2.8477050"/>
+    <wpt lat="54.6136080" lon="-2.8367060"/>
+    <wpt lat="54.6111980" lon="-2.8324980"/>
+    <wpt lat="54.6111900" lon="-2.8283640"/>
+    <wpt lat="54.6114630" lon="-2.8246510"/>
+    <wpt lat="54.6125210" lon="-2.8229150"/>
+    <wpt lat="54.6120270" lon="-2.8215900"/>
+    <trk>
+        <name>Aria Force to Pooley Bridge, Via Ullswater Way</name>
+        <trkseg>
+            <trkpt lat="54.5711650" lon="-2.9299700"/>
+            <trkpt lat="54.5731560" lon="-2.9292190"/>
+            <trkpt lat="54.5767340" lon="-2.9307820"/>
+            <trkpt lat="54.5767780" lon="-2.9294190"/>
+            <trkpt lat="54.5792920" lon="-2.9287140"/>
+            <trkpt lat="54.5818840" lon="-2.9297580"/>
+            <trkpt lat="54.5855500" lon="-2.9315040"/>
+            <trkpt lat="54.5859030" lon="-2.9308110"/>
+            <trkpt lat="54.5871020" lon="-2.9268300"/>
+            <trkpt lat="54.5883120" lon="-2.9226750"/>
+            <trkpt lat="54.5881030" lon="-2.9185930"/>
+            <trkpt lat="54.5899180" lon="-2.9139390"/>
+            <trkpt lat="54.5877830" lon="-2.9076370"/>
+            <trkpt lat="54.5912350" lon="-2.9024850"/>
+            <trkpt lat="54.5952330" lon="-2.8968040"/>
+            <trkpt lat="54.5950990" lon="-2.8902720"/>
+            <trkpt lat="54.5972310" lon="-2.8856490"/>
+            <trkpt lat="54.6008690" lon="-2.8819460"/>
+            <trkpt lat="54.6037660" lon="-2.8739560"/>
+            <trkpt lat="54.6054130" lon="-2.8693340"/>
+            <trkpt lat="54.6075620" lon="-2.8606020"/>
+            <trkpt lat="54.6098740" lon="-2.8604890"/>
+            <trkpt lat="54.6113710" lon="-2.8519760"/>
+            <trkpt lat="54.6105840" lon="-2.8477050"/>
+            <trkpt lat="54.6131000" lon="-2.8386870"/>
+            <trkpt lat="54.6136080" lon="-2.8367060"/>
+            <trkpt lat="54.6126680" lon="-2.8349170"/>
+            <trkpt lat="54.6111980" lon="-2.8324980"/>
+            <trkpt lat="54.6111900" lon="-2.8283640"/>
+            <trkpt lat="54.6114630" lon="-2.8246510"/>
+            <trkpt lat="54.6125210" lon="-2.8229150"/>
+            <trkpt lat="54.6120270" lon="-2.8215900"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

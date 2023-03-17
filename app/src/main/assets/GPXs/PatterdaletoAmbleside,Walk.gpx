@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Patterdale to Ambleside, Walk</name>
+        <desc></desc>
+        <bounds minlat="54.4321680" minlon="-2.9631250" maxlat="54.5342770" maxlon="-2.9245990"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.5342770" lon="-2.9335120" type="start"/>
+            <os:point lat="54.4326300" lon="-2.9631250" type="end"/>
+            <os:activity>ON_FOOT_WALKING</os:activity>
+            <os:difficulty>MODERATE</os:difficulty>
+            <os:paths/>
+            <os:distance>12511.2048374</os:distance>
+            <os:elevation_ascent>462.8800000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.5342770" lon="-2.9335120"/>
+    <wpt lat="54.5339270" lon="-2.9319550"/>
+    <wpt lat="54.5327860" lon="-2.9311050"/>
+    <wpt lat="54.5299750" lon="-2.9311910"/>
+    <wpt lat="54.5291830" lon="-2.9304960"/>
+    <wpt lat="54.5262790" lon="-2.9315900"/>
+    <wpt lat="54.5232720" lon="-2.9296220"/>
+    <wpt lat="54.5213940" lon="-2.9300150"/>
+    <wpt lat="54.5190850" lon="-2.9263870"/>
+    <wpt lat="54.5121590" lon="-2.9245990"/>
+    <wpt lat="54.5057610" lon="-2.9278290"/>
+    <wpt lat="54.4997100" lon="-2.9313020"/>
+    <wpt lat="54.4962790" lon="-2.9311160"/>
+    <wpt lat="54.4893300" lon="-2.9300750"/>
+    <wpt lat="54.4869900" lon="-2.9315700"/>
+    <wpt lat="54.4839720" lon="-2.9342770"/>
+    <wpt lat="54.4801580" lon="-2.9393400"/>
+    <wpt lat="54.4777730" lon="-2.9460500"/>
+    <wpt lat="54.4765840" lon="-2.9502740"/>
+    <wpt lat="54.4747740" lon="-2.9533890"/>
+    <wpt lat="54.4714890" lon="-2.9546570"/>
+    <wpt lat="54.4683210" lon="-2.9552930"/>
+    <wpt lat="54.4664190" lon="-2.9565470"/>
+    <wpt lat="54.4629030" lon="-2.9580480"/>
+    <wpt lat="54.4563230" lon="-2.9585770"/>
+    <wpt lat="54.4529710" lon="-2.9584740"/>
+    <wpt lat="54.4518730" lon="-2.9580850"/>
+    <wpt lat="54.4499760" lon="-2.9587350"/>
+    <wpt lat="54.4481050" lon="-2.9588650"/>
+    <wpt lat="54.4450390" lon="-2.9597360"/>
+    <wpt lat="54.4428440" lon="-2.9596290"/>
+    <wpt lat="54.4409270" lon="-2.9605040"/>
+    <wpt lat="54.4393770" lon="-2.9602050"/>
+    <wpt lat="54.4376690" lon="-2.9610480"/>
+    <wpt lat="54.4356610" lon="-2.9611290"/>
+    <wpt lat="54.4346020" lon="-2.9619180"/>
+    <wpt lat="54.4337600" lon="-2.9615380"/>
+    <wpt lat="54.4334580" lon="-2.9622220"/>
+    <wpt lat="54.4321680" lon="-2.9622680"/>
+    <wpt lat="54.4326300" lon="-2.9631250"/>
+    <trk>
+        <name>Patterdale to Ambleside, Walk</name>
+        <trkseg>
+            <trkpt lat="54.5342770" lon="-2.9335120"/>
+            <trkpt lat="54.5339270" lon="-2.9319550"/>
+            <trkpt lat="54.5327860" lon="-2.9311050"/>
+            <trkpt lat="54.5299750" lon="-2.9311910"/>
+            <trkpt lat="54.5291830" lon="-2.9304960"/>
+            <trkpt lat="54.5262790" lon="-2.9315900"/>
+            <trkpt lat="54.5232720" lon="-2.9296220"/>
+            <trkpt lat="54.5213940" lon="-2.9300150"/>
+            <trkpt lat="54.5190850" lon="-2.9263870"/>
+            <trkpt lat="54.5121590" lon="-2.9245990"/>
+            <trkpt lat="54.5057610" lon="-2.9278290"/>
+            <trkpt lat="54.4997100" lon="-2.9313020"/>
+            <trkpt lat="54.4962790" lon="-2.9311160"/>
+            <trkpt lat="54.4893300" lon="-2.9300750"/>
+            <trkpt lat="54.4869900" lon="-2.9315700"/>
+            <trkpt lat="54.4839720" lon="-2.9342770"/>
+            <trkpt lat="54.4820070" lon="-2.9369180"/>
+            <trkpt lat="54.4801580" lon="-2.9393400"/>
+            <trkpt lat="54.4794440" lon="-2.9414650"/>
+            <trkpt lat="54.4777730" lon="-2.9460500"/>
+            <trkpt lat="54.4765840" lon="-2.9502740"/>
+            <trkpt lat="54.4747740" lon="-2.9533890"/>
+            <trkpt lat="54.4714890" lon="-2.9546570"/>
+            <trkpt lat="54.4683210" lon="-2.9552930"/>
+            <trkpt lat="54.4664190" lon="-2.9565470"/>
+            <trkpt lat="54.4629030" lon="-2.9580480"/>
+            <trkpt lat="54.4563230" lon="-2.9585770"/>
+            <trkpt lat="54.4529710" lon="-2.9584740"/>
+            <trkpt lat="54.4518730" lon="-2.9580850"/>
+            <trkpt lat="54.4499760" lon="-2.9587350"/>
+            <trkpt lat="54.4481050" lon="-2.9588650"/>
+            <trkpt lat="54.4450390" lon="-2.9597360"/>
+            <trkpt lat="54.4428440" lon="-2.9596290"/>
+            <trkpt lat="54.4409270" lon="-2.9605040"/>
+            <trkpt lat="54.4393770" lon="-2.9602050"/>
+            <trkpt lat="54.4376690" lon="-2.9610480"/>
+            <trkpt lat="54.4366100" lon="-2.9611020"/>
+            <trkpt lat="54.4356610" lon="-2.9611290"/>
+            <trkpt lat="54.4346020" lon="-2.9619180"/>
+            <trkpt lat="54.4337600" lon="-2.9615380"/>
+            <trkpt lat="54.4334580" lon="-2.9622220"/>
+            <trkpt lat="54.4327310" lon="-2.9622950"/>
+            <trkpt lat="54.4321680" lon="-2.9622680"/>
+            <trkpt lat="54.4326300" lon="-2.9631250"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

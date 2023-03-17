@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Pooley Bridge to Penrith, Walk</name>
+        <desc></desc>
+        <bounds minlat="54.6120650" minlon="-2.8214860" maxlat="54.6659600" maxlon="-2.7417450"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.6120650" lon="-2.8214860" type="start"/>
+            <os:point lat="54.6659600" lon="-2.7546840" type="end"/>
+            <os:activity>ON_FOOT_WALKING</os:activity>
+            <os:difficulty>UNKNOWN</os:difficulty>
+            <os:paths/>
+            <os:distance>10829.8568382</os:distance>
+            <os:elevation_ascent>115.6900000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.6120650" lon="-2.8214860"/>
+    <wpt lat="54.6123440" lon="-2.8207270"/>
+    <wpt lat="54.6126390" lon="-2.8190760"/>
+    <wpt lat="54.6131290" lon="-2.8191190"/>
+    <wpt lat="54.6132680" lon="-2.8199490"/>
+    <wpt lat="54.6141770" lon="-2.8202270"/>
+    <wpt lat="54.6163910" lon="-2.8185520"/>
+    <wpt lat="54.6171390" lon="-2.8184010"/>
+    <wpt lat="54.6180230" lon="-2.8173510"/>
+    <wpt lat="54.6213820" lon="-2.8144660"/>
+    <wpt lat="54.6230620" lon="-2.8108640"/>
+    <wpt lat="54.6250680" lon="-2.8080660"/>
+    <wpt lat="54.6258890" lon="-2.8082650"/>
+    <wpt lat="54.6261280" lon="-2.8039970"/>
+    <wpt lat="54.6269310" lon="-2.8048020"/>
+    <wpt lat="54.6277890" lon="-2.8041250"/>
+    <wpt lat="54.6288870" lon="-2.8022760"/>
+    <wpt lat="54.6292970" lon="-2.8021400"/>
+    <wpt lat="54.6299290" lon="-2.8010330"/>
+    <wpt lat="54.6301600" lon="-2.8001640"/>
+    <wpt lat="54.6305770" lon="-2.7993970"/>
+    <wpt lat="54.6308170" lon="-2.7974520"/>
+    <wpt lat="54.6303420" lon="-2.7950860"/>
+    <wpt lat="54.6297510" lon="-2.7943930"/>
+    <wpt lat="54.6293040" lon="-2.7946320"/>
+    <wpt lat="54.6276680" lon="-2.7931520"/>
+    <wpt lat="54.6281830" lon="-2.7906960"/>
+    <wpt lat="54.6294030" lon="-2.7875280"/>
+    <wpt lat="54.6312460" lon="-2.7837010"/>
+    <wpt lat="54.6325480" lon="-2.7826160"/>
+    <wpt lat="54.6332050" lon="-2.7807580"/>
+    <wpt lat="54.6332750" lon="-2.7793620"/>
+    <wpt lat="54.6347820" lon="-2.7744350"/>
+    <wpt lat="54.6352190" lon="-2.7755620"/>
+    <wpt lat="54.6363530" lon="-2.7749550"/>
+    <wpt lat="54.6394600" lon="-2.7755530"/>
+    <wpt lat="54.6386650" lon="-2.7724000"/>
+    <wpt lat="54.6395290" lon="-2.7698290"/>
+    <wpt lat="54.6428420" lon="-2.7638660"/>
+    <wpt lat="54.6444430" lon="-2.7616300"/>
+    <wpt lat="54.6456190" lon="-2.7571320"/>
+    <wpt lat="54.6458520" lon="-2.7532970"/>
+    <wpt lat="54.6480310" lon="-2.7501280"/>
+    <wpt lat="54.6486760" lon="-2.7516010"/>
+    <wpt lat="54.6491550" lon="-2.7510090"/>
+    <wpt lat="54.6486320" lon="-2.7494570"/>
+    <wpt lat="54.6502410" lon="-2.7480090"/>
+    <wpt lat="54.6507850" lon="-2.7456480"/>
+    <wpt lat="54.6512810" lon="-2.7422620"/>
+    <wpt lat="54.6511830" lon="-2.7417450"/>
+    <wpt lat="54.6520040" lon="-2.7422710"/>
+    <wpt lat="54.6533590" lon="-2.7426470"/>
+    <wpt lat="54.6541740" lon="-2.7436990"/>
+    <wpt lat="54.6542000" lon="-2.7441770"/>
+    <wpt lat="54.6543510" lon="-2.7443180"/>
+    <wpt lat="54.6546320" lon="-2.7439150"/>
+    <wpt lat="54.6550480" lon="-2.7437770"/>
+    <wpt lat="54.6555030" lon="-2.7450650"/>
+    <wpt lat="54.6550800" lon="-2.7457290"/>
+    <wpt lat="54.6560000" lon="-2.7480640"/>
+    <wpt lat="54.6573830" lon="-2.7501110"/>
+    <wpt lat="54.6592110" lon="-2.7523590"/>
+    <wpt lat="54.6620860" lon="-2.7533510"/>
+    <wpt lat="54.6630300" lon="-2.7553370"/>
+    <wpt lat="54.6641000" lon="-2.7523440"/>
+    <wpt lat="54.6659600" lon="-2.7546840"/>
+    <trk>
+        <name>Pooley Bridge to Penrith, Walk</name>
+        <trkseg>
+            <trkpt lat="54.6120650" lon="-2.8214860"/>
+            <trkpt lat="54.6123440" lon="-2.8207270"/>
+            <trkpt lat="54.6126390" lon="-2.8190760"/>
+            <trkpt lat="54.6131290" lon="-2.8191190"/>
+            <trkpt lat="54.6132680" lon="-2.8199490"/>
+            <trkpt lat="54.6141770" lon="-2.8202270"/>
+            <trkpt lat="54.6153330" lon="-2.8193770"/>
+            <trkpt lat="54.6163910" lon="-2.8185520"/>
+            <trkpt lat="54.6171390" lon="-2.8184010"/>
+            <trkpt lat="54.6180230" lon="-2.8173510"/>
+            <trkpt lat="54.6188400" lon="-2.8166340"/>
+            <trkpt lat="54.6197860" lon="-2.8160040"/>
+            <trkpt lat="54.6213820" lon="-2.8144660"/>
+            <trkpt lat="54.6222270" lon="-2.8125290"/>
+            <trkpt lat="54.6230620" lon="-2.8108640"/>
+            <trkpt lat="54.6243760" lon="-2.8092050"/>
+            <trkpt lat="54.6250680" lon="-2.8080660"/>
+            <trkpt lat="54.6258890" lon="-2.8082650"/>
+            <trkpt lat="54.6259530" lon="-2.8066400"/>
+            <trkpt lat="54.6261280" lon="-2.8039970"/>
+            <trkpt lat="54.6269310" lon="-2.8048020"/>
+            <trkpt lat="54.6277890" lon="-2.8041250"/>
+            <trkpt lat="54.6288870" lon="-2.8022760"/>
+            <trkpt lat="54.6292970" lon="-2.8021400"/>
+            <trkpt lat="54.6299290" lon="-2.8010330"/>
+            <trkpt lat="54.6301600" lon="-2.8001640"/>
+            <trkpt lat="54.6305770" lon="-2.7993970"/>
+            <trkpt lat="54.6308170" lon="-2.7974520"/>
+            <trkpt lat="54.6303420" lon="-2.7950860"/>
+            <trkpt lat="54.6297510" lon="-2.7943930"/>
+            <trkpt lat="54.6293040" lon="-2.7946320"/>
+            <trkpt lat="54.6276680" lon="-2.7931520"/>
+            <trkpt lat="54.6281830" lon="-2.7906960"/>
+            <trkpt lat="54.6294030" lon="-2.7875280"/>
+            <trkpt lat="54.6312460" lon="-2.7837010"/>
+            <trkpt lat="54.6325480" lon="-2.7826160"/>
+            <trkpt lat="54.6332050" lon="-2.7807580"/>
+            <trkpt lat="54.6332750" lon="-2.7793620"/>
+            <trkpt lat="54.6340190" lon="-2.7768810"/>
+            <trkpt lat="54.6347820" lon="-2.7744350"/>
+            <trkpt lat="54.6352190" lon="-2.7755620"/>
+            <trkpt lat="54.6363530" lon="-2.7749550"/>
+            <trkpt lat="54.6394600" lon="-2.7755530"/>
+            <trkpt lat="54.6386650" lon="-2.7724000"/>
+            <trkpt lat="54.6395290" lon="-2.7698290"/>
+            <trkpt lat="54.6409390" lon="-2.7674080"/>
+            <trkpt lat="54.6428420" lon="-2.7638660"/>
+            <trkpt lat="54.6444430" lon="-2.7616300"/>
+            <trkpt lat="54.6456190" lon="-2.7571320"/>
+            <trkpt lat="54.6458520" lon="-2.7532970"/>
+            <trkpt lat="54.6480310" lon="-2.7501280"/>
+            <trkpt lat="54.6486760" lon="-2.7516010"/>
+            <trkpt lat="54.6491550" lon="-2.7510090"/>
+            <trkpt lat="54.6486320" lon="-2.7494570"/>
+            <trkpt lat="54.6502410" lon="-2.7480090"/>
+            <trkpt lat="54.6507850" lon="-2.7456480"/>
+            <trkpt lat="54.6512810" lon="-2.7422620"/>
+            <trkpt lat="54.6511830" lon="-2.7417450"/>
+            <trkpt lat="54.6520040" lon="-2.7422710"/>
+            <trkpt lat="54.6533590" lon="-2.7426470"/>
+            <trkpt lat="54.6541740" lon="-2.7436990"/>
+            <trkpt lat="54.6542000" lon="-2.7441770"/>
+            <trkpt lat="54.6543510" lon="-2.7443180"/>
+            <trkpt lat="54.6546320" lon="-2.7439150"/>
+            <trkpt lat="54.6550480" lon="-2.7437770"/>
+            <trkpt lat="54.6555030" lon="-2.7450650"/>
+            <trkpt lat="54.6550800" lon="-2.7457290"/>
+            <trkpt lat="54.6560000" lon="-2.7480640"/>
+            <trkpt lat="54.6573830" lon="-2.7501110"/>
+            <trkpt lat="54.6592110" lon="-2.7523590"/>
+            <trkpt lat="54.6604680" lon="-2.7528410"/>
+            <trkpt lat="54.6620860" lon="-2.7533510"/>
+            <trkpt lat="54.6630300" lon="-2.7553370"/>
+            <trkpt lat="54.6636440" lon="-2.7533330"/>
+            <trkpt lat="54.6641000" lon="-2.7523440"/>
+            <trkpt lat="54.6659600" lon="-2.7546840"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

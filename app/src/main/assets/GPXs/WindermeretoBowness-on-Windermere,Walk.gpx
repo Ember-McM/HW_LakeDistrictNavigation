@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Windermere to Bowness-on-Windermere, Walk</name>
+        <desc></desc>
+        <bounds minlat="54.3647790" minlon="-2.9196840" maxlat="54.3807410" maxlon="-2.9059960"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.3807410" lon="-2.9069180" type="start"/>
+            <os:point lat="54.3647790" lon="-2.9195380" type="end"/>
+            <os:activity>ON_FOOT_WALKING</os:activity>
+            <os:difficulty>UNKNOWN</os:difficulty>
+            <os:paths/>
+            <os:distance>2491.9815913</os:distance>
+            <os:elevation_ascent>11.7000000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.3807410" lon="-2.9069180"/>
+    <wpt lat="54.3796750" lon="-2.9063780"/>
+    <wpt lat="54.3786030" lon="-2.9064300"/>
+    <wpt lat="54.3775200" lon="-2.9059960"/>
+    <wpt lat="54.3762600" lon="-2.9071850"/>
+    <wpt lat="54.3774830" lon="-2.9102000"/>
+    <wpt lat="54.3762880" lon="-2.9139320"/>
+    <wpt lat="54.3746140" lon="-2.9163240"/>
+    <wpt lat="54.3724770" lon="-2.9186370"/>
+    <wpt lat="54.3705260" lon="-2.9186100"/>
+    <wpt lat="54.3687290" lon="-2.9178510"/>
+    <wpt lat="54.3671780" lon="-2.9176020"/>
+    <wpt lat="54.3658580" lon="-2.9185800"/>
+    <wpt lat="54.3655820" lon="-2.9196840"/>
+    <wpt lat="54.3647790" lon="-2.9195380"/>
+    <trk>
+        <name>Windermere to Bowness-on-Windermere, Walk</name>
+        <trkseg>
+            <trkpt lat="54.3807410" lon="-2.9069180"/>
+            <trkpt lat="54.3796750" lon="-2.9063780"/>
+            <trkpt lat="54.3792890" lon="-2.9063180"/>
+            <trkpt lat="54.3786030" lon="-2.9064300"/>
+            <trkpt lat="54.3775200" lon="-2.9059960"/>
+            <trkpt lat="54.3766250" lon="-2.9068250"/>
+            <trkpt lat="54.3762600" lon="-2.9071850"/>
+            <trkpt lat="54.3766860" lon="-2.9083960"/>
+            <trkpt lat="54.3774830" lon="-2.9102000"/>
+            <trkpt lat="54.3762880" lon="-2.9139320"/>
+            <trkpt lat="54.3746140" lon="-2.9163240"/>
+            <trkpt lat="54.3724770" lon="-2.9186370"/>
+            <trkpt lat="54.3705260" lon="-2.9186100"/>
+            <trkpt lat="54.3687290" lon="-2.9178510"/>
+            <trkpt lat="54.3671780" lon="-2.9176020"/>
+            <trkpt lat="54.3663920" lon="-2.9181060"/>
+            <trkpt lat="54.3658580" lon="-2.9185800"/>
+            <trkpt lat="54.3655820" lon="-2.9196840"/>
+            <trkpt lat="54.3647790" lon="-2.9195380"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

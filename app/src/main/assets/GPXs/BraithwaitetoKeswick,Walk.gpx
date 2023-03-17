@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Braithwaite to Keswick, Walk</name>
+        <desc></desc>
+        <bounds minlat="54.5945800" minlon="-3.1913080" maxlat="54.6048550" maxlon="-3.1385970"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.6022700" lon="-3.1905880" type="start"/>
+            <os:point lat="54.6016110" lon="-3.1385970" type="end"/>
+            <os:activity>ON_FOOT_WALKING</os:activity>
+            <os:difficulty>EASY</os:difficulty>
+            <os:paths/>
+            <os:distance>4490.2986276</os:distance>
+            <os:elevation_ascent>30.0900000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.6022700" lon="-3.1905880"/>
+    <wpt lat="54.6013440" lon="-3.1913080"/>
+    <wpt lat="54.6002620" lon="-3.1876060"/>
+    <wpt lat="54.5945800" lon="-3.1777330"/>
+    <wpt lat="54.5954220" lon="-3.1746190"/>
+    <wpt lat="54.5965450" lon="-3.1718340"/>
+    <wpt lat="54.5968050" lon="-3.1695860"/>
+    <wpt lat="54.5985000" lon="-3.1678420"/>
+    <wpt lat="54.5991310" lon="-3.1663550"/>
+    <wpt lat="54.6022090" lon="-3.1620050"/>
+    <wpt lat="54.6017810" lon="-3.1607090"/>
+    <wpt lat="54.6016530" lon="-3.1591870"/>
+    <wpt lat="54.6032290" lon="-3.1571490"/>
+    <wpt lat="54.6042270" lon="-3.1565890"/>
+    <wpt lat="54.6048550" lon="-3.1552850"/>
+    <wpt lat="54.6042340" lon="-3.1480730"/>
+    <wpt lat="54.6032550" lon="-3.1434100"/>
+    <wpt lat="54.6036030" lon="-3.1426820"/>
+    <wpt lat="54.6016110" lon="-3.1385970"/>
+    <trk>
+        <name>Braithwaite to Keswick, Walk</name>
+        <trkseg>
+            <trkpt lat="54.6022700" lon="-3.1905880"/>
+            <trkpt lat="54.6013440" lon="-3.1913080"/>
+            <trkpt lat="54.6002620" lon="-3.1876060"/>
+            <trkpt lat="54.5984180" lon="-3.1842160"/>
+            <trkpt lat="54.5966450" lon="-3.1813620"/>
+            <trkpt lat="54.5945800" lon="-3.1777330"/>
+            <trkpt lat="54.5954220" lon="-3.1746190"/>
+            <trkpt lat="54.5965450" lon="-3.1718340"/>
+            <trkpt lat="54.5968050" lon="-3.1695860"/>
+            <trkpt lat="54.5985000" lon="-3.1678420"/>
+            <trkpt lat="54.5991310" lon="-3.1663550"/>
+            <trkpt lat="54.6008180" lon="-3.1637770"/>
+            <trkpt lat="54.6022090" lon="-3.1620050"/>
+            <trkpt lat="54.6017810" lon="-3.1607090"/>
+            <trkpt lat="54.6016530" lon="-3.1591870"/>
+            <trkpt lat="54.6032290" lon="-3.1571490"/>
+            <trkpt lat="54.6042270" lon="-3.1565890"/>
+            <trkpt lat="54.6048550" lon="-3.1552850"/>
+            <trkpt lat="54.6042340" lon="-3.1480730"/>
+            <trkpt lat="54.6032550" lon="-3.1434100"/>
+            <trkpt lat="54.6036030" lon="-3.1426820"/>
+            <trkpt lat="54.6016110" lon="-3.1385970"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

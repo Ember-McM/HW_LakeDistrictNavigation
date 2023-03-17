@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Boot To Wasdale Head, Walk</name>
+        <desc>Lakeland 100 Walk</desc>
+        <bounds minlat="54.3962220" minlon="-3.2709330" maxlat="54.4650240" maxlon="-3.2551660"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.3962220" lon="-3.2709330" type="start"/>
+            <os:point lat="54.4650240" lon="-3.2564400" type="end"/>
+            <os:activity>ON_FOOT_WALKING</os:activity>
+            <os:difficulty>DIFFICULT</os:difficulty>
+            <os:paths/>
+            <os:distance>8318.3088101</os:distance>
+            <os:elevation_ascent>282.9000000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.3962220" lon="-3.2709330"/>
+    <wpt lat="54.3976540" lon="-3.2702570"/>
+    <wpt lat="54.3995080" lon="-3.2703420"/>
+    <wpt lat="54.4008480" lon="-3.2693040"/>
+    <wpt lat="54.4032100" lon="-3.2679590"/>
+    <wpt lat="54.4054540" lon="-3.2659700"/>
+    <wpt lat="54.4072920" lon="-3.2650740"/>
+    <wpt lat="54.4094560" lon="-3.2631030"/>
+    <wpt lat="54.4142810" lon="-3.2602210"/>
+    <wpt lat="54.4170080" lon="-3.2593460"/>
+    <wpt lat="54.4206530" lon="-3.2569530"/>
+    <wpt lat="54.4262010" lon="-3.2562770"/>
+    <wpt lat="54.4308500" lon="-3.2551660"/>
+    <wpt lat="54.4357030" lon="-3.2596620"/>
+    <wpt lat="54.4390450" lon="-3.2600110"/>
+    <wpt lat="54.4433660" lon="-3.2624810"/>
+    <wpt lat="54.4468430" lon="-3.2615630"/>
+    <wpt lat="54.4492730" lon="-3.2597290"/>
+    <wpt lat="54.4548790" lon="-3.2602270"/>
+    <wpt lat="54.4572110" lon="-3.2650680"/>
+    <wpt lat="54.4627340" lon="-3.2605490"/>
+    <wpt lat="54.4640240" lon="-3.2569150"/>
+    <wpt lat="54.4650240" lon="-3.2564400"/>
+    <trk>
+        <name>Boot To Wasdale Head, Walk</name>
+        <trkseg>
+            <trkpt lat="54.3962220" lon="-3.2709330"/>
+            <trkpt lat="54.3976540" lon="-3.2702570"/>
+            <trkpt lat="54.3995080" lon="-3.2703420"/>
+            <trkpt lat="54.4008480" lon="-3.2693040"/>
+            <trkpt lat="54.4032100" lon="-3.2679590"/>
+            <trkpt lat="54.4054540" lon="-3.2659700"/>
+            <trkpt lat="54.4072920" lon="-3.2650740"/>
+            <trkpt lat="54.4094560" lon="-3.2631030"/>
+            <trkpt lat="54.4118990" lon="-3.2616600"/>
+            <trkpt lat="54.4142810" lon="-3.2602210"/>
+            <trkpt lat="54.4170080" lon="-3.2593460"/>
+            <trkpt lat="54.4206530" lon="-3.2569530"/>
+            <trkpt lat="54.4262010" lon="-3.2562770"/>
+            <trkpt lat="54.4308500" lon="-3.2551660"/>
+            <trkpt lat="54.4357030" lon="-3.2596620"/>
+            <trkpt lat="54.4390450" lon="-3.2600110"/>
+            <trkpt lat="54.4433660" lon="-3.2624810"/>
+            <trkpt lat="54.4468430" lon="-3.2615630"/>
+            <trkpt lat="54.4492730" lon="-3.2597290"/>
+            <trkpt lat="54.4548790" lon="-3.2602270"/>
+            <trkpt lat="54.4572110" lon="-3.2650680"/>
+            <trkpt lat="54.4627340" lon="-3.2605490"/>
+            <trkpt lat="54.4640240" lon="-3.2569150"/>
+            <trkpt lat="54.4650240" lon="-3.2564400"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Route Test</name>
+        <desc>Test Route from Pooley Bridge to Penrith</desc>
+        <bounds minlat="54.6116610" minlon="-2.8231550" maxlat="54.6659530" maxlon="-2.7391810"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.6659530" lon="-2.7542900" type="start"/>
+            <os:point lat="54.6116610" lon="-2.8231550" type="end"/>
+            <os:activity>ON_FOOT_WALKING</os:activity>
+            <os:difficulty>EASY</os:difficulty>
+            <os:paths/>
+            <os:distance>9286.3871385</os:distance>
+            <os:elevation_ascent>98.0500000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.6659530" lon="-2.7542900"/>
+    <wpt lat="54.6559060" lon="-2.7436450"/>
+    <wpt lat="54.6489650" lon="-2.7391810"/>
+    <wpt lat="54.6441230" lon="-2.7493640"/>
+    <wpt lat="54.6423470" lon="-2.7585700"/>
+    <wpt lat="54.6378260" lon="-2.7624760"/>
+    <wpt lat="54.6351620" lon="-2.7679160"/>
+    <wpt lat="54.6328210" lon="-2.7695900"/>
+    <wpt lat="54.6320940" lon="-2.7740540"/>
+    <wpt lat="54.6305600" lon="-2.7790760"/>
+    <wpt lat="54.6291060" lon="-2.7824240"/>
+    <wpt lat="54.6291060" lon="-2.7874450"/>
+    <wpt lat="54.6280570" lon="-2.7919090"/>
+    <wpt lat="54.6273300" lon="-2.7934430"/>
+    <wpt lat="54.6232110" lon="-2.7972100"/>
+    <wpt lat="54.6211120" lon="-2.8008370"/>
+    <wpt lat="54.6189310" lon="-2.8039050"/>
+    <wpt lat="54.6165080" lon="-2.8107400"/>
+    <wpt lat="54.6132770" lon="-2.8163200"/>
+    <wpt lat="54.6120650" lon="-2.8207840"/>
+    <wpt lat="54.6116610" lon="-2.8231550"/>
+    <trk>
+        <name>Route Test</name>
+        <trkseg>
+            <trkpt lat="54.6659530" lon="-2.7542900"/>
+            <trkpt lat="54.6559060" lon="-2.7436450"/>
+            <trkpt lat="54.6489650" lon="-2.7391810"/>
+            <trkpt lat="54.6441230" lon="-2.7493640"/>
+            <trkpt lat="54.6423470" lon="-2.7585700"/>
+            <trkpt lat="54.6378260" lon="-2.7624760"/>
+            <trkpt lat="54.6351620" lon="-2.7679160"/>
+            <trkpt lat="54.6328210" lon="-2.7695900"/>
+            <trkpt lat="54.6320940" lon="-2.7740540"/>
+            <trkpt lat="54.6305600" lon="-2.7790760"/>
+            <trkpt lat="54.6291060" lon="-2.7824240"/>
+            <trkpt lat="54.6291060" lon="-2.7874450"/>
+            <trkpt lat="54.6280570" lon="-2.7919090"/>
+            <trkpt lat="54.6273300" lon="-2.7934430"/>
+            <trkpt lat="54.6257960" lon="-2.7946990"/>
+            <trkpt lat="54.6232110" lon="-2.7972100"/>
+            <trkpt lat="54.6211120" lon="-2.8008370"/>
+            <trkpt lat="54.6189310" lon="-2.8039050"/>
+            <trkpt lat="54.6174770" lon="-2.8082300"/>
+            <trkpt lat="54.6165080" lon="-2.8107400"/>
+            <trkpt lat="54.6148920" lon="-2.8133910"/>
+            <trkpt lat="54.6132770" lon="-2.8163200"/>
+            <trkpt lat="54.6120650" lon="-2.8207840"/>
+            <trkpt lat="54.6116610" lon="-2.8231550"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

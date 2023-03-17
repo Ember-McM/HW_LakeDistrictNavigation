@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Wasdale Head to Buttermere, Walk</name>
+        <desc></desc>
+        <bounds minlat="54.4650360" minlon="-3.2801120" maxlat="54.5413700" maxlon="-3.2413500"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.4650360" lon="-3.2565320" type="start"/>
+            <os:point lat="54.5413700" lon="-3.2757520" type="end"/>
+            <os:activity>ON_FOOT_WALKING</os:activity>
+            <os:difficulty>MODERATE</os:difficulty>
+            <os:paths/>
+            <os:distance>10902.4114501</os:distance>
+            <os:elevation_ascent>702.7600000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.4650360" lon="-3.2565320"/>
+    <wpt lat="54.4675860" lon="-3.2561170"/>
+    <wpt lat="54.4677840" lon="-3.2568920"/>
+    <wpt lat="54.4684460" lon="-3.2565280"/>
+    <wpt lat="54.4690130" lon="-3.2557310"/>
+    <wpt lat="54.4701490" lon="-3.2549030"/>
+    <wpt lat="54.4711110" lon="-3.2548490"/>
+    <wpt lat="54.4714750" lon="-3.2550550"/>
+    <wpt lat="54.4719050" lon="-3.2565980"/>
+    <wpt lat="54.4728450" lon="-3.2578790"/>
+    <wpt lat="54.4747150" lon="-3.2589420"/>
+    <wpt lat="54.4759160" lon="-3.2603450"/>
+    <wpt lat="54.4777360" lon="-3.2619540"/>
+    <wpt lat="54.4798010" lon="-3.2633010"/>
+    <wpt lat="54.4822730" lon="-3.2636280"/>
+    <wpt lat="54.4844350" lon="-3.2629830"/>
+    <wpt lat="54.4862800" lon="-3.2610720"/>
+    <wpt lat="54.4868140" lon="-3.2619440"/>
+    <wpt lat="54.4883890" lon="-3.2607650"/>
+    <wpt lat="54.4899890" lon="-3.2578350"/>
+    <wpt lat="54.4909340" lon="-3.2551700"/>
+    <wpt lat="54.4912010" lon="-3.2511500"/>
+    <wpt lat="54.4918310" lon="-3.2494880"/>
+    <wpt lat="54.4923220" lon="-3.2475700"/>
+    <wpt lat="54.4923390" lon="-3.2451030"/>
+    <wpt lat="54.4946690" lon="-3.2425540"/>
+    <wpt lat="54.4980700" lon="-3.2413500"/>
+    <wpt lat="54.4991860" lon="-3.2436320"/>
+    <wpt lat="54.5005020" lon="-3.2451800"/>
+    <wpt lat="54.5014250" lon="-3.2505010"/>
+    <wpt lat="54.5056250" lon="-3.2544530"/>
+    <wpt lat="54.5089500" lon="-3.2538210"/>
+    <wpt lat="54.5106500" lon="-3.2554700"/>
+    <wpt lat="54.5170180" lon="-3.2563900"/>
+    <wpt lat="54.5203200" lon="-3.2560580"/>
+    <wpt lat="54.5228480" lon="-3.2570090"/>
+    <wpt lat="54.5238090" lon="-3.2577060"/>
+    <wpt lat="54.5285490" lon="-3.2651760"/>
+    <wpt lat="54.5348650" lon="-3.2801120"/>
+    <wpt lat="54.5364700" lon="-3.2786210"/>
+    <wpt lat="54.5380440" lon="-3.2790530"/>
+    <wpt lat="54.5397420" lon="-3.2777610"/>
+    <wpt lat="54.5404070" lon="-3.2784860"/>
+    <wpt lat="54.5413560" lon="-3.2766270"/>
+    <wpt lat="54.5413700" lon="-3.2757520"/>
+    <trk>
+        <name>Wasdale Head to Buttermere, Walk</name>
+        <trkseg>
+            <trkpt lat="54.4650360" lon="-3.2565320"/>
+            <trkpt lat="54.4675860" lon="-3.2561170"/>
+            <trkpt lat="54.4677840" lon="-3.2568920"/>
+            <trkpt lat="54.4684460" lon="-3.2565280"/>
+            <trkpt lat="54.4690130" lon="-3.2557310"/>
+            <trkpt lat="54.4701490" lon="-3.2549030"/>
+            <trkpt lat="54.4711110" lon="-3.2548490"/>
+            <trkpt lat="54.4714750" lon="-3.2550550"/>
+            <trkpt lat="54.4719050" lon="-3.2565980"/>
+            <trkpt lat="54.4728450" lon="-3.2578790"/>
+            <trkpt lat="54.4747150" lon="-3.2589420"/>
+            <trkpt lat="54.4759160" lon="-3.2603450"/>
+            <trkpt lat="54.4777360" lon="-3.2619540"/>
+            <trkpt lat="54.4798010" lon="-3.2633010"/>
+            <trkpt lat="54.4822730" lon="-3.2636280"/>
+            <trkpt lat="54.4844350" lon="-3.2629830"/>
+            <trkpt lat="54.4862800" lon="-3.2610720"/>
+            <trkpt lat="54.4868140" lon="-3.2619440"/>
+            <trkpt lat="54.4883890" lon="-3.2607650"/>
+            <trkpt lat="54.4899890" lon="-3.2578350"/>
+            <trkpt lat="54.4909340" lon="-3.2551700"/>
+            <trkpt lat="54.4912010" lon="-3.2511500"/>
+            <trkpt lat="54.4918310" lon="-3.2494880"/>
+            <trkpt lat="54.4923220" lon="-3.2475700"/>
+            <trkpt lat="54.4923390" lon="-3.2451030"/>
+            <trkpt lat="54.4946690" lon="-3.2425540"/>
+            <trkpt lat="54.4978370" lon="-3.2414840"/>
+            <trkpt lat="54.4980700" lon="-3.2413500"/>
+            <trkpt lat="54.4991860" lon="-3.2436320"/>
+            <trkpt lat="54.5005020" lon="-3.2451800"/>
+            <trkpt lat="54.5014250" lon="-3.2505010"/>
+            <trkpt lat="54.5028390" lon="-3.2518600"/>
+            <trkpt lat="54.5056250" lon="-3.2544530"/>
+            <trkpt lat="54.5075360" lon="-3.2540140"/>
+            <trkpt lat="54.5089500" lon="-3.2538210"/>
+            <trkpt lat="54.5106500" lon="-3.2554700"/>
+            <trkpt lat="54.5137840" lon="-3.2559700"/>
+            <trkpt lat="54.5170180" lon="-3.2563900"/>
+            <trkpt lat="54.5203200" lon="-3.2560580"/>
+            <trkpt lat="54.5228480" lon="-3.2570090"/>
+            <trkpt lat="54.5238090" lon="-3.2577060"/>
+            <trkpt lat="54.5262260" lon="-3.2616830"/>
+            <trkpt lat="54.5285490" lon="-3.2651760"/>
+            <trkpt lat="54.5300040" lon="-3.2688670"/>
+            <trkpt lat="54.5326570" lon="-3.2746380"/>
+            <trkpt lat="54.5348650" lon="-3.2801120"/>
+            <trkpt lat="54.5364700" lon="-3.2786210"/>
+            <trkpt lat="54.5380440" lon="-3.2790530"/>
+            <trkpt lat="54.5397420" lon="-3.2777610"/>
+            <trkpt lat="54.5404070" lon="-3.2784860"/>
+            <trkpt lat="54.5413560" lon="-3.2766270"/>
+            <trkpt lat="54.5413700" lon="-3.2757520"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

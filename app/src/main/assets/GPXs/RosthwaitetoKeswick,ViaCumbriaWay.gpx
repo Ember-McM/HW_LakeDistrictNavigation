@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Rosthwaite to Keswick, Via Cumbria Way</name>
+        <desc></desc>
+        <bounds minlat="54.5229440" minlon="-3.1650730" maxlat="54.6047750" maxlon="-3.1386170"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.5242490" lon="-3.1477590" type="start"/>
+            <os:point lat="54.6015700" lon="-3.1386170" type="end"/>
+            <os:activity>ON_FOOT_WALKING</os:activity>
+            <os:difficulty>UNKNOWN</os:difficulty>
+            <os:paths/>
+            <os:distance>12426.4535696</os:distance>
+            <os:elevation_ascent>166.7600000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.5242490" lon="-3.1477590"/>
+    <wpt lat="54.5238950" lon="-3.1474690"/>
+    <wpt lat="54.5229440" lon="-3.1492560"/>
+    <wpt lat="54.5236140" lon="-3.1533700"/>
+    <wpt lat="54.5235350" lon="-3.1547080"/>
+    <wpt lat="54.5256570" lon="-3.1572260"/>
+    <wpt lat="54.5256770" lon="-3.1576140"/>
+    <wpt lat="54.5261680" lon="-3.1582860"/>
+    <wpt lat="54.5269980" lon="-3.1578980"/>
+    <wpt lat="54.5281440" lon="-3.1567940"/>
+    <wpt lat="54.5304220" lon="-3.1553450"/>
+    <wpt lat="54.5324220" lon="-3.1546170"/>
+    <wpt lat="54.5345260" lon="-3.1575090"/>
+    <wpt lat="54.5361340" lon="-3.1571620"/>
+    <wpt lat="54.5365880" lon="-3.1564880"/>
+    <wpt lat="54.5376910" lon="-3.1564990"/>
+    <wpt lat="54.5384480" lon="-3.1574550"/>
+    <wpt lat="54.5387440" lon="-3.1597810"/>
+    <wpt lat="54.5400310" lon="-3.1605420"/>
+    <wpt lat="54.5408690" lon="-3.1603050"/>
+    <wpt lat="54.5426580" lon="-3.1610970"/>
+    <wpt lat="54.5435090" lon="-3.1612170"/>
+    <wpt lat="54.5434020" lon="-3.1634220"/>
+    <wpt lat="54.5440120" lon="-3.1650730"/>
+    <wpt lat="54.5450670" lon="-3.1647060"/>
+    <wpt lat="54.5468960" lon="-3.1627880"/>
+    <wpt lat="54.5477770" lon="-3.1631210"/>
+    <wpt lat="54.5488570" lon="-3.1600390"/>
+    <wpt lat="54.5503890" lon="-3.1601570"/>
+    <wpt lat="54.5513550" lon="-3.1607320"/>
+    <wpt lat="54.5525610" lon="-3.1594450"/>
+    <wpt lat="54.5541860" lon="-3.1595190"/>
+    <wpt lat="54.5552280" lon="-3.1576120"/>
+    <wpt lat="54.5572920" lon="-3.1546190"/>
+    <wpt lat="54.5586720" lon="-3.1545600"/>
+    <wpt lat="54.5592020" lon="-3.1529220"/>
+    <wpt lat="54.5601890" lon="-3.1528700"/>
+    <wpt lat="54.5617660" lon="-3.1535210"/>
+    <wpt lat="54.5626670" lon="-3.1550540"/>
+    <wpt lat="54.5637080" lon="-3.1575740"/>
+    <wpt lat="54.5638540" lon="-3.1590860"/>
+    <wpt lat="54.5652550" lon="-3.1600730"/>
+    <wpt lat="54.5666120" lon="-3.1602100"/>
+    <wpt lat="54.5677630" lon="-3.1591180"/>
+    <wpt lat="54.5708980" lon="-3.1574380"/>
+    <wpt lat="54.5721270" lon="-3.1580360"/>
+    <wpt lat="54.5736000" lon="-3.1567450"/>
+    <wpt lat="54.5748120" lon="-3.1576060"/>
+    <wpt lat="54.5761990" lon="-3.1579880"/>
+    <wpt lat="54.5768930" lon="-3.1595530"/>
+    <wpt lat="54.5777820" lon="-3.1609070"/>
+    <wpt lat="54.5794820" lon="-3.1610770"/>
+    <wpt lat="54.5818180" lon="-3.1637300"/>
+    <wpt lat="54.5832370" lon="-3.1638880"/>
+    <wpt lat="54.5845100" lon="-3.1628030"/>
+    <wpt lat="54.5880230" lon="-3.1590970"/>
+    <wpt lat="54.5904160" lon="-3.1591630"/>
+    <wpt lat="54.5930790" lon="-3.1585850"/>
+    <wpt lat="54.5949730" lon="-3.1586380"/>
+    <wpt lat="54.5966300" lon="-3.1595250"/>
+    <wpt lat="54.5973740" lon="-3.1585460"/>
+    <wpt lat="54.5992450" lon="-3.1582450"/>
+    <wpt lat="54.6007280" lon="-3.1595150"/>
+    <wpt lat="54.6015610" lon="-3.1591330"/>
+    <wpt lat="54.6030570" lon="-3.1574940"/>
+    <wpt lat="54.6032480" lon="-3.1570670"/>
+    <wpt lat="54.6042490" lon="-3.1565160"/>
+    <wpt lat="54.6047750" lon="-3.1546570"/>
+    <wpt lat="54.6042180" lon="-3.1479290"/>
+    <wpt lat="54.6032280" lon="-3.1435760"/>
+    <wpt lat="54.6035920" lon="-3.1426310"/>
+    <wpt lat="54.6021540" lon="-3.1403460"/>
+    <wpt lat="54.6015700" lon="-3.1386170"/>
+    <trk>
+        <name>Rosthwaite to Keswick, Via Cumbria Way</name>
+        <trkseg>
+            <trkpt lat="54.5242490" lon="-3.1477590"/>
+            <trkpt lat="54.5238950" lon="-3.1474690"/>
+            <trkpt lat="54.5229440" lon="-3.1492560"/>
+            <trkpt lat="54.5236140" lon="-3.1533700"/>
+            <trkpt lat="54.5235350" lon="-3.1547080"/>
+            <trkpt lat="54.5249920" lon="-3.1565440"/>
+            <trkpt lat="54.5256570" lon="-3.1572260"/>
+            <trkpt lat="54.5256770" lon="-3.1576140"/>
+            <trkpt lat="54.5261680" lon="-3.1582860"/>
+            <trkpt lat="54.5269980" lon="-3.1578980"/>
+            <trkpt lat="54.5281440" lon="-3.1567940"/>
+            <trkpt lat="54.5294570" lon="-3.1559210"/>
+            <trkpt lat="54.5304220" lon="-3.1553450"/>
+            <trkpt lat="54.5324220" lon="-3.1546170"/>
+            <trkpt lat="54.5337780" lon="-3.1566600"/>
+            <trkpt lat="54.5345260" lon="-3.1575090"/>
+            <trkpt lat="54.5361340" lon="-3.1571620"/>
+            <trkpt lat="54.5365880" lon="-3.1564880"/>
+            <trkpt lat="54.5376910" lon="-3.1564990"/>
+            <trkpt lat="54.5384480" lon="-3.1574550"/>
+            <trkpt lat="54.5387440" lon="-3.1597810"/>
+            <trkpt lat="54.5400310" lon="-3.1605420"/>
+            <trkpt lat="54.5408690" lon="-3.1603050"/>
+            <trkpt lat="54.5426580" lon="-3.1610970"/>
+            <trkpt lat="54.5435090" lon="-3.1612170"/>
+            <trkpt lat="54.5434020" lon="-3.1634220"/>
+            <trkpt lat="54.5440120" lon="-3.1650730"/>
+            <trkpt lat="54.5450670" lon="-3.1647060"/>
+            <trkpt lat="54.5468960" lon="-3.1627880"/>
+            <trkpt lat="54.5477770" lon="-3.1631210"/>
+            <trkpt lat="54.5488570" lon="-3.1600390"/>
+            <trkpt lat="54.5503890" lon="-3.1601570"/>
+            <trkpt lat="54.5513550" lon="-3.1607320"/>
+            <trkpt lat="54.5525610" lon="-3.1594450"/>
+            <trkpt lat="54.5541860" lon="-3.1595190"/>
+            <trkpt lat="54.5552280" lon="-3.1576120"/>
+            <trkpt lat="54.5562090" lon="-3.1563520"/>
+            <trkpt lat="54.5572920" lon="-3.1546190"/>
+            <trkpt lat="54.5586720" lon="-3.1545600"/>
+            <trkpt lat="54.5592020" lon="-3.1529220"/>
+            <trkpt lat="54.5601890" lon="-3.1528700"/>
+            <trkpt lat="54.5617660" lon="-3.1535210"/>
+            <trkpt lat="54.5626670" lon="-3.1550540"/>
+            <trkpt lat="54.5637080" lon="-3.1575740"/>
+            <trkpt lat="54.5638540" lon="-3.1590860"/>
+            <trkpt lat="54.5652550" lon="-3.1600730"/>
+            <trkpt lat="54.5666120" lon="-3.1602100"/>
+            <trkpt lat="54.5677630" lon="-3.1591180"/>
+            <trkpt lat="54.5693760" lon="-3.1583200"/>
+            <trkpt lat="54.5708980" lon="-3.1574380"/>
+            <trkpt lat="54.5721270" lon="-3.1580360"/>
+            <trkpt lat="54.5736000" lon="-3.1567450"/>
+            <trkpt lat="54.5748120" lon="-3.1576060"/>
+            <trkpt lat="54.5761990" lon="-3.1579880"/>
+            <trkpt lat="54.5768930" lon="-3.1595530"/>
+            <trkpt lat="54.5777820" lon="-3.1609070"/>
+            <trkpt lat="54.5794820" lon="-3.1610770"/>
+            <trkpt lat="54.5804790" lon="-3.1623350"/>
+            <trkpt lat="54.5818180" lon="-3.1637300"/>
+            <trkpt lat="54.5832370" lon="-3.1638880"/>
+            <trkpt lat="54.5845100" lon="-3.1628030"/>
+            <trkpt lat="54.5861600" lon="-3.1609900"/>
+            <trkpt lat="54.5880230" lon="-3.1590970"/>
+            <trkpt lat="54.5904160" lon="-3.1591630"/>
+            <trkpt lat="54.5912440" lon="-3.1590310"/>
+            <trkpt lat="54.5930790" lon="-3.1585850"/>
+            <trkpt lat="54.5949730" lon="-3.1586380"/>
+            <trkpt lat="54.5966300" lon="-3.1595250"/>
+            <trkpt lat="54.5973740" lon="-3.1585460"/>
+            <trkpt lat="54.5992450" lon="-3.1582450"/>
+            <trkpt lat="54.6007280" lon="-3.1595150"/>
+            <trkpt lat="54.6015610" lon="-3.1591330"/>
+            <trkpt lat="54.6030570" lon="-3.1574940"/>
+            <trkpt lat="54.6032480" lon="-3.1570670"/>
+            <trkpt lat="54.6042490" lon="-3.1565160"/>
+            <trkpt lat="54.6047750" lon="-3.1546570"/>
+            <trkpt lat="54.6042180" lon="-3.1479290"/>
+            <trkpt lat="54.6032280" lon="-3.1435760"/>
+            <trkpt lat="54.6035920" lon="-3.1426310"/>
+            <trkpt lat="54.6021540" lon="-3.1403460"/>
+            <trkpt lat="54.6015700" lon="-3.1386170"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

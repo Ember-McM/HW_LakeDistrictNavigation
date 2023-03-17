@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Keswick to Bassenthwaite, Walk</name>
+        <desc></desc>
+        <bounds minlat="54.6015540" minlon="-3.2025010" maxlat="54.6780180" maxlon="-3.1385690"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.6015540" lon="-3.1385690" type="start"/>
+            <os:point lat="54.6780180" lon="-3.1951980" type="end"/>
+            <os:activity>ON_FOOT_WALKING</os:activity>
+            <os:difficulty>MODERATE</os:difficulty>
+            <os:paths/>
+            <os:distance>12242.5046978</os:distance>
+            <os:elevation_ascent>298.5800000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.6015540" lon="-3.1385690"/>
+    <wpt lat="54.6021610" lon="-3.1403940"/>
+    <wpt lat="54.6043410" lon="-3.1441340"/>
+    <wpt lat="54.6050840" lon="-3.1451010"/>
+    <wpt lat="54.6063120" lon="-3.1448910"/>
+    <wpt lat="54.6070680" lon="-3.1467320"/>
+    <wpt lat="54.6078450" lon="-3.1456840"/>
+    <wpt lat="54.6086620" lon="-3.1466280"/>
+    <wpt lat="54.6099240" lon="-3.1472570"/>
+    <wpt lat="54.6106850" lon="-3.1463580"/>
+    <wpt lat="54.6116770" lon="-3.1461250"/>
+    <wpt lat="54.6163660" lon="-3.1396820"/>
+    <wpt lat="54.6179090" lon="-3.1408910"/>
+    <wpt lat="54.6196560" lon="-3.1408790"/>
+    <wpt lat="54.6200520" lon="-3.1414160"/>
+    <wpt lat="54.6204300" lon="-3.1429890"/>
+    <wpt lat="54.6217520" lon="-3.1459370"/>
+    <wpt lat="54.6225550" lon="-3.1484890"/>
+    <wpt lat="54.6260630" lon="-3.1570070"/>
+    <wpt lat="54.6261770" lon="-3.1618440"/>
+    <wpt lat="54.6273440" lon="-3.1699530"/>
+    <wpt lat="54.6277350" lon="-3.1714800"/>
+    <wpt lat="54.6284470" lon="-3.1726130"/>
+    <wpt lat="54.6283460" lon="-3.1707830"/>
+    <wpt lat="54.6308820" lon="-3.1786260"/>
+    <wpt lat="54.6336800" lon="-3.1815720"/>
+    <wpt lat="54.6365970" lon="-3.1841840"/>
+    <wpt lat="54.6371860" lon="-3.1838880"/>
+    <wpt lat="54.6382820" lon="-3.1841190"/>
+    <wpt lat="54.6402990" lon="-3.1858840"/>
+    <wpt lat="54.6407730" lon="-3.1856960"/>
+    <wpt lat="54.6413200" lon="-3.1848100"/>
+    <wpt lat="54.6414100" lon="-3.1837310"/>
+    <wpt lat="54.6426210" lon="-3.1857310"/>
+    <wpt lat="54.6435640" lon="-3.1863390"/>
+    <wpt lat="54.6448100" lon="-3.1863320"/>
+    <wpt lat="54.6481300" lon="-3.1869600"/>
+    <wpt lat="54.6516950" lon="-3.1860530"/>
+    <wpt lat="54.6537750" lon="-3.1860030"/>
+    <wpt lat="54.6516650" lon="-3.1883550"/>
+    <wpt lat="54.6513250" lon="-3.1893320"/>
+    <wpt lat="54.6531360" lon="-3.1944770"/>
+    <wpt lat="54.6565280" lon="-3.2013590"/>
+    <wpt lat="54.6584480" lon="-3.2025010"/>
+    <wpt lat="54.6620800" lon="-3.2005430"/>
+    <wpt lat="54.6658100" lon="-3.2006870"/>
+    <wpt lat="54.6689740" lon="-3.2019800"/>
+    <wpt lat="54.6711170" lon="-3.1996490"/>
+    <wpt lat="54.6743290" lon="-3.1989900"/>
+    <wpt lat="54.6759700" lon="-3.1962410"/>
+    <wpt lat="54.6780180" lon="-3.1951980"/>
+    <trk>
+        <name>Keswick to Bassenthwaite, Walk</name>
+        <trkseg>
+            <trkpt lat="54.6015540" lon="-3.1385690"/>
+            <trkpt lat="54.6021610" lon="-3.1403940"/>
+            <trkpt lat="54.6043410" lon="-3.1441340"/>
+            <trkpt lat="54.6050840" lon="-3.1451010"/>
+            <trkpt lat="54.6063120" lon="-3.1448910"/>
+            <trkpt lat="54.6070680" lon="-3.1467320"/>
+            <trkpt lat="54.6078450" lon="-3.1456840"/>
+            <trkpt lat="54.6086620" lon="-3.1466280"/>
+            <trkpt lat="54.6099240" lon="-3.1472570"/>
+            <trkpt lat="54.6106850" lon="-3.1463580"/>
+            <trkpt lat="54.6116770" lon="-3.1461250"/>
+            <trkpt lat="54.6139640" lon="-3.1430610"/>
+            <trkpt lat="54.6163660" lon="-3.1396820"/>
+            <trkpt lat="54.6179090" lon="-3.1408910"/>
+            <trkpt lat="54.6196560" lon="-3.1408790"/>
+            <trkpt lat="54.6200520" lon="-3.1414160"/>
+            <trkpt lat="54.6204300" lon="-3.1429890"/>
+            <trkpt lat="54.6217520" lon="-3.1459370"/>
+            <trkpt lat="54.6225550" lon="-3.1484890"/>
+            <trkpt lat="54.6237760" lon="-3.1512970"/>
+            <trkpt lat="54.6247000" lon="-3.1537330"/>
+            <trkpt lat="54.6260630" lon="-3.1570070"/>
+            <trkpt lat="54.6261770" lon="-3.1618440"/>
+            <trkpt lat="54.6273440" lon="-3.1699530"/>
+            <trkpt lat="54.6277350" lon="-3.1714800"/>
+            <trkpt lat="54.6284470" lon="-3.1726130"/>
+            <trkpt lat="54.6283460" lon="-3.1707830"/>
+            <trkpt lat="54.6296210" lon="-3.1745350"/>
+            <trkpt lat="54.6308820" lon="-3.1786260"/>
+            <trkpt lat="54.6320760" lon="-3.1797560"/>
+            <trkpt lat="54.6336800" lon="-3.1815720"/>
+            <trkpt lat="54.6357910" lon="-3.1835430"/>
+            <trkpt lat="54.6365970" lon="-3.1841840"/>
+            <trkpt lat="54.6371860" lon="-3.1838880"/>
+            <trkpt lat="54.6382820" lon="-3.1841190"/>
+            <trkpt lat="54.6394750" lon="-3.1851170"/>
+            <trkpt lat="54.6402990" lon="-3.1858840"/>
+            <trkpt lat="54.6407730" lon="-3.1856960"/>
+            <trkpt lat="54.6413200" lon="-3.1848100"/>
+            <trkpt lat="54.6414100" lon="-3.1837310"/>
+            <trkpt lat="54.6426210" lon="-3.1857310"/>
+            <trkpt lat="54.6435640" lon="-3.1863390"/>
+            <trkpt lat="54.6448100" lon="-3.1863320"/>
+            <trkpt lat="54.6462190" lon="-3.1867210"/>
+            <trkpt lat="54.6481300" lon="-3.1869600"/>
+            <trkpt lat="54.6504970" lon="-3.1862570"/>
+            <trkpt lat="54.6516950" lon="-3.1860530"/>
+            <trkpt lat="54.6537750" lon="-3.1860030"/>
+            <trkpt lat="54.6516650" lon="-3.1883550"/>
+            <trkpt lat="54.6513250" lon="-3.1893320"/>
+            <trkpt lat="54.6531360" lon="-3.1944770"/>
+            <trkpt lat="54.6565280" lon="-3.2013590"/>
+            <trkpt lat="54.6584480" lon="-3.2025010"/>
+            <trkpt lat="54.6620800" lon="-3.2005430"/>
+            <trkpt lat="54.6658100" lon="-3.2006870"/>
+            <trkpt lat="54.6689740" lon="-3.2019800"/>
+            <trkpt lat="54.6711170" lon="-3.1996490"/>
+            <trkpt lat="54.6743290" lon="-3.1989900"/>
+            <trkpt lat="54.6759700" lon="-3.1962410"/>
+            <trkpt lat="54.6780180" lon="-3.1951980"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

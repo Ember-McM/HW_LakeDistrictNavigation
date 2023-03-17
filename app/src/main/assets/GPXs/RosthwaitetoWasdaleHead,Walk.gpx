@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Rosthwaite to Wasdale Head, Walk</name>
+        <desc></desc>
+        <bounds minlat="54.4677460" minlon="-3.2636220" maxlat="54.5240010" maxlon="-3.1472180"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.5240010" lon="-3.1472180" type="start"/>
+            <os:point lat="54.4677460" lon="-3.2560950" type="end"/>
+            <os:activity>ON_FOOT_WALKING</os:activity>
+            <os:difficulty>DIFFICULT</os:difficulty>
+            <os:paths/>
+            <os:distance>12488.6031213</os:distance>
+            <os:elevation_ascent>869.1800000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.5240010" lon="-3.1472180"/>
+    <wpt lat="54.5230150" lon="-3.1491880"/>
+    <wpt lat="54.5228610" lon="-3.1490560"/>
+    <wpt lat="54.5221220" lon="-3.1496810"/>
+    <wpt lat="54.5205030" lon="-3.1493210"/>
+    <wpt lat="54.5195890" lon="-3.1500960"/>
+    <wpt lat="54.5189750" lon="-3.1503010"/>
+    <wpt lat="54.5187590" lon="-3.1520560"/>
+    <wpt lat="54.5193520" lon="-3.1525490"/>
+    <wpt lat="54.5194710" lon="-3.1548570"/>
+    <wpt lat="54.5195890" lon="-3.1550610"/>
+    <wpt lat="54.5191010" lon="-3.1558540"/>
+    <wpt lat="54.5174880" lon="-3.1559770"/>
+    <wpt lat="54.5169020" lon="-3.1589460"/>
+    <wpt lat="54.5157510" lon="-3.1627560"/>
+    <wpt lat="54.5153990" lon="-3.1631700"/>
+    <wpt lat="54.5144510" lon="-3.1656310"/>
+    <wpt lat="54.5134830" lon="-3.1671750"/>
+    <wpt lat="54.5138120" lon="-3.1682550"/>
+    <wpt lat="54.5146090" lon="-3.1689980"/>
+    <wpt lat="54.5148490" lon="-3.1704770"/>
+    <wpt lat="54.5148160" lon="-3.1729410"/>
+    <wpt lat="54.5145720" lon="-3.1758980"/>
+    <wpt lat="54.5147310" lon="-3.1794680"/>
+    <wpt lat="54.5137560" lon="-3.1834930"/>
+    <wpt lat="54.5132170" lon="-3.1843570"/>
+    <wpt lat="54.5124810" lon="-3.1867160"/>
+    <wpt lat="54.5124620" lon="-3.1883400"/>
+    <wpt lat="54.5121760" lon="-3.1896410"/>
+    <wpt lat="54.5127620" lon="-3.1913050"/>
+    <wpt lat="54.5129310" lon="-3.1934050"/>
+    <wpt lat="54.5118440" lon="-3.1960690"/>
+    <wpt lat="54.5114460" lon="-3.1983090"/>
+    <wpt lat="54.5114780" lon="-3.1997380"/>
+    <wpt lat="54.5111970" lon="-3.2012070"/>
+    <wpt lat="54.5104240" lon="-3.2124930"/>
+    <wpt lat="54.5054710" lon="-3.2127200"/>
+    <wpt lat="54.5036960" lon="-3.2140540"/>
+    <wpt lat="54.5014220" lon="-3.2192930"/>
+    <wpt lat="54.5008520" lon="-3.2244220"/>
+    <wpt lat="54.5005970" lon="-3.2283460"/>
+    <wpt lat="54.4981220" lon="-3.2303770"/>
+    <wpt lat="54.4969810" lon="-3.2323690"/>
+    <wpt lat="54.4964550" lon="-3.2348420"/>
+    <wpt lat="54.4965120" lon="-3.2375820"/>
+    <wpt lat="54.4978710" lon="-3.2412860"/>
+    <wpt lat="54.4977790" lon="-3.2415640"/>
+    <wpt lat="54.4965510" lon="-3.2417640"/>
+    <wpt lat="54.4946960" lon="-3.2424880"/>
+    <wpt lat="54.4933100" lon="-3.2461950"/>
+    <wpt lat="54.4918190" lon="-3.2493810"/>
+    <wpt lat="54.4910380" lon="-3.2523970"/>
+    <wpt lat="54.4900800" lon="-3.2576270"/>
+    <wpt lat="54.4884940" lon="-3.2607660"/>
+    <wpt lat="54.4860910" lon="-3.2612730"/>
+    <wpt lat="54.4824230" lon="-3.2636220"/>
+    <wpt lat="54.4796160" lon="-3.2632130"/>
+    <wpt lat="54.4775380" lon="-3.2617260"/>
+    <wpt lat="54.4756350" lon="-3.2599160"/>
+    <wpt lat="54.4727860" lon="-3.2576710"/>
+    <wpt lat="54.4718340" lon="-3.2564640"/>
+    <wpt lat="54.4710950" lon="-3.2548910"/>
+    <wpt lat="54.4702130" lon="-3.2549830"/>
+    <wpt lat="54.4691450" lon="-3.2555400"/>
+    <wpt lat="54.4681720" lon="-3.2566160"/>
+    <wpt lat="54.4677460" lon="-3.2560950"/>
+    <trk>
+        <name>Rosthwaite to Wasdale Head, Walk</name>
+        <trkseg>
+            <trkpt lat="54.5240010" lon="-3.1472180"/>
+            <trkpt lat="54.5232450" lon="-3.1486960"/>
+            <trkpt lat="54.5230150" lon="-3.1491880"/>
+            <trkpt lat="54.5228610" lon="-3.1490560"/>
+            <trkpt lat="54.5222680" lon="-3.1494050"/>
+            <trkpt lat="54.5221220" lon="-3.1496810"/>
+            <trkpt lat="54.5205030" lon="-3.1493210"/>
+            <trkpt lat="54.5195890" lon="-3.1500960"/>
+            <trkpt lat="54.5189750" lon="-3.1503010"/>
+            <trkpt lat="54.5189130" lon="-3.1514910"/>
+            <trkpt lat="54.5187310" lon="-3.1515630"/>
+            <trkpt lat="54.5187590" lon="-3.1520560"/>
+            <trkpt lat="54.5193520" lon="-3.1525490"/>
+            <trkpt lat="54.5194640" lon="-3.1542800"/>
+            <trkpt lat="54.5194710" lon="-3.1548570"/>
+            <trkpt lat="54.5195890" lon="-3.1550610"/>
+            <trkpt lat="54.5191010" lon="-3.1558540"/>
+            <trkpt lat="54.5174880" lon="-3.1559770"/>
+            <trkpt lat="54.5169020" lon="-3.1589460"/>
+            <trkpt lat="54.5157510" lon="-3.1627560"/>
+            <trkpt lat="54.5153990" lon="-3.1631700"/>
+            <trkpt lat="54.5149940" lon="-3.1644710"/>
+            <trkpt lat="54.5144510" lon="-3.1656310"/>
+            <trkpt lat="54.5134830" lon="-3.1671750"/>
+            <trkpt lat="54.5138120" lon="-3.1682550"/>
+            <trkpt lat="54.5146090" lon="-3.1689980"/>
+            <trkpt lat="54.5148490" lon="-3.1704770"/>
+            <trkpt lat="54.5148160" lon="-3.1729410"/>
+            <trkpt lat="54.5145720" lon="-3.1758980"/>
+            <trkpt lat="54.5146840" lon="-3.1772470"/>
+            <trkpt lat="54.5147310" lon="-3.1794680"/>
+            <trkpt lat="54.5140500" lon="-3.1821690"/>
+            <trkpt lat="54.5137560" lon="-3.1834930"/>
+            <trkpt lat="54.5132170" lon="-3.1843570"/>
+            <trkpt lat="54.5129310" lon="-3.1855040"/>
+            <trkpt lat="54.5124810" lon="-3.1867160"/>
+            <trkpt lat="54.5124620" lon="-3.1883400"/>
+            <trkpt lat="54.5121760" lon="-3.1896410"/>
+            <trkpt lat="54.5127620" lon="-3.1913050"/>
+            <trkpt lat="54.5129310" lon="-3.1934050"/>
+            <trkpt lat="54.5118440" lon="-3.1960690"/>
+            <trkpt lat="54.5114460" lon="-3.1983090"/>
+            <trkpt lat="54.5114780" lon="-3.1997380"/>
+            <trkpt lat="54.5111970" lon="-3.2012070"/>
+            <trkpt lat="54.5110240" lon="-3.2037850"/>
+            <trkpt lat="54.5105570" lon="-3.2105530"/>
+            <trkpt lat="54.5104240" lon="-3.2124930"/>
+            <trkpt lat="54.5054710" lon="-3.2127200"/>
+            <trkpt lat="54.5036960" lon="-3.2140540"/>
+            <trkpt lat="54.5025650" lon="-3.2166680"/>
+            <trkpt lat="54.5014220" lon="-3.2192930"/>
+            <trkpt lat="54.5008520" lon="-3.2244220"/>
+            <trkpt lat="54.5005970" lon="-3.2283460"/>
+            <trkpt lat="54.4981220" lon="-3.2303770"/>
+            <trkpt lat="54.4969810" lon="-3.2323690"/>
+            <trkpt lat="54.4964550" lon="-3.2348420"/>
+            <trkpt lat="54.4964600" lon="-3.2366820"/>
+            <trkpt lat="54.4965120" lon="-3.2375820"/>
+            <trkpt lat="54.4967810" lon="-3.2383110"/>
+            <trkpt lat="54.4973680" lon="-3.2397150"/>
+            <trkpt lat="54.4978710" lon="-3.2412860"/>
+            <trkpt lat="54.4977790" lon="-3.2415640"/>
+            <trkpt lat="54.4965510" lon="-3.2417640"/>
+            <trkpt lat="54.4946960" lon="-3.2424880"/>
+            <trkpt lat="54.4933100" lon="-3.2461950"/>
+            <trkpt lat="54.4918190" lon="-3.2493810"/>
+            <trkpt lat="54.4910380" lon="-3.2523970"/>
+            <trkpt lat="54.4900800" lon="-3.2576270"/>
+            <trkpt lat="54.4884940" lon="-3.2607660"/>
+            <trkpt lat="54.4860910" lon="-3.2612730"/>
+            <trkpt lat="54.4824230" lon="-3.2636220"/>
+            <trkpt lat="54.4796160" lon="-3.2632130"/>
+            <trkpt lat="54.4775380" lon="-3.2617260"/>
+            <trkpt lat="54.4756350" lon="-3.2599160"/>
+            <trkpt lat="54.4746010" lon="-3.2590500"/>
+            <trkpt lat="54.4727860" lon="-3.2576710"/>
+            <trkpt lat="54.4718340" lon="-3.2564640"/>
+            <trkpt lat="54.4710950" lon="-3.2548910"/>
+            <trkpt lat="54.4702130" lon="-3.2549830"/>
+            <trkpt lat="54.4691450" lon="-3.2555400"/>
+            <trkpt lat="54.4681720" lon="-3.2566160"/>
+            <trkpt lat="54.4677460" lon="-3.2560950"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

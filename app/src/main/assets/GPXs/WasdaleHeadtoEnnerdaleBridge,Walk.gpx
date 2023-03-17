@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Wasdale Head to Ennerdale Bridge, Walk</name>
+        <desc></desc>
+        <bounds minlat="54.4678150" minlon="-3.4385270" maxlat="54.5294170" maxlon="-3.2413730"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.4678150" lon="-3.2561040" type="start"/>
+            <os:point lat="54.5292190" lon="-3.4385270" type="end"/>
+            <os:activity>ON_FOOT_WALKING</os:activity>
+            <os:difficulty>DIFFICULT</os:difficulty>
+            <os:paths/>
+            <os:distance>18737.7485053</os:distance>
+            <os:elevation_ascent>575.1600000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.4678150" lon="-3.2561040"/>
+    <wpt lat="54.4684260" lon="-3.2563420"/>
+    <wpt lat="54.4701960" lon="-3.2548790"/>
+    <wpt lat="54.4712530" lon="-3.2548790"/>
+    <wpt lat="54.4719420" lon="-3.2565810"/>
+    <wpt lat="54.4728780" lon="-3.2578830"/>
+    <wpt lat="54.4747430" lon="-3.2588920"/>
+    <wpt lat="54.4776490" lon="-3.2619480"/>
+    <wpt lat="54.4798670" lon="-3.2632100"/>
+    <wpt lat="54.4817770" lon="-3.2634550"/>
+    <wpt lat="54.4832330" lon="-3.2633540"/>
+    <wpt lat="54.4849030" lon="-3.2625800"/>
+    <wpt lat="54.4862140" lon="-3.2610720"/>
+    <wpt lat="54.4870090" lon="-3.2618570"/>
+    <wpt lat="54.4884840" lon="-3.2608130"/>
+    <wpt lat="54.4896570" lon="-3.2588740"/>
+    <wpt lat="54.4906420" lon="-3.2564000"/>
+    <wpt lat="54.4911480" lon="-3.2539030"/>
+    <wpt lat="54.4911080" lon="-3.2518640"/>
+    <wpt lat="54.4923850" lon="-3.2479020"/>
+    <wpt lat="54.4939810" lon="-3.2441910"/>
+    <wpt lat="54.4956310" lon="-3.2420600"/>
+    <wpt lat="54.4981260" lon="-3.2413900"/>
+    <wpt lat="54.4996310" lon="-3.2442770"/>
+    <wpt lat="54.5002930" lon="-3.2449160"/>
+    <wpt lat="54.5032830" lon="-3.2600480"/>
+    <wpt lat="54.5045810" lon="-3.2638460"/>
+    <wpt lat="54.5063640" lon="-3.2678980"/>
+    <wpt lat="54.5076410" lon="-3.2723690"/>
+    <wpt lat="54.5098350" lon="-3.2846710"/>
+    <wpt lat="54.5103840" lon="-3.2902500"/>
+    <wpt lat="54.5110690" lon="-3.2937750"/>
+    <wpt lat="54.5131580" lon="-3.3033520"/>
+    <wpt lat="54.5139180" lon="-3.3042960"/>
+    <wpt lat="54.5151630" lon="-3.3189680"/>
+    <wpt lat="54.5152700" lon="-3.3319540"/>
+    <wpt lat="54.5161630" lon="-3.3439100"/>
+    <wpt lat="54.5153550" lon="-3.3444410"/>
+    <wpt lat="54.5126770" lon="-3.3446010"/>
+    <wpt lat="54.5133130" lon="-3.3466950"/>
+    <wpt lat="54.5131610" lon="-3.3497670"/>
+    <wpt lat="54.5125540" lon="-3.3532640"/>
+    <wpt lat="54.5126720" lon="-3.3558900"/>
+    <wpt lat="54.5133090" lon="-3.3579360"/>
+    <wpt lat="54.5133800" lon="-3.3595730"/>
+    <wpt lat="54.5150240" lon="-3.3671300"/>
+    <wpt lat="54.5158350" lon="-3.3732680"/>
+    <wpt lat="54.5177230" lon="-3.3799800"/>
+    <wpt lat="54.5203560" lon="-3.3865080"/>
+    <wpt lat="54.5217340" lon="-3.3889750"/>
+    <wpt lat="54.5234090" lon="-3.3910370"/>
+    <wpt lat="54.5234490" lon="-3.3967860"/>
+    <wpt lat="54.5229170" lon="-3.4026280"/>
+    <wpt lat="54.5229700" lon="-3.4068650"/>
+    <wpt lat="54.5233550" lon="-3.4081300"/>
+    <wpt lat="54.5243610" lon="-3.4099620"/>
+    <wpt lat="54.5246170" lon="-3.4146500"/>
+    <wpt lat="54.5261550" lon="-3.4157370"/>
+    <wpt lat="54.5278510" lon="-3.4180680"/>
+    <wpt lat="54.5265040" lon="-3.4216040"/>
+    <wpt lat="54.5294170" lon="-3.4272850"/>
+    <wpt lat="54.5291270" lon="-3.4315900"/>
+    <wpt lat="54.5292190" lon="-3.4385270"/>
+    <trk>
+        <name>Wasdale Head to Ennerdale Bridge, Walk</name>
+        <trkseg>
+            <trkpt lat="54.4678150" lon="-3.2561040"/>
+            <trkpt lat="54.4684260" lon="-3.2563420"/>
+            <trkpt lat="54.4693930" lon="-3.2554260"/>
+            <trkpt lat="54.4701960" lon="-3.2548790"/>
+            <trkpt lat="54.4712530" lon="-3.2548790"/>
+            <trkpt lat="54.4719420" lon="-3.2565810"/>
+            <trkpt lat="54.4728780" lon="-3.2578830"/>
+            <trkpt lat="54.4747430" lon="-3.2588920"/>
+            <trkpt lat="54.4764500" lon="-3.2605810"/>
+            <trkpt lat="54.4776490" lon="-3.2619480"/>
+            <trkpt lat="54.4798670" lon="-3.2632100"/>
+            <trkpt lat="54.4817770" lon="-3.2634550"/>
+            <trkpt lat="54.4832330" lon="-3.2633540"/>
+            <trkpt lat="54.4849030" lon="-3.2625800"/>
+            <trkpt lat="54.4862140" lon="-3.2610720"/>
+            <trkpt lat="54.4870090" lon="-3.2618570"/>
+            <trkpt lat="54.4884840" lon="-3.2608130"/>
+            <trkpt lat="54.4896570" lon="-3.2588740"/>
+            <trkpt lat="54.4906420" lon="-3.2564000"/>
+            <trkpt lat="54.4911480" lon="-3.2539030"/>
+            <trkpt lat="54.4911080" lon="-3.2518640"/>
+            <trkpt lat="54.4916530" lon="-3.2502150"/>
+            <trkpt lat="54.4923850" lon="-3.2479020"/>
+            <trkpt lat="54.4939810" lon="-3.2441910"/>
+            <trkpt lat="54.4956310" lon="-3.2420600"/>
+            <trkpt lat="54.4977860" lon="-3.2413730"/>
+            <trkpt lat="54.4981260" lon="-3.2413900"/>
+            <trkpt lat="54.4985110" lon="-3.2423230"/>
+            <trkpt lat="54.4996310" lon="-3.2442770"/>
+            <trkpt lat="54.5002930" lon="-3.2449160"/>
+            <trkpt lat="54.5014470" lon="-3.2507150"/>
+            <trkpt lat="54.5017100" lon="-3.2520760"/>
+            <trkpt lat="54.5024600" lon="-3.2558190"/>
+            <trkpt lat="54.5032830" lon="-3.2600480"/>
+            <trkpt lat="54.5045810" lon="-3.2638460"/>
+            <trkpt lat="54.5063640" lon="-3.2678980"/>
+            <trkpt lat="54.5076410" lon="-3.2723690"/>
+            <trkpt lat="54.5084210" lon="-3.2766570"/>
+            <trkpt lat="54.5090230" lon="-3.2803100"/>
+            <trkpt lat="54.5098350" lon="-3.2846710"/>
+            <trkpt lat="54.5103840" lon="-3.2902500"/>
+            <trkpt lat="54.5110690" lon="-3.2937750"/>
+            <trkpt lat="54.5123250" lon="-3.2992260"/>
+            <trkpt lat="54.5131580" lon="-3.3033520"/>
+            <trkpt lat="54.5139180" lon="-3.3042960"/>
+            <trkpt lat="54.5142660" lon="-3.3075620"/>
+            <trkpt lat="54.5144260" lon="-3.3111080"/>
+            <trkpt lat="54.5147580" lon="-3.3144960"/>
+            <trkpt lat="54.5151630" lon="-3.3189680"/>
+            <trkpt lat="54.5152420" lon="-3.3207290"/>
+            <trkpt lat="54.5152470" lon="-3.3269460"/>
+            <trkpt lat="54.5152700" lon="-3.3319540"/>
+            <trkpt lat="54.5156950" lon="-3.3380600"/>
+            <trkpt lat="54.5161630" lon="-3.3439100"/>
+            <trkpt lat="54.5153550" lon="-3.3444410"/>
+            <trkpt lat="54.5126770" lon="-3.3446010"/>
+            <trkpt lat="54.5133130" lon="-3.3466950"/>
+            <trkpt lat="54.5131610" lon="-3.3497670"/>
+            <trkpt lat="54.5125540" lon="-3.3532640"/>
+            <trkpt lat="54.5126720" lon="-3.3558900"/>
+            <trkpt lat="54.5133090" lon="-3.3579360"/>
+            <trkpt lat="54.5133800" lon="-3.3595730"/>
+            <trkpt lat="54.5140180" lon="-3.3626500"/>
+            <trkpt lat="54.5150240" lon="-3.3671300"/>
+            <trkpt lat="54.5158350" lon="-3.3732680"/>
+            <trkpt lat="54.5177230" lon="-3.3799800"/>
+            <trkpt lat="54.5203560" lon="-3.3865080"/>
+            <trkpt lat="54.5217340" lon="-3.3889750"/>
+            <trkpt lat="54.5234090" lon="-3.3910370"/>
+            <trkpt lat="54.5234490" lon="-3.3967860"/>
+            <trkpt lat="54.5229170" lon="-3.4026280"/>
+            <trkpt lat="54.5229700" lon="-3.4068650"/>
+            <trkpt lat="54.5233550" lon="-3.4081300"/>
+            <trkpt lat="54.5243610" lon="-3.4099620"/>
+            <trkpt lat="54.5246170" lon="-3.4146500"/>
+            <trkpt lat="54.5261550" lon="-3.4157370"/>
+            <trkpt lat="54.5278510" lon="-3.4180680"/>
+            <trkpt lat="54.5265040" lon="-3.4216040"/>
+            <trkpt lat="54.5294170" lon="-3.4272850"/>
+            <trkpt lat="54.5291270" lon="-3.4315900"/>
+            <trkpt lat="54.5292260" lon="-3.4343870"/>
+            <trkpt lat="54.5292190" lon="-3.4385270"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

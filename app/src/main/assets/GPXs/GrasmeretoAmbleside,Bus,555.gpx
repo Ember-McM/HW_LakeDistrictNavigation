@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Grasmere to Ambleside, Bus, 555</name>
+        <desc></desc>
+        <bounds minlat="54.4299600" minlon="-3.0250880" maxlat="54.4591970" maxlon="-2.9618310"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.4591970" lon="-3.0250880" type="start"/>
+            <os:point lat="54.4299600" lon="-2.9634980" type="end"/>
+            <os:activity>OTHER</os:activity>
+            <os:difficulty>UNKNOWN</os:difficulty>
+            <os:paths/>
+            <os:distance>6694.9743615</os:distance>
+            <os:elevation_ascent>58.8300000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.4591970" lon="-3.0250880"/>
+    <wpt lat="54.4587110" lon="-3.0246950"/>
+    <wpt lat="54.4583660" lon="-3.0238690"/>
+    <wpt lat="54.4575930" lon="-3.0241610"/>
+    <wpt lat="54.4570770" lon="-3.0231440"/>
+    <wpt lat="54.4569070" lon="-3.0217740"/>
+    <wpt lat="54.4555860" lon="-3.0190000"/>
+    <wpt lat="54.4551010" lon="-3.0174990"/>
+    <wpt lat="54.4527750" lon="-3.0167610"/>
+    <wpt lat="54.4510300" lon="-3.0165460"/>
+    <wpt lat="54.4494520" lon="-3.0154270"/>
+    <wpt lat="54.4464460" lon="-3.0149750"/>
+    <wpt lat="54.4465430" lon="-3.0108780"/>
+    <wpt lat="54.4471530" lon="-3.0095680"/>
+    <wpt lat="54.4481360" lon="-3.0095200"/>
+    <wpt lat="54.4498950" lon="-3.0067340"/>
+    <wpt lat="54.4500890" lon="-3.0017080"/>
+    <wpt lat="54.4491190" lon="-2.9984450"/>
+    <wpt lat="54.4486160" lon="-2.9892390"/>
+    <wpt lat="54.4468020" lon="-2.9812840"/>
+    <wpt lat="54.4452980" lon="-2.9786590"/>
+    <wpt lat="54.4432350" lon="-2.9768730"/>
+    <wpt lat="54.4416560" lon="-2.9737050"/>
+    <wpt lat="54.4393980" lon="-2.9719900"/>
+    <wpt lat="54.4378470" lon="-2.9699660"/>
+    <wpt lat="54.4356580" lon="-2.9687750"/>
+    <wpt lat="54.4339980" lon="-2.9635690"/>
+    <wpt lat="54.4325860" lon="-2.9631350"/>
+    <wpt lat="54.4319670" lon="-2.9618310"/>
+    <wpt lat="54.4313550" lon="-2.9623740"/>
+    <wpt lat="54.4310320" lon="-2.9622090"/>
+    <wpt lat="54.4304660" lon="-2.9637230"/>
+    <wpt lat="54.4300910" lon="-2.9642480"/>
+    <wpt lat="54.4299600" lon="-2.9634980"/>
+    <trk>
+        <name>Grasmere to Ambleside, Bus, 555</name>
+        <trkseg>
+            <trkpt lat="54.4591970" lon="-3.0250880"/>
+            <trkpt lat="54.4587110" lon="-3.0246950"/>
+            <trkpt lat="54.4583660" lon="-3.0238690"/>
+            <trkpt lat="54.4579790" lon="-3.0238590"/>
+            <trkpt lat="54.4575930" lon="-3.0241610"/>
+            <trkpt lat="54.4570770" lon="-3.0231440"/>
+            <trkpt lat="54.4569070" lon="-3.0217740"/>
+            <trkpt lat="54.4555860" lon="-3.0190000"/>
+            <trkpt lat="54.4551010" lon="-3.0174990"/>
+            <trkpt lat="54.4527750" lon="-3.0167610"/>
+            <trkpt lat="54.4510300" lon="-3.0165460"/>
+            <trkpt lat="54.4494520" lon="-3.0154270"/>
+            <trkpt lat="54.4480810" lon="-3.0152370"/>
+            <trkpt lat="54.4464460" lon="-3.0149750"/>
+            <trkpt lat="54.4465430" lon="-3.0108780"/>
+            <trkpt lat="54.4471530" lon="-3.0095680"/>
+            <trkpt lat="54.4481360" lon="-3.0095200"/>
+            <trkpt lat="54.4498950" lon="-3.0067340"/>
+            <trkpt lat="54.4500890" lon="-3.0017080"/>
+            <trkpt lat="54.4491190" lon="-2.9984450"/>
+            <trkpt lat="54.4488100" lon="-2.9941220"/>
+            <trkpt lat="54.4486160" lon="-2.9892390"/>
+            <trkpt lat="54.4477290" lon="-2.9850950"/>
+            <trkpt lat="54.4468020" lon="-2.9812840"/>
+            <trkpt lat="54.4452980" lon="-2.9786590"/>
+            <trkpt lat="54.4432350" lon="-2.9768730"/>
+            <trkpt lat="54.4416560" lon="-2.9737050"/>
+            <trkpt lat="54.4393980" lon="-2.9719900"/>
+            <trkpt lat="54.4378470" lon="-2.9699660"/>
+            <trkpt lat="54.4356580" lon="-2.9687750"/>
+            <trkpt lat="54.4345740" lon="-2.9656080"/>
+            <trkpt lat="54.4339980" lon="-2.9635690"/>
+            <trkpt lat="54.4325860" lon="-2.9631350"/>
+            <trkpt lat="54.4319670" lon="-2.9618310"/>
+            <trkpt lat="54.4313550" lon="-2.9623740"/>
+            <trkpt lat="54.4310320" lon="-2.9622090"/>
+            <trkpt lat="54.4304660" lon="-2.9637230"/>
+            <trkpt lat="54.4300910" lon="-2.9642480"/>
+            <trkpt lat="54.4299600" lon="-2.9634980"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

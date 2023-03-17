@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Howtown to Pooley Bridge, Via Ullswater Way</name>
+        <desc></desc>
+        <bounds minlat="54.5708040" minlon="-2.8627500" maxlat="54.6120320" maxlon="-2.8215390"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.5709920" lon="-2.8627500" type="start"/>
+            <os:point lat="54.6120320" lon="-2.8215390" type="end"/>
+            <os:activity>ON_FOOT_WALKING</os:activity>
+            <os:difficulty>UNKNOWN</os:difficulty>
+            <os:paths/>
+            <os:distance>5979.2178180</os:distance>
+            <os:elevation_ascent>109.4200000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.5709920" lon="-2.8627500"/>
+    <wpt lat="54.5708040" lon="-2.8616940"/>
+    <wpt lat="54.5709160" lon="-2.8608580"/>
+    <wpt lat="54.5717230" lon="-2.8594990"/>
+    <wpt lat="54.5717620" lon="-2.8590500"/>
+    <wpt lat="54.5727340" lon="-2.8586840"/>
+    <wpt lat="54.5741120" lon="-2.8576030"/>
+    <wpt lat="54.5759780" lon="-2.8531570"/>
+    <wpt lat="54.5773400" lon="-2.8504620"/>
+    <wpt lat="54.5791120" lon="-2.8485790"/>
+    <wpt lat="54.5798630" lon="-2.8481990"/>
+    <wpt lat="54.5806140" lon="-2.8485620"/>
+    <wpt lat="54.5849180" lon="-2.8463260"/>
+    <wpt lat="54.5851730" lon="-2.8457920"/>
+    <wpt lat="54.5858740" lon="-2.8424500"/>
+    <wpt lat="54.5865540" lon="-2.8415330"/>
+    <wpt lat="54.5885110" lon="-2.8404420"/>
+    <wpt lat="54.5896490" lon="-2.8370170"/>
+    <wpt lat="54.5921950" lon="-2.8347670"/>
+    <wpt lat="54.5929970" lon="-2.8346850"/>
+    <wpt lat="54.5948160" lon="-2.8382260"/>
+    <wpt lat="54.5984540" lon="-2.8352130"/>
+    <wpt lat="54.5997210" lon="-2.8321630"/>
+    <wpt lat="54.6018120" lon="-2.8315410"/>
+    <wpt lat="54.6031350" lon="-2.8306690"/>
+    <wpt lat="54.6036300" lon="-2.8285710"/>
+    <wpt lat="54.6041560" lon="-2.8276610"/>
+    <wpt lat="54.6050380" lon="-2.8279310"/>
+    <wpt lat="54.6061830" lon="-2.8270770"/>
+    <wpt lat="54.6075490" lon="-2.8252760"/>
+    <wpt lat="54.6092180" lon="-2.8248590"/>
+    <wpt lat="54.6099260" lon="-2.8249430"/>
+    <wpt lat="54.6106920" lon="-2.8239750"/>
+    <wpt lat="54.6113120" lon="-2.8218520"/>
+    <wpt lat="54.6120320" lon="-2.8215390"/>
+    <trk>
+        <name>Howtown to Pooley Bridge, Via Ullswater Way</name>
+        <trkseg>
+            <trkpt lat="54.5709920" lon="-2.8627500"/>
+            <trkpt lat="54.5708040" lon="-2.8616940"/>
+            <trkpt lat="54.5709160" lon="-2.8608580"/>
+            <trkpt lat="54.5717230" lon="-2.8594990"/>
+            <trkpt lat="54.5717620" lon="-2.8590500"/>
+            <trkpt lat="54.5727340" lon="-2.8586840"/>
+            <trkpt lat="54.5741120" lon="-2.8576030"/>
+            <trkpt lat="54.5750030" lon="-2.8554670"/>
+            <trkpt lat="54.5759780" lon="-2.8531570"/>
+            <trkpt lat="54.5773400" lon="-2.8504620"/>
+            <trkpt lat="54.5791120" lon="-2.8485790"/>
+            <trkpt lat="54.5798630" lon="-2.8481990"/>
+            <trkpt lat="54.5806140" lon="-2.8485620"/>
+            <trkpt lat="54.5823560" lon="-2.8475250"/>
+            <trkpt lat="54.5840230" lon="-2.8469060"/>
+            <trkpt lat="54.5849180" lon="-2.8463260"/>
+            <trkpt lat="54.5851730" lon="-2.8457920"/>
+            <trkpt lat="54.5855430" lon="-2.8437480"/>
+            <trkpt lat="54.5858740" lon="-2.8424500"/>
+            <trkpt lat="54.5865540" lon="-2.8415330"/>
+            <trkpt lat="54.5885110" lon="-2.8404420"/>
+            <trkpt lat="54.5889020" lon="-2.8395360"/>
+            <trkpt lat="54.5896490" lon="-2.8370170"/>
+            <trkpt lat="54.5910890" lon="-2.8357510"/>
+            <trkpt lat="54.5921950" lon="-2.8347670"/>
+            <trkpt lat="54.5929970" lon="-2.8346850"/>
+            <trkpt lat="54.5948160" lon="-2.8382260"/>
+            <trkpt lat="54.5963040" lon="-2.8369780"/>
+            <trkpt lat="54.5984540" lon="-2.8352130"/>
+            <trkpt lat="54.5992960" lon="-2.8331010"/>
+            <trkpt lat="54.5997210" lon="-2.8321630"/>
+            <trkpt lat="54.6003870" lon="-2.8321080"/>
+            <trkpt lat="54.6018120" lon="-2.8315410"/>
+            <trkpt lat="54.6031350" lon="-2.8306690"/>
+            <trkpt lat="54.6036300" lon="-2.8285710"/>
+            <trkpt lat="54.6041560" lon="-2.8276610"/>
+            <trkpt lat="54.6050380" lon="-2.8279310"/>
+            <trkpt lat="54.6061830" lon="-2.8270770"/>
+            <trkpt lat="54.6071460" lon="-2.8259910"/>
+            <trkpt lat="54.6075490" lon="-2.8252760"/>
+            <trkpt lat="54.6092180" lon="-2.8248590"/>
+            <trkpt lat="54.6099260" lon="-2.8249430"/>
+            <trkpt lat="54.6106920" lon="-2.8239750"/>
+            <trkpt lat="54.6113120" lon="-2.8218520"/>
+            <trkpt lat="54.6120320" lon="-2.8215390"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

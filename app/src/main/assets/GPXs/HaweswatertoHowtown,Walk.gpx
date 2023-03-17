@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Haweswater to Howtown, Walk</name>
+        <desc></desc>
+        <bounds minlat="54.4892590" minlon="-2.8626680" maxlat="54.5695070" maxlon="-2.7950000"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.4892590" lon="-2.8201650" type="start"/>
+            <os:point lat="54.5695070" lon="-2.8626680" type="end"/>
+            <os:activity>ON_FOOT_WALKING</os:activity>
+            <os:difficulty>DIFFICULT</os:difficulty>
+            <os:paths/>
+            <os:distance>14023.8173688</os:distance>
+            <os:elevation_ascent>574.9200000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.4892590" lon="-2.8201650"/>
+    <wpt lat="54.4900030" lon="-2.8236790"/>
+    <wpt lat="54.4926920" lon="-2.8196720"/>
+    <wpt lat="54.4958520" lon="-2.8154480"/>
+    <wpt lat="54.4963710" lon="-2.8192380"/>
+    <wpt lat="54.4976610" lon="-2.8217560"/>
+    <wpt lat="54.4996290" lon="-2.8223930"/>
+    <wpt lat="54.5019090" lon="-2.8181690"/>
+    <wpt lat="54.5077200" lon="-2.8187520"/>
+    <wpt lat="54.5109430" lon="-2.8194020"/>
+    <wpt lat="54.5141960" lon="-2.8157740"/>
+    <wpt lat="54.5242900" lon="-2.8067850"/>
+    <wpt lat="54.5295610" lon="-2.7998970"/>
+    <wpt lat="54.5319040" lon="-2.7950000"/>
+    <wpt lat="54.5327770" lon="-2.7984910"/>
+    <wpt lat="54.5339240" lon="-2.8013480"/>
+    <wpt lat="54.5361970" lon="-2.8028960"/>
+    <wpt lat="54.5387690" lon="-2.8052720"/>
+    <wpt lat="54.5408470" lon="-2.8124710"/>
+    <wpt lat="54.5386160" lon="-2.8242520"/>
+    <wpt lat="54.5378910" lon="-2.8314780"/>
+    <wpt lat="54.5369250" lon="-2.8370620"/>
+    <wpt lat="54.5367120" lon="-2.8418630"/>
+    <wpt lat="54.5366550" lon="-2.8476920"/>
+    <wpt lat="54.5360580" lon="-2.8484520"/>
+    <wpt lat="54.5377850" lon="-2.8518620"/>
+    <wpt lat="54.5400160" lon="-2.8522540"/>
+    <wpt lat="54.5425310" lon="-2.8557320"/>
+    <wpt lat="54.5436000" lon="-2.8548250"/>
+    <wpt lat="54.5445100" lon="-2.8559520"/>
+    <wpt lat="54.5473840" lon="-2.8561270"/>
+    <wpt lat="54.5521400" lon="-2.8588610"/>
+    <wpt lat="54.5560290" lon="-2.8594800"/>
+    <wpt lat="54.5590930" lon="-2.8588610"/>
+    <wpt lat="54.5667580" lon="-2.8608460"/>
+    <wpt lat="54.5695070" lon="-2.8626680"/>
+    <trk>
+        <name>Haweswater to Howtown, Walk</name>
+        <trkseg>
+            <trkpt lat="54.4892590" lon="-2.8201650"/>
+            <trkpt lat="54.4900030" lon="-2.8236790"/>
+            <trkpt lat="54.4926920" lon="-2.8196720"/>
+            <trkpt lat="54.4958520" lon="-2.8154480"/>
+            <trkpt lat="54.4963710" lon="-2.8192380"/>
+            <trkpt lat="54.4976610" lon="-2.8217560"/>
+            <trkpt lat="54.4996290" lon="-2.8223930"/>
+            <trkpt lat="54.5019090" lon="-2.8181690"/>
+            <trkpt lat="54.5050380" lon="-2.8185750"/>
+            <trkpt lat="54.5077200" lon="-2.8187520"/>
+            <trkpt lat="54.5109430" lon="-2.8194020"/>
+            <trkpt lat="54.5141960" lon="-2.8157740"/>
+            <trkpt lat="54.5187270" lon="-2.8118480"/>
+            <trkpt lat="54.5242900" lon="-2.8067850"/>
+            <trkpt lat="54.5279020" lon="-2.8020080"/>
+            <trkpt lat="54.5295610" lon="-2.7998970"/>
+            <trkpt lat="54.5319040" lon="-2.7950000"/>
+            <trkpt lat="54.5327770" lon="-2.7984910"/>
+            <trkpt lat="54.5339240" lon="-2.8013480"/>
+            <trkpt lat="54.5361970" lon="-2.8028960"/>
+            <trkpt lat="54.5387690" lon="-2.8052720"/>
+            <trkpt lat="54.5399340" lon="-2.8092400"/>
+            <trkpt lat="54.5408470" lon="-2.8124710"/>
+            <trkpt lat="54.5386160" lon="-2.8242520"/>
+            <trkpt lat="54.5378910" lon="-2.8314780"/>
+            <trkpt lat="54.5369250" lon="-2.8370620"/>
+            <trkpt lat="54.5367120" lon="-2.8418630"/>
+            <trkpt lat="54.5366550" lon="-2.8476920"/>
+            <trkpt lat="54.5360580" lon="-2.8484520"/>
+            <trkpt lat="54.5377850" lon="-2.8518620"/>
+            <trkpt lat="54.5400160" lon="-2.8522540"/>
+            <trkpt lat="54.5425310" lon="-2.8557320"/>
+            <trkpt lat="54.5436000" lon="-2.8548250"/>
+            <trkpt lat="54.5445100" lon="-2.8559520"/>
+            <trkpt lat="54.5473840" lon="-2.8561270"/>
+            <trkpt lat="54.5521400" lon="-2.8588610"/>
+            <trkpt lat="54.5560290" lon="-2.8594800"/>
+            <trkpt lat="54.5590930" lon="-2.8588610"/>
+            <trkpt lat="54.5631930" lon="-2.8599540"/>
+            <trkpt lat="54.5667580" lon="-2.8608460"/>
+            <trkpt lat="54.5695070" lon="-2.8626680"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

@@ -1,0 +1,648 @@
+﻿{
+    "Categories": {
+        "Locations": [
+            {
+                "Name": "Penrith",
+                "Latitude": "54.6648",
+                "Longitude": "-2.7548",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Ullswater",
+                "Latitude": "54.5775",
+                "Longitude": "-2.8751",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Pooley Bridge",
+                "Latitude": "54.6120",
+                "Longitude": "-2.8206",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Glenridding",
+                "Latitude": "54.5440",
+                "Longitude": "-2.9530",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Howtown",
+                "Latitude": "54.5697",
+                "Longitude": "-2.8625",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Hartsop",
+                "Latitude": "54.5100",
+                "Longitude": "-2.9190",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Dalemain",
+                "Latitude": "54.6361",
+                "Longitude": "-2.8034",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Dacre",
+                "Latitude": "54.6306",
+                "Longitude": "-2.8395",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Askham",
+                "Latitude": "54.6062",
+                "Longitude": "-2.7553",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Martindale",
+                "Latitude": "54.5620",
+                "Longitude": "-2.8774",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Haweswater",
+                "Latitude": "54.5189",
+                "Longitude": "-2.8047",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Oxenholme",
+                "Latitude": "54.3016",
+                "Longitude": "-2.7237",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Windermere lake",
+                "Latitude": "54.3777",
+                "Longitude": "-2.9370",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Windermere",
+                "Latitude": "54.3811",
+                "Longitude": "-2.9082",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Kendal",
+                "Latitude": "54.3260",
+                "Longitude": "-2.7450",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Staveley",
+                "Latitude": "54.3778",
+                "Longitude": "-2.8176",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Troutbeck Bridge",
+                "Latitude": "54.3950",
+                "Longitude": "-2.9209",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Troutbeck",
+                "Latitude": "54.4180",
+                "Longitude": "-2.9130",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Lakeland Pony Treks",
+                "Latitude": "54.4254",
+                "Longitude": "-2.8966",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Brockhole on Windermere -The Lake District Visitor Centre",
+                "Latitude": "54.4018",
+                "Longitude": "-2.9412",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Waterhead",
+                "Latitude": "54.4210",
+                "Longitude": "-2.9619",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Ambleside",
+                "Latitude": "54.4288",
+                "Longitude": "-2.9605",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Bowness-on-Windermere",
+                "Latitude": "54.3644",
+                "Longitude": "-2.9181",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Blackwell",
+                "Latitude": "54.3431",
+                "Longitude": "-2.9236",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Newby Bridge",
+                "Latitude": "54.2672",
+                "Longitude": "-2.9688",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Lakeside",
+                "Latitude": "54.2780",
+                "Longitude": "-2.9570",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Esthwaite Water",
+                "Latitude": "54.3500",
+                "Longitude": "-2.9833",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Esthwaite Water Trout Fishery",
+                "Latitude": "54.3516",
+                "Longitude": "-2.9828",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Latterbarrow",
+                "Latitude": "54.3840",
+                "Longitude": "-2.9742",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Hawkshead",
+                "Latitude": "54.3750",
+                "Longitude": "-2.9990",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Grizedale",
+                "Latitude": "54.3420",
+                "Longitude": "-3.0220",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Go Ape Grizedale ",
+                "Latitude": "54.3387",
+                "Longitude": "-3.0204",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Rydal",
+                "Latitude": "54.4468",
+                "Longitude": "-2.9811",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Rydal Cave",
+                "Latitude": "54.4433",
+                "Longitude": "-2.9964",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Grasmere",
+                "Latitude": "54.4581",
+                "Longitude": "-3.0246",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Elterwater",
+                "Latitude": "54.4341",
+                "Longitude": "-3.0377",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Coniston Water",
+                "Latitude": "54.3500",
+                "Longitude": "-3.0667",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Coniston",
+                "Latitude": "54.3680",
+                "Longitude": "-3.0730",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Water Park Lakeland Adventure Centre",
+                "Latitude": "54.3032",
+                "Longitude": "-3.0854",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Coniston Copper Mines",
+                "Latitude": "54.3785",
+                "Longitude": "-3.0954",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "The Old Man of Coniston",
+                "Latitude": "54.3702",
+                "Longitude": "-3.1199",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Dow Crag",
+                "Latitude": "54.3703",
+                "Longitude": "-3.1368",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Derwentwater",
+                "Latitude": "54.5833",
+                "Longitude": "-3.1500",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Keswick ",
+                "Latitude": "54.5999",
+                "Longitude": "-3.1293",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Friars Crag",
+                "Latitude": "54.5903",
+                "Longitude": "-3.1381",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Rosthwaite",
+                "Latitude": "54.5235",
+                "Longitude": "-3.1470",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Thirlmere",
+                "Latitude": "54.5333",
+                "Longitude": "-3.0667",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Eagle Crag",
+                "Latitude": "54.4986",
+                "Longitude": "-3.1193",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Bassenthwaite",
+                "Latitude": "54.6500",
+                "Longitude": "-3.2166",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Whitewater Dash",
+                "Latitude": "54.6727",
+                "Longitude": "-3.1237",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Buttermere ",
+                "Latitude": "54.5333",
+                "Longitude": "-3.2667",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Crummock South Beach",
+                "Latitude": "54.5486",
+                "Longitude": "-3.2865",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Loweswater",
+                "Latitude": "54.5825",
+                "Longitude": "-3.3553",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Cockermouth",
+                "Latitude": "54.6613",
+                "Longitude": "-3.3620",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Ennerdale Water",
+                "Latitude": "54.5200",
+                "Longitude": "-3.3761",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Ravenglass",
+                "Latitude": "54.3563",
+                "Longitude": "-3.4064",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Wastwater",
+                "Latitude": "54.4417",
+                "Longitude": "-3.2917",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Wasdale Head",
+                "Latitude": "54.4683",
+                "Longitude": "-3.2561",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Eskdale",
+                "Latitude": "54.3985",
+                "Longitude": "-3.2701",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Broughton-in-Furness",
+                "Latitude": "54.2780",
+                "Longitude": "-3.2140",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Ulverston",
+                "Latitude": "54.1930",
+                "Longitude": "-3.0900",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Grange-over-Sands",
+                "Latitude": "54.1900",
+                "Longitude": "-2.9150",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "St Bees ",
+                "Latitude": "54.4920",
+                "Longitude": "-3.5919",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Ennerdale Bridge",
+                "Latitude": "54.5289",
+                "Longitude": "-3.4395",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Patterdale",
+                "Latitude": "54.5364",
+                "Longitude": "-2.9381",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Haweswater",
+                "Latitude": "54.4895",
+                "Longitude": "-2.8191",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Raisbeck",
+                "Latitude": "54.4615",
+                "Longitude": "-2.5490",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Dalemain Mansion & Historic Gardens",
+                "Latitude": "54.6346",
+                "Longitude": "-2.8116",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Dacre Castle",
+                "Latitude": "54.6316",
+                "Longitude": "-2.8365",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Lowther Castle & Gardens",
+                "Latitude": "54.6058",
+                "Longitude": "-2.7403",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Aira Force Waterfall",
+                "Latitude": "54.5763",
+                "Longitude": "-2.9309",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Stock Ghyll Force",
+                "Latitude": "54.4317",
+                "Longitude": "-2.9708",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Armitt Library & Museum Centre",
+                "Latitude": "54.4343",
+                "Longitude": "-2.9633",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "The Bridge House",
+                "Latitude": "54.4338",
+                "Longitude": "-2.9610",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "National Trust - Wray Castle",
+                "Latitude": "54.4006",
+                "Longitude": "-2.9642",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Ambleside Roman Fort",
+                "Latitude": "54.4223",
+                "Longitude": "-2.9688",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Holehird Gardens",
+                "Latitude": "54.3993",
+                "Longitude": "-2.9096",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Orrest Head Viewpoint",
+                "Latitude": "54.3863",
+                "Longitude": "-2.9028",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Stagshaw Gardens",
+                "Latitude": "54.4175",
+                "Longitude": "-2.9557",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Blackwell",
+                "Latitude": "54.3433",
+                "Longitude": "-2.9226",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Windermere Jetty Museum - Stories of boats and steam",
+                "Latitude": "54.3709",
+                "Longitude": "-2.9215",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Barkbooth Lot CWT Reserve",
+                "Latitude": "54.3088",
+                "Longitude": "-2.8998",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Stott Park Bobbin Mill",
+                "Latitude": "54.2855",
+                "Longitude": "-2.9653",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Hill Top - Beatrix Potter's farmhouse home",
+                "Latitude": "54.3518",
+                "Longitude": "-2.9691",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Beatrix Potter Gallery and Hawkshead",
+                "Latitude": "54.3752",
+                "Longitude": "-2.9982",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Latterbarrow",
+                "Latitude": "54.3835",
+                "Longitude": "-2.9753",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Brantwood",
+                "Latitude": "54.3541",
+                "Longitude": "-3.0564",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "National Trust - Tarn Hows",
+                "Latitude": "54.3818",
+                "Longitude": "-3.0335",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "National Trust - Allan Bank and Grasmere",
+                "Latitude": "54.4603",
+                "Longitude": "-3.0292",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Wordsworth Grasmere",
+                "Latitude": "54.4545",
+                "Longitude": "-3.0157",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "The Ruskin Museum",
+                "Latitude": "54.3702",
+                "Longitude": "-3.0755",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Ashness Bridge",
+                "Latitude": "54.5678",
+                "Longitude": "-3.1301",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Bowder Stone",
+                "Latitude": "54.5375",
+                "Longitude": "-3.1541",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Lodore Falls",
+                "Latitude": "54.5580",
+                "Longitude": "-3.1377",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Mirehouse & Gardens",
+                "Latitude": "54.6448",
+                "Longitude": "-3.1907",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Ravenglass Roman Bath House",
+                "Latitude": "54.3508",
+                "Longitude": "-3.4037",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Muncaster Castle",
+                "Latitude": "54.3548",
+                "Longitude": "-3.3800",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Townend Farmhouse",
+                "Latitude": "54.4126",
+                "Longitude": "-2.9145",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Sizergh Castle and gardens",
+                "Latitude": "54.2843",
+                "Longitude": "-2.7708",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Rydal Mount House and Gardens",
+                "Latitude": "54.4490",
+                "Longitude": "-2.9814",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Shap Abbey",
+                "Latitude": "54.5301",
+                "Longitude": "-2.6998",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Claife Viewing Station ",
+                "Latitude": "54.3510",
+                "Longitude": "-2.9423",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Claife Heights",
+                "Latitude": "54.3681",
+                "Longitude": "-2.9519",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Threlkeld Quarry & Mining Museum",
+                "Latitude": "54.6131",
+                "Longitude": "3.0471",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Galleny Force Waterfall",
+                "Latitude": "54.5107",
+                "Longitude": "-3.1113",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Moss Force Waterfall",
+                "Latitude": "54.5458",
+                "Longitude": "-3.2488",
+                "Visited": "FALSE"
+            },
+            {
+                "Name": "Scale Force Waterfall",
+                "Latitude": "54.5432",
+                "Longitude": "-3.3135",
+                "Visited": "FALSE"
+            }
+        ]
+    }
+}

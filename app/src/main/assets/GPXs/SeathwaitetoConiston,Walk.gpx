@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Seathwaite to Coniston, Walk</name>
+        <desc></desc>
+        <bounds minlat="54.3538180" minlon="-3.1897970" maxlat="54.3689740" maxlon="-3.0757000"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.3538180" lon="-3.1897970" type="start"/>
+            <os:point lat="54.3689740" lon="-3.0757000" type="end"/>
+            <os:activity>ON_FOOT_WALKING</os:activity>
+            <os:difficulty>MODERATE</os:difficulty>
+            <os:paths/>
+            <os:distance>8888.1602032</os:distance>
+            <os:elevation_ascent>496.3200000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.3538180" lon="-3.1897970"/>
+    <wpt lat="54.3549080" lon="-3.1887760"/>
+    <wpt lat="54.3549010" lon="-3.1880470"/>
+    <wpt lat="54.3558290" lon="-3.1862610"/>
+    <wpt lat="54.3579830" lon="-3.1838770"/>
+    <wpt lat="54.3590900" lon="-3.1834940"/>
+    <wpt lat="54.3599290" lon="-3.1825900"/>
+    <wpt lat="54.3605890" lon="-3.1829120"/>
+    <wpt lat="54.3615080" lon="-3.1819320"/>
+    <wpt lat="54.3619280" lon="-3.1792660"/>
+    <wpt lat="54.3618920" lon="-3.1763860"/>
+    <wpt lat="54.3616240" lon="-3.1739810"/>
+    <wpt lat="54.3605530" lon="-3.1686050"/>
+    <wpt lat="54.3605530" lon="-3.1652650"/>
+    <wpt lat="54.3599290" lon="-3.1625230"/>
+    <wpt lat="54.3581340" lon="-3.1586020"/>
+    <wpt lat="54.3573670" lon="-3.1565490"/>
+    <wpt lat="54.3566260" lon="-3.1552010"/>
+    <wpt lat="54.3559830" lon="-3.1551400"/>
+    <wpt lat="54.3559030" lon="-3.1521990"/>
+    <wpt lat="54.3573580" lon="-3.1483540"/>
+    <wpt lat="54.3586880" lon="-3.1439580"/>
+    <wpt lat="54.3578490" lon="-3.1413540"/>
+    <wpt lat="54.3573580" lon="-3.1390410"/>
+    <wpt lat="54.3574650" lon="-3.1356710"/>
+    <wpt lat="54.3572330" lon="-3.1336790"/>
+    <wpt lat="54.3577600" lon="-3.1316420"/>
+    <wpt lat="54.3579920" lon="-3.1276290"/>
+    <wpt lat="54.3585540" lon="-3.1233090"/>
+    <wpt lat="54.3587260" lon="-3.1231320"/>
+    <wpt lat="54.3582530" lon="-3.1215230"/>
+    <wpt lat="54.3585650" lon="-3.1184590"/>
+    <wpt lat="54.3582440" lon="-3.1159670"/>
+    <wpt lat="54.3585120" lon="-3.1120910"/>
+    <wpt lat="54.3598870" lon="-3.1089050"/>
+    <wpt lat="54.3619220" lon="-3.1057190"/>
+    <wpt lat="54.3626980" lon="-3.1017510"/>
+    <wpt lat="54.3626440" lon="-3.0988260"/>
+    <wpt lat="54.3639650" lon="-3.0957470"/>
+    <wpt lat="54.3649020" lon="-3.0898030"/>
+    <wpt lat="54.3648040" lon="-3.0888230"/>
+    <wpt lat="54.3665000" lon="-3.0859430"/>
+    <wpt lat="54.3667940" lon="-3.0862340"/>
+    <wpt lat="54.3676330" lon="-3.0821140"/>
+    <wpt lat="54.3688830" lon="-3.0792180"/>
+    <wpt lat="54.3687840" lon="-3.0787400"/>
+    <wpt lat="54.3682310" lon="-3.0778070"/>
+    <wpt lat="54.3681290" lon="-3.0765830"/>
+    <wpt lat="54.3688820" lon="-3.0760940"/>
+    <wpt lat="54.3689740" lon="-3.0757000"/>
+    <trk>
+        <name>Seathwaite to Coniston, Walk</name>
+        <trkseg>
+            <trkpt lat="54.3538180" lon="-3.1897970"/>
+            <trkpt lat="54.3549080" lon="-3.1887760"/>
+            <trkpt lat="54.3549010" lon="-3.1880470"/>
+            <trkpt lat="54.3558290" lon="-3.1862610"/>
+            <trkpt lat="54.3579830" lon="-3.1838770"/>
+            <trkpt lat="54.3590900" lon="-3.1834940"/>
+            <trkpt lat="54.3599290" lon="-3.1825900"/>
+            <trkpt lat="54.3605890" lon="-3.1829120"/>
+            <trkpt lat="54.3615080" lon="-3.1819320"/>
+            <trkpt lat="54.3619280" lon="-3.1792660"/>
+            <trkpt lat="54.3618920" lon="-3.1763860"/>
+            <trkpt lat="54.3616240" lon="-3.1739810"/>
+            <trkpt lat="54.3610710" lon="-3.1712550"/>
+            <trkpt lat="54.3605530" lon="-3.1686050"/>
+            <trkpt lat="54.3605530" lon="-3.1652650"/>
+            <trkpt lat="54.3599290" lon="-3.1625230"/>
+            <trkpt lat="54.3591430" lon="-3.1606700"/>
+            <trkpt lat="54.3581340" lon="-3.1586020"/>
+            <trkpt lat="54.3573670" lon="-3.1565490"/>
+            <trkpt lat="54.3566260" lon="-3.1552010"/>
+            <trkpt lat="54.3559830" lon="-3.1551400"/>
+            <trkpt lat="54.3559030" lon="-3.1521990"/>
+            <trkpt lat="54.3573580" lon="-3.1483540"/>
+            <trkpt lat="54.3582770" lon="-3.1451220"/>
+            <trkpt lat="54.3586880" lon="-3.1439580"/>
+            <trkpt lat="54.3578490" lon="-3.1413540"/>
+            <trkpt lat="54.3573580" lon="-3.1390410"/>
+            <trkpt lat="54.3574650" lon="-3.1356710"/>
+            <trkpt lat="54.3572330" lon="-3.1336790"/>
+            <trkpt lat="54.3577600" lon="-3.1316420"/>
+            <trkpt lat="54.3579920" lon="-3.1276290"/>
+            <trkpt lat="54.3585540" lon="-3.1233090"/>
+            <trkpt lat="54.3587260" lon="-3.1231320"/>
+            <trkpt lat="54.3582530" lon="-3.1215230"/>
+            <trkpt lat="54.3585650" lon="-3.1184590"/>
+            <trkpt lat="54.3582440" lon="-3.1159670"/>
+            <trkpt lat="54.3585120" lon="-3.1120910"/>
+            <trkpt lat="54.3598870" lon="-3.1089050"/>
+            <trkpt lat="54.3619220" lon="-3.1057190"/>
+            <trkpt lat="54.3626980" lon="-3.1017510"/>
+            <trkpt lat="54.3626440" lon="-3.0988260"/>
+            <trkpt lat="54.3639650" lon="-3.0957470"/>
+            <trkpt lat="54.3649020" lon="-3.0898030"/>
+            <trkpt lat="54.3648040" lon="-3.0888230"/>
+            <trkpt lat="54.3665000" lon="-3.0859430"/>
+            <trkpt lat="54.3667940" lon="-3.0862340"/>
+            <trkpt lat="54.3676330" lon="-3.0821140"/>
+            <trkpt lat="54.3688830" lon="-3.0792180"/>
+            <trkpt lat="54.3687840" lon="-3.0787400"/>
+            <trkpt lat="54.3682310" lon="-3.0778070"/>
+            <trkpt lat="54.3681290" lon="-3.0765830"/>
+            <trkpt lat="54.3688820" lon="-3.0760940"/>
+            <trkpt lat="54.3689740" lon="-3.0757000"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

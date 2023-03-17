@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Hawkshead to Coniston, Bus, 505</name>
+        <desc></desc>
+        <bounds minlat="54.3684370" minlon="-3.0735050" maxlat="54.3800830" maxlon="-2.9963090"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.3739990" lon="-2.9982500" type="start"/>
+            <os:point lat="54.3690840" lon="-3.0735050" type="end"/>
+            <os:activity>OTHER</os:activity>
+            <os:difficulty>UNKNOWN</os:difficulty>
+            <os:paths/>
+            <os:distance>6348.2871469</os:distance>
+            <os:elevation_ascent>139.8600000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.3739990" lon="-2.9982500"/>
+    <wpt lat="54.3737760" lon="-2.9981250"/>
+    <wpt lat="54.3742780" lon="-2.9963090"/>
+    <wpt lat="54.3757280" lon="-2.9980370"/>
+    <wpt lat="54.3757610" lon="-2.9994620"/>
+    <wpt lat="54.3787460" lon="-3.0015350"/>
+    <wpt lat="54.3799210" lon="-3.0026080"/>
+    <wpt lat="54.3800830" lon="-3.0049400"/>
+    <wpt lat="54.3793390" lon="-3.0104360"/>
+    <wpt lat="54.3792530" lon="-3.0173200"/>
+    <wpt lat="54.3789080" lon="-3.0195410"/>
+    <wpt lat="54.3797380" lon="-3.0214100"/>
+    <wpt lat="54.3796270" lon="-3.0253520"/>
+    <wpt lat="54.3787320" lon="-3.0292750"/>
+    <wpt lat="54.3787320" lon="-3.0325880"/>
+    <wpt lat="54.3777620" lon="-3.0347900"/>
+    <wpt lat="54.3767060" lon="-3.0377880"/>
+    <wpt lat="54.3773960" lon="-3.0405080"/>
+    <wpt lat="54.3761120" lon="-3.0455620"/>
+    <wpt lat="54.3762540" lon="-3.0465690"/>
+    <wpt lat="54.3759710" lon="-3.0476790"/>
+    <wpt lat="54.3773860" lon="-3.0484430"/>
+    <wpt lat="54.3766980" lon="-3.0499360"/>
+    <wpt lat="54.3755660" lon="-3.0531980"/>
+    <wpt lat="54.3727160" lon="-3.0564610"/>
+    <wpt lat="54.3719070" lon="-3.0583350"/>
+    <wpt lat="54.3696710" lon="-3.0600040"/>
+    <wpt lat="54.3684370" lon="-3.0643770"/>
+    <wpt lat="54.3689630" lon="-3.0692710"/>
+    <wpt lat="54.3694890" lon="-3.0705550"/>
+    <wpt lat="54.3690840" lon="-3.0735050"/>
+    <trk>
+        <name>Hawkshead to Coniston, Bus, 505</name>
+        <trkseg>
+            <trkpt lat="54.3739990" lon="-2.9982500"/>
+            <trkpt lat="54.3737760" lon="-2.9981250"/>
+            <trkpt lat="54.3742780" lon="-2.9963090"/>
+            <trkpt lat="54.3757280" lon="-2.9980370"/>
+            <trkpt lat="54.3757610" lon="-2.9994620"/>
+            <trkpt lat="54.3787460" lon="-3.0015350"/>
+            <trkpt lat="54.3799210" lon="-3.0026080"/>
+            <trkpt lat="54.3800830" lon="-3.0049400"/>
+            <trkpt lat="54.3793390" lon="-3.0104360"/>
+            <trkpt lat="54.3792530" lon="-3.0173200"/>
+            <trkpt lat="54.3789080" lon="-3.0195410"/>
+            <trkpt lat="54.3797380" lon="-3.0214100"/>
+            <trkpt lat="54.3796270" lon="-3.0253520"/>
+            <trkpt lat="54.3787320" lon="-3.0292750"/>
+            <trkpt lat="54.3787320" lon="-3.0325880"/>
+            <trkpt lat="54.3777620" lon="-3.0347900"/>
+            <trkpt lat="54.3767060" lon="-3.0377880"/>
+            <trkpt lat="54.3773960" lon="-3.0405080"/>
+            <trkpt lat="54.3765820" lon="-3.0436720"/>
+            <trkpt lat="54.3761120" lon="-3.0455620"/>
+            <trkpt lat="54.3762540" lon="-3.0465690"/>
+            <trkpt lat="54.3759710" lon="-3.0476790"/>
+            <trkpt lat="54.3773860" lon="-3.0484430"/>
+            <trkpt lat="54.3766980" lon="-3.0499360"/>
+            <trkpt lat="54.3755660" lon="-3.0531980"/>
+            <trkpt lat="54.3727160" lon="-3.0564610"/>
+            <trkpt lat="54.3719070" lon="-3.0583350"/>
+            <trkpt lat="54.3696710" lon="-3.0600040"/>
+            <trkpt lat="54.3684370" lon="-3.0643770"/>
+            <trkpt lat="54.3689630" lon="-3.0692710"/>
+            <trkpt lat="54.3694890" lon="-3.0705550"/>
+            <trkpt lat="54.3690840" lon="-3.0735050"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

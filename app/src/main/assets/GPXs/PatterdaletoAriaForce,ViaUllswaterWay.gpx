@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Patterdale to Aria Force, Via Ullswater Way</name>
+        <desc></desc>
+        <bounds minlat="54.5342670" minlon="-2.9501010" maxlat="54.5715370" maxlon="-2.9287170"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.5342670" lon="-2.9334860" type="start"/>
+            <os:point lat="54.5715370" lon="-2.9287170" type="end"/>
+            <os:activity>ON_FOOT_WALKING</os:activity>
+            <os:difficulty>UNKNOWN</os:difficulty>
+            <os:paths/>
+            <os:distance>5677.4337051</os:distance>
+            <os:elevation_ascent>70.2900000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.5342670" lon="-2.9334860"/>
+    <wpt lat="54.5346720" lon="-2.9342870"/>
+    <wpt lat="54.5347740" lon="-2.9353450"/>
+    <wpt lat="54.5366040" lon="-2.9386060"/>
+    <wpt lat="54.5369220" lon="-2.9399760"/>
+    <wpt lat="54.5367190" lon="-2.9416400"/>
+    <wpt lat="54.5367690" lon="-2.9435210"/>
+    <wpt lat="54.5375110" lon="-2.9451050"/>
+    <wpt lat="54.5390100" lon="-2.9464210"/>
+    <wpt lat="54.5393430" lon="-2.9471950"/>
+    <wpt lat="54.5402470" lon="-2.9474090"/>
+    <wpt lat="54.5416430" lon="-2.9483440"/>
+    <wpt lat="54.5418370" lon="-2.9478650"/>
+    <wpt lat="54.5424960" lon="-2.9478140"/>
+    <wpt lat="54.5430530" lon="-2.9484210"/>
+    <wpt lat="54.5429710" lon="-2.9485670"/>
+    <wpt lat="54.5455950" lon="-2.9500750"/>
+    <wpt lat="54.5470130" lon="-2.9499230"/>
+    <wpt lat="54.5476990" lon="-2.9495230"/>
+    <wpt lat="54.5479960" lon="-2.9489950"/>
+    <wpt lat="54.5504670" lon="-2.9480430"/>
+    <wpt lat="54.5507030" lon="-2.9476120"/>
+    <wpt lat="54.5516720" lon="-2.9485310"/>
+    <wpt lat="54.5543860" lon="-2.9495820"/>
+    <wpt lat="54.5557350" lon="-2.9491900"/>
+    <wpt lat="54.5562400" lon="-2.9485270"/>
+    <wpt lat="54.5576540" lon="-2.9483110"/>
+    <wpt lat="54.5585580" lon="-2.9489740"/>
+    <wpt lat="54.5585720" lon="-2.9491740"/>
+    <wpt lat="54.5595500" lon="-2.9487670"/>
+    <wpt lat="54.5602820" lon="-2.9488780"/>
+    <wpt lat="54.5613810" lon="-2.9498210"/>
+    <wpt lat="54.5620510" lon="-2.9501010"/>
+    <wpt lat="54.5625290" lon="-2.9497510"/>
+    <wpt lat="54.5629290" lon="-2.9485840"/>
+    <wpt lat="54.5643400" lon="-2.9457780"/>
+    <wpt lat="54.5657330" lon="-2.9404560"/>
+    <wpt lat="54.5661110" lon="-2.9401190"/>
+    <wpt lat="54.5674890" lon="-2.9354490"/>
+    <wpt lat="54.5687690" lon="-2.9338920"/>
+    <wpt lat="54.5690870" lon="-2.9338530"/>
+    <wpt lat="54.5711610" lon="-2.9299830"/>
+    <wpt lat="54.5713480" lon="-2.9300260"/>
+    <wpt lat="54.5715370" lon="-2.9287170"/>
+    <trk>
+        <name>Patterdale to Aria Force, Via Ullswater Way</name>
+        <trkseg>
+            <trkpt lat="54.5342670" lon="-2.9334860"/>
+            <trkpt lat="54.5346720" lon="-2.9342870"/>
+            <trkpt lat="54.5347740" lon="-2.9353450"/>
+            <trkpt lat="54.5358250" lon="-2.9372470"/>
+            <trkpt lat="54.5366040" lon="-2.9386060"/>
+            <trkpt lat="54.5369220" lon="-2.9399760"/>
+            <trkpt lat="54.5367190" lon="-2.9416400"/>
+            <trkpt lat="54.5368000" lon="-2.9424350"/>
+            <trkpt lat="54.5367690" lon="-2.9435210"/>
+            <trkpt lat="54.5375110" lon="-2.9451050"/>
+            <trkpt lat="54.5376450" lon="-2.9451260"/>
+            <trkpt lat="54.5383770" lon="-2.9458730"/>
+            <trkpt lat="54.5390100" lon="-2.9464210"/>
+            <trkpt lat="54.5393430" lon="-2.9471950"/>
+            <trkpt lat="54.5402470" lon="-2.9474090"/>
+            <trkpt lat="54.5416430" lon="-2.9483440"/>
+            <trkpt lat="54.5418370" lon="-2.9478650"/>
+            <trkpt lat="54.5424960" lon="-2.9478140"/>
+            <trkpt lat="54.5430530" lon="-2.9484210"/>
+            <trkpt lat="54.5429710" lon="-2.9485670"/>
+            <trkpt lat="54.5439250" lon="-2.9491550"/>
+            <trkpt lat="54.5455950" lon="-2.9500750"/>
+            <trkpt lat="54.5470130" lon="-2.9499230"/>
+            <trkpt lat="54.5476990" lon="-2.9495230"/>
+            <trkpt lat="54.5479960" lon="-2.9489950"/>
+            <trkpt lat="54.5492050" lon="-2.9485000"/>
+            <trkpt lat="54.5504670" lon="-2.9480430"/>
+            <trkpt lat="54.5507030" lon="-2.9476120"/>
+            <trkpt lat="54.5510930" lon="-2.9479710"/>
+            <trkpt lat="54.5516720" lon="-2.9485310"/>
+            <trkpt lat="54.5527900" lon="-2.9489720"/>
+            <trkpt lat="54.5532230" lon="-2.9490700"/>
+            <trkpt lat="54.5540250" lon="-2.9494140"/>
+            <trkpt lat="54.5543860" lon="-2.9495820"/>
+            <trkpt lat="54.5557350" lon="-2.9491900"/>
+            <trkpt lat="54.5562400" lon="-2.9485270"/>
+            <trkpt lat="54.5567460" lon="-2.9483670"/>
+            <trkpt lat="54.5576540" lon="-2.9483110"/>
+            <trkpt lat="54.5585580" lon="-2.9489740"/>
+            <trkpt lat="54.5585720" lon="-2.9491740"/>
+            <trkpt lat="54.5595500" lon="-2.9487670"/>
+            <trkpt lat="54.5602820" lon="-2.9488780"/>
+            <trkpt lat="54.5613810" lon="-2.9498210"/>
+            <trkpt lat="54.5620510" lon="-2.9501010"/>
+            <trkpt lat="54.5625290" lon="-2.9497510"/>
+            <trkpt lat="54.5629290" lon="-2.9485840"/>
+            <trkpt lat="54.5636460" lon="-2.9472600"/>
+            <trkpt lat="54.5643400" lon="-2.9457780"/>
+            <trkpt lat="54.5648000" lon="-2.9440710"/>
+            <trkpt lat="54.5654860" lon="-2.9413990"/>
+            <trkpt lat="54.5657330" lon="-2.9404560"/>
+            <trkpt lat="54.5661110" lon="-2.9401190"/>
+            <trkpt lat="54.5664710" lon="-2.9386000"/>
+            <trkpt lat="54.5674890" lon="-2.9354490"/>
+            <trkpt lat="54.5687690" lon="-2.9338920"/>
+            <trkpt lat="54.5690870" lon="-2.9338530"/>
+            <trkpt lat="54.5704440" lon="-2.9315290"/>
+            <trkpt lat="54.5711610" lon="-2.9299830"/>
+            <trkpt lat="54.5713480" lon="-2.9300260"/>
+            <trkpt lat="54.5715290" lon="-2.9292190"/>
+            <trkpt lat="54.5715370" lon="-2.9287170"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

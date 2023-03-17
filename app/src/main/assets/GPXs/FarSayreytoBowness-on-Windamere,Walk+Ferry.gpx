@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Far Sayrey to Bowness-on-Windamere, Walk + Ferry</name>
+        <desc></desc>
+        <bounds minlat="54.3482380" minlon="-2.9566830" maxlat="54.3648340" maxlon="-2.9195670"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.3504620" lon="-2.9566830" type="start"/>
+            <os:point lat="54.3648340" lon="-2.9195670" type="end"/>
+            <os:activity>ON_FOOT_WALKING</os:activity>
+            <os:difficulty>EASY</os:difficulty>
+            <os:paths/>
+            <os:distance>3522.8838419</os:distance>
+            <os:elevation_ascent>49.2000000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.3504620" lon="-2.9566830"/>
+    <wpt lat="54.3490450" lon="-2.9519700"/>
+    <wpt lat="54.3482380" lon="-2.9502270"/>
+    <wpt lat="54.3486820" lon="-2.9456490"/>
+    <wpt lat="54.3494340" lon="-2.9439170"/>
+    <wpt lat="54.3503380" lon="-2.9434940"/>
+    <wpt lat="54.3507720" lon="-2.9422010"/>
+    <wpt lat="54.3516500" lon="-2.9413790"/>
+    <wpt lat="54.3520690" lon="-2.9395730"/>
+    <wpt lat="54.3531120" lon="-2.9392390"/>
+    <wpt lat="54.3546160" lon="-2.9287530"/>
+    <wpt lat="54.3548980" lon="-2.9277850"/>
+    <wpt lat="54.3597960" lon="-2.9245750"/>
+    <wpt lat="54.3611130" lon="-2.9233180"/>
+    <wpt lat="54.3612040" lon="-2.9234660"/>
+    <wpt lat="54.3635060" lon="-2.9219110"/>
+    <wpt lat="54.3638170" lon="-2.9207130"/>
+    <wpt lat="54.3648340" lon="-2.9195670"/>
+    <trk>
+        <name>Far Sayrey to Bowness-on-Windamere, Walk + Ferry</name>
+        <trkseg>
+            <trkpt lat="54.3504620" lon="-2.9566830"/>
+            <trkpt lat="54.3498040" lon="-2.9543850"/>
+            <trkpt lat="54.3490450" lon="-2.9519700"/>
+            <trkpt lat="54.3482380" lon="-2.9502270"/>
+            <trkpt lat="54.3484020" lon="-2.9484630"/>
+            <trkpt lat="54.3486820" lon="-2.9456490"/>
+            <trkpt lat="54.3494340" lon="-2.9439170"/>
+            <trkpt lat="54.3503380" lon="-2.9434940"/>
+            <trkpt lat="54.3507720" lon="-2.9422010"/>
+            <trkpt lat="54.3516500" lon="-2.9413790"/>
+            <trkpt lat="54.3520690" lon="-2.9395730"/>
+            <trkpt lat="54.3531120" lon="-2.9392390"/>
+            <trkpt lat="54.3542740" lon="-2.9310070"/>
+            <trkpt lat="54.3546160" lon="-2.9287530"/>
+            <trkpt lat="54.3548980" lon="-2.9277850"/>
+            <trkpt lat="54.3561750" lon="-2.9269950"/>
+            <trkpt lat="54.3581180" lon="-2.9257720"/>
+            <trkpt lat="54.3597960" lon="-2.9245750"/>
+            <trkpt lat="54.3611130" lon="-2.9233180"/>
+            <trkpt lat="54.3612040" lon="-2.9234660"/>
+            <trkpt lat="54.3622350" lon="-2.9227650"/>
+            <trkpt lat="54.3635060" lon="-2.9219110"/>
+            <trkpt lat="54.3638170" lon="-2.9207130"/>
+            <trkpt lat="54.3648340" lon="-2.9195670"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

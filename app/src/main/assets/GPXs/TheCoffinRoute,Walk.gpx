@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>The Coffin Route, Walk</name>
+        <desc></desc>
+        <bounds minlat="54.4326270" minlon="-3.0250930" maxlat="54.4592480" maxlon="-2.9630860"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.4326270" lon="-2.9630860" type="start"/>
+            <os:point lat="54.4592480" lon="-3.0250930" type="end"/>
+            <os:activity>ON_FOOT_WALKING</os:activity>
+            <os:difficulty>MODERATE</os:difficulty>
+            <os:paths/>
+            <os:distance>5995.6084813</os:distance>
+            <os:elevation_ascent>132.4200000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.4326270" lon="-2.9630860"/>
+    <wpt lat="54.4329720" lon="-2.9633460"/>
+    <wpt lat="54.4338390" lon="-2.9634110"/>
+    <wpt lat="54.4340970" lon="-2.9636900"/>
+    <wpt lat="54.4348930" lon="-2.9667790"/>
+    <wpt lat="54.4360400" lon="-2.9693310"/>
+    <wpt lat="54.4382120" lon="-2.9703440"/>
+    <wpt lat="54.4384670" lon="-2.9699510"/>
+    <wpt lat="54.4398760" lon="-2.9705100"/>
+    <wpt lat="54.4411640" lon="-2.9698610"/>
+    <wpt lat="54.4426130" lon="-2.9697280"/>
+    <wpt lat="54.4453320" lon="-2.9719170"/>
+    <wpt lat="54.4460210" lon="-2.9732960"/>
+    <wpt lat="54.4485130" lon="-2.9770250"/>
+    <wpt lat="54.4479220" lon="-2.9804720"/>
+    <wpt lat="54.4489630" lon="-2.9818380"/>
+    <wpt lat="54.4485550" lon="-2.9839550"/>
+    <wpt lat="54.4489730" lon="-2.9874170"/>
+    <wpt lat="54.4503660" lon="-2.9904290"/>
+    <wpt lat="54.4501620" lon="-2.9922430"/>
+    <wpt lat="54.4504640" lon="-2.9929930"/>
+    <wpt lat="54.4510620" lon="-2.9965500"/>
+    <wpt lat="54.4513860" lon="-3.0008440"/>
+    <wpt lat="54.4528040" lon="-3.0041330"/>
+    <wpt lat="54.4532530" lon="-3.0057860"/>
+    <wpt lat="54.4523490" lon="-3.0080150"/>
+    <wpt lat="54.4523080" lon="-3.0110970"/>
+    <wpt lat="54.4524530" lon="-3.0116980"/>
+    <wpt lat="54.4522680" lon="-3.0135330"/>
+    <wpt lat="54.4532180" lon="-3.0148480"/>
+    <wpt lat="54.4533500" lon="-3.0156520"/>
+    <wpt lat="54.4548740" lon="-3.0173240"/>
+    <wpt lat="54.4558770" lon="-3.0198670"/>
+    <wpt lat="54.4571050" lon="-3.0220870"/>
+    <wpt lat="54.4571670" lon="-3.0235040"/>
+    <wpt lat="54.4575790" lon="-3.0242800"/>
+    <wpt lat="54.4579960" lon="-3.0237670"/>
+    <wpt lat="54.4585510" lon="-3.0240110"/>
+    <wpt lat="54.4587120" lon="-3.0247530"/>
+    <wpt lat="54.4592480" lon="-3.0250930"/>
+    <trk>
+        <name>The Coffin Route, Walk</name>
+        <trkseg>
+            <trkpt lat="54.4326270" lon="-2.9630860"/>
+            <trkpt lat="54.4329720" lon="-2.9633460"/>
+            <trkpt lat="54.4338390" lon="-2.9634110"/>
+            <trkpt lat="54.4340970" lon="-2.9636900"/>
+            <trkpt lat="54.4344760" lon="-2.9649410"/>
+            <trkpt lat="54.4348930" lon="-2.9667790"/>
+            <trkpt lat="54.4354370" lon="-2.9680610"/>
+            <trkpt lat="54.4360400" lon="-2.9693310"/>
+            <trkpt lat="54.4368020" lon="-2.9698020"/>
+            <trkpt lat="54.4377020" lon="-2.9699960"/>
+            <trkpt lat="54.4382120" lon="-2.9703440"/>
+            <trkpt lat="54.4384670" lon="-2.9699510"/>
+            <trkpt lat="54.4398760" lon="-2.9705100"/>
+            <trkpt lat="54.4411640" lon="-2.9698610"/>
+            <trkpt lat="54.4426130" lon="-2.9697280"/>
+            <trkpt lat="54.4453320" lon="-2.9719170"/>
+            <trkpt lat="54.4460210" lon="-2.9732960"/>
+            <trkpt lat="54.4475280" lon="-2.9755000"/>
+            <trkpt lat="54.4485130" lon="-2.9770250"/>
+            <trkpt lat="54.4479220" lon="-2.9804720"/>
+            <trkpt lat="54.4489630" lon="-2.9818380"/>
+            <trkpt lat="54.4485550" lon="-2.9839550"/>
+            <trkpt lat="54.4489730" lon="-2.9874170"/>
+            <trkpt lat="54.4503660" lon="-2.9904290"/>
+            <trkpt lat="54.4501620" lon="-2.9922430"/>
+            <trkpt lat="54.4504640" lon="-2.9929930"/>
+            <trkpt lat="54.4510620" lon="-2.9965500"/>
+            <trkpt lat="54.4512660" lon="-2.9983760"/>
+            <trkpt lat="54.4513860" lon="-3.0008440"/>
+            <trkpt lat="54.4522510" lon="-3.0029250"/>
+            <trkpt lat="54.4528040" lon="-3.0041330"/>
+            <trkpt lat="54.4532530" lon="-3.0057860"/>
+            <trkpt lat="54.4527940" lon="-3.0071520"/>
+            <trkpt lat="54.4523490" lon="-3.0080150"/>
+            <trkpt lat="54.4523080" lon="-3.0110970"/>
+            <trkpt lat="54.4524530" lon="-3.0116980"/>
+            <trkpt lat="54.4522680" lon="-3.0135330"/>
+            <trkpt lat="54.4532180" lon="-3.0148480"/>
+            <trkpt lat="54.4533500" lon="-3.0156520"/>
+            <trkpt lat="54.4543060" lon="-3.0166020"/>
+            <trkpt lat="54.4548740" lon="-3.0173240"/>
+            <trkpt lat="54.4558770" lon="-3.0198670"/>
+            <trkpt lat="54.4571050" lon="-3.0220870"/>
+            <trkpt lat="54.4571670" lon="-3.0235040"/>
+            <trkpt lat="54.4575790" lon="-3.0242800"/>
+            <trkpt lat="54.4579960" lon="-3.0237670"/>
+            <trkpt lat="54.4585510" lon="-3.0240110"/>
+            <trkpt lat="54.4587120" lon="-3.0247530"/>
+            <trkpt lat="54.4592480" lon="-3.0250930"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

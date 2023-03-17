@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Boot To Seathwaite, Walk</name>
+        <desc></desc>
+        <bounds minlat="54.3537400" minlon="-3.2708790" maxlat="54.3962220" maxlon="-3.1881480"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.3962220" lon="-3.2708760" type="start"/>
+            <os:point lat="54.3537400" lon="-3.1898750" type="end"/>
+            <os:activity>ON_FOOT_WALKING</os:activity>
+            <os:difficulty>DIFFICULT</os:difficulty>
+            <os:paths/>
+            <os:distance>10320.2471054</os:distance>
+            <os:elevation_ascent>384.5400000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.3962220" lon="-3.2708760"/>
+    <wpt lat="54.3953790" lon="-3.2704300"/>
+    <wpt lat="54.3944540" lon="-3.2707830"/>
+    <wpt lat="54.3928660" lon="-3.2699330"/>
+    <wpt lat="54.3925020" lon="-3.2708790"/>
+    <wpt lat="54.3909170" lon="-3.2702320"/>
+    <wpt lat="54.3909350" lon="-3.2676650"/>
+    <wpt lat="54.3903280" lon="-3.2659330"/>
+    <wpt lat="54.3901790" lon="-3.2642640"/>
+    <wpt lat="54.3908980" lon="-3.2614090"/>
+    <wpt lat="54.3919440" lon="-3.2585380"/>
+    <wpt lat="54.3932520" lon="-3.2559870"/>
+    <wpt lat="54.3933820" lon="-3.2546070"/>
+    <wpt lat="54.3941200" lon="-3.2531320"/>
+    <wpt lat="54.3944840" lon="-3.2509820"/>
+    <wpt lat="54.3956520" lon="-3.2500200"/>
+    <wpt lat="54.3959230" lon="-3.2466350"/>
+    <wpt lat="54.3959230" lon="-3.2446940"/>
+    <wpt lat="54.3952370" lon="-3.2443620"/>
+    <wpt lat="54.3953600" lon="-3.2424420"/>
+    <wpt lat="54.3955490" lon="-3.2423110"/>
+    <wpt lat="54.3952140" lon="-3.2407160"/>
+    <wpt lat="54.3943320" lon="-3.2400190"/>
+    <wpt lat="54.3931970" lon="-3.2396960"/>
+    <wpt lat="54.3927450" lon="-3.2398580"/>
+    <wpt lat="54.3927100" lon="-3.2380250"/>
+    <wpt lat="54.3913170" lon="-3.2360700"/>
+    <wpt lat="54.3913840" lon="-3.2322400"/>
+    <wpt lat="54.3911990" lon="-3.2297860"/>
+    <wpt lat="54.3909670" lon="-3.2295070"/>
+    <wpt lat="54.3909900" lon="-3.2288620"/>
+    <wpt lat="54.3890680" lon="-3.2225920"/>
+    <wpt lat="54.3874700" lon="-3.2224710"/>
+    <wpt lat="54.3851830" lon="-3.2201220"/>
+    <wpt lat="54.3825150" lon="-3.2157430"/>
+    <wpt lat="54.3791600" lon="-3.2115110"/>
+    <wpt lat="54.3765980" lon="-3.2108860"/>
+    <wpt lat="54.3753400" lon="-3.2077780"/>
+    <wpt lat="54.3741340" lon="-3.2042200"/>
+    <wpt lat="54.3727110" lon="-3.2019400"/>
+    <wpt lat="54.3727000" lon="-3.1970560"/>
+    <wpt lat="54.3723000" lon="-3.1964510"/>
+    <wpt lat="54.3724290" lon="-3.1958250"/>
+    <wpt lat="54.3710420" lon="-3.1946550"/>
+    <wpt lat="54.3694900" lon="-3.1950780"/>
+    <wpt lat="54.3691610" lon="-3.1957850"/>
+    <wpt lat="54.3665160" lon="-3.1961280"/>
+    <wpt lat="54.3631060" lon="-3.1976410"/>
+    <wpt lat="54.3622600" lon="-3.1991550"/>
+    <wpt lat="54.3618720" lon="-3.2005470"/>
+    <wpt lat="54.3606680" lon="-3.2005660"/>
+    <wpt lat="54.3599870" lon="-3.1998450"/>
+    <wpt lat="54.3597260" lon="-3.2005980"/>
+    <wpt lat="54.3584570" lon="-3.2006300"/>
+    <wpt lat="54.3577670" lon="-3.2010780"/>
+    <wpt lat="54.3567500" lon="-3.2007740"/>
+    <wpt lat="54.3568430" lon="-3.1968070"/>
+    <wpt lat="54.3570240" lon="-3.1953770"/>
+    <wpt lat="54.3557840" lon="-3.1933380"/>
+    <wpt lat="54.3563040" lon="-3.1910440"/>
+    <wpt lat="54.3556220" lon="-3.1881480"/>
+    <wpt lat="54.3537400" lon="-3.1898750"/>
+    <trk>
+        <name>Boot To Seathwaite, Walk</name>
+        <trkseg>
+            <trkpt lat="54.3962220" lon="-3.2708760"/>
+            <trkpt lat="54.3953790" lon="-3.2704300"/>
+            <trkpt lat="54.3944540" lon="-3.2707830"/>
+            <trkpt lat="54.3937350" lon="-3.2702860"/>
+            <trkpt lat="54.3928660" lon="-3.2699330"/>
+            <trkpt lat="54.3925020" lon="-3.2708790"/>
+            <trkpt lat="54.3909170" lon="-3.2702320"/>
+            <trkpt lat="54.3909260" lon="-3.2689160"/>
+            <trkpt lat="54.3909350" lon="-3.2676650"/>
+            <trkpt lat="54.3903280" lon="-3.2659330"/>
+            <trkpt lat="54.3901790" lon="-3.2642640"/>
+            <trkpt lat="54.3908980" lon="-3.2614090"/>
+            <trkpt lat="54.3919440" lon="-3.2585380"/>
+            <trkpt lat="54.3932520" lon="-3.2559870"/>
+            <trkpt lat="54.3933820" lon="-3.2546070"/>
+            <trkpt lat="54.3941200" lon="-3.2531320"/>
+            <trkpt lat="54.3944840" lon="-3.2509820"/>
+            <trkpt lat="54.3956520" lon="-3.2500200"/>
+            <trkpt lat="54.3959230" lon="-3.2466350"/>
+            <trkpt lat="54.3959230" lon="-3.2446940"/>
+            <trkpt lat="54.3952370" lon="-3.2443620"/>
+            <trkpt lat="54.3953600" lon="-3.2424420"/>
+            <trkpt lat="54.3955490" lon="-3.2423110"/>
+            <trkpt lat="54.3952140" lon="-3.2407160"/>
+            <trkpt lat="54.3943320" lon="-3.2400190"/>
+            <trkpt lat="54.3931970" lon="-3.2396960"/>
+            <trkpt lat="54.3927450" lon="-3.2398580"/>
+            <trkpt lat="54.3927100" lon="-3.2380250"/>
+            <trkpt lat="54.3922870" lon="-3.2375010"/>
+            <trkpt lat="54.3913170" lon="-3.2360700"/>
+            <trkpt lat="54.3913840" lon="-3.2322400"/>
+            <trkpt lat="54.3911990" lon="-3.2297860"/>
+            <trkpt lat="54.3909670" lon="-3.2295070"/>
+            <trkpt lat="54.3909900" lon="-3.2288620"/>
+            <trkpt lat="54.3899260" lon="-3.2252560"/>
+            <trkpt lat="54.3890680" lon="-3.2225920"/>
+            <trkpt lat="54.3874700" lon="-3.2224710"/>
+            <trkpt lat="54.3851830" lon="-3.2201220"/>
+            <trkpt lat="54.3825150" lon="-3.2157430"/>
+            <trkpt lat="54.3808650" lon="-3.2138120"/>
+            <trkpt lat="54.3791600" lon="-3.2115110"/>
+            <trkpt lat="54.3765980" lon="-3.2108860"/>
+            <trkpt lat="54.3753400" lon="-3.2077780"/>
+            <trkpt lat="54.3741340" lon="-3.2042200"/>
+            <trkpt lat="54.3727110" lon="-3.2019400"/>
+            <trkpt lat="54.3727230" lon="-3.1991950"/>
+            <trkpt lat="54.3727000" lon="-3.1970560"/>
+            <trkpt lat="54.3723000" lon="-3.1964510"/>
+            <trkpt lat="54.3724290" lon="-3.1958250"/>
+            <trkpt lat="54.3710420" lon="-3.1946550"/>
+            <trkpt lat="54.3694900" lon="-3.1950780"/>
+            <trkpt lat="54.3691610" lon="-3.1957850"/>
+            <trkpt lat="54.3684440" lon="-3.1957850"/>
+            <trkpt lat="54.3665160" lon="-3.1961280"/>
+            <trkpt lat="54.3642940" lon="-3.1972170"/>
+            <trkpt lat="54.3631060" lon="-3.1976410"/>
+            <trkpt lat="54.3622600" lon="-3.1991550"/>
+            <trkpt lat="54.3618720" lon="-3.2005470"/>
+            <trkpt lat="54.3606680" lon="-3.2005660"/>
+            <trkpt lat="54.3599870" lon="-3.1998450"/>
+            <trkpt lat="54.3597260" lon="-3.2005980"/>
+            <trkpt lat="54.3591570" lon="-3.2007260"/>
+            <trkpt lat="54.3584570" lon="-3.2006300"/>
+            <trkpt lat="54.3577670" lon="-3.2010780"/>
+            <trkpt lat="54.3567500" lon="-3.2007740"/>
+            <trkpt lat="54.3568430" lon="-3.1968070"/>
+            <trkpt lat="54.3570240" lon="-3.1953770"/>
+            <trkpt lat="54.3557840" lon="-3.1933380"/>
+            <trkpt lat="54.3563040" lon="-3.1910440"/>
+            <trkpt lat="54.3556220" lon="-3.1881480"/>
+            <trkpt lat="54.3537400" lon="-3.1898750"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

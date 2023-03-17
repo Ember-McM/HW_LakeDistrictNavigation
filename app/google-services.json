@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1068749382394",
+    "firebase_url": "https://lake-district-353911-default-rtdb.firebaseio.com",
+    "project_id": "lake-district-353911",
+    "storage_bucket": "lake-district-353911.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068749382394:android:8c819e437208342f95df43",
+        "android_client_info": {
+          "package_name": "com.GLAS.LakeDistrictNavigation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1068749382394-01jt89578amll0qcdeq3qc2qurs8ai9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRiRRrwv7o20Ftc8zdAeTsr2BJUPfO84c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1068749382394-01jt89578amll0qcdeq3qc2qurs8ai9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Coniston to Hawkshead, Walk</name>
+        <desc></desc>
+        <bounds minlat="54.3684070" minlon="-3.0756720" maxlat="54.3798730" maxlon="-2.9989910"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.3689670" lon="-3.0756720" type="start"/>
+            <os:point lat="54.3751870" lon="-2.9989910" type="end"/>
+            <os:activity>ON_FOOT_WALKING</os:activity>
+            <os:difficulty>MODERATE</os:difficulty>
+            <os:paths/>
+            <os:distance>5797.5651834</os:distance>
+            <os:elevation_ascent>160.1400000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.3689670" lon="-3.0756720"/>
+    <wpt lat="54.3691340" lon="-3.0746660"/>
+    <wpt lat="54.3691400" lon="-3.0724810"/>
+    <wpt lat="54.3694870" lon="-3.0703260"/>
+    <wpt lat="54.3694220" lon="-3.0696310"/>
+    <wpt lat="54.3689240" lon="-3.0685400"/>
+    <wpt lat="54.3684070" lon="-3.0658460"/>
+    <wpt lat="54.3685260" lon="-3.0638360"/>
+    <wpt lat="54.3698630" lon="-3.0598230"/>
+    <wpt lat="54.3716370" lon="-3.0585560"/>
+    <wpt lat="54.3727190" lon="-3.0572220"/>
+    <wpt lat="54.3727370" lon="-3.0559090"/>
+    <wpt lat="54.3717600" lon="-3.0530010"/>
+    <wpt lat="54.3719340" lon="-3.0514750"/>
+    <wpt lat="54.3715420" lon="-3.0494190"/>
+    <wpt lat="54.3723570" lon="-3.0476550"/>
+    <wpt lat="54.3730350" lon="-3.0451900"/>
+    <wpt lat="54.3729730" lon="-3.0437840"/>
+    <wpt lat="54.3744570" lon="-3.0400120"/>
+    <wpt lat="54.3743000" lon="-3.0399070"/>
+    <wpt lat="54.3746680" lon="-3.0380730"/>
+    <wpt lat="54.3758350" lon="-3.0363850"/>
+    <wpt lat="54.3768440" lon="-3.0353790"/>
+    <wpt lat="54.3775570" lon="-3.0336410"/>
+    <wpt lat="54.3777630" lon="-3.0316710"/>
+    <wpt lat="54.3782870" lon="-3.0302570"/>
+    <wpt lat="54.3787750" lon="-3.0298580"/>
+    <wpt lat="54.3794980" lon="-3.0259180"/>
+    <wpt lat="54.3798730" lon="-3.0219340"/>
+    <wpt lat="54.3770360" lon="-3.0117260"/>
+    <wpt lat="54.3755950" lon="-3.0083350"/>
+    <wpt lat="54.3750150" lon="-3.0035310"/>
+    <wpt lat="54.3745300" lon="-3.0024750"/>
+    <wpt lat="54.3748300" lon="-2.9996880"/>
+    <wpt lat="54.3751870" lon="-2.9989910"/>
+    <trk>
+        <name>Coniston to Hawkshead, Walk</name>
+        <trkseg>
+            <trkpt lat="54.3689670" lon="-3.0756720"/>
+            <trkpt lat="54.3691340" lon="-3.0746660"/>
+            <trkpt lat="54.3691400" lon="-3.0724810"/>
+            <trkpt lat="54.3694870" lon="-3.0703260"/>
+            <trkpt lat="54.3694220" lon="-3.0696310"/>
+            <trkpt lat="54.3689240" lon="-3.0685400"/>
+            <trkpt lat="54.3684070" lon="-3.0658460"/>
+            <trkpt lat="54.3685260" lon="-3.0638360"/>
+            <trkpt lat="54.3690100" lon="-3.0622160"/>
+            <trkpt lat="54.3698630" lon="-3.0598230"/>
+            <trkpt lat="54.3716370" lon="-3.0585560"/>
+            <trkpt lat="54.3727190" lon="-3.0572220"/>
+            <trkpt lat="54.3727370" lon="-3.0559090"/>
+            <trkpt lat="54.3719780" lon="-3.0538160"/>
+            <trkpt lat="54.3717600" lon="-3.0530010"/>
+            <trkpt lat="54.3719340" lon="-3.0514750"/>
+            <trkpt lat="54.3715420" lon="-3.0494190"/>
+            <trkpt lat="54.3723570" lon="-3.0476550"/>
+            <trkpt lat="54.3730350" lon="-3.0451900"/>
+            <trkpt lat="54.3729730" lon="-3.0437840"/>
+            <trkpt lat="54.3735370" lon="-3.0426210"/>
+            <trkpt lat="54.3741500" lon="-3.0406840"/>
+            <trkpt lat="54.3744570" lon="-3.0400120"/>
+            <trkpt lat="54.3743000" lon="-3.0399070"/>
+            <trkpt lat="54.3746680" lon="-3.0380730"/>
+            <trkpt lat="54.3758350" lon="-3.0363850"/>
+            <trkpt lat="54.3768440" lon="-3.0353790"/>
+            <trkpt lat="54.3775570" lon="-3.0336410"/>
+            <trkpt lat="54.3777630" lon="-3.0316710"/>
+            <trkpt lat="54.3782870" lon="-3.0302570"/>
+            <trkpt lat="54.3787750" lon="-3.0298580"/>
+            <trkpt lat="54.3794980" lon="-3.0259180"/>
+            <trkpt lat="54.3798730" lon="-3.0219340"/>
+            <trkpt lat="54.3789020" lon="-3.0186250"/>
+            <trkpt lat="54.3780630" lon="-3.0154440"/>
+            <trkpt lat="54.3770360" lon="-3.0117260"/>
+            <trkpt lat="54.3755950" lon="-3.0083350"/>
+            <trkpt lat="54.3750150" lon="-3.0035310"/>
+            <trkpt lat="54.3745300" lon="-3.0024750"/>
+            <trkpt lat="54.3746010" lon="-3.0011680"/>
+            <trkpt lat="54.3748300" lon="-2.9996880"/>
+            <trkpt lat="54.3751870" lon="-2.9989910"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Penrith to Keswick, Bus, X4/X5</name>
+        <desc></desc>
+        <bounds minlat="54.6012020" minlon="-3.1417440" maxlat="54.6658420" maxlon="-2.7505090"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.6658420" lon="-2.7512230" type="start"/>
+            <os:point lat="54.6014860" lon="-3.1417440" type="end"/>
+            <os:activity>OTHER</os:activity>
+            <os:difficulty>UNKNOWN</os:difficulty>
+            <os:paths/>
+            <os:distance>28762.1221285</os:distance>
+            <os:elevation_ascent>384.5600000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.6658420" lon="-2.7512230"/>
+    <wpt lat="54.6655820" lon="-2.7505090"/>
+    <wpt lat="54.6652070" lon="-2.7512490"/>
+    <wpt lat="54.6648760" lon="-2.7534010"/>
+    <wpt lat="54.6640530" lon="-2.7523270"/>
+    <wpt lat="54.6636300" lon="-2.7530970"/>
+    <wpt lat="54.6634610" lon="-2.7544520"/>
+    <wpt lat="54.6628230" lon="-2.7569100"/>
+    <wpt lat="54.6621310" lon="-2.7576590"/>
+    <wpt lat="54.6565570" lon="-2.7605480"/>
+    <wpt lat="54.6539580" lon="-2.7597310"/>
+    <wpt lat="54.6534860" lon="-2.7583490"/>
+    <wpt lat="54.6523770" lon="-2.7602970"/>
+    <wpt lat="54.6516500" lon="-2.7665160"/>
+    <wpt lat="54.6485970" lon="-2.7800560"/>
+    <wpt lat="54.6484100" lon="-2.7829380"/>
+    <wpt lat="54.6485190" lon="-2.7912620"/>
+    <wpt lat="54.6490820" lon="-2.8017230"/>
+    <wpt lat="54.6464170" lon="-2.8196340"/>
+    <wpt lat="54.6436890" lon="-2.8452640"/>
+    <wpt lat="54.6378440" lon="-2.8791240"/>
+    <wpt lat="54.6397830" lon="-2.8836100"/>
+    <wpt lat="54.6422080" lon="-2.9045610"/>
+    <wpt lat="54.6394640" lon="-2.9071540"/>
+    <wpt lat="54.6425630" lon="-2.9235160"/>
+    <wpt lat="54.6362790" lon="-2.9465720"/>
+    <wpt lat="54.6368810" lon="-2.9788500"/>
+    <wpt lat="54.6344710" lon="-3.0069630"/>
+    <wpt lat="54.6290340" lon="-3.0318500"/>
+    <wpt lat="54.6188330" lon="-3.0475420"/>
+    <wpt lat="54.6158890" lon="-3.0576180"/>
+    <wpt lat="54.6128940" lon="-3.0644560"/>
+    <wpt lat="54.6093910" lon="-3.0785710"/>
+    <wpt lat="54.6109640" lon="-3.0880380"/>
+    <wpt lat="54.6096950" lon="-3.0988210"/>
+    <wpt lat="54.6065230" lon="-3.1031450"/>
+    <wpt lat="54.6047340" lon="-3.1074220"/>
+    <wpt lat="54.6045970" lon="-3.1132820"/>
+    <wpt lat="54.6038170" lon="-3.1170840"/>
+    <wpt lat="54.6046880" lon="-3.1209250"/>
+    <wpt lat="54.6012020" lon="-3.1345070"/>
+    <wpt lat="54.6021650" lon="-3.1370800"/>
+    <wpt lat="54.6015920" lon="-3.1384660"/>
+    <wpt lat="54.6020740" lon="-3.1402480"/>
+    <wpt lat="54.6014860" lon="-3.1417440"/>
+    <trk>
+        <name>Penrith to Keswick, Bus, X4/X5</name>
+        <trkseg>
+            <trkpt lat="54.6658420" lon="-2.7512230"/>
+            <trkpt lat="54.6655820" lon="-2.7505090"/>
+            <trkpt lat="54.6652070" lon="-2.7512490"/>
+            <trkpt lat="54.6648760" lon="-2.7534010"/>
+            <trkpt lat="54.6640530" lon="-2.7523270"/>
+            <trkpt lat="54.6636300" lon="-2.7530970"/>
+            <trkpt lat="54.6634610" lon="-2.7544520"/>
+            <trkpt lat="54.6628230" lon="-2.7569100"/>
+            <trkpt lat="54.6621310" lon="-2.7576590"/>
+            <trkpt lat="54.6574520" lon="-2.7601540"/>
+            <trkpt lat="54.6565570" lon="-2.7605480"/>
+            <trkpt lat="54.6539580" lon="-2.7597310"/>
+            <trkpt lat="54.6534860" lon="-2.7583490"/>
+            <trkpt lat="54.6523770" lon="-2.7602970"/>
+            <trkpt lat="54.6516500" lon="-2.7665160"/>
+            <trkpt lat="54.6485970" lon="-2.7800560"/>
+            <trkpt lat="54.6484100" lon="-2.7829380"/>
+            <trkpt lat="54.6485190" lon="-2.7912620"/>
+            <trkpt lat="54.6490820" lon="-2.8017230"/>
+            <trkpt lat="54.6464170" lon="-2.8196340"/>
+            <trkpt lat="54.6436890" lon="-2.8452640"/>
+            <trkpt lat="54.6378440" lon="-2.8791240"/>
+            <trkpt lat="54.6397830" lon="-2.8836100"/>
+            <trkpt lat="54.6422080" lon="-2.9045610"/>
+            <trkpt lat="54.6394640" lon="-2.9071540"/>
+            <trkpt lat="54.6425630" lon="-2.9235160"/>
+            <trkpt lat="54.6362790" lon="-2.9465720"/>
+            <trkpt lat="54.6368810" lon="-2.9788500"/>
+            <trkpt lat="54.6344710" lon="-3.0069630"/>
+            <trkpt lat="54.6290340" lon="-3.0318500"/>
+            <trkpt lat="54.6188330" lon="-3.0475420"/>
+            <trkpt lat="54.6158890" lon="-3.0576180"/>
+            <trkpt lat="54.6128940" lon="-3.0644560"/>
+            <trkpt lat="54.6093910" lon="-3.0785710"/>
+            <trkpt lat="54.6109640" lon="-3.0880380"/>
+            <trkpt lat="54.6096950" lon="-3.0988210"/>
+            <trkpt lat="54.6065230" lon="-3.1031450"/>
+            <trkpt lat="54.6047340" lon="-3.1074220"/>
+            <trkpt lat="54.6045970" lon="-3.1132820"/>
+            <trkpt lat="54.6038170" lon="-3.1170840"/>
+            <trkpt lat="54.6046880" lon="-3.1209250"/>
+            <trkpt lat="54.6030370" lon="-3.1271810"/>
+            <trkpt lat="54.6012020" lon="-3.1345070"/>
+            <trkpt lat="54.6021650" lon="-3.1370800"/>
+            <trkpt lat="54.6015920" lon="-3.1384660"/>
+            <trkpt lat="54.6020740" lon="-3.1402480"/>
+            <trkpt lat="54.6014860" lon="-3.1417440"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

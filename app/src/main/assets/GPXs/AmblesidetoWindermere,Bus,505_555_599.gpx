@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Ambleside to Windermere, Bus, 505/555/599</name>
+        <desc></desc>
+        <bounds minlat="54.3796140" minlon="-2.9631450" maxlat="54.4299600" maxlon="-2.9032200"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.4299600" lon="-2.9631450" type="start"/>
+            <os:point lat="54.3796140" lon="-2.9032200" type="end"/>
+            <os:activity>OTHER</os:activity>
+            <os:difficulty>UNKNOWN</os:difficulty>
+            <os:paths/>
+            <os:distance>7471.9368251</os:distance>
+            <os:elevation_ascent>138.8700000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.4299600" lon="-2.9631450"/>
+    <wpt lat="54.4299440" lon="-2.9624730"/>
+    <wpt lat="54.4284060" lon="-2.9624550"/>
+    <wpt lat="54.4246490" lon="-2.9612710"/>
+    <wpt lat="54.4219250" lon="-2.9609610"/>
+    <wpt lat="54.4199230" lon="-2.9614970"/>
+    <wpt lat="54.4168170" lon="-2.9597610"/>
+    <wpt lat="54.4144870" lon="-2.9557280"/>
+    <wpt lat="54.4136990" lon="-2.9523440"/>
+    <wpt lat="54.4113680" lon="-2.9485940"/>
+    <wpt lat="54.4078130" lon="-2.9463320"/>
+    <wpt lat="54.4052520" lon="-2.9437380"/>
+    <wpt lat="54.4031510" lon="-2.9430330"/>
+    <wpt lat="54.4002290" lon="-2.9359550"/>
+    <wpt lat="54.3975200" lon="-2.9320850"/>
+    <wpt lat="54.3957880" lon="-2.9261560"/>
+    <wpt lat="54.3951760" lon="-2.9218390"/>
+    <wpt lat="54.3930940" lon="-2.9189140"/>
+    <wpt lat="54.3870920" lon="-2.9168230"/>
+    <wpt lat="54.3851870" lon="-2.9134950"/>
+    <wpt lat="54.3832110" lon="-2.9120580"/>
+    <wpt lat="54.3821930" lon="-2.9117200"/>
+    <wpt lat="54.3812560" lon="-2.9107890"/>
+    <wpt lat="54.3806930" lon="-2.9053040"/>
+    <wpt lat="54.3804550" lon="-2.9050960"/>
+    <wpt lat="54.3800020" lon="-2.9035490"/>
+    <wpt lat="54.3796140" lon="-2.9032200"/>
+    <trk>
+        <name>Ambleside to Windermere, Bus, 505/555/599</name>
+        <trkseg>
+            <trkpt lat="54.4299600" lon="-2.9631450"/>
+            <trkpt lat="54.4299440" lon="-2.9624730"/>
+            <trkpt lat="54.4284060" lon="-2.9624550"/>
+            <trkpt lat="54.4246490" lon="-2.9612710"/>
+            <trkpt lat="54.4219250" lon="-2.9609610"/>
+            <trkpt lat="54.4199230" lon="-2.9614970"/>
+            <trkpt lat="54.4168170" lon="-2.9597610"/>
+            <trkpt lat="54.4144870" lon="-2.9557280"/>
+            <trkpt lat="54.4136990" lon="-2.9523440"/>
+            <trkpt lat="54.4113680" lon="-2.9485940"/>
+            <trkpt lat="54.4078130" lon="-2.9463320"/>
+            <trkpt lat="54.4052520" lon="-2.9437380"/>
+            <trkpt lat="54.4031510" lon="-2.9430330"/>
+            <trkpt lat="54.4002290" lon="-2.9359550"/>
+            <trkpt lat="54.3975200" lon="-2.9320850"/>
+            <trkpt lat="54.3957880" lon="-2.9261560"/>
+            <trkpt lat="54.3951760" lon="-2.9218390"/>
+            <trkpt lat="54.3930940" lon="-2.9189140"/>
+            <trkpt lat="54.3895880" lon="-2.9176690"/>
+            <trkpt lat="54.3870920" lon="-2.9168230"/>
+            <trkpt lat="54.3851870" lon="-2.9134950"/>
+            <trkpt lat="54.3832110" lon="-2.9120580"/>
+            <trkpt lat="54.3821930" lon="-2.9117200"/>
+            <trkpt lat="54.3812560" lon="-2.9107890"/>
+            <trkpt lat="54.3808840" lon="-2.9070010"/>
+            <trkpt lat="54.3806930" lon="-2.9053040"/>
+            <trkpt lat="54.3804550" lon="-2.9050960"/>
+            <trkpt lat="54.3800020" lon="-2.9035490"/>
+            <trkpt lat="54.3796140" lon="-2.9032200"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

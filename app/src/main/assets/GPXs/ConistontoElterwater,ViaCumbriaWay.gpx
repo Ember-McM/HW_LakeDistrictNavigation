@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Coniston to Elterwater, Via Cumbria Way</name>
+        <desc></desc>
+        <bounds minlat="54.3690130" minlon="-3.0756840" maxlat="54.4338560" maxlon="-3.0148940"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.3690130" lon="-3.0756840" type="start"/>
+            <os:point lat="54.4338560" lon="-3.0380670" type="end"/>
+            <os:activity>ON_FOOT_WALKING</os:activity>
+            <os:difficulty>MODERATE</os:difficulty>
+            <os:paths/>
+            <os:distance>12166.3122575</os:distance>
+            <os:elevation_ascent>307.4400000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.3690130" lon="-3.0756840"/>
+    <wpt lat="54.3691020" lon="-3.0728390"/>
+    <wpt lat="54.3695690" lon="-3.0703300"/>
+    <wpt lat="54.3710130" lon="-3.0718000"/>
+    <wpt lat="54.3712300" lon="-3.0713990"/>
+    <wpt lat="54.3729160" lon="-3.0701960"/>
+    <wpt lat="54.3746020" lon="-3.0682070"/>
+    <wpt lat="54.3779400" lon="-3.0624320"/>
+    <wpt lat="54.3788130" lon="-3.0620910"/>
+    <wpt lat="54.3802940" lon="-3.0599610"/>
+    <wpt lat="54.3812520" lon="-3.0608420"/>
+    <wpt lat="54.3823220" lon="-3.0609950"/>
+    <wpt lat="54.3833790" lon="-3.0558130"/>
+    <wpt lat="54.3844140" lon="-3.0528800"/>
+    <wpt lat="54.3855670" lon="-3.0504190"/>
+    <wpt lat="54.3854720" lon="-3.0478110"/>
+    <wpt lat="54.3856460" lon="-3.0461940"/>
+    <wpt lat="54.3851930" lon="-3.0455760"/>
+    <wpt lat="54.3863300" lon="-3.0444720"/>
+    <wpt lat="54.3877470" lon="-3.0410490"/>
+    <wpt lat="54.3870900" lon="-3.0391970"/>
+    <wpt lat="54.3874400" lon="-3.0381520"/>
+    <wpt lat="54.3877120" lon="-3.0378200"/>
+    <wpt lat="54.3887590" lon="-3.0378670"/>
+    <wpt lat="54.3900160" lon="-3.0370180"/>
+    <wpt lat="54.3907260" lon="-3.0356470"/>
+    <wpt lat="54.3918830" lon="-3.0346920"/>
+    <wpt lat="54.3919150" lon="-3.0333720"/>
+    <wpt lat="54.3933270" lon="-3.0317150"/>
+    <wpt lat="54.3973180" lon="-3.0324350"/>
+    <wpt lat="54.3980210" lon="-3.0319860"/>
+    <wpt lat="54.4008070" lon="-3.0334480"/>
+    <wpt lat="54.4048760" lon="-3.0349900"/>
+    <wpt lat="54.4066530" lon="-3.0362270"/>
+    <wpt lat="54.4081510" lon="-3.0358980"/>
+    <wpt lat="54.4105200" lon="-3.0348600"/>
+    <wpt lat="54.4120160" lon="-3.0378010"/>
+    <wpt lat="54.4130490" lon="-3.0394080"/>
+    <wpt lat="54.4137110" lon="-3.0413930"/>
+    <wpt lat="54.4146130" lon="-3.0429080"/>
+    <wpt lat="54.4153960" lon="-3.0430180"/>
+    <wpt lat="54.4160060" lon="-3.0439760"/>
+    <wpt lat="54.4166910" lon="-3.0442150"/>
+    <wpt lat="54.4164010" lon="-3.0431570"/>
+    <wpt lat="54.4164650" lon="-3.0419600"/>
+    <wpt lat="54.4167430" lon="-3.0396850"/>
+    <wpt lat="54.4174330" lon="-3.0372750"/>
+    <wpt lat="54.4181310" lon="-3.0335410"/>
+    <wpt lat="54.4178360" lon="-3.0324670"/>
+    <wpt lat="54.4183930" lon="-3.0308600"/>
+    <wpt lat="54.4190140" lon="-3.0297530"/>
+    <wpt lat="54.4192130" lon="-3.0282230"/>
+    <wpt lat="54.4198000" lon="-3.0263680"/>
+    <wpt lat="54.4205250" lon="-3.0252700"/>
+    <wpt lat="54.4201370" lon="-3.0220070"/>
+    <wpt lat="54.4195910" lon="-3.0203910"/>
+    <wpt lat="54.4197770" lon="-3.0184750"/>
+    <wpt lat="54.4196660" lon="-3.0152730"/>
+    <wpt lat="54.4202990" lon="-3.0148940"/>
+    <wpt lat="54.4210600" lon="-3.0155120"/>
+    <wpt lat="54.4221040" lon="-3.0174680"/>
+    <wpt lat="54.4223660" lon="-3.0172380"/>
+    <wpt lat="54.4235170" lon="-3.0205020"/>
+    <wpt lat="54.4250640" lon="-3.0200100"/>
+    <wpt lat="54.4267270" lon="-3.0219120"/>
+    <wpt lat="54.4296080" lon="-3.0229530"/>
+    <wpt lat="54.4303770" lon="-3.0275660"/>
+    <wpt lat="54.4301970" lon="-3.0281570"/>
+    <wpt lat="54.4304090" lon="-3.0310260"/>
+    <wpt lat="54.4338560" lon="-3.0380670"/>
+    <trk>
+        <name>Coniston to Elterwater, Via Cumbria Way</name>
+        <trkseg>
+            <trkpt lat="54.3690130" lon="-3.0756840"/>
+            <trkpt lat="54.3691020" lon="-3.0728390"/>
+            <trkpt lat="54.3695690" lon="-3.0703300"/>
+            <trkpt lat="54.3710130" lon="-3.0718000"/>
+            <trkpt lat="54.3712300" lon="-3.0713990"/>
+            <trkpt lat="54.3729160" lon="-3.0701960"/>
+            <trkpt lat="54.3746020" lon="-3.0682070"/>
+            <trkpt lat="54.3758040" lon="-3.0660250"/>
+            <trkpt lat="54.3779400" lon="-3.0624320"/>
+            <trkpt lat="54.3788130" lon="-3.0620910"/>
+            <trkpt lat="54.3802940" lon="-3.0599610"/>
+            <trkpt lat="54.3812520" lon="-3.0608420"/>
+            <trkpt lat="54.3823220" lon="-3.0609950"/>
+            <trkpt lat="54.3827820" lon="-3.0589100"/>
+            <trkpt lat="54.3833790" lon="-3.0558130"/>
+            <trkpt lat="54.3844140" lon="-3.0528800"/>
+            <trkpt lat="54.3855670" lon="-3.0504190"/>
+            <trkpt lat="54.3854720" lon="-3.0478110"/>
+            <trkpt lat="54.3856460" lon="-3.0461940"/>
+            <trkpt lat="54.3851930" lon="-3.0455760"/>
+            <trkpt lat="54.3863300" lon="-3.0444720"/>
+            <trkpt lat="54.3870150" lon="-3.0429450"/>
+            <trkpt lat="54.3877470" lon="-3.0410490"/>
+            <trkpt lat="54.3870900" lon="-3.0391970"/>
+            <trkpt lat="54.3874400" lon="-3.0381520"/>
+            <trkpt lat="54.3877120" lon="-3.0378200"/>
+            <trkpt lat="54.3887590" lon="-3.0378670"/>
+            <trkpt lat="54.3891500" lon="-3.0374720"/>
+            <trkpt lat="54.3900160" lon="-3.0370180"/>
+            <trkpt lat="54.3907260" lon="-3.0356470"/>
+            <trkpt lat="54.3918830" lon="-3.0346920"/>
+            <trkpt lat="54.3919150" lon="-3.0333720"/>
+            <trkpt lat="54.3933270" lon="-3.0317150"/>
+            <trkpt lat="54.3943030" lon="-3.0320250"/>
+            <trkpt lat="54.3957040" lon="-3.0322260"/>
+            <trkpt lat="54.3973180" lon="-3.0324350"/>
+            <trkpt lat="54.3980210" lon="-3.0319860"/>
+            <trkpt lat="54.3992670" lon="-3.0325260"/>
+            <trkpt lat="54.4008070" lon="-3.0334480"/>
+            <trkpt lat="54.4017360" lon="-3.0338080"/>
+            <trkpt lat="54.4036760" lon="-3.0344160"/>
+            <trkpt lat="54.4048760" lon="-3.0349900"/>
+            <trkpt lat="54.4066530" lon="-3.0362270"/>
+            <trkpt lat="54.4081510" lon="-3.0358980"/>
+            <trkpt lat="54.4094230" lon="-3.0353690"/>
+            <trkpt lat="54.4105200" lon="-3.0348600"/>
+            <trkpt lat="54.4111110" lon="-3.0358680"/>
+            <trkpt lat="54.4120160" lon="-3.0378010"/>
+            <trkpt lat="54.4130490" lon="-3.0394080"/>
+            <trkpt lat="54.4137110" lon="-3.0413930"/>
+            <trkpt lat="54.4146130" lon="-3.0429080"/>
+            <trkpt lat="54.4153960" lon="-3.0430180"/>
+            <trkpt lat="54.4160060" lon="-3.0439760"/>
+            <trkpt lat="54.4166910" lon="-3.0442150"/>
+            <trkpt lat="54.4164010" lon="-3.0431570"/>
+            <trkpt lat="54.4164650" lon="-3.0419600"/>
+            <trkpt lat="54.4167430" lon="-3.0396850"/>
+            <trkpt lat="54.4174330" lon="-3.0372750"/>
+            <trkpt lat="54.4178460" lon="-3.0349120"/>
+            <trkpt lat="54.4181310" lon="-3.0335410"/>
+            <trkpt lat="54.4178360" lon="-3.0324670"/>
+            <trkpt lat="54.4183930" lon="-3.0308600"/>
+            <trkpt lat="54.4190140" lon="-3.0297530"/>
+            <trkpt lat="54.4192130" lon="-3.0282230"/>
+            <trkpt lat="54.4198000" lon="-3.0263680"/>
+            <trkpt lat="54.4205250" lon="-3.0252700"/>
+            <trkpt lat="54.4204090" lon="-3.0238430"/>
+            <trkpt lat="54.4201370" lon="-3.0220070"/>
+            <trkpt lat="54.4195910" lon="-3.0203910"/>
+            <trkpt lat="54.4197770" lon="-3.0184750"/>
+            <trkpt lat="54.4197650" lon="-3.0158410"/>
+            <trkpt lat="54.4196660" lon="-3.0152730"/>
+            <trkpt lat="54.4202990" lon="-3.0148940"/>
+            <trkpt lat="54.4210600" lon="-3.0155120"/>
+            <trkpt lat="54.4221040" lon="-3.0174680"/>
+            <trkpt lat="54.4223660" lon="-3.0172380"/>
+            <trkpt lat="54.4226830" lon="-3.0179140"/>
+            <trkpt lat="54.4235170" lon="-3.0205020"/>
+            <trkpt lat="54.4250640" lon="-3.0200100"/>
+            <trkpt lat="54.4267270" lon="-3.0219120"/>
+            <trkpt lat="54.4296080" lon="-3.0229530"/>
+            <trkpt lat="54.4303770" lon="-3.0275660"/>
+            <trkpt lat="54.4301970" lon="-3.0281570"/>
+            <trkpt lat="54.4304090" lon="-3.0310260"/>
+            <trkpt lat="54.4315710" lon="-3.0332060"/>
+            <trkpt lat="54.4333380" lon="-3.0369480"/>
+            <trkpt lat="54.4338560" lon="-3.0380670"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

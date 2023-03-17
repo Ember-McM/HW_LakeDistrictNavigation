@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Elterwater to Grasmere, Walk</name>
+        <desc></desc>
+        <bounds minlat="54.4339980" minlon="-3.0379850" maxlat="54.4592130" maxlon="-3.0247140"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.4339980" lon="-3.0379850" type="start"/>
+            <os:point lat="54.4592130" lon="-3.0251370" type="end"/>
+            <os:activity>ON_FOOT_WALKING</os:activity>
+            <os:difficulty>EASY</os:difficulty>
+            <os:paths/>
+            <os:distance>3590.6975094</os:distance>
+            <os:elevation_ascent>144.6300000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.4339980" lon="-3.0379850"/>
+    <wpt lat="54.4355320" lon="-3.0360310"/>
+    <wpt lat="54.4365500" lon="-3.0355650"/>
+    <wpt lat="54.4370770" lon="-3.0358780"/>
+    <wpt lat="54.4373930" lon="-3.0350670"/>
+    <wpt lat="54.4375250" lon="-3.0335330"/>
+    <wpt lat="54.4379210" lon="-3.0323570"/>
+    <wpt lat="54.4384300" lon="-3.0284140"/>
+    <wpt lat="54.4394470" lon="-3.0277890"/>
+    <wpt lat="54.4399030" lon="-3.0265830"/>
+    <wpt lat="54.4410860" lon="-3.0252790"/>
+    <wpt lat="54.4420850" lon="-3.0247560"/>
+    <wpt lat="54.4433680" lon="-3.0247140"/>
+    <wpt lat="54.4449790" lon="-3.0253640"/>
+    <wpt lat="54.4465160" lon="-3.0276830"/>
+    <wpt lat="54.4518350" lon="-3.0313820"/>
+    <wpt lat="54.4531780" lon="-3.0316850"/>
+    <wpt lat="54.4543120" lon="-3.0313880"/>
+    <wpt lat="54.4554630" lon="-3.0295500"/>
+    <wpt lat="54.4566650" lon="-3.0286440"/>
+    <wpt lat="54.4575200" lon="-3.0260280"/>
+    <wpt lat="54.4586130" lon="-3.0259580"/>
+    <wpt lat="54.4592130" lon="-3.0251370"/>
+    <trk>
+        <name>Elterwater to Grasmere, Walk</name>
+        <trkseg>
+            <trkpt lat="54.4339980" lon="-3.0379850"/>
+            <trkpt lat="54.4343400" lon="-3.0375000"/>
+            <trkpt lat="54.4349820" lon="-3.0366570"/>
+            <trkpt lat="54.4355320" lon="-3.0360310"/>
+            <trkpt lat="54.4359810" lon="-3.0357950"/>
+            <trkpt lat="54.4365500" lon="-3.0355650"/>
+            <trkpt lat="54.4370770" lon="-3.0358780"/>
+            <trkpt lat="54.4373930" lon="-3.0350670"/>
+            <trkpt lat="54.4375250" lon="-3.0335330"/>
+            <trkpt lat="54.4376670" lon="-3.0331110"/>
+            <trkpt lat="54.4379210" lon="-3.0323570"/>
+            <trkpt lat="54.4380480" lon="-3.0307140"/>
+            <trkpt lat="54.4383730" lon="-3.0292140"/>
+            <trkpt lat="54.4384300" lon="-3.0284140"/>
+            <trkpt lat="54.4387370" lon="-3.0280900"/>
+            <trkpt lat="54.4394470" lon="-3.0277890"/>
+            <trkpt lat="54.4399030" lon="-3.0265830"/>
+            <trkpt lat="54.4410860" lon="-3.0252790"/>
+            <trkpt lat="54.4420850" lon="-3.0247560"/>
+            <trkpt lat="54.4433680" lon="-3.0247140"/>
+            <trkpt lat="54.4449790" lon="-3.0253640"/>
+            <trkpt lat="54.4465160" lon="-3.0276830"/>
+            <trkpt lat="54.4485960" lon="-3.0291530"/>
+            <trkpt lat="54.4504380" lon="-3.0303550"/>
+            <trkpt lat="54.4518350" lon="-3.0313820"/>
+            <trkpt lat="54.4531780" lon="-3.0316850"/>
+            <trkpt lat="54.4543120" lon="-3.0313880"/>
+            <trkpt lat="54.4554630" lon="-3.0295500"/>
+            <trkpt lat="54.4566650" lon="-3.0286440"/>
+            <trkpt lat="54.4575200" lon="-3.0260280"/>
+            <trkpt lat="54.4586130" lon="-3.0259580"/>
+            <trkpt lat="54.4592130" lon="-3.0251370"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

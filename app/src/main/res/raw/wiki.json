@@ -1,0 +1,530 @@
+﻿{
+    "Categories": {
+        "Wiki": [
+            {
+                "Name": "Penrith",
+                "Description": "Penrith is a town in Cumbria’s Eden Valley, England, less than 3 miles (5 km) outside the Lake District National Park. It’s known for the massive 14th-century Penrith Castle, set on a grassy meadow. Nearby, the Penrith Museum houses Roman pottery and objects reflecting local history. The nearest lake is Ullswater. Just 6 miles to the south-west this is the Lake District’s second largest lake and offers a variety of watersports and other outdoor activities.",
+                "Link": "https://www.visitlakedistrict.com/explore/areas-of-cumbria/eden-valley-and-north-pennines/towns-and-villages/penrith",
+                "Latitude": "54.6648",
+                "Longitude": "-2.7548",
+                "Catagory": "village"
+            },
+            {
+                "Name": "Ullswater",
+                "Description": "Ullswater is the second largest lake in the English Lake District, being about 7 miles long and 0.75 miles wide, with a maximum depth a little over 60 metres. It was scooped out by a glacier in the Last Ice Age. This lovely lake is surrounded by stunning mountain scenery to its south, softening to the gentle hills of the north. There are dramatic views from both sides of the lake, by foot or by vehicle.",
+                "Link": "https://www.lakedistrict.gov.uk/visiting/places-to-go/explore-ullswater-glenridding-and-pooley-bridge\r\nhttps://www.ullswater-steamers.co.uk/\r\nhttps://www.ullswater.co.uk/",
+                "Latitude": "54.5775",
+                "Longitude": "-2.8751",
+                "Catagory": "lake"
+            },
+            {
+                "Name": "Pooley Bridge",
+                "Description": "Pooley Bridge is a village in the Eden District of the northwestern English county of Cumbria, within the traditional borders of Westmorland. There is a pier from which ferries (known as the Ullswater 'Steamers') provide connections to Glenridding and Howtown. Pooley Bridge was formerly known as Pooley or Pool How meaning the hill by the pool or stream. The village is popular with tourists, especially during the summer, and has several hotels, guest houses and camping sites. Pooley Bridge straddles the River Eamont at the head of Ullswater in the picturesque Eden Valley. The town's two wide main streets are lined with greystone houses and a number of teashops, all overlooking the lake. A popular way to explore the area is to take a boat from Pooley Bridge, leave the boat at Howtown, and then walk to Glenridding and catch the boat back to Pooley Bridge. This was one of Wordsworth's favourite walks and offers views of the lake and Helvellyn.",
+                "Link": "https://www.visitcumbria.com/pen/pooley-bridge/\r\nhttps://www.visitlakedistrict.com/explore/pooley-bridge-p1212411",
+                "Latitude": "54.6120",
+                "Longitude": "-2.8206",
+                "Catagory": "village"
+            },
+            {
+                "Name": "Glenridding",
+                "Description": "Glenriddingis a small village at the foot of Ullswater. It is a popular starting point for walkers and climbers going up Helvellyn. England's third highest mountain includes Striding and Swirral Edges. Glenridding is home to the Ullswater 'Steamers', a leisure boat trip company which operates five vessels from the pier at Glenridding. You can also hire rowing boats and bicycles in the summer or hire canoes and kayaks from the Sailing Centre in the village. There are a selection of shops, two hotels, bed and breakfast and self catering properties in the village, many that are family and dog-friendly. There is also a campsite.",
+                "Link": "https://www.lakedistrict.gov.uk/visiting/places-to-go/explore-ullswater-glenridding-and-pooley-bridge\r\nhttps://www.visitcumbria.com/pen/glenridding/ ",
+                "Latitude": "54.5440",
+                "Longitude": "-2.9530",
+                "Catagory": "village"
+            },
+            {
+                "Name": "Howtown",
+                "Description": "Howtown is a hamlet in Cumbria, England, situated at a small harbour on the east shore of Ullswater in the Lake District. It lies within the civil parish of Martindale. Howtown is about three and a half miles from Pooley Bridge and is best reached by water. The Ullswater 'Steamers' regularly stop there on their way from Glenridding at the southern end of Ullswater to Pooley Bridge at the northern end of the lake. The name Howtown means \"farmstead on the hill\". The place name is from the Old Norse word haugr, meaning \"hill\" or \"mound\", and the Old English word tūn, meaning \"town\".",
+                "Link": " https://en.wikipedia.org/wiki/Howtown ",
+                "Latitude": "54.5697",
+                "Longitude": "-2.8625",
+                "Catagory": "village"
+            },
+            {
+                "Name": "Hartsop",
+                "Description": "Hartsop is a small village in the English Lake District. It lies in the Patterdale valley, near Brothers Water, Hayeswater and Kirkstone Pass. It consists of 17th-century grey stone cottages, like so many of its neighbours. Hartsop retains its historic image, in that, in common with a number of other small Cumbrian villages, it had houses with spinning galleries. It was also a lead mining community. Hartsop Hall, in the care of the National Trust, is located on the far side of the valley from the village. The hall dates from the 16th century, formerly the home of the de Lancasters; in the 17th century it passed into the ownership of Sir John Lowther, a member of the family that later became Earls of Lonsdale. After that, it became used as an ordinary farmhouse. Local history relates that when the hall was extended in the 18th century, it was built across an ancient right-of-way, a right which at least one dalesman insisted on exercising, by walking through the hall. Hartsop is a popular starting point for hill walkers climbing on the High Street range and the Helvellyn range. The village is overlooked by Brock Crags and Hartsop Dodd. Hartsop is part of the civil parish of Patterdale.",
+                "Link": "https://www.lakedistrict.gov.uk/planning/conservationareas/hartsopca \r\nhttps://en.wikipedia.org/wiki/Hartsop",
+                "Latitude": "54.5100",
+                "Longitude": "-2.9190",
+                "Catagory": "village"
+            },
+            {
+                "Name": "Dalemain",
+                "Description": "Dalemain is a country house around 5 miles south-west of Penrith in Cumbria, England. It is a Grade I listed building. Dalemain is part of the Lake District UNESCO World Heritage Site. Dalemain Historic House and Gardens, home to the annual “World’s Original Marmalade Awards & Festival”, is a fine stately home with a beautiful Georgian facade of dressed pink stone. It stands in 5 acres of landscaped gardens and parkland, and both the house and the gardens are open to the public.",
+                "Link": "https://en.wikipedia.org/wiki/Dalemain\r\nhttps://www.visitlakedistrict.com/things-to-do/dalemain-mansion-and-historic-gardens-p1215221\r\nhttps://www.dalemain.com/ ",
+                "Latitude": "54.6361",
+                "Longitude": "-2.8034",
+                "Catagory": "heritage"
+            },
+            {
+                "Name": "Dacre ",
+                "Description": "Dacre is a small village, civil parish and electoral ward in the Lake District National Park in the Eden District of Cumbria, England, and historically in Cumberland. Dacre is situated about 5 miles (8 km) west of Penrith and contains St Andrew's Parish Church, an ancient castle, and the Horse & Farrier pub. Nearby is the small stately home of Dalemain. Dacre Beck is a major tributary of the River Eamont. Although Dacre is a small place in itself, its civil parish is quite large and includes the villages and hamlets of Stainton, Redhills, Newbiggin, Great Blencow and Soulby. ",
+                "Link": "https://en.wikipedia.org/wiki/Dacre,_Cumbria",
+                "Latitude": "54.6306",
+                "Longitude": "-2.8395",
+                "Catagory": "village"
+            },
+            {
+                "Name": "Askham",
+                "Description": "Askham is a village and civil parish in the Eden district of Cumbria, England. It is in the historic county of Westmorland. It is situated in the eastern edge of the Lake District National Park, 4 miles (6.4 km) south of Penrith.[3] Nearby are the remains of Lowther Castle, the site of the annual Lowther Show, a three-day event of country pursuits.",
+                "Link": "https://en.wikipedia.org/wiki/Askham,_Cumbria\r\nhttps://www.visitlakedistrict.com/information/safer-lakes-lowther-and-askham",
+                "Latitude": "54.6062",
+                "Longitude": "-2.7553",
+                "Catagory": "village"
+            },
+            {
+                "Name": "Martindale",
+                "Description": "Martindale is a valley, village and civil parish in Cumbria, England, situated within the Lake District National Park between the lakes of Ullswater and Haweswater. The valley is served by a narrow minor road which runs as far as the farm of Dale Head. This road commences at Howtown, a hamlet on the shore of Ullswater that forms part of the civil parish but is not in the valley of Martindale, and passes over a mountain pass or hause into the valley. The upper part of Martindale around The Nab is a deer reserve which is home to the oldest native red deer herd in England.",
+                "Link": "https://en.wikipedia.org/wiki/Martindale,_Cumbria\r\nhttps://www.andrewswalks.co.uk/martindale.html",
+                "Latitude": "54.5620",
+                "Longitude": "-2.8774",
+                "Catagory": "village"
+            },
+            {
+                "Name": "Haweswater",
+                "Description": "Haweswater is a reservoir valley, flooded in 1935 to create a long, curving body of water running south-west to north-east. It is now one of the largest lakes at 4 miles long and 1/2 mile wide, and has a maximum depth of 200 feet. Haweswater is the most easterly of the lakes, and has no settlements on its shores. It is a tranquil, less visited corner of the Lake District lying on the region’s north-east edge. Its lack of farms and inbye grazing along the reservoir’s entire length lends most of Haweswater a sense of wilderness.",
+                "Link": "https://www.visitcumbria.com/pen/haweswater/\r\nhttps://en.wikipedia.org/wiki/Haweswater_Reservoir",
+                "Latitude": "54.5189",
+                "Longitude": "-2.8047",
+                "Catagory": "lake"
+            },
+            {
+                "Name": "Oxenholme",
+                "Description": "‘Oxenholme The Lake District’ railway station, located just outside Kendal, is a junction between the West Coast Main Line and the The lakes Line branch Line to Windermere station. Oxenholme is known as the Gateway to the Lakes. It is within walking distance of Kendal, a pretty Lakeland town which has plenty of local services and shops catering to the many tourists as well as the locals in the area.",
+                "Link": "https://www.visitcumbria.com/sl/oxenholme-station/\r\nhttps://en.wikipedia.org/wiki/Oxenholme",
+                "Latitude": "54.3016",
+                "Longitude": "-2.7237",
+                "Catagory": "heritage"
+            },
+            {
+                "Name": "Windermere lake",
+                "Description": "Windermere is the largest natural lake in England. More than 11 miles (18 km) in length, and almost 1 mile (1.5 km) at its widest, it is a ribbon lake formed in a glacial trough after the retreat of ice at the start of the current interglacial period. It has been one of the country's most popular places for holidays and summer homes since the arrival of the Kendal and Windermere Railway's branch line in 1847. Windermere and the surrounding area is arguably the most famous and popular area in the whole of the Lake District. There are a range of activities, attractions, places of interest and things to do around the lake, and on it",
+                "Link": "https://en.wikipedia.org/wiki/Windermere\r\nhttps://www.windermereinfo.co.uk/\r\nhttps://www.windermereinfo.co.uk/",
+                "Latitude": "54.3777",
+                "Longitude": "-2.9370",
+                "Catagory": "lake"
+            },
+            {
+                "Name": "Windermere",
+                "Description": "Windermere is also the name of a small town, which lies just over a mile from the lake shore. It's separate from the town of Bowness-on-Windermere, which is one of the busiest place along the shoreline and the main jetties for cruise boats.",
+                "Link": "https://www.windermereinfo.co.uk/",
+                "Latitude": "54.3811",
+                "Longitude": "-2.9082",
+                "Catagory": "village"
+            },
+            {
+                "Name": "Kendal",
+                "Description": "Kendal is a market town and civil parish in the South Lakeland district of Cumbria, England, 8 miles (13 km) south-east of Windermere and 19 miles (31 km) north of Lancaster. Historically in Westmorland, it lies within the dale of the River Kent, from which its name is derived. It is the third largest town in Cumbria after Carlisle and Barrow-in-Furness. Kendal is known as a centre for shopping, for its festival and historic sights, including Kendal Castle, and as the home of Kendal Mint Cake. The town's grey limestone buildings have earned it the sobriquet \"Auld Grey Town\".",
+                "Link": "https://en.wikipedia.org/wiki/Kendal\r\nhttps://www.visitcumbria.com/sl/kendal/\r\nhttps://www.visitlakedistrict.com/explore/kendal-p1212081",
+                "Latitude": "54.3260",
+                "Longitude": "-2.7450",
+                "Catagory": "village"
+            },
+            {
+                "Name": "Staveley",
+                "Description": "The village of Staveley is situated a few miles to the north west of Kendal and at the entrance to the Kentmere Valley, one of the finest walkers and mountain bikers' territory to be found in England. The relatively gentle scarps of Reston Scar, Spy Crag and Lily Fell overlook Staveley and mark the beginning of an additional chain of hills known as the Kentmere Round. Staveley is well positioned just off the busy A591 bypass with the added benefits of a neat well-kept railway station on the Oxenholme to Windermere branch line and a bus service operating from Abbey Square to Windermere and Keswick and to Kendal and Lancaster.",
+                "Link": "https://en.wikipedia.org/wiki/Staveley,_Cumbria\r\nhttp://www.wordsworthcountry.com/information/staveley.htm\r\nhttps://www.staveleyvillage.co.uk/\r\nhttps://thesva.org/",
+                "Latitude": "54.3778",
+                "Longitude": "-2.8176",
+                "Catagory": "village"
+            },
+            {
+                "Name": "Troutbeck Bridge",
+                "Description": "Troutbeck Bridge is a village in South Lakeland, Cumbria, England. It is situated 1 mile (1.5 kilometres) north of Windermere on the A591 road running through the Lake District and was historically in the county of Westmorland. Troutbeck Bridge takes its name from where the road crosses the Trout Beck.",
+                "Link": "https://en.wikipedia.org/wiki/Troutbeck_Bridge",
+                "Latitude": "54.3950",
+                "Longitude": "-2.9209",
+                "Catagory": "heritage"
+            },
+            {
+                "Name": "Troutbeck",
+                "Description": "Troutbeck is a village and former civil parish, now in the parish of Lakes, in South Lakeland district in Cumbria, England. It is 3 miles (5 km) north of Windermere town, and west of the A592 road. It is a conservation area and includes the National Trust property of Townend. Beatrix Potter used to live in the village at Troutbeck Park Farm, where she bred herdwick sheep. The property, and the sheep are now the property of the National Trust.",
+                "Link": "https://en.wikipedia.org/wiki/Troutbeck,_South_Lakeland\r\nhttp://www.troutbeck.org/our_village_intro.html",
+                "Latitude": "54.4180",
+                "Longitude": "-2.9130",
+                "Catagory": "village"
+            },
+            {
+                "Name": "Lakeland Pony Treks",
+                "Description": "Lakeland Pony Treks is set on the edge of Limefitt Holiday Park based in the historic valley of Troutbeck only two miles away from the town of Windermere. Lakeland Pony Treks has a selection of horse rides to suit every age and ability. All beginner rides are off-road amongst the lovely scenery of the Troutbeck Valley.",
+                "Link": "https://lakesriding.ecpro.co.uk/",
+                "Latitude": "54.4254",
+                "Longitude": "-2.8966",
+                "Catagory": "activity"
+            },
+            {
+                "Name": "Brockhole on Windermere -The Lake District Visitor Centre",
+                "Description": "Located between Windermere and Ambleside, Brockhole on Windermere is the perfect place for all the family. It has a variety of outdoor (but covered) activities, an adventure playground, water sports, and boat hire. \r\n\r\nOpening times:\r\nVisitors Centre, Café & Shop: 10am - 5pm\r\nGardens, grounds, carpark: 9am - 7.30pm\r\nBoat Hire and Activities: 10am-5pm\r\nTreeTop Trek and Nets: 10am - 4pm\r\nThe Gaddum Restaurant: 12-3pm. Closed Mondays\r\n\r\n",
+                "Link": "https://www.brockhole.co.uk/?utm_source=Google%20My%20Business&utm_medium=Referral&utm_campaign=Google_mybusiness",
+                "Latitude": "54.4018",
+                "Longitude": "-2.9412",
+                "Catagory": "activity"
+            },
+            {
+                "Name": "Waterhead",
+                "Description": "Windermere Lake ends a mile short of Ambleside at Waterhead, and can come as a shock to boat passengers expecting to be in the town. Crowded around the bay are boats, hotels, cafes, tourist shops, and places selling food for the ducks and swans.",
+                "Link": "https://www.visitcumbria.com/amb/waterhead-pier/",
+                "Latitude": "54.4210",
+                "Longitude": "-2.9619",
+                "Catagory": "activity"
+            },
+            {
+                "Name": "Ambleside",
+                "Description": "Ambleside, a small town in the Lake District, has now become a major tourist resort with shops, restaurants, cinema and a large selection of places to stay. It is very popular with walkers and climbers and is one of the best bases for exploring the Lake District. It marks the head (and sits on the east side of the northern headwater) of Windermere, England's largest natural lake. In the Lake District National Park, it is south of the highest road pass in the Lake District, Kirkstone Pass and both places are the meeting point of well-marked paths and mountain hiking trails. ",
+                "Link": "https://en.wikipedia.org/wiki/Ambleside\r\nhttps://www.visitcumbria.com/amb/ambleside/\r\nhttps://www.visitlakedistrict.com/explore/areas-of-cumbria/the-lake-district/towns-and-villages/ambleside",
+                "Latitude": "54.4288",
+                "Longitude": "-2.9605",
+                "Catagory": "village"
+            },
+            {
+                "Name": "Bowness-on-Windermere",
+                "Description": "Bowness-on-Windermere is a sprawling tourist town on the shore of Windermere, about halfway along the 10.5 mile length of the lake between Waterhead at the North end, and Lakeside at the South end. Now the Lake District’s most popular visitor destination, Bowness-on-Windermere is busy for much of the year. People come to enjoy the lake for sailing and watersports, or just to relax and enjoy the atmosphere of the area and the town’s delightful setting. See all places to stay around Bowness-on-Windermere.",
+                "Link": "https://en.wikipedia.org/wiki/Bowness-on-Windermere\r\nhttps://www.visitlakedistrict.com/explore/areas-of-cumbria/the-lake-district/towns-and-villages/windermere-and-bowness\r\nhttps://www.visitcumbria.com/amb/bowness-on-windermere/",
+                "Latitude": "54.3644",
+                "Longitude": "-2.9181",
+                "Catagory": "village"
+            },
+            {
+                "Name": "Blackwell",
+                "Description": "Blackwell is a large house in the English Lake District, designed in the Arts and Crafts style by Baillie Scott. It was built in 1898–1900, as a holiday home for Sir Edward Holt, a wealthy Manchester brewer. It is near the town of Bowness-on-Windermere with views looking over Windermere and across to the Coniston Fells.\r\nBlackwell has survived with almost all its original decorative features intact, and is listed Grade I as an outstanding example of British domestic architecture. The house is furnished with original furniture and objects from the period. The gardens were designed by Thomas Mawson in a series of terraces. Flowers and herbs border the terraces, which form sun traps on the south side of the house.\r\nThe house has been open to visitors since 2001 and hosts regular exhibitions",
+                "Link": "https://en.wikipedia.org/wiki/Blackwell_(historic_house)\r\nhttps://www.visitcumbria.com/amb/blackwell/\r\nhttps://lakelandarts.org.uk/blackwell/",
+                "Latitude": "54.3431",
+                "Longitude": "-2.9236",
+                "Catagory": "heritage"
+            },
+            {
+                "Name": "Newby Bridge",
+                "Description": "Newby Bridge, once a part of Lancashire, is a small village adjoining the River Leven at the southern end of Lake Windermere. It got its name from the five-arched stone bridge built across the river in 1651. It caters mainly for the passing tourist trade, and has a railway station on the preserved Lakeside & Haverthwaite Railway. Newby Bridge is a convenient base to explore the Furness peninsula and southern Lakeland areas.",
+                "Link": "https://en.wikipedia.org/wiki/Newby_Bridge\r\nhttps://www.visitcumbria.com/sl/newby-bridge/",
+                "Latitude": "54.2672",
+                "Longitude": "-2.9688",
+                "Catagory": "village"
+            },
+            {
+                "Name": "Lakeside",
+                "Description": "Lakeside is a village at the south end of Windermere, England. It was established as a steamer pier for services along the lake when the Lakeside branch of the Furness Railway reached it in 1869. The steamers still call at Lakeside and the railway is now a steam-hauled heritage railway, operated as the Lakeside & Haverthwaite Railway. Lakeside is the starting point for a captivating train journey with historic steam and diesel engines. The short branch line will whisk you into nostalgia and the green and charming Leven Valley. ",
+                "Link": "https://en.wikipedia.org/wiki/Lakeside,_Cumbria\r\nhttps://www.visitlakedistrict.com/things-to-do/lakeside-and-haverthwaite-railway-lakeside-pier-p1393791",
+                "Latitude": "54.2780",
+                "Longitude": "-2.9570",
+                "Catagory": "village"
+            },
+            {
+                "Name": "Esthwaite Water",
+                "Description": "Esthwaite Water is one of the smaller lakes in the Lake District National Park. It is situated between the much larger lakes of Windermere and Coniston Water. To the north is the village of Hawkshead and to the west is Grizedale Forest. The lake covers around 280 acres (1.1 km2) and is known for its excellent fishing, particularly trout and pike. It has been designated as a site of special scientific interest. \r\n\r\nBeatrix Potter’s favourite lake, Esthwaite Water, is thought to have inspired her creation of the character Jeremy Fisher, and was recently featured in the national news thanks to its private owner’s unusual decision to sell the lake on the auction site eBay. Whilst access to the land around the lake is restricted, there is plenty for visitors to do.",
+                "Link": "https://en.wikipedia.org/wiki/Esthwaite_Water\r\nhttps://www.esthwaitewater.com/\r\nhttps://www.thelakedistrict.org/where-to-go/lakes/esthwaite-water/",
+                "Latitude": "54.3500",
+                "Longitude": "-2.9833",
+                "Catagory": "lake"
+            },
+            {
+                "Name": "Esthwaite Water Trout Fishery",
+                "Description": "The Esthwaite Water Trout Fishery offers a self-driven boat tour of the lake where hunting Osprey are an almost daily sight, and the lake is also renowned for its trout stock, with everything you need to get started available at the Fishery shop.",
+                "Link": "https://www.esthwaitewater.com/",
+                "Latitude": "54.3516",
+                "Longitude": "-2.9828",
+                "Catagory": "activity"
+            },
+            {
+                "Name": "Latterbarrow",
+                "Description": "Latterbarrow is a hill in the English Lake District, east of Hawkshead, Cumbria. Latterbarrow is home to an amazing variety of plants with over 200 species recorded. The underlying limestone rock, combined with a mix of grassland, ash and hazel woodland and scrub provides a variety of habitats. Yew and the rare Lancastrian whitebeam are particular features of the woodland, but the flower-rich grassland steals the show.  Ash and hazel woodland covers about half of the nature reserve. With early-purple orchid and cowslips opening the sequence in May, greater butterfly and fragrant orchids follow in June, and the display becomes even more colourful in July. By varying the timing of the grazing, flowers set seed periodically, which ensures the continuing diversity in the grassland. The resulting abundance of nectar makes Latterbarrow a haven for insect life. ",
+                "Link": "https://www.cumbriawildlifetrust.org.uk/nature-reserves/latterbarrow\r\nhttps://en.wikipedia.org/wiki/Latterbarrow",
+                "Latitude": "54.3840",
+                "Longitude": "-2.9742",
+                "Catagory": "nature"
+            },
+            {
+                "Name": "Hawkshead",
+                "Description": "Hawkshead is a village and civil parish in Cumbria, England, just north of Esthwaite Water. Hawkshead is marked by a jumbled collection of stone houses, old arches and squares that enchanted both William Wordsworth – who went to school here – and later Beatrix Potter, who lived at Hill Top – a five-minute drive away at Sawrey. The village is largely given over to tourism – there’s no shortage of teashops, inns and gift shops to enjoy.",
+                "Link": "https://en.wikipedia.org/wiki/Hawkshead\r\nhttps://www.visitlakedistrict.com/explore/areas-of-cumbria/the-lake-district/towns-and-villages/hawkshead\r\nhttps://www.visitcumbria.com/amb/hawkshead/",
+                "Latitude": "54.3750",
+                "Longitude": "-2.9990",
+                "Catagory": "village"
+            },
+            {
+                "Name": "Grizedale",
+                "Description": "Grizedale is a hamlet in the Lake District of North West England, in the middle of the Grizedale Forest. Nestling right in the heart of the Lake District between Windermere and Coniston, Grizedale Forest offers a full range of activities from gentle walks to swinging through the trees with GoApe, from a leisurely meal in the café to exhilarating mountain bike trails. The forest is notable for its sculptures. It used to be the home of Grizedale Arts, a contemporary arts residency and commissioning agency.\r\n",
+                "Link": "https://en.wikipedia.org/wiki/Grizedale\r\nhttps://www.forestryengland.uk/grizedale\r\nhttps://www.visitcumbria.com/sl/grizedale-forest/\r\nhttps://www.visitlakedistrict.com/things-to-do/grizedale-forest-and-visitor-centre-p1211031",
+                "Latitude": "54.3420",
+                "Longitude": "-3.0220",
+                "Catagory": "village"
+            },
+            {
+                "Name": "Go Ape Grizedale (Treetop Challenge, Zip Trek, Segways, High Ropes)",
+                "Description": "Adventure-activity chain venue where groups explore the forest canopy via a treetop rope course. Grizedale Forest is a haven for zip wire lovers. Each of the high ropes courses offer seriously long flights but the king of forest flying is Zip Trekking Adventure – a spine-tingling 3km aerial adventure.",
+                "Link": "https://goape.co.uk/locations/grizedale",
+                "Latitude": "54.3387",
+                "Longitude": "-3.0204",
+                "Catagory": "activity"
+            },
+            {
+                "Name": "Rydal",
+                "Description": "Rydal is a small village strung along the main road between Grasmere and Ambleside. The nearby lake – Rydal Water, was a favourite with William Wordsworth, who lived at Rydal Mount from 1813 to 1850. Rydal Mount & Gardens - Wordsworth's rustic family home with displays of his work and portraits plus lake views and gardens. \r\n\r\nRydal Water lies between Nab Scar and Loughrigg Fell. This small lake often has beautiful reflections to the west of Loughrigg fell. On the western side of the lake is a footpath up to Loughrigg Terrace and its huge cave, formed by quarrying. Rydal Water is increasingly popular for wild swimming.",
+                "Link": "https://en.wikipedia.org/wiki/Rydal,_Cumbria\r\nhttps://www.rydalmount.co.uk/\r\nhttps://www.visitcumbria.com/amb/rydal-village/\r\n",
+                "Latitude": "54.4468",
+                "Longitude": "-2.9811",
+                "Catagory": "village"
+            },
+            {
+                "Name": "Rydal Cave",
+                "Description": "Located on the slopes of Loughrigg Fell, Rydal Caves is one of the great free things to do in the Lake District. It is a man-made cave on the site of a former slate quarry, with stepping stones leading to a dry interior.",
+                "Link": "https://www.visitlakedistrict.com/things-to-do/rydal-cave-p1368191",
+                "Latitude": "54.4433",
+                "Longitude": "-2.9964",
+                "Catagory": "nature"
+            },
+            {
+                "Name": "Grasmere",
+                "Description": "Grasmere is a village and tourist destination in Cumbria, England, in the centre of the Lake District, named after its adjacent lake. It has links with the Lake Poets: William and Dorothy Wordsworth lived in Grasmere for 14 years and called it \"the loveliest spot that man hath ever found.\"\r\n\r\nNestling at the foot of some spectacular fells and with its own lake, this village has many shops, pubs and cafes. You can also visit Wordsworth's grave in the churchyard and buy the legendary Grasmere Gingerbread. With no motor boats, this quieter lake is great for swimming and rowing. In the summer you can hire rowing boats on the lake.",
+                "Link": "https://en.wikipedia.org/wiki/Grasmere_(village)\r\nhttps://www.visitcumbria.com/amb/grasmere/\r\nhttps://www.lakedistrict.gov.uk/visiting/places-to-go/explore-grasmere-and-rydal",
+                "Latitude": "54.4581",
+                "Longitude": "-3.0246",
+                "Catagory": "village"
+            },
+            {
+                "Name": "Elterwater",
+                "Description": "Elterwater is a village in the English Lake District and the county of Cumbria. The village lies half a mile (800 m) north-west of the lake of Elter Water, from which it derives its name. Both are situated in the valley of Great Langdale. Elterwater boasts fantastic views of the nearby Langdale Pikes in the heart of the Lake District. Elterwater Bridge is a Grade II listed structure dating to at least the 18th century. The river Brathay which provides outflow from Elterwater, flows south to join Lake Windermere, near Ambleside.",
+                "Link": "https://en.wikipedia.org/wiki/Elterwater\r\nhttps://www.visitcumbria.com/amb/elterwater/\r\nhttps://www.visitlakedistrict.com/things-to-do/elterwater-p1212971",
+                "Latitude": "54.4341",
+                "Longitude": "-3.0377",
+                "Catagory": "village"
+            },
+           {
+                "Name": "Coniston Water",
+                "Description": "Coniston Water in the English county of Cumbria is the third-largest lake in the Lake District by volume (after Windermere and Ullswater), and the fifth-largest by area. It is five miles long by half a mile wide (8 km by 800 m), has a maximum depth of 184 feet (56 m), and covers an area of 1.89 square miles (4.9 km2). The lake has an elevation of 143 feet (44 m) above sea level. Above its western shore, the mountain of the Old Man of Coniston towers above the lake and the village. The lake is about half a mile down from the village, where you can hire boats and bikes from Coniston Boating Centre. The lake is ideal for kayaking and canoeing and there are a number of good sites for launching and recovery. There are various boats for hire, from small canoes and kayaks to large personal craft. ",
+                "Link": "https://en.wikipedia.org/wiki/Coniston_Water \r\nhttps://www.visitcumbria.com/amb/coniston-water/\r\nhttps://www.lakedistrict.gov.uk/visiting/places-to-go/explore-around-coniston\r\n",
+                "Latitude": "54.3500",
+                "Longitude": "-3.0667",
+                "Catagory": "lake"
+            },
+            {
+                "Name": "Coniston",
+                "Description": "Coniston is a village and civil parish in the Furness region of Cumbria, England. It is in the southern part of the Lake District National Park, between Coniston Water, the third longest lake in the Lake District, and Coniston Old Man. Coniston is a popular spot for hill-walking and rock-climbing; there are fine walks to be had on the nearby Furness Fells and Grizedale Forest, and some of the finest rock in the Lake District on the eastern face of Dow Crag, 3 miles (4.8 km) from the village. The Grizedale Stages rally also takes place in Coniston, using the surrounding Grizedale and Broughton Moor (or Postlethwaite Allotment) forests.\r\nThere is Ruskin Museum in the centre of Coniston village.",
+                "Link": "https://en.wikipedia.org/wiki/Coniston,_Cumbria\r\nhttps://www.visitcumbria.com/amb/coniston/",
+                "Latitude": "54.3680",
+                "Longitude": "-3.0730",
+                "Catagory": "village"
+            },
+            {
+                "Name": "Coniston Boating Centre",
+                "Description": "Coniston Boating Centre has motor boats, rowing boats, kayaks, open top Canadian canoes, paddle boards and sailing dinghies. It also has bikes, mountain bike, and fat tyre electric bikes.",
+                "Link": "https://www.conistonboatingcentre.co.uk/",
+                "Latitude": "54.364",
+                "Longitude": "-3.066",
+                "Catagory": "activity"
+            },
+            {
+                "Name": "Water Park Lakeland Adventure Centre",
+                "Description": "Waterpark is ideally situated at the southern end of Coniston Water and has easy access to the M6 via the Kendal turning",
+                "Link": "http://www.waterparkadventure.co.uk/",
+                "Latitude": "54.3032",
+                "Longitude": "-3.0854",
+                "Catagory": "activity"
+            },
+            {
+                "Name": "Coniston Copper Mines",
+                "Description": "The Coniston copper mines were a copper mining operation in Lancashire, England. It was functional for hundreds of years in Coppermines Valley above Coniston Water. Today there are industrial remains of the industry. Mining for copper in the valley dates back to the 16th century and the area continued to be mined until the 1950s. In 1982 the buildings in the valley were purchased by The Coppermines Lakes Cottages founder Philip Johnston who set about a comprehensive scheme of rebuilding, restoration and conservation. The buildings were sympathetically restored from the original Victorian sawmill.",
+                "Link": "https://en.wikipedia.org/wiki/Coniston_copper_mines\r\nhttps://www.lakedistrict.gov.uk/learning/archaeologyhistory/coniston-copper",
+                "Latitude": "54.3785",
+                "Longitude": "-3.0954",
+                "Catagory": "heritage"
+            },
+            {
+                "Name": "The Old Man of Coniston",
+                "Description": "The Old Man of Coniston is a fell in the Furness Fells in the Cumbria, English Lake District and is the highest point (county top) of the historic county of Lancashire. It is at least 2,632.62 feet (802.42 m) high, and lies to the west of the village of Coniston and the lake, Coniston Water. The fell is sometimes known by the alternative name of Coniston Old Man, or simply The Old Man. The mountain is popular with tourists and fell-walkers with a number of well-marked paths to the summit. The mountain has also seen extensive copper and slate mining activity for eight hundred years, and the remains of abandoned mines and spoil tips are a significant feature of the north-east slopes.",
+                "Link": "https://en.wikipedia.org/wiki/Old_Man_of_Coniston",
+                "Latitude": "54.3702",
+                "Longitude": "-3.1199",
+                "Catagory": "nature"
+            },
+            {
+                "Name": "Dow Crag",
+                "Description": "Dow Crag is a fell in the English Lake District near Coniston, Cumbria. The eastern face is one of the many rock faces in the Lake District used for rock climbing. The name Dow Crag originally applied specifically to the eastern face which looks down upon the tarn of Goat's Water, the fell itself having no need for a name before the inception of hill walking in the 19th century. As with many fells the name of a prominent feature was then applied to the whole mass. Dow was originally named Doe and still locally pronounced as \"Doe\".",
+                "Link": "https://en.wikipedia.org/wiki/Dow_Crag",
+                "Latitude": "54.3703",
+                "Longitude": "-3.1368",
+                "Catagory": "nature"
+            },
+            {
+                "Name": "Derwentwater",
+                "Description": "Derwentwater is one of the principal bodies of water in the Lake District National Park in north west England. The lake occupies part of Borrowdale and lies immediately south of the town of Keswick. It is both fed and drained by the River Derwent. It measures approximately three miles (five kilometres) long by 1 mile (1.5 kilometres) wide and is some 72 feet (22 metres) deep. There are several islands within the lake, one of which is inhabited. Derwentwater is a place of scenic value. It is surrounded by hills (known locally as fells), and many of the slopes facing Derwentwater are extensively wooded. There are seven lakeside marinas, the most popular stops being Keswick, Portinscale and the Lodore Falls, from which boats may be hired. Recreational walking is a major tourist activity in the area and there is an extensive network of footpaths in the hills and woods surrounding the lake.",
+                "Link": "https://en.wikipedia.org/wiki/Derwentwater\r\nhttps://www.visitcumbria.com/kes/derwentwater/",
+                "Latitude": "54.5833",
+                "Longitude": "-3.1500",
+                "Catagory": "lake"
+            },
+            {
+                "Name": "Keswick ",
+                "Description": "Keswick is a market town in northwest England’s Lake District National Park, surrounded by mountains like Skiddaw. In town, The Cumberland Pencil Museum documents the history of pencils, and the Keswick Museum & Art Gallery displays local artefacts. On a hilltop east of town, Castlerigg Stone Circle dates back to the Neolithic era. Vast Derwent Water lake is south of town, with boat tours and the Theatre by the Lake.",
+                "Link": "https://en.wikipedia.org/wiki/Keswick,_Cumbria\r\nhttps://www.visitlakedistrict.com/explore/areas-of-cumbria/the-lake-district/towns-and-villages/keswick\r\nhttps://www.visitcumbria.com/kes/keswick/\r\nhttps://www.keswick.org/",
+                "Latitude": "54.5999",
+                "Longitude": "-3.1293",
+                "Catagory": "village"
+            },
+            {
+                "Name": "Friars Crag",
+                "Description": "Friars Crag is a promontory overlooking Derwentwater near Keswick, Cumbria. Friars Crag is only a short walk from the town centre and well worth visiting as the view over Derwentwater to the jaws of Borrowdale is amazing. Just back from the Crag is a monument erected in 1900 in recognition of the writer and artist John Ruskin's first visit to Keswick in 1824. Years later he observed that the view from the Crag was one or the finest in Europe. He is also reputed to have said when he first saw Keswick that 'it was a place almost too beautiful to live in'.",
+                "Link": "https://en.wikipedia.org/wiki/Friars'_Crag\r\nhttps://www.keswick.org/explore/not-to-miss/friars-crag",
+                "Latitude": "54.5903",
+                "Longitude": "-3.1381",
+                "Catagory": "nature"
+            },
+            {
+                "Name": "Rosthwaite",
+                "Description": "Rosthwaite is a village situated 6 miles south of Keswick in the beautiful Borrowdale Valley beyond Derwentwater. It is ringed with mountains and located between the river Derwent and Stonethwaite Beck. Rosthwaite is host to many interesting post-glacial geographical features. The town nestles underneath the How, a large roche moutonnée, with a smaller roche moutonnée being further to the west. Near to and within Rosthwaite is also a set of terminal moraines which show the staggered retreat of the Stonethwaite Glacier.",
+                "Link": "https://en.wikipedia.org/wiki/Rosthwaite,_Allerdale\r\nhttps://www.keswick.org/explore/villagesaroundkeswick/rosthwaite",
+                "Latitude": "54.5235",
+                "Longitude": "-3.1470",
+                "Catagory": "village"
+            },
+            {
+                "Name": "Thirlmere",
+                "Description": "Thirlmere is a reservoir in the Borough of Allerdale in Cumbria and the English Lake District. The Helvellyn ridge lies to the east of Thirlmere. To the west of Thirlmere are a number of fells; for instance, Armboth Fell and Raven Crag both of which give views of the lake and of Helvellyn beyond. Thirlmere, at 3.5 miles long, 1.2 mile wide and 158 feet deep, was originally two smaller lakes, which were purchased by Manchester City Corporation Waterworks in 1889. The area was dammed with a dam whose greatest height is 104 feet, and the area became one vast reservoir. ",
+                "Link": "https://en.wikipedia.org/wiki/Thirlmere\r\nhttps://www.visitcumbria.com/kes/thirlmere/",
+                "Latitude": "54.5333",
+                "Longitude": "-3.0667",
+                "Catagory": "lake"
+            },
+            {
+                "Name": "Eagle Crag",
+                "Description": "Eagle Crag is a fell in the Lake District in Cumbria, England, it is situated near the village of Stonethwaite where the valleys of Langstrath and Greenup join. Impressive walls of crag look down upon Stonethwaite, making Eagle Crag the most arresting sight from that settlement. It can be climbed direct by the average walker, picking a route between the rock faces.",
+                "Link": "https://en.wikipedia.org/wiki/Eagle_Crag",
+                "Latitude": "54.4986",
+                "Longitude": "-3.1193",
+                "Catagory": "nature"
+            },
+            {
+                "Name": "Bassenthwaite",
+                "Description": "Bassenthwaite Lake is one of the largest water bodies in the English Lake District. It is long and narrow, approximately 4 miles (6.4 km) long and 0.75 miles (1 km) wide. It is the only body of water in the Lake District to use the word \"lake\" in its name, all the others being \"waters\" (for example, Derwentwater), \"meres\" (for example, Windermere) or \"tarns\" (for example, Dock Tarn). It is fed by, and drains into, the River Derwent. The lake lies at the foot of Skiddaw, near the town of Keswick. Bassenthwaite is home to the vendace, a rare and endangered fish species found only here and in Derwentwater. This wildlife-rich body of water is fringed with a mosaic of reed beds, fen marshland, woodlands and wildflower meadows, and is perhaps best known for the spectacular sight of ospreys diving into the waters for fish.",
+                "Link": "https://en.wikipedia.org/wiki/Bassenthwaite_Lake\r\nhttps://www.visitlakedistrict.com/explore/areas-of-cumbria/the-lake-district/towns-and-villages/bassenthwaite\r\n",
+                "Latitude": "54.6500",
+                "Longitude": "-3.2166",
+                "Catagory": "lake"
+            },
+            {
+                "Name": "Whitewater Dash",
+                "Description": "Whitewater Dash is a spectacular waterfall on the Dash Beck in the Cumberland Lake District, east of Bassenthwaite. It is reckoned one of the finest waterfalls in Lakeland. The fall, sometimes called ‘Dash Falls’, is found in the narrow dale between Little Calva to the east and Bakestall, a subsidiary fell of mighty Skiddaw, to the west. It is just below the head of the valley Dash Beck, which begins on the felltop in Candleseaves Bog. The water gathered from the bog into a new river here tumbles in a long series of cascades down the precipitous sides of the fells towards the comparatively lower ground beneath, in which lies Bassenthwaite Lake. The dramatic course of the beck turns the water into a white ribbon and Wainwright called it the finest succession of falls in Lakeland. Nevertheless, the remote location leaves the fall relatively unvisited and unspoiled.",
+                "Link": "https://wikishire.co.uk/wiki/Whitewater_Dash",
+                "Latitude": "54.6727",
+                "Longitude": "-3.1237",
+                "Catagory": "nature"
+            },
+            {
+                "Name": "Buttermere ",
+                "Description": "Buttermere is a lake in the Lake District in North West England. It is 1.24 miles (2 km) long, 620 yards (570 m) wide and 75 feet (23 m) deep. The classic combination of lakes and mountains has made this popular with visitors since the beginning of tourism in the Lake District. The adjacent village of Buttermere takes its name from the lake. Owned by the National Trust, it forms part of its Buttermere and Ennerdale property.",
+                "Link": "https://en.wikipedia.org/wiki/Buttermere\r\nhttps://www.visitcumbria.com/cm/buttermere-lake/",
+                "Latitude": "54.5333",
+                "Longitude": "-3.2667",
+                "Catagory": "lake"
+            },
+            {
+                "Name": "Crummock South Beach",
+                "Description": "Crummock South Beach has a stunning views on the lake. Crummock Water is a lake in the Lake District in Cumbria, North West England situated between Buttermere to the south and Loweswater to the north. Crummock Water is 2.5 miles (4.0 km) long, 0.6 miles (0.97 km) wide and 140 feet (43 m) deep. The River Cocker is considered to start at the north of the lake, before then flowing into Lorton Vale. ",
+                "Link": "https://en.wikipedia.org/wiki/Crummock_Water\r\nhttps://www.nationaltrust.org.uk/buttermere-valley/features/crummock-water",
+                "Latitude": "54.5486",
+                "Longitude": "-3.2865",
+                "Catagory": "lake"
+            },
+            {
+                "Name": "Loweswater",
+                "Description": "Loweswater is one of the smaller lakes in the English Lake District.  It is unique in that it is the only Lake District lake where the water flows back into the park and away from the sea. The village of Loweswater is situated to the east of the lake. Loweswater is owned by the National Trust. Every year Loweswater is the venue for the Loweswater show, which features traditional Cumbrian sports and has competitions to win farmers' produce",
+                "Link": "https://en.wikipedia.org/wiki/Loweswater\r\nhttps://www.nationaltrust.org.uk/buttermere-valley/features/loweswater\r\nhttps://www.visitcumbria.com/cm/loweswater-lake/",
+                "Latitude": "54.5825",
+                "Longitude": "-3.3553",
+                "Catagory": "lake"
+            },
+            {
+                "Name": "Cockermouth",
+                "Description": "Cockermouth is a beautiful Georgian market town on the edge of the Lake District National Park. The town is located at the junction of the Derwent & Cocker Rivers. It is one of only 51 towns in Great Britain designated as a ‘Gem’ town and is, therefore, recommended for preservation by the state as part of our national heritage.",
+                "Link": "https://en.wikipedia.org/wiki/Cockermouth\r\nhttps://www.visitcumbria.com/cm/cockermouth/",
+                "Latitude": "54.6613",
+                "Longitude": "-3.3620",
+                "Catagory": "village"
+            },
+            {
+                "Name": "Ennerdale Water",
+                "Description": "Ennerdale Water is the most westerly lake in the Lake District National Park in Cumbria, England. It is a glacial lake, with a maximum depth of 150 feet (45 metres), and is ½ mile to a mile (700 to 1,500 metres) wide and 2½ miles (3.9 kilometres) long. The lake lies in the eponymous valley of Ennerdale, surrounded by some of the highest and best-known fells in Cumbria including: Great Gable (899 m), Green Gable, Brandreth, High Crag, Steeple and Pillar. To the west of the lake lies the hamlet of Ennerdale Bridge.",
+                "Link": "https://en.wikipedia.org/wiki/Ennerdale_Water\r\nhttps://www.visitcumbria.com/wc/ennerdale-water/",
+                "Latitude": "54.5200",
+                "Longitude": "-3.3761",
+                "Catagory": "lake"
+            },
+            {
+                "Name": "Ravenglass",
+                "Description": "Ravenglass is a coastal village in the Copeland District in Cumbria, England. It is between Barrow-in-Furness and Whitehaven, located at the estuary of three rivers: the Esk, Mite and Irt.",
+                "Link": "https://en.wikipedia.org/wiki/Ravenglass\r\nhttps://www.visitcumbria.com/wc/ravenglass/\r\nhttps://ravenglass-railway.co.uk/",
+                "Latitude": "54.3563",
+                "Longitude": "-3.4064",
+                "Catagory": "village"
+            },
+            {
+                "Name": "Wastwater",
+                "Description": " Wastwater is a lake located in Wasdale, a valley in the western part of the Lake District National Park, England. Wastwater is perhaps the most awe-inspiring of all the lakes. Surrounded by mountains, Red Pike, Kirk Fell, Great Gable and Scafell Pike – England’s highest mountain. Extending the length of the south-east side of the lake are the Screes, consisting of millions of fragments of broken rock and rising from the floor of the lake to a height of almost 2000 feet, giving the lake an ominous appearance.",
+                "Link": "https://en.wikipedia.org/wiki/Wast_Water\r\nhttps://www.visitcumbria.com/wc/wastwater/",
+                "Latitude": "54.4417",
+                "Longitude": "-3.2917",
+                "Catagory": "lake"
+            },
+            {
+                "Name": "Wasdale Head",
+                "Description": "Wasdale Head is a scattered agricultural hamlet in the Lake District National Park in Cumbria, England. Wasdale Head claims to be home of the highest mountain (Scafell Pike), deepest lake (Wastwater) and smallest church. Wasdale Head is a popular starting point for the ascent of Scafell Pike.",
+                "Link": "https://en.wikipedia.org/wiki/Wasdale_Head\r\nhttps://www.visitcumbria.com/wc/wasdale-head/\r\nhttps://www.nationaltrust.org.uk/wasdale",
+                "Latitude": "54.4683",
+                "Longitude": "-3.2561"
+            },
+            {
+                "Name": "Eskdale",
+                "Description": "Eskdale is a glacial valley and civil parish in the western Lake District National Park in Cumbria, England. One of the Lake District's most popular tourist attractions, the Ravenglass and Eskdale Railway, runs through the valley. It is very popular with tourists, being close to Scafell – England’s highest mountain. The valley is notable as being one of few major valleys in the Lake District not to have its own lake, although several tarns are perched above the valley sides.",
+                "Link": "https://en.wikipedia.org/wiki/Eskdale,_Cumbria\r\nhttps://www.visitcumbria.com/wc/eskdale/",
+                "Latitude": "54.3985",
+                "Longitude": "-3.2701"
+            },
+            {
+                "Name": "Broughton-in-Furness",
+                "Description": "Broughton in Furness is a market town in the civil parish of Broughton West in the South Lakeland district of Cumbria, England. The history of Broughton-in-Furness dates back to the 11th Century, with the oldest building thought to be St Mary’s Church, first built in Saxon times.  The town provides an ideal base for a walking or climbing holiday, with ample opportunity to explore the rugged beauty of the Duddon Valley and the quieter Lake District fells.",
+                "Link": "https://en.wikipedia.org/wiki/Broughton-in-Furness\r\nhttps://www.visitcumbria.com/sl/broughton-in-furness/",
+                "Latitude": "54.2780",
+                "Longitude": "-3.2140"
+            },
+            {
+                "Name": "Ulverston",
+                "Description": "Ulverston is a fine market town in the centre of the Furness peninsula, with old buildings and a labyrinth of cobbled streets, and is the start of the 70 mile Cumbrian Way. It is the birthplace of Stan Laurel, and home to the world’s only Laurel and Hardy Museum. It has the world’s shortest, widest and deepest canal, and is just a mile and a half from the sea at Morecambe Bay.",
+                "Link": "https://en.wikipedia.org/wiki/Ulverston\r\nhttps://www.visitcumbria.com/sl/ulverston/",
+                "Latitude": "54.1930",
+                "Longitude": "-3.0900"
+            },
+            {
+                "Name": "Grange-over-Sands",
+                "Description": "Grange-over-Sands is a quiet seaside retreat on the Southern tip of the Cartmel peninsula, between the mountains and the sea, and only 7 miles from Windermere. Grange is a pretty resort with an Edwardian flavour and a mild climate.",
+                "Link": "https://en.wikipedia.org/wiki/Grange-over-Sands/\r\nhttps://www.visitcumbria.com/sl/grange-over-sands/",
+                "Latitude": "54.1900",
+                "Longitude": "-2.9150"
+            },
+            {
+                "Name": "St Bees ",
+                "Description": "St Bees is a village that sits beneath St Bees Head, the only Heritage Coast between Scotland and Wales and the most westerly point of Northern England. There is a long sandy beach with a promenade and visitor facilities, and it’s the most popular beach resort on the Cumbrian Coast. It’s also the start of the Wainwright Coast to Coast Walk to Robin Hood’s Bay, and is on the England Coast Path. St Bees is only a few miles from the English Lake District National Park, now a UNESCO World Heritage site, making it an ideal base to explore the Western Lakes and the Cumbrian Coast.",
+                "Link": "https://en.wikipedia.org/wiki/St_Bees\r\nhttps://www.stbees.org.uk/"
+            },
+            {
+                "Name": "Ennerdale Bridge",
+                "Description": "Ennerdale Bridge is a small village on the winding road that leads from Cleator Moor to Ennerdale Water, and is a collection of largely modern dwellings spanning the River Ehen. Ennerdale Water is the most westerly of the lakes, and the most remote, so it offers, even in high season, a place to escape. It is the only lake that does not have a road running alongside it. Ennerdale Bridge appear in many versions of the Coast to Coast Walk and is 13 miles (21 km) from its western end.",
+                "Link": "https://en.wikipedia.org/wiki/Ennerdale_Bridge\r\nhttps://www.visitcumbria.com/wc/ennerdale-bridge/"
+            },
+            {
+                "Name": "Patterdale",
+                "Description": "Patterdale (Saint Patrick's Dale) is a small village and civil parish in the eastern part of the English Lake District. The poet William Wordsworth lived in youth near Patterdale. The village is now the start point for a number of popular hill-walks, most notably the Striding Edge path up to Helvellyn. Other fells that can be reached from the valley include Place Fell, High Street, Glenridding Dodd, most of the peaks in the Helvellyn range, Fairfield and St Sunday Crag, and Red Screes and Stony Cove Pike at the very end of the valley, standing either side of the Kirkstone Pass which is the road to Ambleside.",
+                "Link": "https://en.wikipedia.org/wiki/Patterdale \r\nhttps://www.visitcumbria.com/pen/patterdale/"
+            },
+            {
+                "Name": "Haweswater",
+                "Description": "Haweswater is a reservoir in the valley of Mardale, Cumbria in the Lake District, England. Haweswater is now one of the largest lakes at 4 miles long and 1/2 mile wide, and has a maximum depth of 200 feet. It is the most easterly of the lakes, and has no settlements on its shores. It supplies about 25% of the North West's water supply.",
+                "Link": "https://en.wikipedia.org/wiki/Haweswater_Reservoir\r\nhttps://www.visitcumbria.com/pen/haweswater/"
+            },
+            {
+                "Name": "Raisbeck",
+                "Description": "Raisbeck is a hamlet in the civil parish of Orton, in the Eden district, in the county of Cumbria, England. Northwest of the hamlet is the Gamelands stone circle.",
+                "Link": "https://en.wikipedia.org/wiki/Raisbeck"
+            }
+        ]
+    }
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Glenridding to Aria Force, Drive</name>
+        <desc></desc>
+        <bounds minlat="54.5456330" minlon="-2.9500710" maxlat="54.5714020" maxlon="-2.9285680"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.5456330" lon="-2.9500710" type="start"/>
+            <os:point lat="54.5714020" lon="-2.9285680" type="end"/>
+            <os:activity>OTHER</os:activity>
+            <os:difficulty>UNKNOWN</os:difficulty>
+            <os:paths/>
+            <os:distance>3630.2101916</os:distance>
+            <os:elevation_ascent>38.7500000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.5456330" lon="-2.9500710"/>
+    <wpt lat="54.5486540" lon="-2.9494070"/>
+    <wpt lat="54.5506870" lon="-2.9482080"/>
+    <wpt lat="54.5541570" lon="-2.9496590"/>
+    <wpt lat="54.5576360" lon="-2.9484280"/>
+    <wpt lat="54.5598130" lon="-2.9485820"/>
+    <wpt lat="54.5622920" lon="-2.9499050"/>
+    <wpt lat="54.5672470" lon="-2.9355120"/>
+    <wpt lat="54.5703490" lon="-2.9306340"/>
+    <wpt lat="54.5714020" lon="-2.9285680"/>
+    <trk>
+        <name>Glenridding to Aria Force, Drive</name>
+        <trkseg>
+            <trkpt lat="54.5456330" lon="-2.9500710"/>
+            <trkpt lat="54.5486540" lon="-2.9494070"/>
+            <trkpt lat="54.5506870" lon="-2.9482080"/>
+            <trkpt lat="54.5541570" lon="-2.9496590"/>
+            <trkpt lat="54.5576360" lon="-2.9484280"/>
+            <trkpt lat="54.5598130" lon="-2.9485820"/>
+            <trkpt lat="54.5622920" lon="-2.9499050"/>
+            <trkpt lat="54.5653780" lon="-2.9410120"/>
+            <trkpt lat="54.5672470" lon="-2.9355120"/>
+            <trkpt lat="54.5703490" lon="-2.9306340"/>
+            <trkpt lat="54.5714020" lon="-2.9285680"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

@@ -1,0 +1,1512 @@
+﻿{
+    "Categories": {
+        "Nodes": [
+            {
+                "Name": "Penrith",
+                "Latitude": "54.6622",
+                "Longitude": "-2.7576"
+            },
+            {
+                "Name": "Pooley Bridge",
+                "Latitude": "54.6126",
+                "Longitude": "-2.8204"
+            },
+            {
+                "Name": "Glenridding",
+                "Latitude": "54.5448",
+                "Longitude": "-2.9485"
+            },
+            {
+                "Name": "Dalemain",
+                "Latitude": "54.6362",
+                "Longitude": "-2.8046"
+            },
+            {
+                "Name": "Howtown",
+                "Latitude": "54.5885",
+                "Longitude": "-2.8404"
+            },
+            {
+                "Name": "Oxenholme",
+                "Latitude": "54.3015",
+                "Longitude": "-2.7227"
+            },
+            {
+                "Name": "Kendal",
+                "Latitude": "54.328",
+                "Longitude": "-2.7479"
+            },
+            {
+                "Name": "Staveley",
+                "Latitude": "54.3779",
+                "Longitude": "-2.8161"
+            },
+            {
+                "Name": "Windermere",
+                "Latitude": "54.3804",
+                "Longitude": "-2.9034"
+            },
+            {
+                "Name": "Troutbeck Bridge",
+                "Latitude": "54.395",
+                "Longitude": "-2.9216"
+            },
+            {
+                "Name": "Troutbeck",
+                "Latitude": "54.4156",
+                "Longitude": "-2.9149"
+            },
+            {
+                "Name": "Ambleside",
+                "Latitude": "54.429",
+                "Longitude": "-2.9598"
+            },
+            {
+                "Name": "Waterhead",
+                "Latitude": "54.421",
+                "Longitude": "-2.9632"
+            },
+            {
+                "Name": "Bowness-on-Windermere",
+                "Latitude": "54.365",
+                "Longitude": "-2.9032"
+            },
+            {
+                "Name": "Blackwell",
+                "Latitude": "54.344",
+                "Longitude": "-2.9275"
+            },
+            {
+                "Name": "Newby Bridge",
+                "Latitude": "54.2672",
+                "Longitude": "-2.965"
+            },
+            {
+                "Name": "Lakeside",
+                "Latitude": "54.2789",
+                "Longitude": "-2.9572"
+            },
+            {
+                "Name": "National Trust - Claife Viewing Station and Windermere West Shore",
+                "Latitude": "54.3512",
+                "Longitude": "-2.942"
+            },
+            {
+                "Name": "National Trust - Hill Top",
+                "Latitude": "54.3518",
+                "Longitude": "-2.969"
+            },
+            {
+                "Name": "National Trust - Claife Viewing Station",
+                "Latitude": "54.3512",
+                "Longitude": "-2.942"
+            },
+            {
+                "Name": "Esthwaite Water",
+                "Latitude": "54.3635",
+                "Longitude": "-2.9846"
+            },
+            {
+                "Name": "Hawkshead",
+                "Latitude": "54.3758",
+                "Longitude": "-2.9997"
+            },
+            {
+                "Name": "Rydal ",
+                "Latitude": "54.4466",
+                "Longitude": "-2.9804"
+            },
+            {
+                "Name": "Grasmere",
+                "Latitude": "54.4597",
+                "Longitude": "-3.0231"
+            },
+            {
+                "Name": "Coniston",
+                "Latitude": "54.3692",
+                "Longitude": "-3.0762"
+            },
+            {
+                "Name": "Ambleside ",
+                "Latitude": "54.429",
+                "Longitude": "-2.9598"
+            },
+            {
+                "Name": "Keswick",
+                "Latitude": "54.6015",
+                "Longitude": "-3.1323"
+            },
+            {
+                "Name": "Rosthwaite",
+                "Latitude": "54.5227",
+                "Longitude": "-3.1454"
+            },
+            {
+                "Name": "Galleny Force Waterfall",
+                "Latitude": "54.5081",
+                "Longitude": "-3.1242"
+            },
+            {
+                "Name": "Derwentwater",
+                "Latitude": "54.5779",
+                "Longitude": "-3.147"
+            },
+            {
+                "Name": "Bassenthwaite",
+                "Latitude": "54.6571",
+                "Longitude": "-3.2219"
+            },
+            {
+                "Name": "Buttermere",
+                "Latitude": "54.5413",
+                "Longitude": "-3.2765"
+            },
+            {
+                "Name": "Cockermouth",
+                "Latitude": "54.6634",
+                "Longitude": "-3.3679"
+            },
+            {
+                "Name": "Loweswater",
+                "Latitude": "54.5775",
+                "Longitude": "-3.3317"
+            },
+            {
+                "Name": "Ravenglass",
+                "Latitude": "54.3563",
+                "Longitude": "-3.4063"
+            },
+            {
+                "Name": "Wastwater",
+                "Latitude": "54.4272",
+                "Longitude": "-3.3215"
+            },
+            {
+                "Name": "Broughton-in-Furness",
+                "Latitude": "54.2778",
+                "Longitude": "-3.2117"
+            },
+            {
+                "Name": "Ulverston",
+                "Latitude": "54.1954",
+                "Longitude": "-3.0924"
+            },
+            {
+                "Name": "Grange-over-Sands",
+                "Latitude": "54.1912",
+                "Longitude": "-2.9035"
+            },
+            {
+                "Name": "Aira Force Waterfall",
+                "Latitude": "54.5766",
+                "Longitude": "-2.9287"
+            },
+            {
+                "Name": "Hartsop",
+                "Latitude": "54.5098",
+                "Longitude": "-2.9142"
+            },
+            {
+                "Name": "Dacre ",
+                "Latitude": "54.6304",
+                "Longitude": "-2.839"
+            },
+            {
+                "Name": "Askham",
+                "Latitude": "54.6059",
+                "Longitude": "-2.7541"
+            },
+            {
+                "Name": "Martindale",
+                "Latitude": "54.5621",
+                "Longitude": "-2.8792"
+            },
+            {
+                "Name": "Mardale Head, Haweswater",
+                "Latitude": "54.6643",
+                "Longitude": "-2.7519"
+            },
+            {
+                "Name": "Lakeland Pony Treks",
+                "Latitude": "54.4254",
+                "Longitude": "-2.8965"
+            },
+            {
+                "Name": "Brockhole on Windermere -The Lake District Visitor Centre",
+                "Latitude": "54.401",
+                "Longitude": "-2.9416"
+            },
+            {
+                "Name": "Stock Ghyll Force",
+                "Latitude": "54.4329",
+                "Longitude": "-2.9506"
+            },
+            {
+                "Name": "Armitt Library & Museum Centre",
+                "Latitude": "54.4343",
+                "Longitude": "-2.9629"
+            },
+            {
+                "Name": "National Trust - Wray Castle",
+                "Latitude": "54.4008",
+                "Longitude": "-2.9637"
+            },
+            {
+                "Name": "Orrest Head Viewpoint",
+                "Latitude": "54.3864",
+                "Longitude": "-2.9033"
+            },
+            {
+                "Name": "Barkbooth Lot CWT Reserve",
+                "Latitude": "54.3114",
+                "Longitude": "-2.8935"
+            },
+            {
+                "Name": "Stott Park Bobbin Mill",
+                "Latitude": "54.2856",
+                "Longitude": "-2.965"
+            },
+            {
+                "Name": "Claife Heights",
+                "Latitude": "54.3685",
+                "Longitude": "-2.9525"
+            },
+            {
+                "Name": "Esthwaite Water Trout Fishery",
+                "Latitude": "54.3514",
+                "Longitude": "-2.9855"
+            },
+            {
+                "Name": "National Trust - Beatrix Potter Gallery and Hawkshead",
+                "Latitude": "54.3751",
+                "Longitude": "-2.9982"
+            },
+            {
+                "Name": "Latterbarrow",
+                "Latitude": "54.3835",
+                "Longitude": "-2.9751"
+            },
+            {
+                "Name": "Grizedale",
+                "Latitude": "54.3414",
+                "Longitude": "-3.0257"
+            },
+            {
+                "Name": "Rydal",
+                "Latitude": "54.4466",
+                "Longitude": "-2.9804"
+            },
+            {
+                "Name": "Rydal Cave",
+                "Latitude": "54.4441",
+                "Longitude": "-3.0007"
+            },
+            {
+                "Name": "Elterwater",
+                "Latitude": "54.4343",
+                "Longitude": "-3.0387"
+            },
+            {
+                "Name": "Brantwood",
+                "Latitude": "54.3541",
+                "Longitude": "-3.058"
+            },
+            {
+                "Name": "Coniston Boating Centre",
+                "Latitude": "54.3644",
+                "Longitude": "-3.0659"
+            },
+            {
+                "Name": "Water Park Lakeland Adventure Centre",
+                "Latitude": "54.308",
+                "Longitude": "-3.0736"
+            },
+            {
+                "Name": "National Trust - Tarn Hows",
+                "Latitude": "54.3873",
+                "Longitude": "-3.0379"
+            },
+            {
+                "Name": "Coniston Copper Mines",
+                "Latitude": "54.3792",
+                "Longitude": "-3.0905"
+            },
+            {
+                "Name": "The Old Man of Coniston",
+                "Latitude": "54.3705",
+                "Longitude": "-3.1216"
+            },
+            {
+                "Name": "Dow Crag",
+                "Latitude": "54.3703",
+                "Longitude": "-3.1362"
+            },
+            {
+                "Name": "Friars Crag",
+                "Latitude": "54.5918",
+                "Longitude": "-3.1308"
+            },
+            {
+                "Name": "Lodore Falls",
+                "Latitude": "54.5599",
+                "Longitude": "-3.1267"
+            },
+            {
+                "Name": "Thirlmere",
+                "Latitude": "54.5614",
+                "Longitude": "-3.0569"
+            },
+            {
+                "Name": "Threlkeld Quarry & Mining Museum",
+                "Latitude": "54.6107",
+                "Longitude": "-3.0434"
+            },
+            {
+                "Name": "Eagle Crag",
+                "Latitude": "54.499",
+                "Longitude": "-3.1199"
+            },
+            {
+                "Name": "Mirehouse & Gardens",
+                "Latitude": "54.6447",
+                "Longitude": "-3.1909"
+            },
+            {
+                "Name": "Whitewater Dash",
+                "Latitude": "54.6716",
+                "Longitude": "-3.1295"
+            },
+            {
+                "Name": "Moss Force Waterfall",
+                "Latitude": "54.5454",
+                "Longitude": "-3.2494"
+            },
+            {
+                "Name": "Scale Force Waterfall",
+                "Latitude": "54.542",
+                "Longitude": "-3.3145"
+            },
+            {
+                "Name": "Crummock South Beach",
+                "Latitude": "54.5483",
+                "Longitude": "-3.2896"
+            },
+            {
+                "Name": "Ennerdale Water",
+                "Latitude": "54.5244",
+                "Longitude": "-3.4101"
+            },
+            {
+                "Name": "Muncaster Castle",
+                "Latitude": "54.3548",
+                "Longitude": "-3.3809"
+            },
+            {
+                "Name": "Wasdale Head",
+                "Latitude": "54.4677",
+                "Longitude": "-3.2563"
+            },
+            {
+                "Name": "Eskdale",
+                "Latitude": "54.3896",
+                "Longitude": "-3.3242"
+            },
+            {
+                "Name": "Sizergh (National Trust)",
+                "Latitude": "54.2843",
+                "Longitude": "-2.771"
+            }
+        ],
+        "Conections": [
+            {
+                "Start": "Penrith",
+                "Finish": "Pooley Bridge",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Penrith",
+                "Finish": "Glenridding",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Pooley Bridge",
+                "Finish": "Glenridding",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Glenridding",
+                "Finish": "Howtown",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Glenridding",
+                "Finish": "Aira Force Waterfall",
+                "Walk Route": "13U",
+                "Car Route": "13",
+                "Bike Route": "13",
+                "Bus Route": "13",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "TRUE"
+            },
+            {
+                "Start": "Glenridding",
+                "Finish": "Hartsop",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Pooley Bridge",
+                "Finish": "Aira Force Waterfall",
+                "Walk Route": "10U",
+                "Car Route": "10",
+                "Bike Route": "10",
+                "Bus Route": "10",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "TRUE"
+            },
+            {
+                "Start": "Pooley Bridge",
+                "Finish": "Howtown",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Pooley Bridge",
+                "Finish": "Dalemain",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Dalemain",
+                "Finish": "Dacre ",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Pooley Bridge",
+                "Finish": "Dacre ",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Pooley Bridge",
+                "Finish": "Askham",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Howtown",
+                "Finish": "Martindale",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Penrith",
+                "Finish": "Mardale Head, Haweswater",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Oxenholme",
+                "Finish": "Windermere",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Kendal",
+                "Finish": "Windermere",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Oxenholme",
+                "Finish": "Staveley",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Kendal",
+                "Finish": "Staveley",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Staveley",
+                "Finish": "Windermere",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Windermere",
+                "Finish": "Troutbeck Bridge",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Troutbeck Bridge",
+                "Finish": "Troutbeck",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Troutbeck Bridge",
+                "Finish": "Lakeland Pony Treks",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Troutbeck",
+                "Finish": "Lakeland Pony Treks",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Windermere",
+                "Finish": "Brockhole on Windermere -The Lake District Visitor Centre",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Windermere",
+                "Finish": "Waterhead",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Windermere",
+                "Finish": "Ambleside",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Ambleside",
+                "Finish": "Stock Ghyll Force",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Ambleside",
+                "Finish": "Armitt Library & Museum Centre",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Ambleside",
+                "Finish": "National Trust - Wray Castle",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Waterhead",
+                "Finish": "National Trust - Wray Castle",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Windermere",
+                "Finish": "Orrest Head Viewpoint",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Windermere",
+                "Finish": "Bowness-on-Windermere",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Bowness-on-Windermere",
+                "Finish": "Blackwell",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Blackwell",
+                "Finish": "Barkbooth Lot CWT Reserve",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Blackwell",
+                "Finish": "Newby Bridge",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Bowness-on-Windermere",
+                "Finish": "Newby Bridge",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Bowness-on-Windermere",
+                "Finish": "Lakeside",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Blackwell",
+                "Finish": "Lakeside",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Newby Bridge",
+                "Finish": "Lakeside",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Newby Bridge",
+                "Finish": "Stott Park Bobbin Mill",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Bowness-on-Windermere",
+                "Finish": "National Trust - Hill Top",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Ambleside",
+                "Finish": "National Trust - Hill Top",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Lakeside",
+                "Finish": "National Trust - Hill Top",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Bowness-on-Windermere",
+                "Finish": "National Trust - Claife Viewing Station and Windermere West Shore",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Ambleside",
+                "Finish": "National Trust - Claife Viewing Station and Windermere West Shore",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Lakeside",
+                "Finish": "National Trust - Claife Viewing Station and Windermere West Shore",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "National Trust - Claife Viewing Station and Windermere West Shore",
+                "Finish": "Claife Heights",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "National Trust - Hill Top",
+                "Finish": "Esthwaite Water",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "National Trust - Hill Top",
+                "Finish": "Esthwaite Water Trout Fishery",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "National Trust - Claife Viewing Station",
+                "Finish": "Esthwaite Water Trout Fishery",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Esthwaite Water",
+                "Finish": "National Trust - Beatrix Potter Gallery and Hawkshead",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Esthwaite Water",
+                "Finish": "Latterbarrow",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Ambleside",
+                "Finish": "Hawkshead",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Newby Bridge",
+                "Finish": "Hawkshead",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Hawkshead",
+                "Finish": "Grizedale",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Ambleside",
+                "Finish": "Rydal",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Rydal",
+                "Finish": "Rydal Cave",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Ambleside",
+                "Finish": "Grasmere",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Ambleside",
+                "Finish": "Elterwater",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Grasmere",
+                "Finish": "Coniston",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Hawkshead",
+                "Finish": "Coniston",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Ambleside",
+                "Finish": "Coniston",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Coniston",
+                "Finish": "Brantwood",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Coniston",
+                "Finish": "Coniston Boating Centre",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Coniston",
+                "Finish": "Water Park Lakeland Adventure Centre pre booked activities only",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Coniston",
+                "Finish": "Water Park Lakeland Adventure Centre",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Coniston",
+                "Finish": "National Trust - Tarn Hows",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Coniston",
+                "Finish": "Coniston Copper Mines",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Coniston",
+                "Finish": "The Old Man of Coniston",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Coniston",
+                "Finish": "Dow Crag",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Penrith",
+                "Finish": "Keswick",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Ambleside ",
+                "Finish": "Keswick",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Keswick",
+                "Finish": "Friars Crag",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Keswick",
+                "Finish": "Lodore Falls",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Keswick",
+                "Finish": "Rosthwaite",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Keswick",
+                "Finish": "Thirlmere",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Keswick",
+                "Finish": "Threlkeld Quarry & Mining Museum",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Rosthwaite",
+                "Finish": "Galleny Force Waterfall",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Galleny Force Waterfall",
+                "Finish": "Eagle Crag",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Derwentwater",
+                "Finish": "Bassenthwaite",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Bassenthwaite",
+                "Finish": "Mirehouse & Gardens",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Bassenthwaite",
+                "Finish": "Whitewater Dash",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Rosthwaite",
+                "Finish": "Buttermere",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Buttermere",
+                "Finish": "Moss Force Waterfall",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Buttermere",
+                "Finish": "Scale Force Waterfall",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Buttermere",
+                "Finish": "Crummock South Beach",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Buttermere",
+                "Finish": "Loweswater",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Cockermouth",
+                "Finish": "Loweswater",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Cockermouth",
+                "Finish": "Bassenthwaite",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Loweswater",
+                "Finish": "Ennerdale Water",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Buttermere",
+                "Finish": "Ennerdale Water",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Ravenglass",
+                "Finish": "Wastwater",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Ravenglass",
+                "Finish": "Muncaster Castle",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Wastwater",
+                "Finish": "Wasdale Head",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Ravenglass",
+                "Finish": "Eskdale",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Broughton-in-Furness",
+                "Finish": "Eskdale",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Ulverston",
+                "Finish": "Newby Bridge",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Grange-over-Sands",
+                "Finish": "Newby Bridge",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            },
+            {
+                "Start": "Kendal",
+                "Finish": "Sizergh (National Trust)",
+                "Walk Route": "no",
+                "Car Route": "no",
+                "Bike Route": "no",
+                "Bus Route": "no",
+                "Ferry Route": "no",
+                "Train Route": "no",
+                "Status": "FALSE"
+            }
+        ]
+    }
+}

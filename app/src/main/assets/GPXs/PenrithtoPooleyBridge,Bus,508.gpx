@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Penrith to Pooley Bridge, Bus, 508</name>
+        <desc></desc>
+        <bounds minlat="54.6121530" minlon="-2.8211300" maxlat="54.6634750" maxlon="-2.7400050"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.6634750" lon="-2.7513790" type="start"/>
+            <os:point lat="54.6121530" lon="-2.8211300" type="end"/>
+            <os:activity>OTHER</os:activity>
+            <os:difficulty>UNKNOWN</os:difficulty>
+            <os:paths/>
+            <os:distance>8835.5115346</os:distance>
+            <os:elevation_ascent>99.9500000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.6634750" lon="-2.7513790"/>
+    <wpt lat="54.6613230" lon="-2.7487090"/>
+    <wpt lat="54.6554800" lon="-2.7436380"/>
+    <wpt lat="54.6550840" lon="-2.7418130"/>
+    <wpt lat="54.6540280" lon="-2.7422690"/>
+    <wpt lat="54.6505100" lon="-2.7410530"/>
+    <wpt lat="54.6485680" lon="-2.7400050"/>
+    <wpt lat="54.6480630" lon="-2.7429650"/>
+    <wpt lat="54.6459760" lon="-2.7460400"/>
+    <wpt lat="54.6440650" lon="-2.7495320"/>
+    <wpt lat="54.6421760" lon="-2.7583760"/>
+    <wpt lat="54.6394110" lon="-2.7609120"/>
+    <wpt lat="54.6327540" lon="-2.7708570"/>
+    <wpt lat="54.6322930" lon="-2.7746530"/>
+    <wpt lat="54.6296720" lon="-2.7808590"/>
+    <wpt lat="54.6291800" lon="-2.7878030"/>
+    <wpt lat="54.6272860" lon="-2.7939870"/>
+    <wpt lat="54.6231700" lon="-2.7973020"/>
+    <wpt lat="54.6197710" lon="-2.8019030"/>
+    <wpt lat="54.6174130" lon="-2.8093610"/>
+    <wpt lat="54.6145030" lon="-2.8131160"/>
+    <wpt lat="54.6128190" lon="-2.8167120"/>
+    <wpt lat="54.6126580" lon="-2.8192010"/>
+    <wpt lat="54.6121530" lon="-2.8211300"/>
+    <trk>
+        <name>Penrith to Pooley Bridge, Bus, 508</name>
+        <trkseg>
+            <trkpt lat="54.6634750" lon="-2.7513790"/>
+            <trkpt lat="54.6622720" lon="-2.7499160"/>
+            <trkpt lat="54.6613230" lon="-2.7487090"/>
+            <trkpt lat="54.6573710" lon="-2.7451580"/>
+            <trkpt lat="54.6554800" lon="-2.7436380"/>
+            <trkpt lat="54.6550840" lon="-2.7418130"/>
+            <trkpt lat="54.6540280" lon="-2.7422690"/>
+            <trkpt lat="54.6505100" lon="-2.7410530"/>
+            <trkpt lat="54.6485680" lon="-2.7400050"/>
+            <trkpt lat="54.6480630" lon="-2.7429650"/>
+            <trkpt lat="54.6459760" lon="-2.7460400"/>
+            <trkpt lat="54.6440650" lon="-2.7495320"/>
+            <trkpt lat="54.6421760" lon="-2.7583760"/>
+            <trkpt lat="54.6394110" lon="-2.7609120"/>
+            <trkpt lat="54.6345120" lon="-2.7681620"/>
+            <trkpt lat="54.6327540" lon="-2.7708570"/>
+            <trkpt lat="54.6322930" lon="-2.7746530"/>
+            <trkpt lat="54.6296720" lon="-2.7808590"/>
+            <trkpt lat="54.6291800" lon="-2.7878030"/>
+            <trkpt lat="54.6272860" lon="-2.7939870"/>
+            <trkpt lat="54.6231700" lon="-2.7973020"/>
+            <trkpt lat="54.6197710" lon="-2.8019030"/>
+            <trkpt lat="54.6174130" lon="-2.8093610"/>
+            <trkpt lat="54.6145030" lon="-2.8131160"/>
+            <trkpt lat="54.6128190" lon="-2.8167120"/>
+            <trkpt lat="54.6126580" lon="-2.8192010"/>
+            <trkpt lat="54.6121530" lon="-2.8211300"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

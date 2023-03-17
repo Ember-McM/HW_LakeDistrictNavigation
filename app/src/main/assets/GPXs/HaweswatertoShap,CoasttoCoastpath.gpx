@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Haweswater to Shap, Coast to Coast path</name>
+        <desc></desc>
+        <bounds minlat="54.4887370" minlon="-2.8213030" maxlat="54.5413480" maxlon="-2.6777000"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.4887370" lon="-2.8213030" type="start"/>
+            <os:point lat="54.5315490" lon="-2.6778810" type="end"/>
+            <os:activity>ON_FOOT_WALKING</os:activity>
+            <os:difficulty>UNKNOWN</os:difficulty>
+            <os:paths/>
+            <os:distance>14018.5747204</os:distance>
+            <os:elevation_ascent>262.8500000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.4887370" lon="-2.8213030"/>
+    <wpt lat="54.4894020" lon="-2.8197620"/>
+    <wpt lat="54.4899510" lon="-2.8173620"/>
+    <wpt lat="54.4908530" lon="-2.8147860"/>
+    <wpt lat="54.4963520" lon="-2.8071800"/>
+    <wpt lat="54.4984080" lon="-2.8058620"/>
+    <wpt lat="54.5013060" lon="-2.8066460"/>
+    <wpt lat="54.5029740" lon="-2.8076890"/>
+    <wpt lat="54.5086230" lon="-2.8058320"/>
+    <wpt lat="54.5113650" lon="-2.8045520"/>
+    <wpt lat="54.5126550" lon="-2.8037070"/>
+    <wpt lat="54.5148580" lon="-2.8029200"/>
+    <wpt lat="54.5164340" lon="-2.8017000"/>
+    <wpt lat="54.5204900" lon="-2.7967870"/>
+    <wpt lat="54.5224530" lon="-2.7952330"/>
+    <wpt lat="54.5298450" lon="-2.7825050"/>
+    <wpt lat="54.5317400" lon="-2.7723170"/>
+    <wpt lat="54.5327550" lon="-2.7681670"/>
+    <wpt lat="54.5334440" lon="-2.7672510"/>
+    <wpt lat="54.5338640" lon="-2.7625480"/>
+    <wpt lat="54.5344600" lon="-2.7595480"/>
+    <wpt lat="54.5365590" lon="-2.7585820"/>
+    <wpt lat="54.5370430" lon="-2.7563620"/>
+    <wpt lat="54.5379140" lon="-2.7481480"/>
+    <wpt lat="54.5379510" lon="-2.7453130"/>
+    <wpt lat="54.5382830" lon="-2.7423540"/>
+    <wpt lat="54.5397380" lon="-2.7349510"/>
+    <wpt lat="54.5400450" lon="-2.7325150"/>
+    <wpt lat="54.5392770" lon="-2.7270350"/>
+    <wpt lat="54.5386190" lon="-2.7252080"/>
+    <wpt lat="54.5404640" lon="-2.7227560"/>
+    <wpt lat="54.5413480" lon="-2.7222960"/>
+    <wpt lat="54.5405760" lon="-2.7208560"/>
+    <wpt lat="54.5364470" lon="-2.7197030"/>
+    <wpt lat="54.5352660" lon="-2.7162240"/>
+    <wpt lat="54.5352490" lon="-2.7150650"/>
+    <wpt lat="54.5339040" lon="-2.7144140"/>
+    <wpt lat="54.5340520" lon="-2.7103980"/>
+    <wpt lat="54.5339340" lon="-2.7081120"/>
+    <wpt lat="54.5334820" lon="-2.7055450"/>
+    <wpt lat="54.5335480" lon="-2.7041400"/>
+    <wpt lat="54.5318660" lon="-2.7030170"/>
+    <wpt lat="54.5312440" lon="-2.7015100"/>
+    <wpt lat="54.5319910" lon="-2.6969620"/>
+    <wpt lat="54.5324790" lon="-2.6915010"/>
+    <wpt lat="54.5324050" lon="-2.6895720"/>
+    <wpt lat="54.5308600" lon="-2.6886010"/>
+    <wpt lat="54.5289920" lon="-2.6853980"/>
+    <wpt lat="54.5291990" lon="-2.6840380"/>
+    <wpt lat="54.5288460" lon="-2.6838960"/>
+    <wpt lat="54.5295950" lon="-2.6820830"/>
+    <wpt lat="54.5306070" lon="-2.6786300"/>
+    <wpt lat="54.5308830" lon="-2.6785640"/>
+    <wpt lat="54.5310150" lon="-2.6777000"/>
+    <wpt lat="54.5315490" lon="-2.6778810"/>
+    <trk>
+        <name>Haweswater to Shap, Coast to Coast path</name>
+        <trkseg>
+            <trkpt lat="54.4887370" lon="-2.8213030"/>
+            <trkpt lat="54.4894020" lon="-2.8197620"/>
+            <trkpt lat="54.4899510" lon="-2.8173620"/>
+            <trkpt lat="54.4908530" lon="-2.8147860"/>
+            <trkpt lat="54.4928640" lon="-2.8121500"/>
+            <trkpt lat="54.4948790" lon="-2.8091860"/>
+            <trkpt lat="54.4963520" lon="-2.8071800"/>
+            <trkpt lat="54.4984080" lon="-2.8058620"/>
+            <trkpt lat="54.5013060" lon="-2.8066460"/>
+            <trkpt lat="54.5029740" lon="-2.8076890"/>
+            <trkpt lat="54.5059510" lon="-2.8068350"/>
+            <trkpt lat="54.5086230" lon="-2.8058320"/>
+            <trkpt lat="54.5113650" lon="-2.8045520"/>
+            <trkpt lat="54.5126550" lon="-2.8037070"/>
+            <trkpt lat="54.5148580" lon="-2.8029200"/>
+            <trkpt lat="54.5164340" lon="-2.8017000"/>
+            <trkpt lat="54.5187770" lon="-2.7989110"/>
+            <trkpt lat="54.5204900" lon="-2.7967870"/>
+            <trkpt lat="54.5224530" lon="-2.7952330"/>
+            <trkpt lat="54.5250850" lon="-2.7907180"/>
+            <trkpt lat="54.5272200" lon="-2.7871580"/>
+            <trkpt lat="54.5298450" lon="-2.7825050"/>
+            <trkpt lat="54.5308950" lon="-2.7766840"/>
+            <trkpt lat="54.5317400" lon="-2.7723170"/>
+            <trkpt lat="54.5327550" lon="-2.7681670"/>
+            <trkpt lat="54.5334440" lon="-2.7672510"/>
+            <trkpt lat="54.5336270" lon="-2.7644190"/>
+            <trkpt lat="54.5338640" lon="-2.7625480"/>
+            <trkpt lat="54.5344600" lon="-2.7595480"/>
+            <trkpt lat="54.5359840" lon="-2.7589920"/>
+            <trkpt lat="54.5365590" lon="-2.7585820"/>
+            <trkpt lat="54.5370430" lon="-2.7563620"/>
+            <trkpt lat="54.5374950" lon="-2.7516160"/>
+            <trkpt lat="54.5379140" lon="-2.7481480"/>
+            <trkpt lat="54.5379510" lon="-2.7453130"/>
+            <trkpt lat="54.5382830" lon="-2.7423540"/>
+            <trkpt lat="54.5390110" lon="-2.7388710"/>
+            <trkpt lat="54.5397380" lon="-2.7349510"/>
+            <trkpt lat="54.5400450" lon="-2.7325150"/>
+            <trkpt lat="54.5396610" lon="-2.7297350"/>
+            <trkpt lat="54.5392770" lon="-2.7270350"/>
+            <trkpt lat="54.5386190" lon="-2.7252080"/>
+            <trkpt lat="54.5394770" lon="-2.7241220"/>
+            <trkpt lat="54.5404640" lon="-2.7227560"/>
+            <trkpt lat="54.5413480" lon="-2.7222960"/>
+            <trkpt lat="54.5409360" lon="-2.7214910"/>
+            <trkpt lat="54.5405760" lon="-2.7208560"/>
+            <trkpt lat="54.5382410" lon="-2.7203250"/>
+            <trkpt lat="54.5364470" lon="-2.7197030"/>
+            <trkpt lat="54.5352660" lon="-2.7162240"/>
+            <trkpt lat="54.5352490" lon="-2.7150650"/>
+            <trkpt lat="54.5346420" lon="-2.7148950"/>
+            <trkpt lat="54.5339040" lon="-2.7144140"/>
+            <trkpt lat="54.5340520" lon="-2.7103980"/>
+            <trkpt lat="54.5339340" lon="-2.7081120"/>
+            <trkpt lat="54.5334820" lon="-2.7055450"/>
+            <trkpt lat="54.5335480" lon="-2.7041400"/>
+            <trkpt lat="54.5318660" lon="-2.7030170"/>
+            <trkpt lat="54.5312440" lon="-2.7015100"/>
+            <trkpt lat="54.5312540" lon="-2.7010810"/>
+            <trkpt lat="54.5313730" lon="-2.7008560"/>
+            <trkpt lat="54.5314240" lon="-2.7000530"/>
+            <trkpt lat="54.5319910" lon="-2.6969620"/>
+            <trkpt lat="54.5324790" lon="-2.6915010"/>
+            <trkpt lat="54.5324050" lon="-2.6895720"/>
+            <trkpt lat="54.5308600" lon="-2.6886010"/>
+            <trkpt lat="54.5297040" lon="-2.6865730"/>
+            <trkpt lat="54.5289920" lon="-2.6853980"/>
+            <trkpt lat="54.5291990" lon="-2.6840380"/>
+            <trkpt lat="54.5288460" lon="-2.6838960"/>
+            <trkpt lat="54.5295950" lon="-2.6820830"/>
+            <trkpt lat="54.5306070" lon="-2.6786300"/>
+            <trkpt lat="54.5308830" lon="-2.6785640"/>
+            <trkpt lat="54.5310150" lon="-2.6777000"/>
+            <trkpt lat="54.5315490" lon="-2.6778810"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

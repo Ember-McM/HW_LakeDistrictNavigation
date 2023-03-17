@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Glenridding to Aria Force, Walk</name>
+        <desc></desc>
+        <bounds minlat="54.5456330" minlon="-2.9501150" maxlat="54.5715050" maxlon="-2.9292410"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.5456330" lon="-2.9501110" type="start"/>
+            <os:point lat="54.5715050" lon="-2.9292410" type="end"/>
+            <os:activity>ON_FOOT_WALKING</os:activity>
+            <os:difficulty>EASY</os:difficulty>
+            <os:paths/>
+            <os:distance>3676.6365323</os:distance>
+            <os:elevation_ascent>54.5200000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.5456330" lon="-2.9501110"/>
+    <wpt lat="54.5472900" lon="-2.9499190"/>
+    <wpt lat="54.5476720" lon="-2.9495910"/>
+    <wpt lat="54.5479400" lon="-2.9489970"/>
+    <wpt lat="54.5504650" lon="-2.9480320"/>
+    <wpt lat="54.5507030" lon="-2.9476470"/>
+    <wpt lat="54.5517080" lon="-2.9485740"/>
+    <wpt lat="54.5543890" lon="-2.9495470"/>
+    <wpt lat="54.5556860" lon="-2.9491690"/>
+    <wpt lat="54.5564170" lon="-2.9484140"/>
+    <wpt lat="54.5576930" lon="-2.9483440"/>
+    <wpt lat="54.5586360" lon="-2.9490700"/>
+    <wpt lat="54.5596800" lon="-2.9488110"/>
+    <wpt lat="54.5622100" lon="-2.9501150"/>
+    <wpt lat="54.5643350" lon="-2.9460230"/>
+    <wpt lat="54.5654810" lon="-2.9414930"/>
+    <wpt lat="54.5673230" lon="-2.9359730"/>
+    <wpt lat="54.5701190" lon="-2.9322460"/>
+    <wpt lat="54.5715050" lon="-2.9292410"/>
+    <trk>
+        <name>Glenridding to Aria Force, Walk</name>
+        <trkseg>
+            <trkpt lat="54.5456330" lon="-2.9501110"/>
+            <trkpt lat="54.5465930" lon="-2.9501020"/>
+            <trkpt lat="54.5472900" lon="-2.9499190"/>
+            <trkpt lat="54.5476720" lon="-2.9495910"/>
+            <trkpt lat="54.5479400" lon="-2.9489970"/>
+            <trkpt lat="54.5488550" lon="-2.9485960"/>
+            <trkpt lat="54.5498050" lon="-2.9482160"/>
+            <trkpt lat="54.5504650" lon="-2.9480320"/>
+            <trkpt lat="54.5507030" lon="-2.9476470"/>
+            <trkpt lat="54.5511550" lon="-2.9481370"/>
+            <trkpt lat="54.5517080" lon="-2.9485740"/>
+            <trkpt lat="54.5528070" lon="-2.9489690"/>
+            <trkpt lat="54.5532370" lon="-2.9490660"/>
+            <trkpt lat="54.5543890" lon="-2.9495470"/>
+            <trkpt lat="54.5556860" lon="-2.9491690"/>
+            <trkpt lat="54.5564170" lon="-2.9484140"/>
+            <trkpt lat="54.5576930" lon="-2.9483440"/>
+            <trkpt lat="54.5586360" lon="-2.9490700"/>
+            <trkpt lat="54.5596800" lon="-2.9488110"/>
+            <trkpt lat="54.5613630" lon="-2.9497520"/>
+            <trkpt lat="54.5622100" lon="-2.9501150"/>
+            <trkpt lat="54.5629220" lon="-2.9486680"/>
+            <trkpt lat="54.5643350" lon="-2.9460230"/>
+            <trkpt lat="54.5654810" lon="-2.9414930"/>
+            <trkpt lat="54.5673230" lon="-2.9359730"/>
+            <trkpt lat="54.5701190" lon="-2.9322460"/>
+            <trkpt lat="54.5715050" lon="-2.9292410"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

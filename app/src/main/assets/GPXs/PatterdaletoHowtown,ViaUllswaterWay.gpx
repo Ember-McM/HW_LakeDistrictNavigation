@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Patterdale to Howtown, Via Ullswater Way</name>
+        <desc></desc>
+        <bounds minlat="54.5342700" minlon="-2.9379600" maxlat="54.5760950" maxlon="-2.8628370"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.5342700" lon="-2.9334480" type="start"/>
+            <os:point lat="54.5709980" lon="-2.8628370" type="end"/>
+            <os:activity>ON_FOOT_WALKING</os:activity>
+            <os:difficulty>UNKNOWN</os:difficulty>
+            <os:paths/>
+            <os:distance>9287.7965905</os:distance>
+            <os:elevation_ascent>222.5400000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.5342700" lon="-2.9334480"/>
+    <wpt lat="54.5347030" lon="-2.9345040"/>
+    <wpt lat="54.5348760" lon="-2.9356250"/>
+    <wpt lat="54.5363010" lon="-2.9379600"/>
+    <wpt lat="54.5369240" lon="-2.9371320"/>
+    <wpt lat="54.5372070" lon="-2.9329650"/>
+    <wpt lat="54.5376090" lon="-2.9319350"/>
+    <wpt lat="54.5387680" lon="-2.9329480"/>
+    <wpt lat="54.5393480" lon="-2.9329690"/>
+    <wpt lat="54.5411820" lon="-2.9342180"/>
+    <wpt lat="54.5437330" lon="-2.9348090"/>
+    <wpt lat="54.5447870" lon="-2.9345560"/>
+    <wpt lat="54.5461880" lon="-2.9353720"/>
+    <wpt lat="54.5483760" lon="-2.9350730"/>
+    <wpt lat="54.5504310" lon="-2.9358440"/>
+    <wpt lat="54.5508530" lon="-2.9368020"/>
+    <wpt lat="54.5552080" lon="-2.9371710"/>
+    <wpt lat="54.5559950" lon="-2.9364000"/>
+    <wpt lat="54.5560950" lon="-2.9353880"/>
+    <wpt lat="54.5558290" lon="-2.9337780"/>
+    <wpt lat="54.5568960" lon="-2.9325010"/>
+    <wpt lat="54.5583700" lon="-2.9295770"/>
+    <wpt lat="54.5600010" lon="-2.9276840"/>
+    <wpt lat="54.5609940" lon="-2.9254870"/>
+    <wpt lat="54.5628480" lon="-2.9229570"/>
+    <wpt lat="54.5654880" lon="-2.9180460"/>
+    <wpt lat="54.5665550" lon="-2.9156200"/>
+    <wpt lat="54.5666310" lon="-2.9122120"/>
+    <wpt lat="54.5648310" lon="-2.9072790"/>
+    <wpt lat="54.5641970" lon="-2.9067960"/>
+    <wpt lat="54.5640170" lon="-2.9054620"/>
+    <wpt lat="54.5644370" lon="-2.9029890"/>
+    <wpt lat="54.5643840" lon="-2.9023450"/>
+    <wpt lat="54.5653580" lon="-2.9013100"/>
+    <wpt lat="54.5663840" lon="-2.8992280"/>
+    <wpt lat="54.5668040" lon="-2.8964800"/>
+    <wpt lat="54.5678850" lon="-2.8938340"/>
+    <wpt lat="54.5684050" lon="-2.8929830"/>
+    <wpt lat="54.5687580" lon="-2.8930520"/>
+    <wpt lat="54.5689110" lon="-2.8925230"/>
+    <wpt lat="54.5697980" lon="-2.8924770"/>
+    <wpt lat="54.5705450" lon="-2.8899010"/>
+    <wpt lat="54.5729720" lon="-2.8866690"/>
+    <wpt lat="54.5736850" lon="-2.8831840"/>
+    <wpt lat="54.5745420" lon="-2.8801330"/>
+    <wpt lat="54.5758750" lon="-2.8778910"/>
+    <wpt lat="54.5760950" lon="-2.8745440"/>
+    <wpt lat="54.5756620" lon="-2.8725890"/>
+    <wpt lat="54.5713220" lon="-2.8690470"/>
+    <wpt lat="54.5705020" lon="-2.8677130"/>
+    <wpt lat="54.5707440" lon="-2.8661210"/>
+    <wpt lat="54.5705910" lon="-2.8640500"/>
+    <wpt lat="54.5709980" lon="-2.8628370"/>
+    <trk>
+        <name>Patterdale to Howtown, Via Ullswater Way</name>
+        <trkseg>
+            <trkpt lat="54.5342700" lon="-2.9334480"/>
+            <trkpt lat="54.5347030" lon="-2.9345040"/>
+            <trkpt lat="54.5348760" lon="-2.9356250"/>
+            <trkpt lat="54.5363010" lon="-2.9379600"/>
+            <trkpt lat="54.5369240" lon="-2.9371320"/>
+            <trkpt lat="54.5371210" lon="-2.9355030"/>
+            <trkpt lat="54.5372070" lon="-2.9329650"/>
+            <trkpt lat="54.5376090" lon="-2.9319350"/>
+            <trkpt lat="54.5387680" lon="-2.9329480"/>
+            <trkpt lat="54.5393480" lon="-2.9329690"/>
+            <trkpt lat="54.5411820" lon="-2.9342180"/>
+            <trkpt lat="54.5437330" lon="-2.9348090"/>
+            <trkpt lat="54.5447870" lon="-2.9345560"/>
+            <trkpt lat="54.5461880" lon="-2.9353720"/>
+            <trkpt lat="54.5483760" lon="-2.9350730"/>
+            <trkpt lat="54.5504310" lon="-2.9358440"/>
+            <trkpt lat="54.5508530" lon="-2.9368020"/>
+            <trkpt lat="54.5524470" lon="-2.9369510"/>
+            <trkpt lat="54.5537670" lon="-2.9371930"/>
+            <trkpt lat="54.5552080" lon="-2.9371710"/>
+            <trkpt lat="54.5559950" lon="-2.9364000"/>
+            <trkpt lat="54.5560950" lon="-2.9353880"/>
+            <trkpt lat="54.5558290" lon="-2.9337780"/>
+            <trkpt lat="54.5568960" lon="-2.9325010"/>
+            <trkpt lat="54.5583700" lon="-2.9295770"/>
+            <trkpt lat="54.5600010" lon="-2.9276840"/>
+            <trkpt lat="54.5609940" lon="-2.9254870"/>
+            <trkpt lat="54.5628480" lon="-2.9229570"/>
+            <trkpt lat="54.5642620" lon="-2.9202770"/>
+            <trkpt lat="54.5654880" lon="-2.9180460"/>
+            <trkpt lat="54.5665550" lon="-2.9156200"/>
+            <trkpt lat="54.5666310" lon="-2.9122120"/>
+            <trkpt lat="54.5656310" lon="-2.9094520"/>
+            <trkpt lat="54.5648310" lon="-2.9072790"/>
+            <trkpt lat="54.5641970" lon="-2.9067960"/>
+            <trkpt lat="54.5641840" lon="-2.9060710"/>
+            <trkpt lat="54.5640170" lon="-2.9054620"/>
+            <trkpt lat="54.5644370" lon="-2.9029890"/>
+            <trkpt lat="54.5643840" lon="-2.9023450"/>
+            <trkpt lat="54.5653580" lon="-2.9013100"/>
+            <trkpt lat="54.5663840" lon="-2.8992280"/>
+            <trkpt lat="54.5668040" lon="-2.8964800"/>
+            <trkpt lat="54.5678850" lon="-2.8938340"/>
+            <trkpt lat="54.5684050" lon="-2.8929830"/>
+            <trkpt lat="54.5687580" lon="-2.8930520"/>
+            <trkpt lat="54.5689110" lon="-2.8925230"/>
+            <trkpt lat="54.5697980" lon="-2.8924770"/>
+            <trkpt lat="54.5705450" lon="-2.8899010"/>
+            <trkpt lat="54.5720710" lon="-2.8879810"/>
+            <trkpt lat="54.5729720" lon="-2.8866690"/>
+            <trkpt lat="54.5736850" lon="-2.8831840"/>
+            <trkpt lat="54.5745420" lon="-2.8801330"/>
+            <trkpt lat="54.5758750" lon="-2.8778910"/>
+            <trkpt lat="54.5760950" lon="-2.8745440"/>
+            <trkpt lat="54.5756620" lon="-2.8725890"/>
+            <trkpt lat="54.5741350" lon="-2.8714270"/>
+            <trkpt lat="54.5725020" lon="-2.8699440"/>
+            <trkpt lat="54.5713220" lon="-2.8690470"/>
+            <trkpt lat="54.5705020" lon="-2.8677130"/>
+            <trkpt lat="54.5707440" lon="-2.8661210"/>
+            <trkpt lat="54.5705910" lon="-2.8640500"/>
+            <trkpt lat="54.5709980" lon="-2.8628370"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

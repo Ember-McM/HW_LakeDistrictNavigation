@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Ambleside to Hawkshead, Bus, 505</name>
+        <desc></desc>
+        <bounds minlat="54.3732920" minlon="-3.0023910" maxlat="54.4299860" maxlon="-2.9622870"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.4299860" lon="-2.9630700" type="start"/>
+            <os:point lat="54.3732920" lon="-2.9976340" type="end"/>
+            <os:activity>OTHER</os:activity>
+            <os:difficulty>UNKNOWN</os:difficulty>
+            <os:paths/>
+            <os:distance>8169.1402393</os:distance>
+            <os:elevation_ascent>129.7500000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.4299860" lon="-2.9630700"/>
+    <wpt lat="54.4299360" lon="-2.9623720"/>
+    <wpt lat="54.4283980" lon="-2.9622870"/>
+    <wpt lat="54.4283340" lon="-2.9661420"/>
+    <wpt lat="54.4275650" lon="-2.9672800"/>
+    <wpt lat="54.4259850" lon="-2.9673530"/>
+    <wpt lat="54.4259630" lon="-2.9685530"/>
+    <wpt lat="54.4265400" lon="-2.9693110"/>
+    <wpt lat="54.4243110" lon="-2.9722640"/>
+    <wpt lat="54.4235900" lon="-2.9766400"/>
+    <wpt lat="54.4227830" lon="-2.9777350"/>
+    <wpt lat="54.4218920" lon="-2.9778080"/>
+    <wpt lat="54.4212560" lon="-2.9801780"/>
+    <wpt lat="54.4197090" lon="-2.9819160"/>
+    <wpt lat="54.4192210" lon="-2.9831310"/>
+    <wpt lat="54.4157020" lon="-2.9833620"/>
+    <wpt lat="54.4129070" lon="-2.9847510"/>
+    <wpt lat="54.4108210" lon="-2.9884550"/>
+    <wpt lat="54.4090560" lon="-2.9872720"/>
+    <wpt lat="54.4058240" lon="-2.9814630"/>
+    <wpt lat="54.4032800" lon="-2.9818230"/>
+    <wpt lat="54.3999290" lon="-2.9828510"/>
+    <wpt lat="54.3976240" lon="-2.9880440"/>
+    <wpt lat="54.3945110" lon="-2.9935960"/>
+    <wpt lat="54.3918040" lon="-2.9936760"/>
+    <wpt lat="54.3892530" lon="-2.9949280"/>
+    <wpt lat="54.3863100" lon="-3.0000320"/>
+    <wpt lat="54.3798610" lon="-3.0023910"/>
+    <wpt lat="54.3732920" lon="-2.9976340"/>
+    <trk>
+        <name>Ambleside to Hawkshead, Bus, 505</name>
+        <trkseg>
+            <trkpt lat="54.4299860" lon="-2.9630700"/>
+            <trkpt lat="54.4299360" lon="-2.9623720"/>
+            <trkpt lat="54.4283980" lon="-2.9622870"/>
+            <trkpt lat="54.4283340" lon="-2.9661420"/>
+            <trkpt lat="54.4275650" lon="-2.9672800"/>
+            <trkpt lat="54.4259850" lon="-2.9673530"/>
+            <trkpt lat="54.4259630" lon="-2.9685530"/>
+            <trkpt lat="54.4265400" lon="-2.9693110"/>
+            <trkpt lat="54.4255300" lon="-2.9706160"/>
+            <trkpt lat="54.4243110" lon="-2.9722640"/>
+            <trkpt lat="54.4235900" lon="-2.9766400"/>
+            <trkpt lat="54.4227830" lon="-2.9777350"/>
+            <trkpt lat="54.4218920" lon="-2.9778080"/>
+            <trkpt lat="54.4212560" lon="-2.9801780"/>
+            <trkpt lat="54.4197090" lon="-2.9819160"/>
+            <trkpt lat="54.4192210" lon="-2.9831310"/>
+            <trkpt lat="54.4157020" lon="-2.9833620"/>
+            <trkpt lat="54.4129070" lon="-2.9847510"/>
+            <trkpt lat="54.4108210" lon="-2.9884550"/>
+            <trkpt lat="54.4090560" lon="-2.9872720"/>
+            <trkpt lat="54.4058240" lon="-2.9814630"/>
+            <trkpt lat="54.4032800" lon="-2.9818230"/>
+            <trkpt lat="54.3999290" lon="-2.9828510"/>
+            <trkpt lat="54.3976240" lon="-2.9880440"/>
+            <trkpt lat="54.3945110" lon="-2.9935960"/>
+            <trkpt lat="54.3918040" lon="-2.9936760"/>
+            <trkpt lat="54.3892530" lon="-2.9949280"/>
+            <trkpt lat="54.3863100" lon="-3.0000320"/>
+            <trkpt lat="54.3832540" lon="-3.0012830"/>
+            <trkpt lat="54.3798610" lon="-3.0023910"/>
+            <trkpt lat="54.3757190" lon="-2.9993920"/>
+            <trkpt lat="54.3746320" lon="-2.9987030"/>
+            <trkpt lat="54.3732920" lon="-2.9976340"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

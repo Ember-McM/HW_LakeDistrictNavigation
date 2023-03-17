@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Windermere to Kendal, Bus, 555</name>
+        <desc></desc>
+        <bounds minlat="54.3298460" minlon="-2.9050000" maxlat="54.3824300" maxlon="-2.7452290"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.3796350" lon="-2.9032020" type="start"/>
+            <os:point lat="54.3298460" lon="-2.7452290" type="end"/>
+            <os:activity>OTHER</os:activity>
+            <os:difficulty>UNKNOWN</os:difficulty>
+            <os:paths/>
+            <os:distance>13124.1334115</os:distance>
+            <os:elevation_ascent>120.1200000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.3796350" lon="-2.9032020"/>
+    <wpt lat="54.3803010" lon="-2.9039960"/>
+    <wpt lat="54.3804640" lon="-2.9050000"/>
+    <wpt lat="54.3805800" lon="-2.9048710"/>
+    <wpt lat="54.3804440" lon="-2.9034350"/>
+    <wpt lat="54.3798250" lon="-2.9006330"/>
+    <wpt lat="54.3798280" lon="-2.8980770"/>
+    <wpt lat="54.3808230" lon="-2.8947710"/>
+    <wpt lat="54.3814610" lon="-2.8912010"/>
+    <wpt lat="54.3815370" lon="-2.8882670"/>
+    <wpt lat="54.3824300" lon="-2.8847190"/>
+    <wpt lat="54.3821490" lon="-2.8820700"/>
+    <wpt lat="54.3807720" lon="-2.8764640"/>
+    <wpt lat="54.3812310" lon="-2.8728510"/>
+    <wpt lat="54.3817160" lon="-2.8710770"/>
+    <wpt lat="54.3817920" lon="-2.8667850"/>
+    <wpt lat="54.3814610" lon="-2.8599530"/>
+    <wpt lat="54.3806320" lon="-2.8535800"/>
+    <wpt lat="54.3803770" lon="-2.8500330"/>
+    <wpt lat="54.3806190" lon="-2.8434630"/>
+    <wpt lat="54.3789870" lon="-2.8352300"/>
+    <wpt lat="54.3763960" lon="-2.8281950"/>
+    <wpt lat="54.3723550" lon="-2.8194970"/>
+    <wpt lat="54.3678640" lon="-2.8041560"/>
+    <wpt lat="54.3577590" lon="-2.7860370"/>
+    <wpt lat="54.3528110" lon="-2.7818950"/>
+    <wpt lat="54.3474100" lon="-2.7762000"/>
+    <wpt lat="54.3442630" lon="-2.7732420"/>
+    <wpt lat="54.3411240" lon="-2.7681680"/>
+    <wpt lat="54.3365070" lon="-2.7599890"/>
+    <wpt lat="54.3331860" lon="-2.7550190"/>
+    <wpt lat="54.3320810" lon="-2.7496900"/>
+    <wpt lat="54.3304560" lon="-2.7474540"/>
+    <wpt lat="54.3307030" lon="-2.7456230"/>
+    <wpt lat="54.3298460" lon="-2.7452290"/>
+    <trk>
+        <name>Windermere to Kendal, Bus, 555</name>
+        <trkseg>
+            <trkpt lat="54.3796350" lon="-2.9032020"/>
+            <trkpt lat="54.3803010" lon="-2.9039960"/>
+            <trkpt lat="54.3804640" lon="-2.9050000"/>
+            <trkpt lat="54.3805800" lon="-2.9048710"/>
+            <trkpt lat="54.3804440" lon="-2.9034350"/>
+            <trkpt lat="54.3798250" lon="-2.9006330"/>
+            <trkpt lat="54.3798280" lon="-2.8980770"/>
+            <trkpt lat="54.3808230" lon="-2.8947710"/>
+            <trkpt lat="54.3814610" lon="-2.8912010"/>
+            <trkpt lat="54.3815370" lon="-2.8882670"/>
+            <trkpt lat="54.3824300" lon="-2.8847190"/>
+            <trkpt lat="54.3821490" lon="-2.8820700"/>
+            <trkpt lat="54.3807720" lon="-2.8764640"/>
+            <trkpt lat="54.3812310" lon="-2.8728510"/>
+            <trkpt lat="54.3817160" lon="-2.8710770"/>
+            <trkpt lat="54.3817920" lon="-2.8667850"/>
+            <trkpt lat="54.3814610" lon="-2.8599530"/>
+            <trkpt lat="54.3806320" lon="-2.8535800"/>
+            <trkpt lat="54.3803770" lon="-2.8500330"/>
+            <trkpt lat="54.3806190" lon="-2.8434630"/>
+            <trkpt lat="54.3789870" lon="-2.8352300"/>
+            <trkpt lat="54.3763960" lon="-2.8281950"/>
+            <trkpt lat="54.3723550" lon="-2.8194970"/>
+            <trkpt lat="54.3678640" lon="-2.8041560"/>
+            <trkpt lat="54.3619220" lon="-2.7934400"/>
+            <trkpt lat="54.3577590" lon="-2.7860370"/>
+            <trkpt lat="54.3528110" lon="-2.7818950"/>
+            <trkpt lat="54.3474100" lon="-2.7762000"/>
+            <trkpt lat="54.3442630" lon="-2.7732420"/>
+            <trkpt lat="54.3411240" lon="-2.7681680"/>
+            <trkpt lat="54.3365070" lon="-2.7599890"/>
+            <trkpt lat="54.3331860" lon="-2.7550190"/>
+            <trkpt lat="54.3320810" lon="-2.7496900"/>
+            <trkpt lat="54.3304560" lon="-2.7474540"/>
+            <trkpt lat="54.3307030" lon="-2.7456230"/>
+            <trkpt lat="54.3298460" lon="-2.7452290"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

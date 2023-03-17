@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Eskdale to Ravenglass, Walk + Bike</name>
+        <desc></desc>
+        <bounds minlat="54.3486570" minlon="-3.4091420" maxlat="54.3895990" maxlon="-3.3116110"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.3895990" lon="-3.3242010" type="start"/>
+            <os:point lat="54.3548600" lon="-3.4091420" type="end"/>
+            <os:activity>ON_FOOT_WALKING</os:activity>
+            <os:difficulty>EASY</os:difficulty>
+            <os:paths/>
+            <os:distance>9758.1184520</os:distance>
+            <os:elevation_ascent>110.2200000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.3895990" lon="-3.3242010"/>
+    <wpt lat="54.3878460" lon="-3.3175450"/>
+    <wpt lat="54.3868100" lon="-3.3159100"/>
+    <wpt lat="54.3866460" lon="-3.3119440"/>
+    <wpt lat="54.3841590" lon="-3.3116110"/>
+    <wpt lat="54.3830930" lon="-3.3137870"/>
+    <wpt lat="54.3820720" lon="-3.3151760"/>
+    <wpt lat="54.3812050" lon="-3.3181860"/>
+    <wpt lat="54.3784290" lon="-3.3231540"/>
+    <wpt lat="54.3785160" lon="-3.3255900"/>
+    <wpt lat="54.3773930" lon="-3.3301660"/>
+    <wpt lat="54.3769970" lon="-3.3355760"/>
+    <wpt lat="54.3748550" lon="-3.3405730"/>
+    <wpt lat="54.3728570" lon="-3.3461890"/>
+    <wpt lat="54.3722990" lon="-3.3490450"/>
+    <wpt lat="54.3697900" lon="-3.3547890"/>
+    <wpt lat="54.3689160" lon="-3.3585700"/>
+    <wpt lat="54.3675870" lon="-3.3613310"/>
+    <wpt lat="54.3661410" lon="-3.3637990"/>
+    <wpt lat="54.3645090" lon="-3.3677730"/>
+    <wpt lat="54.3626210" lon="-3.3701210"/>
+    <wpt lat="54.3618730" lon="-3.3703290"/>
+    <wpt lat="54.3611820" lon="-3.3720600"/>
+    <wpt lat="54.3595970" lon="-3.3779080"/>
+    <wpt lat="54.3576000" lon="-3.3812720"/>
+    <wpt lat="54.3568330" lon="-3.3831610"/>
+    <wpt lat="54.3577230" lon="-3.3858230"/>
+    <wpt lat="54.3569470" lon="-3.3889940"/>
+    <wpt lat="54.3549820" lon="-3.3923310"/>
+    <wpt lat="54.3524780" lon="-3.3939660"/>
+    <wpt lat="54.3515390" lon="-3.3954560"/>
+    <wpt lat="54.3486570" lon="-3.3979070"/>
+    <wpt lat="54.3496600" lon="-3.4031920"/>
+    <wpt lat="54.3507880" lon="-3.4043500"/>
+    <wpt lat="54.3517910" lon="-3.4046400"/>
+    <wpt lat="54.3528930" lon="-3.4056080"/>
+    <wpt lat="54.3547860" lon="-3.4058970"/>
+    <wpt lat="54.3560230" lon="-3.4065320"/>
+    <wpt lat="54.3550770" lon="-3.4078990"/>
+    <wpt lat="54.3548600" lon="-3.4091420"/>
+    <trk>
+        <name>Eskdale to Ravenglass, Walk + Bike</name>
+        <trkseg>
+            <trkpt lat="54.3895990" lon="-3.3242010"/>
+            <trkpt lat="54.3887190" lon="-3.3205220"/>
+            <trkpt lat="54.3878460" lon="-3.3175450"/>
+            <trkpt lat="54.3868100" lon="-3.3159100"/>
+            <trkpt lat="54.3866460" lon="-3.3119440"/>
+            <trkpt lat="54.3841590" lon="-3.3116110"/>
+            <trkpt lat="54.3830930" lon="-3.3137870"/>
+            <trkpt lat="54.3820720" lon="-3.3151760"/>
+            <trkpt lat="54.3812050" lon="-3.3181860"/>
+            <trkpt lat="54.3797170" lon="-3.3207040"/>
+            <trkpt lat="54.3784290" lon="-3.3231540"/>
+            <trkpt lat="54.3785160" lon="-3.3255900"/>
+            <trkpt lat="54.3773930" lon="-3.3301660"/>
+            <trkpt lat="54.3769970" lon="-3.3355760"/>
+            <trkpt lat="54.3748550" lon="-3.3405730"/>
+            <trkpt lat="54.3728570" lon="-3.3461890"/>
+            <trkpt lat="54.3722990" lon="-3.3490450"/>
+            <trkpt lat="54.3697900" lon="-3.3547890"/>
+            <trkpt lat="54.3689160" lon="-3.3585700"/>
+            <trkpt lat="54.3675870" lon="-3.3613310"/>
+            <trkpt lat="54.3661410" lon="-3.3637990"/>
+            <trkpt lat="54.3645090" lon="-3.3677730"/>
+            <trkpt lat="54.3626210" lon="-3.3701210"/>
+            <trkpt lat="54.3618730" lon="-3.3703290"/>
+            <trkpt lat="54.3611820" lon="-3.3720600"/>
+            <trkpt lat="54.3595970" lon="-3.3779080"/>
+            <trkpt lat="54.3576000" lon="-3.3812720"/>
+            <trkpt lat="54.3568330" lon="-3.3831610"/>
+            <trkpt lat="54.3577230" lon="-3.3858230"/>
+            <trkpt lat="54.3569470" lon="-3.3889940"/>
+            <trkpt lat="54.3549820" lon="-3.3923310"/>
+            <trkpt lat="54.3524780" lon="-3.3939660"/>
+            <trkpt lat="54.3515390" lon="-3.3954560"/>
+            <trkpt lat="54.3498350" lon="-3.3969100"/>
+            <trkpt lat="54.3486570" lon="-3.3979070"/>
+            <trkpt lat="54.3496600" lon="-3.4031920"/>
+            <trkpt lat="54.3507880" lon="-3.4043500"/>
+            <trkpt lat="54.3517910" lon="-3.4046400"/>
+            <trkpt lat="54.3528930" lon="-3.4056080"/>
+            <trkpt lat="54.3547860" lon="-3.4058970"/>
+            <trkpt lat="54.3549100" lon="-3.4060480"/>
+            <trkpt lat="54.3560230" lon="-3.4065320"/>
+            <trkpt lat="54.3550770" lon="-3.4078990"/>
+            <trkpt lat="54.3548600" lon="-3.4091420"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

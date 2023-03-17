@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Boot To Eskdale, Walk + Bike</name>
+        <desc></desc>
+        <bounds minlat="54.3867630" minlon="-3.3242510" maxlat="54.3962220" maxlon="-3.2662950"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.3962220" lon="-3.2709940" type="start"/>
+            <os:point lat="54.3896000" lon="-3.3242510" type="end"/>
+            <os:activity>ON_FOOT_WALKING</os:activity>
+            <os:difficulty>EASY</os:difficulty>
+            <os:paths/>
+            <os:distance>5099.5733121</os:distance>
+            <os:elevation_ascent>70.5400000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.3962220" lon="-3.2709940"/>
+    <wpt lat="54.3941060" lon="-3.2707820"/>
+    <wpt lat="54.3928680" lon="-3.2699530"/>
+    <wpt lat="54.3926370" lon="-3.2703170"/>
+    <wpt lat="54.3910180" lon="-3.2681830"/>
+    <wpt lat="54.3902030" lon="-3.2664090"/>
+    <wpt lat="54.3898950" lon="-3.2662950"/>
+    <wpt lat="54.3900610" lon="-3.2672230"/>
+    <wpt lat="54.3905930" lon="-3.2677290"/>
+    <wpt lat="54.3906290" lon="-3.2710200"/>
+    <wpt lat="54.3902830" lon="-3.2737780"/>
+    <wpt lat="54.3904200" lon="-3.2749160"/>
+    <wpt lat="54.3895600" lon="-3.2771310"/>
+    <wpt lat="54.3891130" lon="-3.2795440"/>
+    <wpt lat="54.3891560" lon="-3.2805290"/>
+    <wpt lat="54.3887820" lon="-3.2815290"/>
+    <wpt lat="54.3886570" lon="-3.2827090"/>
+    <wpt lat="54.3890870" lon="-3.2845620"/>
+    <wpt lat="54.3883480" lon="-3.2898870"/>
+    <wpt lat="54.3879850" lon="-3.2905970"/>
+    <wpt lat="54.3880740" lon="-3.2928280"/>
+    <wpt lat="54.3878800" lon="-3.2947660"/>
+    <wpt lat="54.3881530" lon="-3.2958540"/>
+    <wpt lat="54.3881650" lon="-3.2971710"/>
+    <wpt lat="54.3887790" lon="-3.2985560"/>
+    <wpt lat="54.3889420" lon="-3.2996580"/>
+    <wpt lat="54.3887570" lon="-3.3015530"/>
+    <wpt lat="54.3880590" lon="-3.3026630"/>
+    <wpt lat="54.3874250" lon="-3.3043440"/>
+    <wpt lat="54.3886530" lon="-3.3060950"/>
+    <wpt lat="54.3867630" lon="-3.3118780"/>
+    <wpt lat="54.3871000" lon="-3.3133410"/>
+    <wpt lat="54.3869760" lon="-3.3164540"/>
+    <wpt lat="54.3881970" lon="-3.3182660"/>
+    <wpt lat="54.3890860" lon="-3.3214310"/>
+    <wpt lat="54.3896800" lon="-3.3217790"/>
+    <wpt lat="54.3901010" lon="-3.3228570"/>
+    <wpt lat="54.3896000" lon="-3.3242510"/>
+    <trk>
+        <name>Boot To Eskdale, Walk + Bike</name>
+        <trkseg>
+            <trkpt lat="54.3962220" lon="-3.2709940"/>
+            <trkpt lat="54.3941060" lon="-3.2707820"/>
+            <trkpt lat="54.3928680" lon="-3.2699530"/>
+            <trkpt lat="54.3926370" lon="-3.2703170"/>
+            <trkpt lat="54.3910180" lon="-3.2681830"/>
+            <trkpt lat="54.3902030" lon="-3.2664090"/>
+            <trkpt lat="54.3898950" lon="-3.2662950"/>
+            <trkpt lat="54.3900610" lon="-3.2672230"/>
+            <trkpt lat="54.3905930" lon="-3.2677290"/>
+            <trkpt lat="54.3906170" lon="-3.2692560"/>
+            <trkpt lat="54.3906290" lon="-3.2710200"/>
+            <trkpt lat="54.3902830" lon="-3.2737780"/>
+            <trkpt lat="54.3904200" lon="-3.2749160"/>
+            <trkpt lat="54.3895600" lon="-3.2771310"/>
+            <trkpt lat="54.3891130" lon="-3.2795440"/>
+            <trkpt lat="54.3891560" lon="-3.2805290"/>
+            <trkpt lat="54.3887820" lon="-3.2815290"/>
+            <trkpt lat="54.3886570" lon="-3.2827090"/>
+            <trkpt lat="54.3890870" lon="-3.2845620"/>
+            <trkpt lat="54.3887680" lon="-3.2873500"/>
+            <trkpt lat="54.3883480" lon="-3.2898870"/>
+            <trkpt lat="54.3879850" lon="-3.2905970"/>
+            <trkpt lat="54.3880740" lon="-3.2928280"/>
+            <trkpt lat="54.3878800" lon="-3.2947660"/>
+            <trkpt lat="54.3881530" lon="-3.2958540"/>
+            <trkpt lat="54.3881650" lon="-3.2971710"/>
+            <trkpt lat="54.3887790" lon="-3.2985560"/>
+            <trkpt lat="54.3889420" lon="-3.2996580"/>
+            <trkpt lat="54.3887570" lon="-3.3015530"/>
+            <trkpt lat="54.3880590" lon="-3.3026630"/>
+            <trkpt lat="54.3874250" lon="-3.3043440"/>
+            <trkpt lat="54.3886530" lon="-3.3060950"/>
+            <trkpt lat="54.3874760" lon="-3.3098000"/>
+            <trkpt lat="54.3867630" lon="-3.3118780"/>
+            <trkpt lat="54.3871000" lon="-3.3133410"/>
+            <trkpt lat="54.3869760" lon="-3.3164540"/>
+            <trkpt lat="54.3881970" lon="-3.3182660"/>
+            <trkpt lat="54.3887490" lon="-3.3202300"/>
+            <trkpt lat="54.3890860" lon="-3.3214310"/>
+            <trkpt lat="54.3896800" lon="-3.3217790"/>
+            <trkpt lat="54.3901010" lon="-3.3228570"/>
+            <trkpt lat="54.3896000" lon="-3.3242510"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>Aria Force to Pooley Bridge, Drive</name>
+        <desc></desc>
+        <bounds minlat="54.5713930" minlon="-2.9285560" maxlat="54.6123700" maxlon="-2.8215420"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="54.5713930" lon="-2.9285560" type="start"/>
+            <os:point lat="54.6120730" lon="-2.8215420" type="end"/>
+            <os:activity>OTHER</os:activity>
+            <os:difficulty>UNKNOWN</os:difficulty>
+            <os:paths/>
+            <os:distance>8989.7413411</os:distance>
+            <os:elevation_ascent>119.2400000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="54.5713930" lon="-2.9285560"/>
+    <wpt lat="54.5745500" lon="-2.9126730"/>
+    <wpt lat="54.5759520" lon="-2.9048770"/>
+    <wpt lat="54.5767460" lon="-2.8965370"/>
+    <wpt lat="54.5793670" lon="-2.8863220"/>
+    <wpt lat="54.5802710" lon="-2.8809450"/>
+    <wpt lat="54.5817390" lon="-2.8787310"/>
+    <wpt lat="54.5848410" lon="-2.8687950"/>
+    <wpt lat="54.5900360" lon="-2.8601690"/>
+    <wpt lat="54.5977600" lon="-2.8598180"/>
+    <wpt lat="54.6025950" lon="-2.8506240"/>
+    <wpt lat="54.6053070" lon="-2.8408490"/>
+    <wpt lat="54.6104360" lon="-2.8348320"/>
+    <wpt lat="54.6111990" lon="-2.8320490"/>
+    <wpt lat="54.6110500" lon="-2.8253010"/>
+    <wpt lat="54.6123700" lon="-2.8229370"/>
+    <wpt lat="54.6120730" lon="-2.8215420"/>
+    <trk>
+        <name>Aria Force to Pooley Bridge, Drive</name>
+        <trkseg>
+            <trkpt lat="54.5713930" lon="-2.9285560"/>
+            <trkpt lat="54.5745500" lon="-2.9126730"/>
+            <trkpt lat="54.5759520" lon="-2.9048770"/>
+            <trkpt lat="54.5767460" lon="-2.8965370"/>
+            <trkpt lat="54.5793670" lon="-2.8863220"/>
+            <trkpt lat="54.5802710" lon="-2.8809450"/>
+            <trkpt lat="54.5817390" lon="-2.8787310"/>
+            <trkpt lat="54.5848410" lon="-2.8687950"/>
+            <trkpt lat="54.5900360" lon="-2.8601690"/>
+            <trkpt lat="54.5977600" lon="-2.8598180"/>
+            <trkpt lat="54.6025950" lon="-2.8506240"/>
+            <trkpt lat="54.6053070" lon="-2.8408490"/>
+            <trkpt lat="54.6104360" lon="-2.8348320"/>
+            <trkpt lat="54.6111990" lon="-2.8320490"/>
+            <trkpt lat="54.6110500" lon="-2.8253010"/>
+            <trkpt lat="54.6123700" lon="-2.8229370"/>
+            <trkpt lat="54.6120730" lon="-2.8215420"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>453C90</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>
