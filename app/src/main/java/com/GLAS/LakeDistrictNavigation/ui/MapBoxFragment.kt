@@ -1854,7 +1854,9 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
             }
 
             override fun completeRoute(myDetails: RouteValue) {
-                AddToTotalDistance(myDetails.distance,myDetails.transportType)
+                AddToTotalGamification(myDetails.distance,myDetails.transportType,"Distance_")
+                AddToTotalGamification(myDetails.health,myDetails.transportType,"Health_")
+                AddToTotalGamification(myDetails.CoSave,myDetails.transportType,"CoSave_")
             }
         })
 //        adapter.setOnItemClickListener(object  : JourneyEntryAdapter.onItemClickListner{
@@ -3139,9 +3141,14 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
             .show()
     }
 
-    fun AddToTotalDistance(distance: Double, type: String){
+    fun AddToTotalGamification(distance: Double, type: String, mode : String){
+
+       //"Distance_"
+       //"Health_"
+       //"CoSave_"
+
         var context =  requireContext()
-        var fileName = "Distance_$type"
+        var fileName = mode + type
         var fileContentList = ReadSavedData(fileName)
 
         var myDist = 0.0

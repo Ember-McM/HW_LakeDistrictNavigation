@@ -1,5 +1,6 @@
 package com.GLAS.LakeDistrictNavigation.ui
 
+import android.content.Context
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -51,6 +52,37 @@ class GamificationFragment : Fragment() {
 
         MWSNum.text = MWSVisited.count().toString() + "/49"
         LocationNum.text = LocationsVisited.count().toString() + "/107"
+
+        //Handle total distances
+        val walkDist = ReadTotalGamifiaction("Walk","Distance_")
+        val bikeDist = ReadTotalGamifiaction("cycling","Distance_")
+        val carDist = ReadTotalGamifiaction("driving","Distance_")
+        val busDist = ReadTotalGamifiaction("Bus","Distance_")
+        val totalDist = walkDist + bikeDist + carDist + busDist
+
+        var walkText = view.findViewById<TextView>(R.id.textDistanceTraveled_walk)
+        var bikeText = view.findViewById<TextView>(R.id.textDistanceTraveled_bike)
+        var carText = view.findViewById<TextView>(R.id.textDistanceTraveled_car)
+        var busText = view.findViewById<TextView>(R.id.textDistanceTraveled_bus)
+        var totalText = view.findViewById<TextView>(R.id.textViewDistance_total)
+
+        if (useMiles()){
+            walkText.text = ((walkDist*0.621).round(1)).toString() + " M"
+            bikeText.text = ((bikeDist*0.621).round(1)).toString() + " M"
+            carText.text = ((carDist*0.621).round(1)).toString() + " M"
+            busText.text = ((busDist*0.621).round(1)).toString() + " M"
+            totalText.text = "Across all journeys, you have traveled a total of " +((totalDist*0.621).round(1)).toString() + " M"
+        }
+        else{
+            walkText.text  = (walkDist.round(1)).toString() + " Km"
+            bikeText.text  = (bikeDist.round(1)).toString() + " Km"
+            carText.text  = (carDist.round(1)).toString() + " Km"
+            busText.text  = (busDist.round(1)).toString() + " Km"
+            totalText.text = "Across all journeys, you have traveled a total of " + (totalDist.round(1)).toString() + " Km"
+        }
+
+
+
     }
 
     fun ReadVisitedLoc(type: String) : ArrayList<String>{
@@ -67,6 +99,62 @@ class GamificationFragment : Fragment() {
             }
         }
         return fileContentList
+    }
+
+    fun ReadTotalGamifiaction(type: String, mode: String) : Double{
+        var context =  requireContext()
+        var fileName = "Distance_$type"
+        var fileContentList = ReadSavedData(fileName)
+
+        var myDist = 0.0
+        if (fileContentList.count() > 0){
+
+            var readtext = ""
+            context.openFileInput(fileContentList[0]).bufferedReader().useLines { lines ->
+                readtext = lines.fold("") { some, text ->
+                    "$some\n$text"
+                };
+            }
+            myDist = readtext.toDouble()
+
+        }
+        return myDist
+    }
+
+    fun useMiles() : Boolean
+    {
+        var context = requireContext()
+        var files: Array<String> = context.fileList()
+        Log.v("Options", files.count().toString())
+        if (files.isNotEmpty()){
+            for (e in files){//
+                if (e.startsWith("UseMiles"))
+                    return true
+            }
+        }
+        return false
+    }
+
+    fun ReadSavedData(type: String) : java.util.ArrayList<String> {
+        var context =  requireContext()
+        var files: Array<String> = context.fileList()
+
+        var fileContentList = java.util.ArrayList<String>()
+        Log.v("saveload", files.count().toString())
+        if (files.isNotEmpty()){
+            for (e in files){
+
+                if (e.startsWith(type))
+                    fileContentList.add(e)
+            }
+        }
+        return fileContentList
+    }
+
+    fun Double.round(decimals: Int): Double {
+        var multiplier = 1.0
+        repeat(decimals) { multiplier *= 10 }
+        return (kotlin.math.round(this * multiplier) / multiplier)
     }
 
     companion object {

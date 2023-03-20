@@ -156,7 +156,7 @@ class RouteEntryAdapter(private var mList: ArrayList<RouteValue>,var faveFrag : 
 
         setItemIcon(myRoute.transportType,holder.transportIcon)
         if (useMiles()){
-            holder.distanceValue.text = (myRoute.distance.round(1)*0.621).toString() + " M"
+            holder.distanceValue.text = ((myRoute.distance*0.621).round(1)).toString() + " M"
         }
         else{
             holder.distanceValue.text = (myRoute.distance.round(1)).toString() + " Km"
