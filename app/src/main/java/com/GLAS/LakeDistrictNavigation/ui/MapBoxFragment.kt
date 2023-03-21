@@ -978,7 +978,14 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
                 Log.v("carbonUpdate", "Updated " + route.transportType)
             }
             else if (route.transportType == "Bus"){
-                route.CoSave = carbonCost - (route.distance * 0.06)
+                var savings = carbonCost - (route.distance * 0.06)
+                if (savings < 0){
+                    savings = 0.0
+                }
+
+                route.CoSave = savings
+
+
                 Log.v("carbonUpdate", "Updated " + route.transportType)
                 Log.v("carbonUpdate", "Bus Co2 = " + carbonCost + "-" + route.Co2)
             }
@@ -1858,6 +1865,11 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
                 AddToTotalGamification(myDetails.health,myDetails.transportType,"Health_")
                 AddToTotalGamification(myDetails.CoSave,myDetails.transportType,"CoSave_")
             }
+
+            override fun rateRoute(myDetails: RouteValue) {
+                //TODO("Not yet implemented")
+            }
+
         })
 //        adapter.setOnItemClickListener(object  : JourneyEntryAdapter.onItemClickListner{
 //        })
@@ -2664,7 +2676,7 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
         val health = 0
         val startName = obj.getString("Start")
         val endName = obj.getString("End")
-        val CoSave = distance * 0.15
+        val CoSave = distance * 0.9
         return RouteValue(routeID,title,"Bus",distance,time,health.toDouble(),co2.toDouble(),tranquillity.toDouble(),reliability.toDouble(),difficulty,startName,endName,false,false,colour,CoSave)
 
     }

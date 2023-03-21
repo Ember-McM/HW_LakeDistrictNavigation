@@ -26,6 +26,8 @@ class RouteEntryAdapter(private var mList: ArrayList<RouteValue>,var faveFrag : 
         fun downloadRoute (string: String)
 
         fun completeRoute (myDetails: RouteValue)
+
+        fun rateRoute (myDetails: RouteValue)
     }
 
     fun setOnItemClickListener(listner: onItemClickListner){
@@ -262,6 +264,12 @@ class RouteEntryAdapter(private var mList: ArrayList<RouteValue>,var faveFrag : 
             }
         }
 
+        with(holder.rateButton){
+            setOnClickListener(){
+                mListener.rateRoute(myRoute)
+            }
+        }
+
 
 
     }
@@ -317,6 +325,7 @@ class RouteEntryAdapter(private var mList: ArrayList<RouteValue>,var faveFrag : 
 
         val downloadButton : Button = itemView.findViewById(R.id.transport_button_download)
         val completeButton : Button = itemView.findViewById(R.id.transport_button_compleat)
+        val rateButton : Button = itemView.findViewById(R.id.transport_button_rate)
 
 
         var favorateID = FavorateID(false,0)

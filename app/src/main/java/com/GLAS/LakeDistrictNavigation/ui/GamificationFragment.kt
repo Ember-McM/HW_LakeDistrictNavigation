@@ -2,12 +2,15 @@ package com.GLAS.LakeDistrictNavigation.ui
 
 import android.content.Context
 import android.os.Bundle
+import android.text.Layout
 import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.cardview.widget.CardView
+import androidx.constraintlayout.widget.ConstraintLayout
 import com.GLAS.LakeDistrictNavigation.R
 
 // TODO: Rename parameter arguments, choose names that match
@@ -81,6 +84,59 @@ class GamificationFragment : Fragment() {
             totalText.text = "Across all journeys, you have traveled a total of " + (totalDist.round(1)).toString() + " Km"
         }
 
+        //Handle Health
+        val walkHealth = ReadTotalGamifiaction("Walk","Health_")
+        val bikeHealth = ReadTotalGamifiaction("cycling","Health_")
+        val totalHealth = walkHealth + bikeHealth
+
+        var walkHealthText = view.findViewById<TextView>(R.id.textHealth_walk)
+        var bikeHealthText = view.findViewById<TextView>(R.id.textHealth_bike)
+        var totalHealthText = view.findViewById<TextView>(R.id.totalHealth)
+
+        walkHealthText.text = walkHealth.toInt().toString() + " Kcal"
+        bikeHealthText.text = bikeHealth.toInt().toString() + " Kcal"
+        totalHealthText.text = "You burned " +  totalHealth.round(1).toString() + " kcal"
+
+        //Handle Co2Savings
+        val walkSave = ReadTotalGamifiaction("Walk","CoSave_")
+        val bikeSave = ReadTotalGamifiaction("cycling","CoSave_")
+        val busSave = ReadTotalGamifiaction("Bus","CoSave_")
+        val totalSave = walkSave + bikeSave + busSave
+
+        var walkCo2SaveText = view.findViewById<TextView>(R.id.textCoSaved_walk)
+        var bikeCo2Savetext = view.findViewById<TextView>(R.id.textCoSaved_bike)
+        var busCo2Savetext = view.findViewById<TextView>(R.id.textCoSaved_bus)
+        var totalCo2SaveText = view.findViewById<TextView>(R.id.totalCo2Save)
+
+        walkCo2SaveText.text = walkSave.toInt().toString() + " Kg"
+        bikeCo2Savetext.text = bikeSave.toInt().toString() + " Kg"
+        busCo2Savetext.text = busSave.toInt().toString() + " Kg"
+        totalCo2SaveText.text = "You saved " +  totalSave.round(1).toString() + " Kg of Co2"
+
+        //Switch between slides
+        val distanceLayout = view.findViewById<ConstraintLayout>(R.id.distanceLayout)
+        val healthLayout = view.findViewById<ConstraintLayout>(R.id.healthLayout)
+        val CoSaveLayout = view.findViewById<ConstraintLayout>(R.id.coSaveLayout)
+
+        val distanceCard = view.findViewById<CardView>(R.id.card_TotalDist)
+        distanceCard.setOnClickListener(){
+            distanceLayout.visibility = View.VISIBLE
+            healthLayout.visibility = View.INVISIBLE
+            CoSaveLayout.visibility = View.INVISIBLE
+        }
+        val healthCard = view.findViewById<CardView>(R.id.cardRecent_Health)
+        healthCard.setOnClickListener(){
+            distanceLayout.visibility = View.INVISIBLE
+            healthLayout.visibility = View.VISIBLE
+            CoSaveLayout.visibility = View.INVISIBLE
+        }
+        val saveCard = view.findViewById<CardView>(R.id.cardRecent_sus)
+        saveCard.setOnClickListener(){
+            distanceLayout.visibility = View.INVISIBLE
+            healthLayout.visibility = View.INVISIBLE
+            CoSaveLayout.visibility = View.VISIBLE
+        }
+
 
 
     }
@@ -103,7 +159,7 @@ class GamificationFragment : Fragment() {
 
     fun ReadTotalGamifiaction(type: String, mode: String) : Double{
         var context =  requireContext()
-        var fileName = "Distance_$type"
+        var fileName = mode + type
         var fileContentList = ReadSavedData(fileName)
 
         var myDist = 0.0
