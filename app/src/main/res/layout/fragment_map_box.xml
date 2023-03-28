@@ -173,6 +173,26 @@
                     mapbox:layout_constraintTop_toTopOf="parent">
 
                     <androidx.cardview.widget.CardView
+                        android:id="@+id/bus_layer"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:clickable="true"
+                        mapbox:cardCornerRadius="16dp"
+                        mapbox:layout_constraintStart_toEndOf="@+id/cycling_layer"
+                        mapbox:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:id="@+id/imageViewbus"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="4dp"
+                            android:scaleType="fitCenter"
+                            mapbox:srcCompat="@drawable/bus" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
                         android:id="@+id/walking_layer"
                         android:layout_width="48dp"
                         android:layout_height="48dp"
@@ -236,6 +256,18 @@
                         mapbox:layout_constraintBottom_toBottomOf="parent"
                         mapbox:layout_constraintEnd_toEndOf="@+id/cycling_layer"
                         mapbox:layout_constraintStart_toStartOf="@+id/cycling_layer"
+                        mapbox:layout_constraintTop_toBottomOf="@+id/cycling_layer" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:text="Buses"
+                        android:textAlignment="center"
+                        mapbox:layout_constraintBottom_toBottomOf="parent"
+                        mapbox:layout_constraintEnd_toEndOf="@+id/bus_layer"
+                        mapbox:layout_constraintStart_toStartOf="@+id/bus_layer"
                         mapbox:layout_constraintTop_toBottomOf="@+id/cycling_layer" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>

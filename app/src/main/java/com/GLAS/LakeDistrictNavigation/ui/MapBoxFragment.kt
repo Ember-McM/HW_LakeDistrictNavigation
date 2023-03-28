@@ -1,12 +1,10 @@
 package com.GLAS.LakeDistrictNavigation.ui
 
 import android.annotation.SuppressLint
-import android.app.Notification
-import android.app.NotificationChannel
-import android.app.NotificationManager
-import android.app.PendingIntent
+import android.app.*
 import android.content.Context
 import android.content.Context.NOTIFICATION_SERVICE
+import android.content.DialogInterface
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.content.res.AssetManager
@@ -207,6 +205,7 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
     var fabVisible = false
     var walkingLayerVis = true
     var cyclingLayerVis = true
+    var busLayerVis = true
 
     lateinit var navTextStart : TextView
     lateinit var navTextEnd : TextView
@@ -410,6 +409,10 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
                         url("asset://cycling_routes.geojson")
                     }
 
+                    +geoJsonSource("bus-network"){
+                        url("asset://bus_routes.geojson")
+                    }
+
                     +lineLayer("Walking-Layer", "walk-network"){
                         lineCap(LineCap.ROUND)
                         lineJoin(LineJoin.ROUND)
@@ -428,6 +431,15 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
                         lineOpacity(1.0)
                         lineWidth(2.0)
                         lineColor(ContextCompat.getColor(requireContext(),R.color.splitComp2Dark))
+                        visibility(Visibility.NONE)
+                    }
+
+                    +lineLayer("Bus-Layer", "bus-network"){
+                        lineCap(LineCap.ROUND)
+                        lineJoin(LineJoin.ROUND)
+                        lineOpacity(1.0)
+                        lineWidth(2.0)
+                        lineColor(ContextCompat.getColor(requireContext(),R.color.splitComp2Light))
                         visibility(Visibility.NONE)
                     }
 
@@ -635,6 +647,12 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
             cyclingLayerVis = !cyclingLayerVis
         }
 
+        val busOverlay  =  requireView().findViewById<CardView>(R.id.bus_layer)
+        busOverlay.setOnClickListener {
+            ToggleLandmarks(busLayerVis, "Bus-Layer")
+            busLayerVis = !busLayerVis
+        }
+
 
         val mapOptionButton = requireView().findViewById<ImageButton>(R.id.layerFab)
         val switchesContaier = requireView().findViewById<CardView>(R.id.LayersCard)
@@ -691,7 +709,7 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
                     ShowBottomSheet()
                     getLocation()
                     val locationInfo = myLocation.split("_")
-                    SendRouteToDatabase(navStart,navEnd,locationInfo[0],locationInfo[1],"Request")
+                    SendRouteToDatabase(navStart,navEnd,locationInfo[0],locationInfo[1],"Request",null)
                 }
             }
         }
@@ -1861,13 +1879,13 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
             }
 
             override fun completeRoute(myDetails: RouteValue) {
-                AddToTotalGamification(myDetails.distance,myDetails.transportType,"Distance_")
-                AddToTotalGamification(myDetails.health,myDetails.transportType,"Health_")
-                AddToTotalGamification(myDetails.CoSave,myDetails.transportType,"CoSave_")
+                AskToCompleatRoute(myDetails)
             }
 
             override fun rateRoute(myDetails: RouteValue) {
-                //TODO("Not yet implemented")
+                getLocation()
+                val locationInfo = myLocation.split("_")
+                RateRoute(myDetails, locationInfo[0],locationInfo[1])
             }
 
         })
@@ -2977,7 +2995,148 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
         }
     }
 
-    private fun SendRouteToDatabase(startName: String, endName: String, locationLat: String, locationLng: String, code : String) {
+    fun AskToCompleatRoute(routeValue: RouteValue){
+        val positiveButtonClick = { dialog: DialogInterface, which: Int ->
+            CompleateRoute(routeValue)
+            AddToTotalGamification(routeValue.distance,routeValue.transportType,"Distance_")
+            AddToTotalGamification(routeValue.health,routeValue.transportType,"Health_")
+            AddToTotalGamification(routeValue.CoSave,routeValue.transportType,"CoSave_")
+        }
+
+        var newDialog = MaterialAlertDialogBuilder(requireContext())
+            .setMessage("Completing a route will add this route to your log book, as well as provide information to researchers about how transport in the Lake District could be improved.")
+            .setNeutralButton("Not Now",null)
+            .setPositiveButton("Complete",positiveButtonClick)
+            .show()
+
+    }
+
+    fun CompleateRoute(routeValue: RouteValue){
+
+        val builder = AlertDialog.Builder(requireContext())
+        val reasons = arrayOf("No Major Reason", "Carbon Savings", "Shortest Distance", "Quickest time",  "Most Scenic Route", "Low Cost","Most Convenient for me", "Other modes are too inconvenient", "Other" )
+
+//        val positiveButtonClick = { dialog: DialogInterface, which: Int ->
+//            CalculateCarbon(view)
+//        }
+//        val negativeButtonClick = { dialog: DialogInterface, which: Int ->
+//            val CalculateButton : Button = view.findViewById(R.id.buttonCalculate)
+//            CalculateButton.visibility = View.VISIBLE
+//        }
+
+
+        with(builder){
+            setTitle("What was your primary reason for choosing this mode of transport?")
+            setItems(reasons) { dialog : DialogInterface, which : Int ->
+                val myReason = reasons[which]
+                RouteLog(routeValue, myReason)
+                EmojiThanks()
+            }
+
+            setNeutralButton("Go Back", null)
+            show()
+        }
+    }
+
+    fun RouteLog(routeValue: RouteValue, mainReason : String){
+        getLocation()
+        val locationInfo = myLocation.split("_")
+        SendRouteToDatabase(routeValue.startName,routeValue.endName,locationInfo[0],locationInfo[1],"Completion",mainReason)
+
+    }
+
+
+
+    fun RateRoute(routeValue: RouteValue,locationLat: String, locationLng: String){
+        AskEmoji(routeValue,locationLat,locationLng)
+    }
+
+    fun AskEmoji(routeValue: RouteValue,locationLat: String, locationLng: String){
+        var viewToShow = layoutInflater.inflate( R.layout.rate_layout, null  )
+        var newDialog = MaterialAlertDialogBuilder(requireContext())
+            .setView(viewToShow)
+
+            .show()
+
+        //Set up buttons
+        with (newDialog){
+            var emojiButton_sad = findViewById<CardView>(R.id.emojiCard_Sad)
+            emojiButton_sad!!.setOnClickListener(){
+                EmojiLog("Sad",routeValue,locationLat,locationLng)
+                EmojiThanks()
+                newDialog.dismiss()
+            }
+
+            var emojiButton_neutral = findViewById<CardView>(R.id.emojiCard_Neutral)
+            emojiButton_neutral!!.setOnClickListener(){
+                EmojiLog("Neutral",routeValue,locationLat,locationLng)
+                EmojiThanks()
+                newDialog.dismiss()
+            }
+
+            var emojiButton_happy = findViewById<CardView>(R.id.emojiCard_Happy)
+            emojiButton_happy!!.setOnClickListener(){
+                EmojiLog("Happy",routeValue,locationLat,locationLng)
+                EmojiThanks()
+                newDialog.dismiss()
+            }
+
+            var emojiButton_love = findViewById<CardView>(R.id.emojiCard_Love)
+            emojiButton_love!!.setOnClickListener(){
+                EmojiLog("Love",routeValue,locationLat,locationLng)
+                EmojiThanks()
+                newDialog.dismiss()
+            }
+
+            var emojiButton_tired = findViewById<CardView>(R.id.emojiCard_Tired)
+            emojiButton_tired!!.setOnClickListener(){
+                EmojiLog("Tired",routeValue,locationLat,locationLng)
+                EmojiThanks()
+                newDialog.dismiss()
+            }
+
+            var emojiButton_woried = findViewById<CardView>(R.id.emojiCard_Woried)
+            emojiButton_woried!!.setOnClickListener(){
+                EmojiLog("Woried",routeValue,locationLat,locationLng)
+                EmojiThanks()
+                newDialog.dismiss()
+            }
+        }
+    }
+
+    fun EmojiThanks()
+    {
+        var viewToShow = layoutInflater.inflate( R.layout.rate_thanks, null  )
+        var newDialog = MaterialAlertDialogBuilder(requireContext())
+            .setView(viewToShow)
+
+            .show()
+    }
+
+
+    fun EmojiLog(emoji: String, routeValue: RouteValue,locationLat: String, locationLng: String){
+        val myRef = firebaseDatabase.getReference("Route Reactions")
+        var newRequest = myRef.child("Emoji Reaction").push()
+
+        var request = EmojiRate()
+        var details = RouteDetails() ; details.startLocation = routeValue.startName; details.endLocation = routeValue.endName
+        var location = RequestLocation() ; location.requestLat = locationLat ; location.requestLng = locationLng
+
+        val time = Calendar.getInstance().time
+        val formatter = SimpleDateFormat("yyyy-MM-dd HH:mm")
+        val current = formatter.format(time)
+
+        request.survey = getSurveyDetails()
+        request.routeDetails = details
+        request.requestLocation = location
+        request.date = current
+        request.emoji = emoji
+
+        newRequest.setValue(request)
+
+    }
+
+    private fun SendRouteToDatabase(startName: String, endName: String, locationLat: String, locationLng: String, code : String, reason : String?) {
         val myRef = firebaseDatabase.getReference("Route Requests")
         var newRequest = myRef.child(code).push()
 
@@ -2993,6 +3152,10 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
         request.routeDetails = details
         request.requestLocation = location
         request.date = current
+        if (reason != null){
+            request.mainReason = reason
+        }
+
 
         newRequest.setValue(request)
     }

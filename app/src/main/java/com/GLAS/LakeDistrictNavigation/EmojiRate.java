@@ -1,12 +1,12 @@
 package com.GLAS.LakeDistrictNavigation;
 
-public class RouteRequest {
+public class EmojiRate {
 
     private Survey survey;
     private RouteDetails routeDetails;
     private RequestLocation requestLocation;
     private String date;
-    private String mainReason;
+    private String emoji;
 
     public Survey getSurvey() {return survey;}
     public void setSurvey(Survey survey){
@@ -28,6 +28,7 @@ public class RouteRequest {
         this.date = date;
     }
 
-    public String getMainReason() {return mainReason;}
-    public void setMainReason(String mainReason) {this.mainReason = mainReason;}
+    public String getEmoji() {return emoji;}
+    public void setEmoji(String emoji) {this.emoji = emoji;}
+
 }
