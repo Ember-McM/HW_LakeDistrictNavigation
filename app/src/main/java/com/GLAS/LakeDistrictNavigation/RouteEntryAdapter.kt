@@ -1,6 +1,7 @@
 package com.GLAS.LakeDistrictNavigation
 
 import android.content.Context
+import android.content.DialogInterface
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -9,6 +10,7 @@ import android.widget.*
 import androidx.recyclerview.widget.RecyclerView
 import com.GLAS.LakeDistrictNavigation.ui.RouteValue
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
+import java.io.IOException
 
 
 class RouteEntryAdapter(private var mList: ArrayList<RouteValue>,var faveFrag : Boolean) : RecyclerView.Adapter<RouteEntryAdapter.ViewHolder>(){
@@ -28,10 +30,22 @@ class RouteEntryAdapter(private var mList: ArrayList<RouteValue>,var faveFrag : 
         fun completeRoute (myDetails: RouteValue)
 
         fun rateRoute (myDetails: RouteValue)
+
+        fun fillSurvey()
     }
 
     fun setOnItemClickListener(listner: onItemClickListner){
         mListener = listner
+    }
+
+    fun CheckIfCanAddToFaveorates(transportOption : String,startNode: String, endNode: String, routeDetails: RouteValue){
+        if (ReadFavorates().count() > 2 && getSurveyDetails() == null ){
+            AskToFillSurvey(transportOption,startNode,endNode,routeDetails)
+
+        }
+        else{
+            AddToFavorates(transportOption,startNode,endNode,routeDetails)
+        }
     }
 
     fun AddToFavorates(transportOption : String,startNode: String, endNode: String, routeDetails: RouteValue){
@@ -51,6 +65,27 @@ class RouteEntryAdapter(private var mList: ArrayList<RouteValue>,var faveFrag : 
             it.write(routeDetailsText.toByteArray())
         }
     }
+
+    fun AskToFillSurvey(transportOption : String,startNode: String, endNode: String, routeDetails: RouteValue){
+        var context =  holder.distanceValue.context
+
+        val positiveButtonClick = { dialog: DialogInterface, which: Int ->
+            AddToFavorates(transportOption,startNode,endNode,routeDetails)
+            mListener.fillSurvey()
+        }
+
+        val neutralButtonClick =  {dialog: DialogInterface, which: Int ->
+            holder.heartButton.setImageResource(R.drawable.ic_heart)
+        }
+
+
+        var newDialog = MaterialAlertDialogBuilder(context)
+            .setMessage("In order to save more than 3 routes, please fill in our survey.")
+            .setNeutralButton("Not Now",neutralButtonClick)
+            .setPositiveButton("Ok",positiveButtonClick)
+            .show()
+    }
+
 
     fun RemoveFromFavorates(transportOption : String,startNode: String, endNode: String, position: Int)
     {
@@ -185,9 +220,9 @@ class RouteEntryAdapter(private var mList: ArrayList<RouteValue>,var faveFrag : 
 
 
 
-        holder.tranquilityValue.text = myRoute.tranquility.toString()
+        holder.tranquilityValue.text = myRoute.tranquility.toInt().toString()  + "/5"
         holder.dificultyValue.text = myRoute.difficulty
-        holder.reliabilityValue.rating = myRoute.reliability.toFloat()
+        holder.reliabilityValue.text = myRoute.reliability.toInt().toString() + "/5"
         holder.co2Saved.text = myRoute.CoSave.round(1).toString() + "Kg"
 
         //handle the heart button
@@ -202,7 +237,7 @@ class RouteEntryAdapter(private var mList: ArrayList<RouteValue>,var faveFrag : 
             setOnClickListener(){
                 val favorateID = CheckIfFavorate(myRoute.transportType,myRoute.startName,myRoute.endName)
                 if (!favorateID.isFavorate){
-                    AddToFavorates(myRoute.transportType,myRoute.startName,myRoute.endName,myRoute)
+                    CheckIfCanAddToFaveorates(myRoute.transportType,myRoute.startName,myRoute.endName,myRoute)
                     setImageResource(R.drawable.heart_filled)
                 }
                 else{
@@ -315,7 +350,7 @@ class RouteEntryAdapter(private var mList: ArrayList<RouteValue>,var faveFrag : 
         val co2Value : TextView = itemView.findViewById(R.id.details_co2_value)
         val tranquilityValue : TextView = itemView.findViewById(R.id.details_tranq_value)
         val dificultyValue : TextView = itemView.findViewById(R.id.details_difficulty_value)
-        val reliabilityValue : RatingBar = itemView.findViewById(R.id.details_reliability_value)
+        val reliabilityValue : TextView = itemView.findViewById(R.id.details_reliability_value)
         val co2Saved : TextView = itemView.findViewById(R.id.details_coSave_value)
 
         val heartButton : ImageButton = itemView.findViewById(R.id.heartButton)
@@ -368,6 +403,39 @@ class RouteEntryAdapter(private var mList: ArrayList<RouteValue>,var faveFrag : 
         }
 
         return textTime
+    }
+
+    fun getSurveyDetails() : Survey?{
+        val survey = Survey()
+
+        var context =  holder.distanceValue.context
+        var files: Array<String> = context.fileList()
+        var mySurveyString : String = ""
+
+        if (files.isNotEmpty()){
+            for (e in files){//
+                if (e.startsWith("Survey_Filled")){
+                    try {
+                        context.openFileInput(e).bufferedReader().useLines { lines ->
+                            val readtext = lines.fold("") { some, text ->
+                                "$some\n$text"}
+                            mySurveyString = readtext
+                        }
+                    }catch (e: IOException) {
+                    }
+                }
+            }
+        }
+        if (mySurveyString != ""){
+            Log.v("survey", mySurveyString)
+            val strings = mySurveyString.split("_")
+            survey.age = strings[0] ; survey.gender = strings[1] ; survey.group = strings[2] ; survey.employment = strings[3] ; survey.arrival = strings[4]
+        }
+        else{
+            Log.v("survey", "No filled in Survey")
+            return null
+        }
+        return survey
     }
 
 }

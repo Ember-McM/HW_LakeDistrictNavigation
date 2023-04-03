@@ -20,7 +20,7 @@
         <entry key="..\:/Users/Ember/AndroidStudioProjects/LakeDistrictNavigation/app/src/main/res/layout/conection_entry.xml" value="0.4123314065510597" />
         <entry key="..\:/Users/Ember/AndroidStudioProjects/LakeDistrictNavigation/app/src/main/res/layout/fragment_dashboard.xml" value="0.17831813576494426" />
         <entry key="..\:/Users/Ember/AndroidStudioProjects/LakeDistrictNavigation/app/src/main/res/layout/fragment_favorates.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Ember/AndroidStudioProjects/LakeDistrictNavigation/app/src/main/res/layout/fragment_gamification.xml" value="0.25" />
+        <entry key="..\:/Users/Ember/AndroidStudioProjects/LakeDistrictNavigation/app/src/main/res/layout/fragment_gamification.xml" value="0.33" />
         <entry key="..\:/Users/Ember/AndroidStudioProjects/LakeDistrictNavigation/app/src/main/res/layout/fragment_home.xml" value="0.17831813576494426" />
         <entry key="..\:/Users/Ember/AndroidStudioProjects/LakeDistrictNavigation/app/src/main/res/layout/fragment_location.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/Ember/AndroidStudioProjects/LakeDistrictNavigation/app/src/main/res/layout/fragment_map_box.xml" value="0.33" />
@@ -31,7 +31,7 @@
         <entry key="..\:/Users/Ember/AndroidStudioProjects/LakeDistrictNavigation/app/src/main/res/layout/journey_entry.xml" value="0.33" />
         <entry key="..\:/Users/Ember/AndroidStudioProjects/LakeDistrictNavigation/app/src/main/res/layout/location_info_popup.xml" value="0.21331521739130435" />
         <entry key="..\:/Users/Ember/AndroidStudioProjects/LakeDistrictNavigation/app/src/main/res/layout/modal_bottom_sheet_content.xml" value="0.223731884057971" />
-        <entry key="..\:/Users/Ember/AndroidStudioProjects/LakeDistrictNavigation/app/src/main/res/layout/ranger_splash.xml" value="0.25" />
+        <entry key="..\:/Users/Ember/AndroidStudioProjects/LakeDistrictNavigation/app/src/main/res/layout/ranger_splash.xml" value="0.33" />
         <entry key="..\:/Users/Ember/AndroidStudioProjects/LakeDistrictNavigation/app/src/main/res/layout/rate_layout.xml" value="0.365625" />
         <entry key="..\:/Users/Ember/AndroidStudioProjects/LakeDistrictNavigation/app/src/main/res/layout/rate_thanks.xml" value="0.2962962962962963" />
         <entry key="..\:/Users/Ember/AndroidStudioProjects/LakeDistrictNavigation/app/src/main/res/layout/route_quicklook.xml" value="0.75" />

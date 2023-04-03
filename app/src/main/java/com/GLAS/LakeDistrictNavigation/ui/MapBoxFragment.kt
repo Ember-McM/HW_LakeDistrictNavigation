@@ -34,6 +34,7 @@ import androidx.core.content.ContextCompat
 import androidx.core.content.ContextCompat.getSystemService
 import androidx.core.content.FileProvider
 import androidx.fragment.app.Fragment
+import androidx.navigation.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.GLAS.LakeDistrictNavigation.*
@@ -1886,6 +1887,11 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
                 getLocation()
                 val locationInfo = myLocation.split("_")
                 RateRoute(myDetails, locationInfo[0],locationInfo[1])
+            }
+
+            override fun fillSurvey() {
+                val action = MapBoxFragmentDirections.actionMapBoxFragmentToSurveyFragment()
+                view!!.findNavController().navigate(action)
             }
 
         })

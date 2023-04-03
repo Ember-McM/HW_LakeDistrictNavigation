@@ -70,12 +70,11 @@
             android:id="@+id/heartButton"
             android:layout_width="34dp"
             android:layout_height="34dp"
-            android:layout_marginStart="5dp"
+            android:layout_marginTop="16dp"
             android:backgroundTint="#00FFFFFF"
             android:src="@drawable/ic_heart"
-            app:layout_constraintBottom_toBottomOf="@+id/details_quick"
             app:layout_constraintEnd_toEndOf="@+id/transport_icon"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/transport_icon"
             app:layout_constraintTop_toBottomOf="@+id/transport_icon" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -109,6 +108,7 @@
                         android:id="@+id/transport_button_compleat"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
                         android:layout_marginEnd="8dp"
                         android:text="Complete"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -121,7 +121,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
-                        android:layout_marginEnd="8dp"
                         android:text="Download"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toStartOf="@+id/transport_button_compleat"
@@ -327,26 +326,19 @@
                 android:id="@+id/details_difficulty_value"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="2dp"
                 android:layout_marginEnd="8dp"
                 android:text="Difficulty:"
                 android:textSize="12sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/details_tranq_value" />
 
-            <RatingBar
+            <TextView
                 android:id="@+id/details_reliability_value"
-                style="@style/Widget.AppCompat.RatingBar.Small"
-                android:layout_width="0dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
                 android:layout_marginEnd="8dp"
-                android:isIndicator="false"
-                android:numStars="5"
-                android:progressTint="#9e9e9e"
-                android:rating="3.5"
-                android:rotationY="180"
-                app:layout_constraintBottom_toBottomOf="@+id/details_reliability"
+                android:text="Realiability"
+                android:textSize="12sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/details_difficulty_value" />
 

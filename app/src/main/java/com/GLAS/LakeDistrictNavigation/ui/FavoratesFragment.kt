@@ -93,6 +93,10 @@ class FavoratesFragment : Fragment() {
             override fun rateRoute(myDetails: RouteValue) {
 
             }
+
+            override fun fillSurvey() {
+
+            }
         })
 
 

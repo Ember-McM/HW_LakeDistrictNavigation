@@ -80,6 +80,9 @@
         <action
             android:id="@+id/action_mapBoxFragment_to_favoratesFragment"
             app:destination="@id/favoratesFragment" />
+        <action
+            android:id="@+id/action_mapBoxFragment_to_surveyFragment"
+            app:destination="@id/surveyFragment" />
 
     </fragment>
     <fragment
