@@ -60,7 +60,8 @@ class MainActivity : AppCompatActivity() {
 
 
         fusedLocationProvider = LocationServices.getFusedLocationProviderClient(this)
-        checkLocationPermission()
+        //checkLocationPermission()
+        requestLocationPermission()
     }
     private var fusedLocationProvider: FusedLocationProviderClient? = null
     private val locationRequest: LocationRequest = LocationRequest.create().apply {

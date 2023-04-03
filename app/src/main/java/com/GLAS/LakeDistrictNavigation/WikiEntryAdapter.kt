@@ -91,6 +91,14 @@ class WikiEntryAdapter(private var mList: List<WikiViewModel>) : RecyclerView.Ad
 
         holder.readMore.setOnClickListener(){
             readMoreText(holder)
+            with (holder.readMoreText){
+                if (text == "Read Less"){
+                    text = "Read More"
+                }
+                else{
+                    text = "Read Less"
+                }
+            }
         }
         holder.locateButton.setOnClickListener(){
             mListener.showOnMapClick(WikiViewModel.placeLocation)
@@ -146,6 +154,7 @@ class WikiEntryAdapter(private var mList: List<WikiViewModel>) : RecyclerView.Ad
         val longDesc: TextView = itemView.findViewById(R.id.LongText)
         val distanceText: TextView = itemView.findViewById(R.id.Distance)
         val readMore : CardView = itemView.findViewById(R.id.ReadMoreCard)
+        val readMoreText : TextView = itemView.findViewById(R.id.ReadMoreText)
 
         val linkButton : ImageView = itemView.findViewById(R.id.LinkButton)
         val locateButton : ImageView = itemView.findViewById(R.id.LocateButton)

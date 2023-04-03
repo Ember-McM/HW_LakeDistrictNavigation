@@ -23,11 +23,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
+import androidx.activity.result.ActivityResultLauncher
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.annotation.DrawableRes
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.asynclayoutinflater.view.AsyncLayoutInflater
 import androidx.cardview.widget.CardView
 import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.core.app.ActivityCompat
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import androidx.core.content.ContextCompat
@@ -89,6 +92,7 @@ import com.mapbox.maps.plugin.gestures.addOnMapClickListener
 import com.mapbox.maps.plugin.locationcomponent.location
 import com.mapbox.maps.viewannotation.ViewAnnotationManager
 import com.mapbox.maps.viewannotation.viewAnnotationOptions
+import com.tbruyelle.rxpermissions3.RxPermissions
 import io.ticofab.androidgpxparser.parser.GPXParser
 import io.ticofab.androidgpxparser.parser.domain.Gpx
 import org.jgrapht.Graph
@@ -105,6 +109,7 @@ import retrofit2.Response
 import java.io.*
 import java.text.SimpleDateFormat
 import java.util.*
+import java.util.jar.Manifest
 import kotlin.math.roundToInt
 
 
@@ -140,6 +145,8 @@ enum class ClickMode{
 }
 
 class MapBoxFragment : Fragment(), OnMapClickListener {
+    private lateinit var reqestPermissions: ActivityResultLauncher<String>
+
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -227,11 +234,24 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
     var myLocation = "No Location_No Location"
     private lateinit var notificationManager: NotificationManager
 
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
+        }
+
+        reqestPermissions = registerForActivityResult(ActivityResultContracts.RequestPermission()){
+                isGranted : Boolean ->
+            if (isGranted){
+                SaveWalkGPX()
+                Log.v("Permsions","IsGranted")
+            }
+            else{
+                Log.v("Permsions","NotGranted")
+            }
         }
 
 
@@ -729,7 +749,7 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
                     false
                 )
             )
-            .maxZoom(15.0)
+            .maxZoom(17.0)
             .minZoom(7.0)
 
             .build()
@@ -751,7 +771,7 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
                         zoomLocation.longitude,zoomLocation.latitude
                     )
                 )
-                .zoom(11.0)
+                .zoom(14.0)
                 .build()
             mapView.getMapboxMap().setCamera(cameraPosition)
         }
@@ -1876,7 +1896,7 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
             }
 
             override fun downloadRoute(string: String) {
-                SaveWalkGPX()
+                DownloadPermsions()
             }
 
             override fun completeRoute(myDetails: RouteValue) {
@@ -2562,9 +2582,32 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
         return routeArray
     }
 
+
+
+    fun DownloadPermsions(){
+
+
+        when {requireContext().checkSelfPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE)
+                == PackageManager.PERMISSION_GRANTED -> {SaveWalkGPX()}
+            ActivityCompat.shouldShowRequestPermissionRationale(requireActivity(),android.Manifest.permission_group.STORAGE)
+                     -> {
+                         //Show Rational
+                Log.v("Permsions","Show Rational")
+                         reqestPermissions.launch(android.Manifest.permission.WRITE_EXTERNAL_STORAGE)
+                     }
+            else -> {
+                //Not Requested
+                Log.v("Permsions","No Responce")
+                reqestPermissions.launch(android.Manifest.permission.WRITE_EXTERNAL_STORAGE)
+            }
+        }
+    }
+
+
+
+
     @SuppressLint("MissingPermission")
     fun SaveWalkGPX(){
-
         var root = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS)
         //if you want to create a sub-dir
         var folder = File(root, "Lake_District_GPX")
@@ -2608,12 +2651,13 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
         val intent = Intent()
         intent.action = Intent.ACTION_OPEN_DOCUMENT
 
-        intent.data = FileProvider.getUriForFile(requireContext(), requireContext().getApplicationContext().getPackageName() + ".provider",folder)
+        intent.data = FileProvider.getUriForFile(requireContext(), requireContext().getApplicationContext().getPackageName() + ".provider",root)
         intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+        Log.v("SaveLoad"," Saved to: "+ intent.data.toString())
 
 
 
-        val pIntent = PendingIntent.getActivity(requireContext(), 0, intent, 0)
+        val pIntent = PendingIntent.getActivity(requireContext(), 0, intent, PendingIntent.FLAG_MUTABLE)
 
 
 
