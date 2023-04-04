@@ -3,7 +3,6 @@ package com.GLAS.LakeDistrictNavigation.ui
 import android.annotation.SuppressLint
 import android.app.*
 import android.content.Context
-import android.content.Context.NOTIFICATION_SERVICE
 import android.content.DialogInterface
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -13,6 +12,8 @@ import android.graphics.BitmapFactory
 import android.graphics.Canvas
 import android.graphics.drawable.BitmapDrawable
 import android.graphics.drawable.Drawable
+import android.location.Address
+import android.location.Geocoder
 import android.location.Location
 import android.net.Uri
 import android.os.Build
@@ -34,7 +35,6 @@ import androidx.core.app.ActivityCompat
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import androidx.core.content.ContextCompat
-import androidx.core.content.ContextCompat.getSystemService
 import androidx.core.content.FileProvider
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
@@ -92,7 +92,6 @@ import com.mapbox.maps.plugin.gestures.addOnMapClickListener
 import com.mapbox.maps.plugin.locationcomponent.location
 import com.mapbox.maps.viewannotation.ViewAnnotationManager
 import com.mapbox.maps.viewannotation.viewAnnotationOptions
-import com.tbruyelle.rxpermissions3.RxPermissions
 import io.ticofab.androidgpxparser.parser.GPXParser
 import io.ticofab.androidgpxparser.parser.domain.Gpx
 import org.jgrapht.Graph
@@ -109,7 +108,6 @@ import retrofit2.Response
 import java.io.*
 import java.text.SimpleDateFormat
 import java.util.*
-import java.util.jar.Manifest
 import kotlin.math.roundToInt
 
 
@@ -234,6 +232,8 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
     var myLocation = "No Location_No Location"
     private lateinit var notificationManager: NotificationManager
 
+    var MyLoc : Location? = null
+    var CityName : String = ""
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -1109,7 +1109,7 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
 
             bigList.addAll(line.points)
         }
-        val cameraPosition = mapboxMap.cameraForCoordinates(bigList,EdgeInsets(150.0, 75.0, 650.0, 75.0),null,null)
+        val cameraPosition = mapboxMap.cameraForCoordinates(bigList,EdgeInsets(100.0, 75.0, 850.0, 75.0),null,null)
         // Set camera position
         mapboxMap.setCamera(cameraPosition)
         CheckRouteForCoolStuff(bigList)
@@ -2462,7 +2462,7 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
             .zoom(11.0)
             .build()
 
-        val cameraPosition = mapboxMap.cameraForCoordinates(bigList,EdgeInsets(150.0, 75.0, 650.0, 75.0),null,null)
+        val cameraPosition = mapboxMap.cameraForCoordinates(bigList,EdgeInsets(100.0, 75.0, 850.0, 75.0),null,null)
         // Set camera position
         mapboxMap.setCamera(cameraPosition)
         if (mapboxMap.cameraState.zoom > 11)
@@ -2510,7 +2510,7 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
             .zoom(11.0)
             .build()
 
-        val cameraPosition = mapboxMap.cameraForCoordinates(bigList,EdgeInsets(150.0, 75.0, 650.0, 75.0),null,null)
+        val cameraPosition = mapboxMap.cameraForCoordinates(bigList,EdgeInsets(100.0, 75.0, 850.0, 75.0),null,null)
         // Set camera position
         mapboxMap.setCamera(cameraPosition)
         if (mapboxMap.cameraState.zoom > 11)
@@ -3178,10 +3178,13 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
 
         request.survey = getSurveyDetails()
         request.routeDetails = details
-        request.requestLocation = location
         request.date = current
         request.emoji = emoji
 
+        if (AmIInTheLakes(locationLat.toDouble(),locationLng.toDouble()) && getSurveyDetails().useLocation == true){
+            request.areInLakes = "In Lake District"
+            Log.v("Location", "Shared: I am in the Lakes")
+        }
         newRequest.setValue(request)
 
     }
@@ -3200,12 +3203,15 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
 
         request.survey = getSurveyDetails()
         request.routeDetails = details
-        request.requestLocation = location
+
         request.date = current
         if (reason != null){
             request.mainReason = reason
         }
-
+        if (AmIInTheLakes(locationLat.toDouble(),locationLng.toDouble()) && getSurveyDetails().useLocation == true){
+            request.areInLakes = "In Lake District"
+            Log.v("Location", "Shared: I am in the Lakes")
+        }
 
         newRequest.setValue(request)
     }
@@ -3225,8 +3231,13 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
         request.survey = getSurveyDetails()
         request.visitPlace = placeName
         request.visitType = placeType
-        request.requestLocation = location
         request.date = current
+
+        if (AmIInTheLakes(locationLat.toDouble(),locationLng.toDouble()) && getSurveyDetails().useLocation == true){
+            request.areInLakes = "In Lake District"
+            Log.v("Location", "Shared: I am in the Lakes")
+        }
+
 
         newRequest.setValue(request)
     }
@@ -3255,7 +3266,16 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
         if (mySurveyString != ""){
             Log.v("survey", mySurveyString)
             val strings = mySurveyString.split("_")
-            survey.age = strings[0] ; survey.gender = strings[1] ; survey.group = strings[2] ; survey.employment = strings[3] ; survey.arrival = strings[4]
+            survey.age = strings[0] ; survey.gender = strings[1] ; survey.group = strings[2] ; survey.employment = strings[3] ; survey.arrival = strings[4] ;
+            if (strings.count() > 4){
+                survey.useLocation = strings[5] == "true"
+
+            }
+            else{
+                survey.useLocation = false
+            }
+
+
         }
         else{
             Log.v("survey", "No filled in Survey")
@@ -3263,15 +3283,42 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
         return survey
     }
 
+    fun AmIInTheLakes(latitude: Double,longitude: Double) : Boolean {
+
+        if (latitude != null){
+            //Lower Bounds = 54.185567757414454, -3.6637388236082105
+            //Upper Bounds = 54.766136795321124, -2.665023197058637
+            Log.v("Location","My Lat Long = " + latitude + ", " +longitude )
+            if (latitude > 54 && latitude < 55 && longitude > -3.8 && longitude < - 2.5  ){
+                Log.v("Location","My location is in the lakes" )
+                return true
+            }
+            else{
+                Log.v("Location","My location is not in the lakes" )
+                return false
+            }
+        }
+        else{
+            Log.v("Location","My location is null?" )
+            return false
+        }
+    }
+
+
+
     @SuppressLint("MissingPermission")
-    fun getLocation() {
+    fun getLocation() : Location? {
+        MyLoc = null
         if (ContextCompat.checkSelfPermission(requireContext(), android.Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED ){
             fusedLocationClient.lastLocation
                 .addOnSuccessListener { location ->
+                    MyLoc = location
                     // Got last known location. In some rare situations this can be null.
                     if (location != null) {
                         myLocation = location.latitude.toString() + "_" + location.longitude.toString()
                         Log.v("mylocation", myLocation.toString())
+
+
                     }
                     else{
                         Log.v("mylocation", "I Am Null?")
@@ -3280,6 +3327,7 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
                 }
             //Log.v("mylocation", "I Tried")
         }
+        return MyLoc
     }
 
     fun readLocationsToVisit(){

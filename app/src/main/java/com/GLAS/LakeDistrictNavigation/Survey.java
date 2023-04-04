@@ -9,6 +9,7 @@ public class Survey {
     private String group;
     private String employment;
     private String arrival;
+    private Boolean useLocation;
 
     //We need seters and geters for everything to make this work...
     public String getAge() {
@@ -50,4 +51,7 @@ public class Survey {
     public void setArrival(String arrival) {
         this.arrival = arrival;
     }
+
+    public Boolean getUseLocation() {return useLocation;}
+    public void setUseLocation(Boolean useLocation){this.useLocation = useLocation;}
 }

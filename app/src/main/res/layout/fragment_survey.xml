@@ -40,7 +40,7 @@
         app:layout_constraintStart_toStartOf="@+id/surveyThanks"
         app:layout_constraintTop_toBottomOf="@+id/surveyThanks"
 
-        tools:visibility="visible" />
+        tools:visibility="gone" />
 
     <Button
         android:id="@+id/deleteSurveyAnsers"
@@ -56,7 +56,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/restartSurveyButton"
 
-        tools:visibility="visible" />
+        tools:visibility="gone" />
 
     <Button
         android:id="@+id/startSurveyButton"
@@ -79,7 +79,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4">
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:visibility="visible">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -375,6 +376,68 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
 
+            <androidx.cardview.widget.CardView
+                android:id="@+id/UseLocationCard"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="16dp"
+                android:clipChildren="true"
+                android:clipToPadding="true"
+                multi_line_radio_group:cardCornerRadius="32dp"
+                multi_line_radio_group:layout_constraintBottom_toBottomOf="parent"
+                multi_line_radio_group:layout_constraintEnd_toEndOf="parent"
+                multi_line_radio_group:layout_constraintStart_toStartOf="parent"
+                multi_line_radio_group:layout_constraintTop_toBottomOf="@+id/textView4">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/UseLocationTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/main_blue"
+                        android:text="Share Location with Researchers?"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        multi_line_radio_group:layout_constraintEnd_toEndOf="parent"
+                        multi_line_radio_group:layout_constraintStart_toStartOf="parent"
+                        multi_line_radio_group:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:text="This is only a true or false statement for checking if you are currently visiting the Lake District. Detailed location information is not collected."
+                        android:textAlignment="textStart"
+                        android:textColor="#8E8E8E"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/radioUseLocation" />
+
+                    <com.whygraphics.multilineradiogroup.MultiLineRadioGroup
+                        android:id="@+id/radioUseLocation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:max_in_row="2"
+                        multi_line_radio_group:layout_constraintEnd_toEndOf="parent"
+                        multi_line_radio_group:layout_constraintStart_toStartOf="parent"
+                        multi_line_radio_group:layout_constraintTop_toBottomOf="@+id/UseLocationTitle"
+
+                        multi_line_radio_group:radio_buttons="@array/radio_useLocation" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
             <Button
                 android:id="@+id/endSurveyButton"
                 android:layout_width="match_parent"
@@ -414,7 +477,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
-        tools:visibility="visible">
+        tools:visibility="gone">
 
         <TextView
             android:id="@+id/surveyMessage"

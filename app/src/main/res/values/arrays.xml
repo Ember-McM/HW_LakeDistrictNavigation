@@ -48,4 +48,9 @@
         <item>Plane</item>
     </string-array>
 
+    <string-array name="radio_useLocation">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
 </resources>

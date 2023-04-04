@@ -23,7 +23,7 @@ private const val ARG_PARAM2 = "param2"
  * create an instance of this fragment.
  */
 
-data class SurveyAnswers(var age:String = "", var gender:String = "",var group:String = "",var employment:String = "",var arrive:String = "")
+data class SurveyAnswers(var age:String = "", var gender:String = "",var group:String = "",var employment:String = "",var arrive:String = "", var useLocation:String = "")
 class SurveyFragment : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
@@ -139,11 +139,24 @@ class SurveyFragment : Fragment() {
             NewSurveyAnswer.employment = button.text.toString()
             checkSurvey()
         })
+
+        val LocationRadioGroup  : MultiLineRadioGroup = view.findViewById(R.id.radioUseLocation)
+        LocationRadioGroup.setOnCheckedChangeListener(MultiLineRadioGroup.OnCheckedChangeListener { group, button ->
+            Log.v("Radio", button.text.toString() )
+            if (button.text.toString() == "Yes"){
+                NewSurveyAnswer.useLocation = "true"
+            }
+            else{
+                NewSurveyAnswer.useLocation = "false"
+            }
+            checkSurvey()
+        })
+
     }
 
     fun checkSurvey()
     {
-        if (NewSurveyAnswer.age != "" && NewSurveyAnswer.gender != "" && NewSurveyAnswer.arrive != "" && NewSurveyAnswer.arrive != ""&& NewSurveyAnswer.group != "" ){
+        if (NewSurveyAnswer.age != "" && NewSurveyAnswer.gender != "" && NewSurveyAnswer.arrive != "" && NewSurveyAnswer.arrive != ""&& NewSurveyAnswer.group != "" && NewSurveyAnswer.useLocation != "" ){
             endSurvey.isEnabled = true
         }
         else
@@ -156,7 +169,7 @@ class SurveyFragment : Fragment() {
     {
         var context =  view.context
 
-        val fileContents = NewSurveyAnswer.age +"_"+ NewSurveyAnswer.gender +"_"+ NewSurveyAnswer.group +"_"+ NewSurveyAnswer.employment +"_"+ NewSurveyAnswer.arrive
+        val fileContents = NewSurveyAnswer.age +"_"+ NewSurveyAnswer.gender +"_"+ NewSurveyAnswer.group +"_"+ NewSurveyAnswer.employment +"_"+ NewSurveyAnswer.arrive +"_"+NewSurveyAnswer.useLocation
         var fileName = "Survey_Filled"
 
         Log.v("saveload", fileContents)

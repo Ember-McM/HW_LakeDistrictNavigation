@@ -5,8 +5,9 @@ public class VisitDetails
     private Survey survey;
     private String visitPlace;
     private String visitType;
-    private RequestLocation requestLocation;
+
     private String date;
+    private String areInLakes;
 
     public Survey getSurvey() {return survey;}
     public void setSurvey(Survey survey){
@@ -21,10 +22,9 @@ public class VisitDetails
     public String getVisitType() {return visitType;}
     public void setVisitType(String visitType) {this.visitType = visitType;}
 
-    public RequestLocation getRequestLocation() {return requestLocation;}
-    public void setRequestLocation(RequestLocation requestLocation){
-        this.requestLocation = requestLocation;
-    }
+    public String getAreInLakes() {return areInLakes;}
+    public void setAreInLakes(String areInLakes){this.areInLakes = areInLakes;}
+
 
     public String getDate() {return date;}
     public void setDate(String date){

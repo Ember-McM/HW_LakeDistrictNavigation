@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/welcome_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -44,31 +45,16 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/welcome_text_exp"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="32dp"
-        android:text="This is a route planning app in the Lake District. It has not been designed for navigation. You can use Open Street Maps, Google Maps or other navigation apps."
-        android:textColor="#535353"
-        android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/welcome_text" />
-
-    <TextView
         android:id="@+id/welcome_text_exp2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="8dp"
         android:layout_marginEnd="32dp"
-        android:text="Walking and Cycling can be dangerous, and LDRP gives no guaranty of the accuracy or conditions of the routes presented in the app. Users should ensure that routes they plan on using are within their capabilities and accept personal responsibility for their own safety. LDRP recommender users carry backup means of navigation such as a map and compass."
+        android:text="Walking and Cycling can be dangerous, and LDN gives no guaranty of the accuracy or conditions of the routes presented in the app. Users should ensure that routes they plan on using are within their capabilities and accept personal responsibility for their own safety. LDN recommender users carry backup means of navigation such as a map and compass."
         android:textColor="#535353"
-        android:textSize="12sp"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/welcome_text_exp" />
+        app:layout_constraintTop_toBottomOf="@+id/welcome_text" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
