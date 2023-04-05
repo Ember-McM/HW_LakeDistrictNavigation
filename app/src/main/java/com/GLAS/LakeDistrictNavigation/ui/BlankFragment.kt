@@ -1,9 +1,23 @@
 package com.GLAS.LakeDistrictNavigation.ui
 
+import android.Manifest
+import android.annotation.SuppressLint
+import android.app.AlertDialog
+import android.content.Intent
+import android.content.pm.PackageManager
+import android.net.Uri
+import android.os.Build
 import android.os.Bundle
+import android.os.Looper
+import android.provider.Settings
 import android.util.Log
 import android.view.*
+import android.widget.Toast
+import androidx.activity.result.ActivityResultLauncher
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
@@ -12,6 +26,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import com.GLAS.LakeDistrictNavigation.MainActivity
 import com.GLAS.LakeDistrictNavigation.R
+import com.google.android.gms.location.*
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 
@@ -30,7 +45,7 @@ class BlankFragment : Fragment() {
     private var param1: String? = null
     private var param2: String? = null
 
-
+    private lateinit var reqestPermissions: ActivityResultLauncher<String>
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -38,6 +53,18 @@ class BlankFragment : Fragment() {
         arguments?.let {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
+        }
+
+        reqestPermissions = registerForActivityResult(ActivityResultContracts.RequestPermission()){
+                isGranted : Boolean ->
+            if (isGranted){
+                LoadMainFragment()
+                Log.v("Permsions","IsGranted")
+            }
+            else{
+                LoadMainFragment()
+                Log.v("Permsions","NotGranted")
+            }
         }
     }
 
@@ -84,13 +111,64 @@ class BlankFragment : Fragment() {
 
         val constrainButton : ConstraintLayout = view.findViewById(R.id.welcome_layout)
         constrainButton.setOnClickListener(){
-            val action = BlankFragmentDirections.actionBlankFragmentToMapBoxFragment()
-            view.findNavController().navigate(action)
-            (activity as MainActivity).showNavView()
+            //Requsest Location
+            checkLocationPermission()
+
+
+//            val action = BlankFragmentDirections.actionBlankFragmentToMapBoxFragment()
+//            view.findNavController().navigate(action)
+//            (activity as MainActivity).showNavView()
         }
     }
 
-
-
-
+    private fun LoadMainFragment(){
+        val action = BlankFragmentDirections.actionBlankFragmentToMapBoxFragment()
+        requireView().findNavController().navigate(action)
+        (activity as MainActivity).showNavView()
     }
+
+
+    private fun checkLocationPermission() {
+
+        when {requireContext().checkSelfPermission(android.Manifest.permission.ACCESS_FINE_LOCATION)
+                == PackageManager.PERMISSION_GRANTED -> {
+                    //Just carry on
+                Log.v("Permsions","Granted")
+                    LoadMainFragment()
+                }
+
+            ActivityCompat.shouldShowRequestPermissionRationale(requireActivity(),android.Manifest.permission.ACCESS_FINE_LOCATION)
+            -> {
+                //Show Rational
+                Log.v("Permsions","Show Rational")
+                tellAboutPermsions()
+            }
+            else -> {
+                //Not Requested
+                Log.v("Permsions","No Responce")
+                tellAboutPermsions()
+            }
+        }
+    }
+
+    private fun tellAboutPermsions(){
+        var viewToShow = layoutInflater.inflate( R.layout.ask_for_permsions, null)
+        AlertDialog.Builder(requireContext())
+
+            .setView(viewToShow)
+            .setPositiveButton(
+                "OK"
+            ) { _, _ ->
+                //Prompt the user once explanation has been shown
+                reqestPermissions.launch(android.Manifest.permission.ACCESS_FINE_LOCATION)
+            }
+            .setNeutralButton("Maybe Later"){ _, _ ->
+                //Prompt the user once explanation has been shown
+                LoadMainFragment()
+            }
+            .create()
+            .show()
+    }
+
+
+}

@@ -755,7 +755,7 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
             .build()
 
         mapView.getMapboxMap().setBounds(Lakes_Bounds)
-        ReadRoutes()
+        //ReadRoutes()
 
 
         //Load any details coming from another fragment

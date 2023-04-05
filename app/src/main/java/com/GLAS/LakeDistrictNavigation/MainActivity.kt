@@ -29,7 +29,7 @@ import com.google.android.gms.location.*
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
-    private lateinit var navView : BottomNavigationView
+    private lateinit var navView: BottomNavigationView
     private var navVisibility = true
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
         }
         setContentView(binding.root)
 
-        navView= binding.navView
+        navView = binding.navView
 
         val navController = findNavController(R.id.nav_host_fragment_activity_main)
         // Passing each menu ID as a set of Ids because each
@@ -53,16 +53,16 @@ class MainActivity : AppCompatActivity() {
         //setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
-        if (!navVisibility){
+        if (!navVisibility) {
             navView.visibility = View.GONE
         }
 
 
-
-        fusedLocationProvider = LocationServices.getFusedLocationProviderClient(this)
+        //fusedLocationProvider = LocationServices.getFusedLocationProviderClient(this)
         //checkLocationPermission()
-        requestLocationPermission()
+        //requestLocationPermission()
     }
+
     private var fusedLocationProvider: FusedLocationProviderClient? = null
     private val locationRequest: LocationRequest = LocationRequest.create().apply {
         interval = 3000
@@ -88,17 +88,17 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun hideNavView(){
+    fun hideNavView() {
         navVisibility = false
-        if (this::navView.isInitialized){
+        if (this::navView.isInitialized) {
             navView.visibility = View.GONE
         }
 
     }
 
-    fun showNavView(){
+    fun showNavView() {
         navVisibility = true
-        if (this::navView.isInitialized){
+        if (this::navView.isInitialized) {
             navView.visibility = View.VISIBLE
         }
     }
