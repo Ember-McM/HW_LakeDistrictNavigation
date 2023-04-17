@@ -27,6 +27,7 @@
                 android:layout_height="wrap_content"
                 android:text="X4/X5"
                 android:textAlignment="textStart"
+                android:textColor="@color/black"
                 android:textSize="6sp"
                 android:visibility="gone"
                 app:layout_constraintEnd_toEndOf="@+id/bus"

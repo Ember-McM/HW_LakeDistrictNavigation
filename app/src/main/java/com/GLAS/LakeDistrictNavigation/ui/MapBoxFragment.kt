@@ -110,6 +110,7 @@ import retrofit2.Response
 import java.io.*
 import java.text.SimpleDateFormat
 import java.util.*
+import kotlin.collections.ArrayList
 import kotlin.math.roundToInt
 
 
@@ -214,6 +215,7 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
     var walkingLayerVis = true
     var cyclingLayerVis = true
     var busLayerVis = true
+    var busViews = ArrayList<View>()
 
     lateinit var navTextStart : TextView
     lateinit var navTextEnd : TextView
@@ -731,7 +733,7 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
 
             //If both start and end exist AND are not the same
 
-            if (navStart != "" && navEnd != ""){
+            if (navStart != "" && navEnd != "" && navStart != "Start Location" && navEnd != "End Location"){
                 val startNode = nodeListRedux.firstOrNull { it.name == navStart }!!
                 val endNode = nodeListRedux.firstOrNull { it.name == navEnd }!!
                 if (navStart != navEnd){
@@ -1310,6 +1312,13 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
 
             bigList.addAll(line.points)
         }
+
+
+
+
+
+
+
         val cameraPosition = mapboxMap.cameraForCoordinates(bigList,EdgeInsets(100.0, 75.0, 850.0, 75.0),null,null)
         // Set camera position
         mapboxMap.setCamera(cameraPosition)
@@ -1324,6 +1333,7 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
             options = viewAnnotationOptions {
                 geometry(point)
                 //associatedFeatureId(markerId)
+                visible(false)
                 anchor(ViewAnnotationAnchor.TOP)
                 allowOverlap(true)
             },
@@ -1337,6 +1347,10 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
                     offsetY(0)
                 }
             )
+
+            if (routeMode == "Bus"){
+                busViews.add(viewAnnotation)
+            }
 
             if (routeMode == "Walk") {viewAnnotation.findViewById<ImageView>(R.id.walk).visibility = View.VISIBLE
                 viewAnnotation.findViewById<ImageView>(R.id.walk).setImageResource(R.drawable.walk)}
@@ -1364,6 +1378,8 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
             if (viewAnnotation.findViewById<ImageView>(R.id.walk).visibility == View.VISIBLE){
                 Log.v("Graphics", "Where are you?" )
             }
+
+
 
 
         }
@@ -2145,6 +2161,23 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
             "car" -> highlightRoute(polylineAnnotationManagerCar)
             else -> Log.v("Highlight", "???")
         }
+
+        if (transportType == "bus"){
+            for (e in busViews) {
+                viewAnnotationManager.updateViewAnnotation(
+                    e,viewAnnotationOptions {
+                        visible(true)
+                    })
+            }
+        }
+        else{
+            for (e in busViews) {
+                viewAnnotationManager.updateViewAnnotation(
+                    e,viewAnnotationOptions {
+                        visible(false)
+                    })
+            }
+        }
     }
 
     private fun LookUpCode(codein : String, transportType: String): RouteValue? {
@@ -2257,6 +2290,7 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
         RemoveAllLinesFromStyle()
         RemoveAllPointsFromStyle()
         viewAnnotationManager.removeAllViewAnnotations()
+        busViews.clear()
         clickMode = ClickMode.START
         currentClick = ""
         polylineAnnotationManager.deleteAll()
@@ -2716,7 +2750,7 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
                 val annotation = polylineAnnotationManagerBus.create(polylineAnnotationOptions)
 
                 //val onPolyClick = OnPolylineAnnotationClickListener(annotation)
-                //PlaceRouteID(pointList[pointList.size * 1/2] , "Bus" , e.title )
+                PlaceRouteID(pointList[pointList.size * 1/2] , "Bus" , e.title )
             }
         }
         // Convert to a camera options to fit all neighbors and padding
