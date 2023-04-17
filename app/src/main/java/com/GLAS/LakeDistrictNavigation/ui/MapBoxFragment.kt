@@ -12,17 +12,19 @@ import android.graphics.BitmapFactory
 import android.graphics.Canvas
 import android.graphics.drawable.BitmapDrawable
 import android.graphics.drawable.Drawable
-import android.location.Address
-import android.location.Geocoder
 import android.location.Location
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.os.Environment
+import android.text.Editable
+import android.text.TextWatcher
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.WindowManager
+import android.view.inputmethod.InputMethodManager
 import android.widget.*
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
@@ -123,7 +125,7 @@ private const val ARG_PARAM2 = "param2"
  * Use the [MapBoxFragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-data class MapNode(val name: String, val latitude : Double, val longitude : Double )
+data class MapNode(val name: String, val latitude : Double, val longitude : Double, var location: Boolean = false )
 data class Connection(val startPoint: Point, val endPoint : Point, val usable: Boolean, val details : ConnectionDetails?)
 data class ConnectionVerbose(val startName : String, val endName : String, val connection: Connection)
 //Walk Rout	Car Route	Bike Rout	Bus Route	Ferry Rout	Train Rout
@@ -224,6 +226,7 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
     lateinit var clientDirections : MapboxDirections
     lateinit var dispayRoutes : ArrayList<RouteValue>
     lateinit var locationsToVisit : ArrayList<LocationToVisit>
+    lateinit var locationsToVisitNodes : ArrayList<MapNode>
 
     private lateinit var firebaseAnalytics: FirebaseAnalytics
     private lateinit var firebaseDatabase: FirebaseDatabase
@@ -677,15 +680,35 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
 
         val mapOptionButton = requireView().findViewById<ImageButton>(R.id.layerFab)
         val switchesContaier = requireView().findViewById<CardView>(R.id.LayersCard)
+        val searchButton = requireView().findViewById<ImageButton>(R.id.seachFab)
+        val searchContaier = requireView().findViewById<CardView>(R.id.SeachCard)
+
         mapOptionButton.setOnClickListener {
             if (switchesContaier.visibility == View.VISIBLE){
                 switchesContaier.visibility = View.GONE
             }
             else {
                 switchesContaier.visibility = View.VISIBLE
+                searchContaier.visibility = View.GONE
             }
-
         }
+        searchButton.setOnClickListener {
+            if (searchContaier.visibility == View.VISIBLE){
+                searchContaier.visibility = View.GONE
+
+            }
+            else {
+                openSearch()
+                searchContaier.visibility = View.VISIBLE
+                switchesContaier.visibility = View.GONE
+            }
+        }
+
+        SetUpSearch(view)
+
+
+
+
         recyclerView = requireView().findViewById(R.id.routesRecyclerView)
         recyclerViewConections = requireView().findViewById(R.id.conectionsRecyclerView)
 
@@ -814,6 +837,184 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
         //AddGraphVisulisation()
 
 
+    }
+
+
+
+
+
+    fun SetUpSearch(view: View){
+        var searchBar = view.findViewById<EditText>(R.id.searchView)
+        var seachList =  view.findViewById<RecyclerView>(R.id.searchList)
+
+        var zoomToCard = view.findViewById<CardView>(R.id.cardSeachZoomTo)
+        var startAtCard = view.findViewById<CardView>(R.id.cardSeachStartFrom)
+        var endAtCard = view.findViewById<CardView>(R.id.cardSeachEndAt)
+
+
+        zoomToCard.visibility = View.GONE
+        startAtCard.visibility = View.GONE
+        endAtCard.visibility = View.GONE
+        seachList.visibility = View.GONE
+
+
+        var bigListofNames = nodeListRedux
+        bigListofNames.addAll(locationsToVisitNodes)
+        var smallerList = ArrayList<MapNode>()
+
+        for (e in bigListofNames) {
+            if (!smallerList.any{ it.name == e.name}){
+                smallerList.add(e)
+            }
+            else{
+                Log.v("Search", "Already got a : " + e.name)
+            }
+        }
+        smallerList.sortBy { it.name }
+
+        var adapter = SearchEntryAdapter(smallerList)
+
+
+        adapter.setOnItemClickListener(object : SearchEntryAdapter.onItemClickListner {
+            override fun chooseLocation(mapNode: MapNode) {
+                var point = Point.fromLngLat(mapNode.longitude,mapNode.latitude)
+
+
+                if (mapNode.location){
+                    //This is a note to visit
+                    zoomToCard.visibility = View.VISIBLE
+                    startAtCard.visibility = View.VISIBLE
+                    endAtCard.visibility = View.VISIBLE
+
+                    startAtCard.setOnClickListener(){
+                        if (!fabVisible){
+                            ToggleFABMenu()
+                        }
+                        closeSearch()
+                        setupNavStart(mapNode.name,point)
+                    }
+                    endAtCard.setOnClickListener(){
+                        if (!fabVisible){
+                            ToggleFABMenu()
+                        }
+                        closeSearch()
+                        setupNavEnd(mapNode.name,point)
+                    }
+
+                    zoomToCard.setOnClickListener(){
+                        closeSearch()
+                        val cameraPosition = CameraOptions.Builder()
+                            .center(
+                                point
+                            )
+                            .zoom(14.0)
+                            .build()
+                        mapView.getMapboxMap().setCamera(cameraPosition)
+                    }
+
+                }
+                else {
+                    //Just Zoom to
+                    zoomToCard.visibility = View.VISIBLE
+                    startAtCard.visibility = View.GONE
+                    endAtCard.visibility = View.GONE
+
+                    zoomToCard.setOnClickListener(){
+                        closeSearch()
+                        if (fabVisible){
+                            ToggleFABMenu()
+                        }
+                        val cameraPosition = CameraOptions.Builder()
+                            .center(
+                                point
+                            )
+                            .zoom(14.0)
+                            .build()
+                        mapView.getMapboxMap().setCamera(cameraPosition)
+                    }
+                }
+
+            }
+        })
+        seachList.adapter = adapter
+        seachList.layoutManager = LinearLayoutManager(activity)
+
+        //ImplementSearch
+
+        searchBar.addTextChangedListener(object : TextWatcher {
+            override fun afterTextChanged(s: Editable?) {
+                if (s.toString() != ""){
+                    seachList.visibility = View.VISIBLE
+                    adapter.filterList(filter(s.toString(),smallerList))
+
+                    zoomToCard.visibility = View.GONE
+                    startAtCard.visibility = View.GONE
+                    endAtCard.visibility = View.GONE
+                }
+                else{
+                    zoomToCard.visibility = View.GONE
+                    startAtCard.visibility = View.GONE
+                    endAtCard.visibility = View.GONE
+                    seachList.visibility = View.GONE
+                }
+
+
+
+
+
+            }
+
+            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
+            }
+
+            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
+            }
+        })
+    }
+
+    fun closeSearch() {
+        val searchContaier = requireView().findViewById<CardView>(R.id.SeachCard)
+        searchContaier.visibility = View.GONE
+        removePhoneKeypad()
+    }
+
+    fun removePhoneKeypad() {
+        val inputManager = requireView()
+            .context
+            .getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+        val binder = requireView().windowToken
+        inputManager.hideSoftInputFromWindow(
+            binder,
+            InputMethodManager.HIDE_NOT_ALWAYS
+        )
+    }
+
+    fun openSearch(){
+        var searchBar = requireView().findViewById<EditText>(R.id.searchView)
+        var seachList =  requireView().findViewById<RecyclerView>(R.id.searchList)
+
+        var zoomToCard = requireView().findViewById<CardView>(R.id.cardSeachZoomTo)
+        var startAtCard = requireView().findViewById<CardView>(R.id.cardSeachStartFrom)
+        var endAtCard = requireView().findViewById<CardView>(R.id.cardSeachEndAt)
+
+        zoomToCard.visibility = View.GONE
+        startAtCard.visibility = View.GONE
+        endAtCard.visibility = View.GONE
+        seachList.visibility = View.GONE
+        searchBar.text.clear()
+    }
+
+
+    private fun filter(textIn: String, myData : ArrayList<MapNode>) : ArrayList<MapNode> {
+    var filteredList = java.util.ArrayList<MapNode>()
+
+    for (item in myData){
+
+        if (item.name.toLowerCase().contains(textIn.toLowerCase())){
+            filteredList.add(item)
+        }
+    }
+    return (filteredList)
     }
 
 
@@ -1581,39 +1782,12 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
         if (isStartNode) {
             startCard.visibility = View.VISIBLE
             startCard.setOnClickListener {
-                if (::startPointAnotation.isInitialized) {
-                    //There can be only one
-                    pointAnnotationManager.delete(startPointAnotation)
-                }
-
-                navTextStart.text = startName
-                routesCard.visibility = View.GONE
-                val startIcon = bitmapFromDrawableRes(requireContext(), R.drawable.startpin)
-                val pointAnnotationOptions: PointAnnotationOptions = PointAnnotationOptions()
-                    .withPoint(startPoint)
-                    .withIconImage(startIcon!!)
-                    .withIconAnchor(IconAnchor.BOTTOM)
-                    .withSymbolSortKey(40.0)
-
-                startPointAnotation = pointAnnotationManager.create(pointAnnotationOptions)
+                setupNavStart(startName,startPoint)
             }
+
             endCard.visibility = View.VISIBLE
             endCard.setOnClickListener {
-                if (::endPointAnotation.isInitialized) {
-                    //There can be only one
-                    pointAnnotationManager.delete(endPointAnotation)
-                }
-
-                navTextEnd.text = startName
-                routesCard.visibility = View.GONE
-                val startIcon = bitmapFromDrawableRes(requireContext(), R.drawable.endpin)
-                val pointAnnotationOptions: PointAnnotationOptions = PointAnnotationOptions()
-                    .withPoint(startPoint)
-                    .withIconImage(startIcon!!)
-                    .withIconAnchor(IconAnchor.BOTTOM)
-                    .withSymbolSortKey(40.0)
-
-                endPointAnotation = pointAnnotationManager.create(pointAnnotationOptions)
+                setupNavEnd(startName,startPoint)
             }
 
             tripsIcon.setImageResource(R.drawable.show_routes)
@@ -1636,8 +1810,48 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
 
 
         }
-
     }
+
+    fun setupNavStart(startName : String, startPoint: Point){
+            if (::startPointAnotation.isInitialized) {
+                //There can be only one
+                pointAnnotationManager.delete(startPointAnotation)
+            }
+
+            navTextStart.text = startName
+            routesCard.visibility = View.GONE
+
+
+            val startIcon = bitmapFromDrawableRes(requireContext(), R.drawable.startpin)
+            val pointAnnotationOptions: PointAnnotationOptions = PointAnnotationOptions()
+                .withPoint(startPoint)
+                .withIconImage(startIcon!!)
+                .withIconAnchor(IconAnchor.BOTTOM)
+                .withSymbolSortKey(40.0)
+
+            startPointAnotation = pointAnnotationManager.create(pointAnnotationOptions)
+    }
+
+    fun setupNavEnd(startName : String, startPoint: Point){
+        if (::endPointAnotation.isInitialized) {
+            //There can be only one
+            pointAnnotationManager.delete(endPointAnotation)
+        }
+
+        navTextEnd.text = startName
+        routesCard.visibility = View.GONE
+
+
+        val startIcon = bitmapFromDrawableRes(requireContext(), R.drawable.endpin)
+        val pointAnnotationOptions: PointAnnotationOptions = PointAnnotationOptions()
+            .withPoint(startPoint)
+            .withIconImage(startIcon!!)
+            .withIconAnchor(IconAnchor.BOTTOM)
+            .withSymbolSortKey(40.0)
+
+        endPointAnotation = pointAnnotationManager.create(pointAnnotationOptions)
+    }
+
 
     fun ClearNavButtons(){
         if (routesCard.visibility == View.VISIBLE){
@@ -2264,7 +2478,7 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
                 Log.v("Place", placeName)
 
                 //Add nodes to graph
-                val mapNode = MapNode(placeName, latitude, longitude)
+                val mapNode = MapNode(placeName, latitude, longitude, true)
                 mapGraphRedux.addVertex(mapNode)
                 mapGraphBus.addVertex(mapNode)
                 nodeListRedux.add(mapNode)
@@ -2610,8 +2824,8 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
     fun SaveWalkGPX(){
         var root = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS)
         //if you want to create a sub-dir
-        var folder = File(root, "Lake_District_GPX")
-        folder.mkdir()
+//        var folder = File(root, "Lake_District_GPX")
+//        folder.mkdir()
 
         for (walk in walkFileList){
 
@@ -3334,6 +3548,7 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
         val inputStream = resources.openRawResource(R.raw.locations_to_visit)
         val byteArrayOutputStream = ByteArrayOutputStream()
         locationsToVisit = ArrayList<LocationToVisit>()
+        locationsToVisitNodes = ArrayList()
 
         var ctr: Int
         try {
@@ -3369,6 +3584,7 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
 
 
                 locationsToVisit.add(LocationToVisit(placeName,placeLocation,0.0))
+                locationsToVisitNodes.add(MapNode(placeName,latitude,longitude))
             }
         } catch (e: Exception) {
             e.printStackTrace()

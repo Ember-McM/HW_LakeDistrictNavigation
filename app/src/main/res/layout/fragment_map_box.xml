@@ -22,7 +22,8 @@
             mapbox:layout_constraintTop_toTopOf="parent"
             mapbox:mapbox_cameraTargetLat="54.5"
             mapbox:mapbox_cameraTargetLng="-3.1"
-            mapbox:mapbox_cameraZoom="9.0" />
+            mapbox:mapbox_cameraZoom="9.0"
+            tools:visibility="visible" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/layerFab"
@@ -37,102 +38,6 @@
             mapbox:layout_constraintTop_toTopOf="parent"
             mapbox:srcCompat="@drawable/ic_layers" />
 
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/navCard"
-            android:layout_width="0dp"
-            android:layout_height="80dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginBottom="8dp"
-            android:visibility="gone"
-            mapbox:cardCornerRadius="16dp"
-            mapbox:cardElevation="4dp"
-            mapbox:layout_constraintBottom_toTopOf="@+id/card_location_info"
-            mapbox:layout_constraintEnd_toStartOf="@+id/button_plan"
-            mapbox:layout_constraintStart_toStartOf="parent"
-            tools:visibility="visible">
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <View
-                    android:id="@+id/divider"
-                    android:layout_width="0dp"
-                    android:layout_height="3dp"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginEnd="16dp"
-                    android:layout_weight="1"
-                    android:background="?android:attr/listDivider"
-                    mapbox:layout_constraintBottom_toTopOf="@+id/searchEnd"
-                    mapbox:layout_constraintEnd_toStartOf="@+id/fab_StartRoute"
-                    mapbox:layout_constraintStart_toStartOf="@+id/searchStart"
-                    mapbox:layout_constraintTop_toBottomOf="@+id/searchStart" />
-
-                <ImageButton
-                    android:id="@+id/imageButton"
-                    android:layout_width="42dp"
-                    android:layout_height="0dp"
-                    android:backgroundTint="#00FFFFFF"
-                    android:scaleType="centerCrop"
-                    mapbox:layout_constraintBottom_toTopOf="@+id/searchEnd"
-                    mapbox:layout_constraintStart_toStartOf="parent"
-                    mapbox:layout_constraintTop_toTopOf="@+id/searchStart"
-                    mapbox:srcCompat="@drawable/pin"
-                    mapbox:tint="#000000" />
-
-                <ImageButton
-                    android:id="@+id/imageButton2"
-                    android:layout_width="42dp"
-                    android:layout_height="0dp"
-                    android:backgroundTint="#00FFFFFF"
-                    android:scaleType="centerCrop"
-                    mapbox:layout_constraintBottom_toBottomOf="@+id/searchEnd"
-                    mapbox:layout_constraintStart_toStartOf="parent"
-                    mapbox:layout_constraintTop_toTopOf="@+id/searchEnd"
-                    mapbox:srcCompat="@drawable/ic_flag" />
-
-                <TextView
-                    android:id="@+id/searchEnd"
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
-                    android:textAlignment="textStart"
-                    android:textSize="20sp"
-                    mapbox:layout_constraintBottom_toBottomOf="parent"
-                    mapbox:layout_constraintEnd_toStartOf="@+id/fab_StartRoute"
-                    mapbox:layout_constraintStart_toEndOf="@+id/imageButton2"
-                    mapbox:layout_constraintTop_toBottomOf="@+id/divider"
-                    tools:text="End Location" />
-
-                <TextView
-                    android:id="@+id/searchStart"
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
-                    android:textSize="20sp"
-                    mapbox:layout_constraintBottom_toTopOf="@+id/divider"
-                    mapbox:layout_constraintEnd_toStartOf="@+id/fab_StartRoute"
-                    mapbox:layout_constraintStart_toEndOf="@+id/imageButton"
-                    mapbox:layout_constraintTop_toTopOf="parent"
-                    tools:text="Start Location">
-
-                </TextView>
-
-                <com.google.android.material.floatingactionbutton.FloatingActionButton
-                    android:id="@+id/fab_StartRoute"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="16dp"
-                    android:clickable="true"
-                    mapbox:backgroundTint="@color/main_blue"
-                    mapbox:elevation="0dp"
-                    mapbox:fabSize="mini"
-                    mapbox:layout_constraintBottom_toBottomOf="parent"
-                    mapbox:layout_constraintEnd_toEndOf="parent"
-                    mapbox:layout_constraintTop_toTopOf="parent"
-                    mapbox:srcCompat="@android:drawable/ic_media_play" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
-        </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/LayersCard"
@@ -217,7 +122,6 @@
                             android:scaleType="fitCenter"
                             mapbox:srcCompat="@drawable/bike" />
                     </androidx.cardview.widget.CardView>
-
 
 
                     <TextView
@@ -314,6 +218,349 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.cardview.widget.CardView>
 
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/seachFab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/main_blue"
+            android:clickable="true"
+            mapbox:fabSize="mini"
+            mapbox:layout_constraintStart_toStartOf="parent"
+            mapbox:layout_constraintTop_toBottomOf="@+id/layerFab"
+            mapbox:srcCompat="?android:attr/actionModeWebSearchDrawable" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/SeachCard"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:visibility="gone"
+            mapbox:cardCornerRadius="16dp"
+            mapbox:cardElevation="8dp"
+            mapbox:layout_constraintEnd_toEndOf="parent"
+            mapbox:layout_constraintStart_toEndOf="@+id/layerFab"
+            mapbox:layout_constraintTop_toTopOf="@+id/layerFab"
+            tools:visibility="visible">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/searchView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:ems="10"
+                    android:hint="Enter Place Name"
+                    android:inputType="textPersonName"
+                    mapbox:layout_constraintEnd_toEndOf="parent"
+                    mapbox:layout_constraintStart_toStartOf="parent"
+                    mapbox:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/searchList"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    mapbox:layout_constraintEnd_toEndOf="parent"
+                    mapbox:layout_constraintStart_toStartOf="parent"
+                    mapbox:layout_constraintTop_toBottomOf="@+id/searchView"
+                    tools:itemCount="3"
+                    tools:listitem="@layout/search_entry" />
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardSeachZoomTo"
+                    android:layout_width="90dp"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="4dp"
+                    android:clickable="true"
+                    mapbox:cardCornerRadius="16dp"
+                    mapbox:cardElevation="0dp"
+                    mapbox:layout_constraintBottom_toBottomOf="parent"
+                    mapbox:layout_constraintEnd_toStartOf="@+id/cardSeachStartFrom"
+                    mapbox:layout_constraintStart_toStartOf="parent"
+                    mapbox:layout_constraintTop_toBottomOf="@+id/searchList">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/cardSeachZoom"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:autoText="false"
+                            android:clickable="false"
+                            android:text="Zoom To"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            mapbox:layout_constraintEnd_toEndOf="parent"
+                            mapbox:layout_constraintStart_toStartOf="parent"
+                            mapbox:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/seachZoomImg"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginEnd="16dp"
+                            mapbox:layout_constraintBottom_toBottomOf="parent"
+                            mapbox:layout_constraintEnd_toEndOf="parent"
+                            mapbox:layout_constraintStart_toStartOf="parent"
+                            mapbox:layout_constraintTop_toBottomOf="@+id/cardSeachZoom"
+                            mapbox:srcCompat="@drawable/ic_icon_showonmap"
+                            mapbox:tint="@color/main_blue" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardSeachStartFrom"
+                    android:layout_width="90dp"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="4dp"
+                    android:clickable="true"
+                    mapbox:cardCornerRadius="16dp"
+                    mapbox:cardElevation="0dp"
+                    mapbox:layout_constraintBottom_toBottomOf="parent"
+                    mapbox:layout_constraintEnd_toStartOf="@+id/cardSeachEndAt"
+                    mapbox:layout_constraintStart_toEndOf="@+id/cardSeachZoomTo"
+                    mapbox:layout_constraintTop_toBottomOf="@+id/searchList">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/cardSeachStart"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:autoText="false"
+                            android:clickable="false"
+                            android:text="Start From"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            mapbox:layout_constraintEnd_toEndOf="parent"
+                            mapbox:layout_constraintStart_toStartOf="parent"
+                            mapbox:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/seachStartImg"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginEnd="16dp"
+                            mapbox:layout_constraintBottom_toBottomOf="parent"
+                            mapbox:layout_constraintEnd_toEndOf="parent"
+                            mapbox:layout_constraintStart_toStartOf="parent"
+                            mapbox:layout_constraintTop_toBottomOf="@+id/cardSeachStart"
+                            mapbox:srcCompat="@drawable/pin"
+                            mapbox:tint="@color/main_blue" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardSeachEndAt"
+                    android:layout_width="90dp"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="4dp"
+                    android:clickable="true"
+                    mapbox:cardCornerRadius="16dp"
+                    mapbox:cardElevation="0dp"
+                    mapbox:layout_constraintBottom_toBottomOf="parent"
+                    mapbox:layout_constraintEnd_toEndOf="parent"
+                    mapbox:layout_constraintStart_toEndOf="@+id/cardSeachStartFrom"
+                    mapbox:layout_constraintTop_toBottomOf="@+id/searchList">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/cardSeachEnd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:autoText="false"
+                            android:clickable="false"
+                            android:text="End At"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            mapbox:layout_constraintEnd_toEndOf="parent"
+                            mapbox:layout_constraintStart_toStartOf="parent"
+                            mapbox:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/seachEndImg"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginEnd="16dp"
+                            mapbox:layout_constraintBottom_toBottomOf="parent"
+                            mapbox:layout_constraintEnd_toEndOf="parent"
+                            mapbox:layout_constraintStart_toStartOf="parent"
+                            mapbox:layout_constraintTop_toBottomOf="@+id/cardSeachEnd"
+                            mapbox:srcCompat="@drawable/ic_flag"
+                            mapbox:tint="@color/main_blue" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/navCard"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-16dp"
+            android:visibility="gone"
+            mapbox:cardCornerRadius="16dp"
+            mapbox:cardElevation="16dp"
+            mapbox:layout_constraintBottom_toBottomOf="parent"
+            mapbox:layout_constraintEnd_toEndOf="parent"
+            mapbox:layout_constraintStart_toStartOf="parent"
+            tools:visibility="visible">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="Build a route by adding both a start and end location from either the map or the search bar"
+                    android:textSize="12sp"
+                    mapbox:layout_constraintEnd_toEndOf="parent"
+                    mapbox:layout_constraintStart_toStartOf="@+id/navStartCard"
+                    mapbox:layout_constraintTop_toBottomOf="@+id/navEndCard" />
+
+                <Space
+                    android:id="@+id/space"
+                    android:layout_width="0dp"
+                    android:layout_height="16dp"
+                    android:layout_marginTop="6dp"
+                    mapbox:layout_constraintEnd_toEndOf="@+id/navEndCard"
+                    mapbox:layout_constraintStart_toStartOf="@+id/navEndCard"
+                    mapbox:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/navEndCard"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="16dp"
+                    mapbox:cardCornerRadius="16dp"
+                    mapbox:layout_constraintEnd_toStartOf="@+id/fab_StartRoute"
+                    mapbox:layout_constraintStart_toStartOf="parent"
+                    mapbox:layout_constraintTop_toBottomOf="@+id/navStartCard">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageButton
+                            android:id="@+id/imageButton2"
+                            android:layout_width="42dp"
+                            android:layout_height="42dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:backgroundTint="#00FFFFFF"
+                            android:scaleType="centerCrop"
+                            mapbox:layout_constraintBottom_toBottomOf="parent"
+                            mapbox:layout_constraintStart_toStartOf="parent"
+                            mapbox:layout_constraintTop_toTopOf="parent"
+                            mapbox:srcCompat="@drawable/ic_flag"
+                            mapbox:tint="@color/main_blue" />
+
+                        <TextView
+                            android:id="@+id/searchEnd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:textAlignment="textStart"
+                            android:textSize="20sp"
+                            mapbox:layout_constraintBottom_toBottomOf="@+id/imageButton2"
+                            mapbox:layout_constraintStart_toEndOf="@+id/imageButton2"
+                            mapbox:layout_constraintTop_toTopOf="parent"
+                            tools:text="End Location" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/navStartCard"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    mapbox:cardCornerRadius="16dp"
+                    mapbox:layout_constraintEnd_toStartOf="@+id/fab_StartRoute"
+                    mapbox:layout_constraintStart_toStartOf="parent"
+                    mapbox:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageButton
+                            android:id="@+id/imageButton"
+                            android:layout_width="42dp"
+                            android:layout_height="42dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:backgroundTint="#00FFFFFF"
+                            android:scaleType="centerCrop"
+                            mapbox:layout_constraintBottom_toBottomOf="parent"
+                            mapbox:layout_constraintStart_toStartOf="parent"
+                            mapbox:layout_constraintTop_toTopOf="parent"
+                            mapbox:srcCompat="@drawable/pin"
+                            mapbox:tint="@color/main_blue" />
+
+                        <TextView
+                            android:id="@+id/searchStart"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:textSize="20sp"
+                            mapbox:layout_constraintBottom_toBottomOf="@+id/imageButton"
+                            mapbox:layout_constraintStart_toEndOf="@+id/imageButton"
+                            mapbox:layout_constraintTop_toTopOf="parent"
+                            tools:text="Start Location">
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fab_StartRoute"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:clickable="true"
+                    mapbox:backgroundTint="@color/main_blue"
+                    mapbox:elevation="0dp"
+                    mapbox:fabSize="mini"
+                    mapbox:layout_constraintBottom_toTopOf="@+id/textView10"
+                    mapbox:layout_constraintEnd_toEndOf="parent"
+                    mapbox:layout_constraintTop_toTopOf="@+id/navStartCard"
+                    mapbox:srcCompat="@android:drawable/ic_media_play" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/card_location_info"
             android:layout_width="match_parent"
@@ -327,7 +574,7 @@
             mapbox:cardCornerRadius="16dp"
             mapbox:cardElevation="4dp"
             mapbox:cardMaxElevation="1dp"
-            mapbox:layout_constraintBottom_toBottomOf="parent"
+            mapbox:layout_constraintBottom_toTopOf="@+id/navCard"
             mapbox:layout_constraintEnd_toEndOf="parent"
             mapbox:layout_constraintStart_toStartOf="parent"
             mapbox:rippleColor="@color/common_google_signin_btn_text_dark_disabled"
