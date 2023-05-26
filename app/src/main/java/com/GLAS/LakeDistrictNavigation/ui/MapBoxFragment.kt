@@ -705,6 +705,25 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
                 switchesContaier.visibility = View.GONE
             }
         }
+        val startCard  = view.findViewById<CardView>(R.id.navStartCard)
+        val endCard  = view.findViewById<CardView>(R.id.navEndCard)
+
+        startCard.setOnClickListener(){
+
+                openSearch()
+                searchContaier.visibility = View.VISIBLE
+                switchesContaier.visibility = View.GONE
+
+        }
+
+        endCard.setOnClickListener(){
+
+                openSearch()
+                searchContaier.visibility = View.VISIBLE
+                switchesContaier.visibility = View.GONE
+
+        }
+
 
         SetUpSearch(view)
 
@@ -849,15 +868,20 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
         var searchBar = view.findViewById<EditText>(R.id.searchView)
         var seachList =  view.findViewById<RecyclerView>(R.id.searchList)
 
+        var searchName = view.findViewById<TextView>(R.id.mySearchResult)
+
+
         var zoomToCard = view.findViewById<CardView>(R.id.cardSeachZoomTo)
         var startAtCard = view.findViewById<CardView>(R.id.cardSeachStartFrom)
         var endAtCard = view.findViewById<CardView>(R.id.cardSeachEndAt)
+
 
 
         zoomToCard.visibility = View.GONE
         startAtCard.visibility = View.GONE
         endAtCard.visibility = View.GONE
         seachList.visibility = View.GONE
+        searchName.visibility = View.GONE
 
 
         var bigListofNames = nodeListRedux
@@ -880,6 +904,8 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
         adapter.setOnItemClickListener(object : SearchEntryAdapter.onItemClickListner {
             override fun chooseLocation(mapNode: MapNode) {
                 var point = Point.fromLngLat(mapNode.longitude,mapNode.latitude)
+                searchName.visibility = View.VISIBLE
+                searchName.text = mapNode.name
 
 
                 if (mapNode.location){
@@ -994,6 +1020,7 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
     fun openSearch(){
         var searchBar = requireView().findViewById<EditText>(R.id.searchView)
         var seachList =  requireView().findViewById<RecyclerView>(R.id.searchList)
+        var searchName = requireView().findViewById<TextView>(R.id.mySearchResult)
 
         var zoomToCard = requireView().findViewById<CardView>(R.id.cardSeachZoomTo)
         var startAtCard = requireView().findViewById<CardView>(R.id.cardSeachStartFrom)
@@ -1003,6 +1030,7 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
         startAtCard.visibility = View.GONE
         endAtCard.visibility = View.GONE
         seachList.visibility = View.GONE
+        searchName.visibility = View.GONE
         searchBar.text.clear()
     }
 
@@ -3618,7 +3646,7 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
 
 
                 locationsToVisit.add(LocationToVisit(placeName,placeLocation,0.0))
-                locationsToVisitNodes.add(MapNode(placeName,latitude,longitude))
+                locationsToVisitNodes.add(MapNode(placeName,latitude,longitude,false))
             }
         } catch (e: Exception) {
             e.printStackTrace()

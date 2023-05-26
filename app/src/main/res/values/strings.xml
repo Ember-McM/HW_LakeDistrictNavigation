@@ -1,6 +1,6 @@
 <resources>
     <string name="mapbox_access_token">pk.eyJ1IjoiZW1iZXJtY20iLCJhIjoiY2w2MjVzNXJnMGRtaTNrcG5qbzNwcmI4MSJ9.OuyiLSyNbCSjMM5p_4SRiw</string>
-    <string name="app_name">LakeDistrictNavigation</string>
+    <string name="app_name">Lake District Route Planner</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_home">Home</string>

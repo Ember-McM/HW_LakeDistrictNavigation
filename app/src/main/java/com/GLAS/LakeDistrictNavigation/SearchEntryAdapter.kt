@@ -3,6 +3,8 @@ package com.GLAS.LakeDistrictNavigation
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
+import android.widget.Space
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
@@ -35,6 +37,17 @@ class SearchEntryAdapter(private var mList: ArrayList<MapNode>) : RecyclerView.A
         this.holder = holder
         val myNode = mList[position]
 
+        if (myNode.location){
+            holder.pinSpacer.visibility = View.GONE
+            holder.pinIcon.setImageResource(R.drawable.pin)
+            holder.searchCard.setCardBackgroundColor(holder.itemView.context.resources.getColor(R.color.seachBG))
+        }
+        else {
+            holder.pinSpacer.visibility = View.VISIBLE
+            holder.searchCard.setCardBackgroundColor(holder.itemView.context.resources.getColor(R.color.white))
+            holder.pinIcon.setImageResource(R.drawable.routeicon)
+        }
+
         holder.searchText.text = myNode.name
         holder.searchCard.setOnClickListener(){
             mListener.chooseLocation(myNode)
@@ -52,6 +65,8 @@ class SearchEntryAdapter(private var mList: ArrayList<MapNode>) : RecyclerView.A
 
         val searchCard : CardView = itemView.findViewById(R.id.SearchEntryCard)
         val searchText : TextView = itemView.findViewById(R.id.SeachEntryText)
+        val pinIcon : ImageView = itemView.findViewById(R.id.pinIcon)
+        val pinSpacer : Space = itemView.findViewById(R.id.pinSpacer)
 
     }
 

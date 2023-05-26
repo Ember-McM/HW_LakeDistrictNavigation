@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
-        android:text="Walking and Cycling can be dangerous, and LDN gives no guaranty of the accuracy or conditions of the routes presented in the app. Users should ensure that routes they plan on using are within their capabilities and accept personal responsibility for their own safety. LDN recommender users carry backup means of navigation such as a map and compass."
+        android:text="Walking and Cycling can be dangerous, and LD-RP gives no guaranty of the accuracy or conditions of the routes presented in the app. Users should ensure that routes they plan on using are within their capabilities and accept personal responsibility for their own safety. LD-RP recommender users carry backup means of navigation such as a map and compass."
         android:textColor="#535353"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"

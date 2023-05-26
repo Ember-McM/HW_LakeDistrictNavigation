@@ -20,6 +20,8 @@
     <color name="light_blue_A400">#FF00B0FF</color>
     <color name="black_overlay">#66000000</color>
 
+    <color name="seachBG">#D6F1EE</color>
+
     <color name="walk1">#14fce5 </color>
     <color name="walk2">#03f3dc  </color>
     <color name="walk3">#03dac5  </color>
