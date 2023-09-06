@@ -17,6 +17,7 @@ import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.os.Environment
+import android.provider.MediaStore
 import android.text.Editable
 import android.text.TextWatcher
 import android.util.Log
@@ -2884,6 +2885,10 @@ class MapBoxFragment : Fragment(), OnMapClickListener {
 
     @SuppressLint("MissingPermission")
     fun SaveWalkGPX(){
+        //TODO Fu
+        //MediaStore.createWriteRequest()
+
+
         var root = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS)
         //if you want to create a sub-dir
 //        var folder = File(root, "Lake_District_GPX")

@@ -458,7 +458,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
         android:fontFamily="sans-serif-black"
-        android:text="This data will be anonymized and used for research purposes only.  The data will be stored in line with Herriot-Watt University data protection policy, which is aligned with GDPR regulations."
+        android:text="This data will be anonymised and used for research purposes only.  The data will be stored in line with Herriot-Watt University data protection policy, which is aligned with GDPR regulations."
         android:textAlignment="gravity"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
